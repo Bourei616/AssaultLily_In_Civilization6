@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 24303 -->
+<!-- DateCreated: 3/4/2023 5:44:46 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="22" Filename="ICON_UNIT_ROSE_22"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="32" Filename="ICON_UNIT_ROSE_32"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="38" Filename="ICON_UNIT_ROSE_38"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="50" Filename="ICON_UNIT_ROSE_50"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="80" Filename="ICON_UNIT_ROSE_80"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="256" Filename="ICON_UNIT_ROSE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_ROSE" Atlas="ATLAS_ICON_UNIT_ROSE" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="38" Filename="ICON_UNIT_ROSE_PORTRAIT_38"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="50" Filename="ICON_UNIT_ROSE_PORTRAIT_50"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="70" Filename="ICON_UNIT_ROSE_PORTRAIT_70"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="95" Filename="ICON_UNIT_ROSE_PORTRAIT_95"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="200" Filename="ICON_UNIT_ROSE_PORTRAIT_200"/>
+		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="256" Filename="ICON_UNIT_ROSE_PORTRAIT_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_UNIT_ROSE_PORTRAIT" Atlas="ATLAS_ICON_UNIT_ROSE_PORTRAIT" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="22" Filename="ICON_DISTRICT_GARDEN_22"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="32" Filename="ICON_DISTRICT_GARDEN_32"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="38" Filename="ICON_DISTRICT_GARDEN_38"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="50" Filename="ICON_DISTRICT_GARDEN_50"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="80" Filename="ICON_DISTRICT_GARDEN_80"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="128" Filename="ICON_DISTRICT_GARDEN_128"/>
+		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="256" Filename="ICON_DISTRICT_GARDEN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_GARDEN" Atlas="ATLAS_ICON_DISTRICT_GARDEN" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="32" Filename="ICON_BUILDING_AL_PROMISE_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="38" Filename="ICON_BUILDING_AL_PROMISE_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="50" Filename="ICON_BUILDING_AL_PROMISE_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="80" Filename="ICON_BUILDING_AL_PROMISE_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="128" Filename="ICON_BUILDING_AL_PROMISE_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="256" Filename="ICON_BUILDING_AL_PROMISE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_AL_PROMISE" Atlas="ATLAS_ICON_BUILDING_AL_PROMISE" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="32" Filename="ICON_BUILDING_AL_SAKURA_32"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="38" Filename="ICON_BUILDING_AL_SAKURA_38"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="50" Filename="ICON_BUILDING_AL_SAKURA_50"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="80" Filename="ICON_BUILDING_AL_SAKURA_80"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="128" Filename="ICON_BUILDING_AL_SAKURA_128"/>
+		<Row Name="ATLAS_ICON_BUILDING_AL_SAKURA" IconSize="256" Filename="ICON_BUILDING_AL_SAKURA_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BUILDING_AL_SAKURA" Atlas="ATLAS_ICON_BUILDING_AL_SAKURA" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_AL_QUAN" IconSize="38" Filename="ICON_IMPROVEMENT_AL_QUAN_38"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_AL_QUAN" IconSize="50" Filename="ICON_IMPROVEMENT_AL_QUAN_50"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_AL_QUAN" IconSize="80" Filename="ICON_IMPROVEMENT_AL_QUAN_80"/>
+		<Row Name="ATLAS_ICON_IMPROVEMENT_AL_QUAN" IconSize="256" Filename="ICON_IMPROVEMENT_AL_QUAN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_AL_QUAN" Atlas="ATLAS_ICON_IMPROVEMENT_AL_QUAN" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="22" Filename="ICON_DISTRICT_AL_MOYU_22"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="32" Filename="ICON_DISTRICT_AL_MOYU_32"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="38" Filename="ICON_DISTRICT_AL_MOYU_38"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="50" Filename="ICON_DISTRICT_AL_MOYU_50"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="80" Filename="ICON_DISTRICT_AL_MOYU_80"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="128" Filename="ICON_DISTRICT_AL_MOYU_128"/>
+		<Row Name="ATLAS_ICON_DISTRICT_AL_MOYU" IconSize="256" Filename="ICON_DISTRICT_AL_MOYU_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_DISTRICT_AL_MOYU" Atlas="ATLAS_ICON_DISTRICT_AL_MOYU" Index="0"/>
+	</IconDefinitions>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="30" Filename="ICON_PROJECT_ANGEL_30"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="32" Filename="ICON_PROJECT_ANGEL_32"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="38" Filename="ICON_PROJECT_ANGEL_38"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="50" Filename="ICON_PROJECT_ANGEL_50"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="70" Filename="ICON_PROJECT_ANGEL_70"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="80" Filename="ICON_PROJECT_ANGEL_80"/>
+		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="256" Filename="ICON_PROJECT_ANGEL_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_PROJECT_ANGEL" Atlas="ATLAS_ICON_PROJECT_ANGEL" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_DIPLOBACK" IconSize="1920" Filename="ICON_LEADER_AL_RIRI_DIPLOBACK"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI_DIPLOBACK" Atlas="ATLAS_ICON_LEADER_AL_RIRI_DIPLOBACK" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_LOADBACK" IconSize="1920" Filename="ICON_LEADER_AL_RIRI_LOADBACK"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI_LOADBACK" Atlas="ATLAS_ICON_LEADER_AL_RIRI_LOADBACK" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_LOADFORGE" IconSize="512" Filename="ICON_LEADER_AL_RIRI_LOADFORGE"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI_LOADFORGE" Atlas="ATLAS_ICON_LEADER_AL_RIRI_LOADFORGE" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="22" Filename="ICON_CIVILIZATION_YURIGAOKA_22"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="30" Filename="ICON_CIVILIZATION_YURIGAOKA_30"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="32" Filename="ICON_CIVILIZATION_YURIGAOKA_32"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="36" Filename="ICON_CIVILIZATION_YURIGAOKA_36"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="44" Filename="ICON_CIVILIZATION_YURIGAOKA_44"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="45" Filename="ICON_CIVILIZATION_YURIGAOKA_45"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="48" Filename="ICON_CIVILIZATION_YURIGAOKA_48"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="50" Filename="ICON_CIVILIZATION_YURIGAOKA_50"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="64" Filename="ICON_CIVILIZATION_YURIGAOKA_64"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="80" Filename="ICON_CIVILIZATION_YURIGAOKA_80"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="128" Filename="ICON_CIVILIZATION_YURIGAOKA_128"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="200" Filename="ICON_CIVILIZATION_YURIGAOKA_200"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="256" Filename="ICON_CIVILIZATION_YURIGAOKA_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_YURIGAOKA" Atlas="ATLAS_ICON_CIVILIZATION_YURIGAOKA" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="32" Filename="ICON_LEADER_AL_RIRI_32"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="45" Filename="ICON_LEADER_AL_RIRI_45"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="48" Filename="ICON_LEADER_AL_RIRI_48"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="50" Filename="ICON_LEADER_AL_RIRI_50"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="55" Filename="ICON_LEADER_AL_RIRI_55"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="64" Filename="ICON_LEADER_AL_RIRI_64"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="80" Filename="ICON_LEADER_AL_RIRI_80"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI" IconSize="256" Filename="ICON_LEADER_AL_RIRI_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI" Atlas="ATLAS_ICON_LEADER_AL_RIRI" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_SELECTION" IconSize="512" Filename="ICON_LEADER_AL_RIRI_SELECTION"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI_SELECTION" Atlas="ATLAS_ICON_LEADER_AL_RIRI_SELECTION" Index="0"/>
+	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_DIPLOFORGE" IconSize="512" Filename="ICON_LEADER_AL_RIRI_DIPLOFORGE"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_RIRI_DIPLOFORGE" Atlas="ATLAS_ICON_LEADER_AL_RIRI_DIPLOFORGE" Index="0"/>
+	</IconDefinitions>
+</GameData>

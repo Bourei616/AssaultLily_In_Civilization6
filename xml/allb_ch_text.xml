@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<LocalizedText>	
+		
+		<Row Tag="LOC_UNIT_ROSE_NAME" Language="zh_Hans_CN">
+			<Text>萝丝薇瑟特务军团</Text>
+		</Row>
+		
+		<Row Tag="LOC_UNIT_ROSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远古时代的百合丘特色单位，替代侦察兵。侦察能力极强，有着不菲的战斗能力。击杀敌方单位时可获得莉莉点数。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_NAME" Language="zh_Hans_CN">
+			<Text>GARDEN校区</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>莉莉文明特色研究区域，代替学院区域。+4科研值，建造费用略高。可从每个相邻的Garden、工业区、军营区域处获得+2 [ICON_Science] 科技值加成。每与2个相邻区域或相邻，则+1 [ICON_Science] 科技值。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_ENCAMPMENT1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻军营区域。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_INDUSTRIAL_ZONE1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻工业区。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_GARDEN1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻GARDEN校区。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_SEA1" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Science] 科技值来自相邻海岸单元格。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_GARDEN_QUAN1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻天上之庭。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_AL_PROMISE_NAME" Language="zh_Hans_CN">
+			<Text>契约礼堂</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_AL_PROMISE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>莉莉文明特色建筑，替代“兵营”。此城中创建的任意陆军单位+5 [ICON_Strength] 基础战斗力。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_AL_INCREASED_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从契约礼堂获得+5 [ICON_Strength] 战斗力。</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_AL_SAKURA_NAME" Language="zh_Hans_CN">
+			<Text>染井吉野之丘</Text>
+		</Row>
+
+		<Row Tag="LOC_BUILDING_AL_SAKURA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>百合丘特色建筑，替代“神社”。非平民单位在此城中创建时，获得等同于单位花费25%的 [ICON_Faith] 信仰值。当拥有该建筑的圣地建造在丘陵上时，该城所有单元格+1魅力。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_NAME" Language="zh_Hans_CN">
+			<Text>研究工坊</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>百合丘女子学院特色工业区域，替代工业区，+2 [ICON_Production] 生产力。可从每个相邻的GARDEN校区、娱乐中心、军营区域处获得+1 [ICON_Science] 科技值加成、1 [ICON_Production] 生产力加成。每处相邻的奢侈品资源为其提供+2 [ICON_Production] 生产力加成。相邻的天上之庭为其提供+1 [ICON_Science] 科技值加成、+1 [ICON_Production] 生产力加成。每两处相邻区域为其提供+1 [ICON_Production] 生产力加成。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_ENCAMPMENT1" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Science] 科技值来自相邻军营区域。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_ENCAMPMENT2" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Production] 生产力来自相邻军营区域。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_ENTERTAINMENT_COMPLEX1" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Science] 科技值来自相邻娱乐中心区域。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_ENTERTAINMENT_COMPLEX2" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Production] 生产力来自相邻娱乐中心区域。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_GARDEN1" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Science] 科技值来自相邻GARDEN校区。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_GARDEN2" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Production] 生产力来自相邻GARDEN校区。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_LUXURY1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Production] 生产力来自相邻奢侈品资源。</Text>
+		</Row>
+
+		<Row Tag="LOC_DISTRICT_AL_MOYU_QUAN1" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Production] 生产力来自相邻天上之庭。</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_AL_QUAN_NAME" Language="zh_Hans_CN">
+			<Text>天上之庭</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_AL_QUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Amenities] 宜居度、+2 [ICON_Culture] 文化值，并提供等于单元格魅力50%的 [ICON_Science] 科研值，且相邻的每个GARDEN校区为其提供+2文化值、+2金币。当建立在魅力值为“惊艳”的单元格上时，对相邻单元格施放文化炸弹，研究“飞行”科技后可提供 [Icon_Tourism] 旅游业绩。对百合丘的特色区域“研究工坊”与GARDEN校区提供2点相邻加成。每座城市仅可建造1个。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_ANGEL_NAME" Language="zh_Hans_CN">
+			<Text>守护天使的誓言</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_ANGEL_SHORT_NAME" Language="zh_Hans_CN">
+			<Text>守护天使</Text>
+		</Row>
+
+		<Row Tag="LOC_PROJECT_ANGEL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>专注于以每回合的城市 [ICON_Production] 生产力来转换为 [ICON_Faith] 信仰值，并获得大量莉莉点数。</Text>
+		</Row>
+
+		<Row Tag="LOC_LEADER_AL_RIRI_NAME" Language="zh_Hans_CN">
+			<Text>一柳梨璃</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_SNOWFLAKE_NAME" Language="zh_Hans_CN">
+			<Text>雪花</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_SNOWFLAKE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻单位为陆地远程单位提供+2 [ICON_Strength] 战斗力。输出的贸易路线目的地城市中的每个特色区域可为一柳梨璃提供+1 [ICON_Science] 科技值。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_CHARISMA_NAME" Language="zh_Hans_CN">
+			<Text>魅力感召</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_CHARISMA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>贸易路线 [ICON_TradeRoute] 容量+1。莉莉点数 [ICON_GreatWriter] 、影响力点数 [ICON_Envoy] 、外交支持 [ICON_Favor] 每回合+2。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_CLOVER_NAME" Language="zh_Hans_CN">
+			<Text>四叶草的牵绊</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_LEADER_AL_CLOVER_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁专属总督“白井梦结”与“枫・J・努韦尔”。</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_TRAIT_AL_SNOWFLAKE_COMBAT_NAME" Language="zh_Hans_CN">
+			<Text>一柳梨璃</Text>
+		</Row>
+
+		<Row Tag="LOC_ABILITY_TRAIT_AL_SNOWFLAKE_COMBAT_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的单位提供+2 [ICON_Strength] 战斗力（雪花）</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_GARDEN_NAME" Language="zh_Hans_CN">
+			<Text>GARDEN的使命</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_GARDEN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每消灭一个蛮族单位，可以获得该单位 [ICON_Strength] 战斗力相当的 [ICON_Science] 科技值与 [ICON_Culture] 文化值。肃清蛮族哨站后，除平常的经验值之外，您还将获得部落村庄奖励。可以建造特殊区域“GARDEN”，用以代替学院区域。可更早组建军团（需国家劳动力市政）。可以建造特殊建筑“契约礼堂”，用于代替神社建筑。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_ANGEL_PROMISE_NAME" Language="zh_Hans_CN">
+			<Text>守护天使的契约</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_ANGEL_PROMISE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募一位莉莉伟人后，将返还所消耗莉莉伟人点数的20%。所有城市都可进行“守护天使的誓言”项目，专注于以每回合的城市生产力来转换为信仰值，并获得大量莉莉点数。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_UNIT_ROSE_NAME" Language="zh_Hans_CN">
+			<Text>特殊单位：萝丝薇瑟特务队</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_UNIT_ROSE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>远古时代的百合丘特色单位，替代侦察兵。侦察能力极强，有着不菲的战斗能力。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_BUILDING_AL_SAKURA_NAME" Language="zh_Hans_CN">
+			<Text>特殊建筑：染井吉野之丘</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_BUILDING_AL_SAKURA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>百合丘特色建筑，替代“神社”。非平民单位在此城中创建时，获得等同于单位花费25%的 [ICON_Faith] 信仰值。当拥有该建筑的圣地建造在丘陵上时，该城所有单元格+1魅力。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_DISTRICT_AL_MOYU_NAME" Language="zh_Hans_CN">
+			<Text>特殊区域：研究工坊</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_DISTRICT_AL_MOYU_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>百合丘女子学院特色工业区域，替代工业区，+2 [ICON_Production] 生产力。可从每个相邻的GARDEN校区、娱乐中心、军营区域处获得+1 [ICON_Science] 科技值加成、1 [ICON_Production] 生产力加成。每处相邻的奢侈品资源为其提供+2 [ICON_Production] 生产力加成。相邻的天上之庭为其提供+1 [ICON_Science] 科技值加成、+1 [ICON_Production] 生产力加成。每两处相邻区域为其提供+1 [ICON_Production] 生产力加成。</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_IMPROVEMENT_AL_QUAN_NAME" Language="zh_Hans_CN">
+			<Text>特殊改良设施：天上之庭</Text>
+		</Row>
+
+		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_IMPROVEMENT_AL_QUAN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Amenities] 宜居度、+2 [ICON_Culture] 文化值，并提供等于单元格魅力50%的 [ICON_Science] 科研值，且相邻的每个GARDEN校区为其提供+2文化值、+2金币。当建立在魅力值为“惊艳”的单元格上时，对相邻单元格施放文化炸弹，研究“飞行”科技后可提供 [Icon_Tourism] 旅游业绩。对百合丘的特色区域“研究工坊”与GARDEN校区提供2点相邻加成。每座城市仅可建造1个。</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_YURIGAOKA_NAME" Language="zh_Hans_CN">
+			<Text>百合丘</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_YURIGAOKA_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>私立百合丘女子学院</Text>
+		</Row>
+
+		<Row Tag="LOC_CIVILIZATION_YURIGAOKA_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>圣学的</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HITOTSUYANAGI" Language="zh_Hans_CN">
+			<Text>一柳队</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_LOHENGRIN" Language="zh_Hans_CN">
+			<Text>罗恩格林</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_VINGOLF" Language="zh_Hans_CN">
+			<Text>梵格尔夫</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_RADGRID" Language="zh_Hans_CN">
+			<Text>拉丝格瑞丝</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_REGINLEIF" Language="zh_Hans_CN">
+			<Text>瑞吉蕾芙</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_MIZUKI" Language="zh_Hans_CN">
+			<Text>水夕会</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_BRYNHILDRLINE" Language="zh_Hans_CN">
+			<Text>布伦希尔德莱恩</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_HERFJOTUR" Language="zh_Hans_CN">
+			<Text>海芙约特</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_ROSSWEISSE" Language="zh_Hans_CN">
+			<Text>罗丝薇瑟</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SCHWARTZGRAIL" Language="zh_Hans_CN">
+			<Text>施瓦茨格瑞尔</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_GINNUNGAGAP" Language="zh_Hans_CN">
+			<Text>金伦加</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SANNGRIDR" Language="zh_Hans_CN">
+			<Text>桑格里德</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SIGRDRIFA" Language="zh_Hans_CN">
+			<Text>希格德莉法</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_IPPAN" Language="zh_Hans_CN">
+			<Text>壹盘队</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_EIR" Language="zh_Hans_CN">
+			<Text>埃尔</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SINSI" Language="zh_Hans_CN">
+			<Text>秦祀队</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SCHWERTLEITE" Language="zh_Hans_CN">
+			<Text>史维特莱德</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_GEIRAVOR" Language="zh_Hans_CN">
+			<Text>杰拉沃勒</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SVANHVIT" Language="zh_Hans_CN">
+			<Text>史瓦特</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_VIDOFNIR" Language="zh_Hans_CN">
+			<Text>维德弗尼尔</Text>
+		</Row>
+
+		<Row Tag="LOC_CITY_NAME_SKULD" Language="zh_Hans_CN">
+			<Text>斯考尔德</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_RIRI" Language="zh_Hans_CN">
+			<Text>一柳梨璃</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_YURI" Language="zh_Hans_CN">
+			<Text>一柳结梨</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_YUYU" Language="zh_Hans_CN">
+			<Text>白井梦结</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_MILI" Language="zh_Hans_CN">
+			<Text>米莉亚姆</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_KAED" Language="zh_Hans_CN">
+			<Text>枫・J・努韦尔</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_MAI" Language="zh_Hans_CN">
+			<Text>吉村・Thi・梅</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_TADU" Language="zh_Hans_CN">
+			<Text>安藤鹤纱</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_SHEN" Language="zh_Hans_CN">
+			<Text>郭神琳</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_YUJIA" Language="zh_Hans_CN">
+			<Text>王雨嘉</Text>
+		</Row>
+
+		<Row Tag="LOC_CITIZEN_YURIGAOKA_FUMI" Language="zh_Hans_CN">
+			<Text>二川二水</Text>
+		</Row>
+
+		<Row Tag="LOC_LOADING_INFO_LEADER_AL_RIRI" Language="zh_Hans_CN">
+			<Text>一柳梨璃——一柳队的队长，雪花，又或是新时代莉莉的旗手……或许您的实力在一年级学生中不算强大，但这些称号无一不在赞颂您那独一无二的领袖才能。看吧，在您的身边已经集结起了倾心于您的品行的同志们，连起大家的牵绊，用爱的力量来冲破阻挡在您面前的一切难关吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_AL_RIRI_QUOTE" Language="zh_Hans_CN">
+			<Text>就算不明白，我也明白！</Text>
+		</Row>
+
+		<Row Tag="LOC_ROSE_GET_GREATPERSON" Language="zh_Hans_CN">
+			<Text>获得+10莉莉伟人点数！</Text>
+		</Row>
+	</LocalizedText>
+</GameData>
