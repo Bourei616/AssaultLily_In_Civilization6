@@ -5,9 +5,9 @@ f:\1\Firaxis ModBuddy\Civilization VI\Assault Lily\Assault Lily\XLPs\LeaderFallb
 Opened output file: F:\1\My Games\Sid Meier's Civilization VI\Mods\Assault Lily\Platforms\MacOS\BLPs/LeaderFallbacks.blp    For XLP: 'f:\1\Firaxis ModBuddy\Civilization VI\Assault Lily\Assault Lily\XLPs\LeaderFallbacks.xlp'
 Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'LeaderFallbacks'
-Load finished for: 'LeaderFallbacks' in 0.065 seconds
+Load finished for: 'LeaderFallbacks' in 0.001 seconds
 Cook finished for: 'LeaderFallbacks' in 0.000 seconds
-Disk write finished for: 'LeaderFallbacks' in 0.130 seconds
+Disk write finished for: 'LeaderFallbacks' in 0.163 seconds
 Cleanup finished for: 'LeaderFallbacks' in 0.000 seconds
 XLP cook completed with success.
-Cook completed in 0.237 seconds
+Cook completed in 0.174 seconds
