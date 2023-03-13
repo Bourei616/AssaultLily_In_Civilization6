@@ -1,0 +1,11 @@
+Event	ID	Name			Wwise Object Path	Notes
+	120673494	Start_Music_YURIGAOKA			\Default Work Unit\Music\Start_Music_YURIGAOKA	
+	162283444	Pause_Music_YURIGAOKA			\Default Work Unit\Music\Pause_Music_YURIGAOKA	
+	1258104521	Resume_Music_YURIGAOKA			\Default Work Unit\Music\Resume_Music_YURIGAOKA	
+	1552692848	Play_Leader_Music_YURIGAOKA			\Default Work Unit\Music\Play_Leader_Music_YURIGAOKA	
+	2155129100	Stop_Music_YURIGAOKA			\Default Work Unit\Music\Stop_Music_YURIGAOKA	
+	3158165578	Stop_Leader_Music_YURIGAOKA			\Default Work Unit\Music\Stop_Leader_Music_YURIGAOKA	
+	4276993982	Play_Music_YURIGAOKA			\Default Work Unit\Music\Play_Music_YURIGAOKA	
+
+Streamed Audio	ID	Name	Audio source file	Generated audio file	Wwise Object Path	Notes
+	53441680		79309266		81181218		84007656		117531028	1AE_0_	173374470		177619450		273468789	1AE_0_Growing	E:\	281357629	2ME_0_Neunt Praeludium (Last Bullet MIX)	E:\	310079695		328241151	3IE_1_03_La Vie en rose 	387792343	2ME_1_00_	394003905		440706623	1AE_0_OVERFLOW - 	539666198	1AE_1_00_Edel Lilie	E:\	567723555		582032923	1AE_1_07_	589405794		623726249	2ME_1_00_	702024989		705678515		770151743		808746461		1006238121	1AE_1_00_ 	1044079433	3IE_1_07_Everlasting	E:\	1059933413	1AE_1_00_Heart+Heart	E:\

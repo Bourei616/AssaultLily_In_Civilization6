@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\</ProjectRoot>
+		<SourceFilesRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1336878823" Language="SFX">
+			<ShortName>Radgrid_Music_bank</ShortName>
+			<Path>Radgrid_Music_bank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="162283444" Name="Pause_Music_YURIGAOKA"/>
+				<Event Id="1552692848" Name="Play_Leader_Music_YURIGAOKA"/>
+				<Event Id="4276993982" Name="Play_Music_YURIGAOKA"/>
+				<Event Id="1258104521" Name="Resume_Music_YURIGAOKA"/>
+				<Event Id="120673494" Name="Start_Music_YURIGAOKA"/>
+				<Event Id="3158165578" Name="Stop_Leader_Music_YURIGAOKA"/>
+				<Event Id="2155129100" Name="Stop_Music_YURIGAOKA"/>
+			</IncludedEvents>
+			<ReferencedStreamedFiles>
+				<File Id="53441680" Language="SFX">
+					<ShortName>二川二水的广播电台 - きゃんとすとっぷ · ふるーていー - 一柳隊.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - きゃんとすとっぷ · ふるーていー - 一柳隊_5E5FEB08.wem</Path>
+				</File>
+				<File Id="79309266" Language="SFX">
+					<ShortName>二川二水的广播电台 - パラライザ（parallelizer）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - パラライザ（parallelizer）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="81181218" Language="SFX">
+					<ShortName>二川二水的广播电台 - まばたき.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - まばたき_5E5FEB08.wem</Path>
+				</File>
+				<File Id="84007656" Language="SFX">
+					<ShortName>二川二水的广播电台 - 君の手を離さない.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - 君の手を離さない_5E5FEB08.wem</Path>
+				</File>
+				<File Id="117531028" Language="SFX">
+					<ShortName>1AE_0_繋がり.wav</ShortName>
+					<Path>SFX\1AE_0_繋がり_5E5FEB08.wem</Path>
+				</File>
+				<File Id="173374470" Language="SFX">
+					<ShortName>二川二水的广播电台 - つきあかりのコントラスト（月色浮沉）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - つきあかりのコントラスト（月色浮沉）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="177619450" Language="SFX">
+					<ShortName>二川二水的广播电台 - Pretty Please.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - Pretty Please_5E5FEB08.wem</Path>
+				</File>
+				<File Id="273468789" Language="SFX">
+					<ShortName>1AE_0_Growing.wav</ShortName>
+					<Path>SFX\1AE_0_Growing_5E5FEB08.wem</Path>
+				</File>
+				<File Id="281357629" Language="SFX">
+					<ShortName>2ME_0_Neunt Praeludium (Last Bullet MIX).wav</ShortName>
+					<Path>SFX\2ME_0_Neunt Praeludium (Last Bullet MIX)_5E5FEB08.wem</Path>
+				</File>
+				<File Id="310079695" Language="SFX">
+					<ShortName>二川二水的广播电台 - 想い出が溢れてる（溢出的回忆）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - 想い出が溢れてる（溢出的回忆）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="328241151" Language="SFX">
+					<ShortName>3IE_1_03_La Vie en rose ～楓・J・ヌーベルの優雅な日常～.wav</ShortName>
+					<Path>SFX\3IE_1_03_La Vie en rose ～楓・J・ヌーベルの優雅な日常～_5E5FEB08.wem</Path>
+				</File>
+				<File Id="387792343" Language="SFX">
+					<ShortName>2ME_1_00_蕾の中の奇跡 - 一柳隊（花蕾中的奇迹）.wav</ShortName>
+					<Path>SFX\2ME_1_00_蕾の中の奇跡 - 一柳隊（花蕾中的奇迹）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="394003905" Language="SFX">
+					<ShortName>二川二水的广播电台 - 運命のFilament（命运的Filament）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - 運命のFilament（命运的Filament）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="440706623" Language="SFX">
+					<ShortName>1AE_0_OVERFLOW - 一柳隊.wav</ShortName>
+					<Path>SFX\1AE_0_OVERFLOW - 一柳隊_5E5FEB08.wem</Path>
+				</File>
+				<File Id="539666198" Language="SFX">
+					<ShortName>1AE_1_00_Edel Lilie.wav</ShortName>
+					<Path>SFX\1AE_1_00_Edel Lilie_5E5FEB08.wem</Path>
+				</File>
+				<File Id="567723555" Language="SFX">
+					<ShortName>二川二水的广播电台 - Rainbow.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - Rainbow_5E5FEB08.wem</Path>
+				</File>
+				<File Id="582032923" Language="SFX">
+					<ShortName>1AE_1_07_チェリッシュ♡（Cherish）.wav</ShortName>
+					<Path>SFX\1AE_1_07_チェリッシュ♡（Cherish）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="589405794" Language="SFX">
+					<ShortName>二川二水的广播电台 - ピンキー・プロミス（Pinky Promise）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - ピンキー・プロミス（Pinky Promise）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="623726249" Language="SFX">
+					<ShortName>2ME_1_00_リリィ♡リリィ♡GOGOリリィ♡.wav</ShortName>
+					<Path>SFX\2ME_1_00_リリィ♡リリィ♡GOGOリリィ♡_5E5FEB08.wem</Path>
+				</File>
+				<File Id="702024989" Language="SFX">
+					<ShortName>二川二水的广播电台 - トウメイダイアリー（透明日记）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - トウメイダイアリー（透明日记）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="705678515" Language="SFX">
+					<ShortName>二川二水的广播电台 - マッシブ!（勇往直前）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - マッシブ!（勇往直前）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="770151743" Language="SFX">
+					<ShortName>二川二水的广播电台 - Veins of FLOWER.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - Veins of FLOWER_5E5FEB08.wem</Path>
+				</File>
+				<File Id="808746461" Language="SFX">
+					<ShortName>二川二水的广播电台 - 大切を数えよう（来数数宝贵吧）.wav</ShortName>
+					<Path>SFX\二川二水的广播电台 - 大切を数えよう（来数数宝贵吧）_5E5FEB08.wem</Path>
+				</File>
+				<File Id="1006238121" Language="SFX">
+					<ShortName>1AE_1_00_ いつもそばで。.wav</ShortName>
+					<Path>SFX\1AE_1_00_ いつもそばで。_5E5FEB08.wem</Path>
+				</File>
+				<File Id="1044079433" Language="SFX">
+					<ShortName>3IE_1_07_Everlasting.wav</ShortName>
+					<Path>SFX\3IE_1_07_Everlasting_5E5FEB08.wem</Path>
+				</File>
+				<File Id="1059933413" Language="SFX">
+					<ShortName>1AE_1_00_Heart+Heart.wav</ShortName>
+					<Path>SFX\1AE_1_00_Heart+Heart_5E5FEB08.wem</Path>
+				</File>
+			</ReferencedStreamedFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

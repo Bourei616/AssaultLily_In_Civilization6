@@ -18,7 +18,7 @@
     <CompatibleVersions>1.2,2.0</CompatibleVersions>
     <AssemblyName>Assault Lily</AssemblyName>
     <RootNamespace>Assault Lily</RootNamespace>
-    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="allb_ingame_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="allb_ingame_GamePlay"><File>Data/allb_build.sql</File><File>Data/allb_civ.sql</File><File>Data/allb_dis.sql</File><File>Data/allb_imp.sql</File><File>Data/allb_leader.sql</File><File>Data/allb_moment.sql</File><File>Data/allb_pj.sql</File><File>Data/allb_unit.sql</File></UpdateDatabase><UpdateIcons id="allb_ingame_Icon"><File>xml/allb_icons.xml</File></UpdateIcons><UpdateText id="allb_ingame_Text"><File>xml/allb_ch_text.xml</File></UpdateText><UpdateColors id="allb_ingame_color"><File>Data/allb_color.sql</File></UpdateColors><AddGameplayScripts id="allb_ingame_script"><File>Lua/allb.lua</File></AddGameplayScripts><UpdateAudio id="Audio"><File>Platforms/Windows/Audio/SB_Test.bnk</File><File>Platforms/Windows/Audio/SB_Test.ini</File><File>Platforms/Windows/Audio/SB_Test.txt</File><File>Platforms/Windows/Audio/SoundbanksInfo.xml</File></UpdateAudio></InGameActions>]]></InGameActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateArt id="allb_ingame_Art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateDatabase id="allb_ingame_GamePlay"><File>Data/allb_build.sql</File><File>Data/allb_civ.sql</File><File>Data/allb_dis.sql</File><File>Data/allb_imp.sql</File><File>Data/allb_leader.sql</File><File>Data/allb_moment.sql</File><File>Data/allb_pj.sql</File><File>Data/allb_unit.sql</File></UpdateDatabase><UpdateIcons id="allb_ingame_Icon"><File>xml/allb_icons.xml</File></UpdateIcons><UpdateText id="allb_ingame_Text"><File>xml/allb_ch_text.xml</File></UpdateText><UpdateColors id="allb_ingame_color"><File>Data/allb_color.sql</File></UpdateColors><AddGameplayScripts id="allb_ingame_script"><File>Lua/allb.lua</File></AddGameplayScripts><UpdateAudio id="Audio"><File>Platforms/Windows/Audio/RadgridBank.ini</File></UpdateAudio></InGameActions>]]></InGameActionData>
     <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="allb_frontend_config"><File>Data/allb_config.sql</File></UpdateDatabase><UpdateText id="allb_frontend_Text"><File>xml/allb_ch_text.xml</File></UpdateText><UpdateIcons id="allb_frontend_Icons"><File>xml/allb_icons.xml</File></UpdateIcons><UpdateArt id="allb_frontend_art"><File>(Mod Art Dependency File)</File></UpdateArt><UpdateColors id="allb_frontend_color"><File>Data/allb_color.sql</File></UpdateColors></FrontEndActions>]]></FrontEndActionData>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -82,37 +82,103 @@
     <Content Include="Lua\allb.lua">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\1052723328.wem">
+    <Content Include="Platforms\Windows\Audio\1006238121.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\1069022941.wem">
+    <Content Include="Platforms\Windows\Audio\1044079433.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\228804032.wem">
+    <Content Include="Platforms\Windows\Audio\1059933413.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\242043650.wem">
+    <Content Include="Platforms\Windows\Audio\117531028.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\761089437.wem">
+    <Content Include="Platforms\Windows\Audio\173374470.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\979333708.wem">
+    <Content Include="Platforms\Windows\Audio\177619450.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\PluginInfo.xml">
+    <Content Include="Platforms\Windows\Audio\273468789.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\SB_Test.bnk">
+    <Content Include="Platforms\Windows\Audio\281357629.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\SB_Test.ini">
+    <Content Include="Platforms\Windows\Audio\310079695.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\SB_Test.txt">
+    <Content Include="Platforms\Windows\Audio\328241151.wem">
       <SubType>Content</SubType>
     </Content>
-    <Content Include="Platforms\Windows\Audio\SoundbanksInfo.xml">
+    <Content Include="Platforms\Windows\Audio\387792343.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\394003905.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\440706623.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\53441680.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\539666198.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\567723555.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\582032923.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\589405794.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\623726249.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\702024989.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\705678515.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\770151743.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\79309266.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\808746461.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\81181218.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\84007656.wem">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\RadgridBank.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Music_bank.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Music_bank.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Music_bank.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Speech.bnk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Speech.txt">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Platforms\Windows\Audio\Radgrid_Speech.xml">
       <SubType>Content</SubType>
     </Content>
     <Content Include="xml\allb_ch_text.xml">
