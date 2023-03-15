@@ -21,33 +21,33 @@
 				<Event Id="3016383644" Name="AL_RIRI_WARNING_A"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
-				<File Id="16623665" Language="SFX">
+				<File Id="317869372" Language="SFX">
 					<ShortName>AL_RIRI_DECLARE_WAR_FROM_AI_A.wav</ShortName>
 					<Path>SFX\AL_RIRI_DECLARE_WAR_FROM_AI_A_C649F87D.wem</Path>
 				</File>
-				<File Id="239882987" Language="SFX">
-					<ShortName>AL_RIRI_WARINING_A.wav</ShortName>
-					<Path>SFX\AL_RIRI_WARINING_A_C649F87D.wem</Path>
-				</File>
-				<File Id="245986010" Language="SFX">
-					<ShortName>AL_RIRI_DEFEATED_A.wav</ShortName>
-					<Path>SFX\AL_RIRI_DEFEATED_A_C649F87D.wem</Path>
-				</File>
-				<File Id="433979477" Language="SFX">
-					<ShortName>AL_RIRI_KUDOS_A.wav</ShortName>
-					<Path>SFX\AL_RIRI_KUDOS_A_C649F87D.wem</Path>
-				</File>
-				<File Id="738041549" Language="SFX">
+				<File Id="392972650" Language="SFX">
 					<ShortName>AL_RIRI_DECLARE_WAR_A.wav</ShortName>
 					<Path>SFX\AL_RIRI_DECLARE_WAR_A_C649F87D.wem</Path>
 				</File>
-				<File Id="784312380" Language="SFX">
+				<File Id="477378506" Language="SFX">
+					<ShortName>AL_RIRI_DEFEATED_A.wav</ShortName>
+					<Path>SFX\AL_RIRI_DEFEATED_A_C649F87D.wem</Path>
+				</File>
+				<File Id="495784003" Language="SFX">
+					<ShortName>. cv_outgame_001_001#38 (cv_outgame_001_001-home_normal_002).wav</ShortName>
+					<Path>SFX\. cv_outgame_001_001#38 (cv_outgame_001_001-home_normal_002)_C649F87D.wem</Path>
+				</File>
+				<File Id="550095366" Language="SFX">
+					<ShortName>AL_RIRI_WARINING_A.wav</ShortName>
+					<Path>SFX\AL_RIRI_WARINING_A_C649F87D.wem</Path>
+				</File>
+				<File Id="571644668" Language="SFX">
 					<ShortName>AL_RIRI_MISC_PEP_TALK_A.wav</ShortName>
 					<Path>SFX\AL_RIRI_MISC_PEP_TALK_A_C649F87D.wem</Path>
 				</File>
-				<File Id="883946770" Language="SFX">
-					<ShortName>AL_RIRI_FIRST_MEET_A.wav</ShortName>
-					<Path>SFX\AL_RIRI_FIRST_MEET_A_C649F87D.wem</Path>
+				<File Id="1013484875" Language="SFX">
+					<ShortName>. cv_outgame_001_001#16 (cv_outgame_001_001-chara_strengthening_03).wav</ShortName>
+					<Path>SFX\. cv_outgame_001_001#16 (cv_outgame_001_001-chara_strengthening_03)_C649F87D.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

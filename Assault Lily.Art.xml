@@ -20,6 +20,7 @@
 				<Element text="Districts.artdef"/>
 				<Element text="Improvements.artdef"/>
 				<Element text="Civilizations.artdef"/>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 			</libraryDependencies>
@@ -178,6 +179,7 @@
 		<Element>
 			<consumerName text="LeaderLighting"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="LeaderLighting"/>
@@ -188,6 +190,7 @@
 		<Element>
 			<consumerName text="Leaders"/>
 			<relativeArtDefPaths>
+				<Element text="Leaders.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Leader"/>
@@ -495,6 +498,7 @@
 		<Element>
 			<libraryName text="Leader"/>
 			<relativePackagePaths>
+				<Element text="leader_riri"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
@@ -506,6 +510,7 @@
 		<Element>
 			<libraryName text="LeaderLighting"/>
 			<relativePackagePaths>
+				<Element text="leaders/light_rigs"/>
 			</relativePackagePaths>
 		</Element>
 		<Element>
