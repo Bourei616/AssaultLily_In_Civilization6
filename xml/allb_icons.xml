@@ -160,4 +160,27 @@
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_AL_RIRI_DIPLOFORGE" Atlas="ATLAS_ICON_LEADER_AL_RIRI_DIPLOFORGE" Index="0"/>
 	</IconDefinitions>
+
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_SLOT" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_SLOT" IconSize="32" Filename="ICON_GOVERNOR_AL_YUYU_SLOT_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU" IconSize="32" Filename="ICON_GOVERNOR_AL_YUYU_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU" IconSize="64" Filename="ICON_GOVERNOR_AL_YUYU_64"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_FILL" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_YUYU_FILL_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_FILL" IconSize="32" Filename="ICON_GOVERNOR_AL_YUYU_FILL_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_PROMOTION" IconSize="24" Filename="ICON_GOVERNOR_AL_YUYU_PROMOTION_24"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GOVERNOR_AL_YUYU_SLOT"   Atlas="ATLAS_ICON_GOVERNOR_AL_YUYU_SLOT" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_YUYU"   Atlas="ATLAS_ICON_GOVERNOR_AL_YUYU" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_YUYU_FILL"   Atlas="ATLAS_ICON_GOVERNOR_AL_YUYU_FILL" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_YUYU_PROMOTION"   Atlas="ATLAS_ICON_GOVERNOR_AL_YUYU_PROMOTION" Index="0"/>
+	</IconDefinitions>
+
+	<IconAliases>
+		<Row Name="GOVERNOR_AL_YUYU_FILL"      OtherName="ICON_GOVERNOR_AL_YUYU_FILL"/>
+		<Row Name="GOVERNOR_AL_YUYU_SLOT"      OtherName="ICON_GOVERNOR_AL_YUYU_SLOT"/>
+	</IconAliases>
+
+
 </GameData>

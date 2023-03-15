@@ -166,22 +166,34 @@
 			<Text>守护的月迷狂者</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市出发的国际贸易路线提供+3文化值。剧院广场同时提供1个贸易路线容量。</Text>
+			<Text>城市中修建区域时 [ICON_Production] 生产力+20%。就职城市的 [ICON_Culture] 文化值产出+15%。就职需要3回合。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市的城防建筑提供的防御力与战斗力翻倍，城市耐久回复速度翻倍</Text>
+			<Text>本城市的城市攻击+10 [ICON_Strength] 战斗力，城市每回合获得一次额外的 [ICON_Ranged] 远程攻击机会。</Text>
+		</Row>
+		<Row Tag="LOC_COMBAT_PREVIEW_MOD_GOVERNOR_PROMOTION_AL_YUYU_2_CITYCOMBAT_BUFF" Language="zh_Hans_CN">
+			<Text>白井梦结：白井家的次女提供[COLOR_RED]{1_Value: number +#;-#}[ENDCOLOR]</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_3_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市生产的单位获得经验+25%，且获得1个晋升。</Text>
+			<Text>本城市出发的国际贸易路线提供+3 [ICON_Culture] 文化值。本城市生产的单位获得经验+25%，且获得攻击后移动的能力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AL_GOV_YUYU_TRAINED_UNIT_XP_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从总督白井梦结获得的经验+25%。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AL_GOV_YUYU_UNIT_CANMOVE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从总督白井梦结获得的攻击后移动能力。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_4_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中的每位公民每回合可带来1文化值的收入。Garden校区为剧院广场提供+2相邻加成。</Text>
+			<Text>城市中的每位公民每回合可带来+1 [ICON_Culture] 文化值。剧院广场同时提供2个 [ICON_TradeRoute] 贸易路线容量。所有城市的剧院广场提供+2 [ICON_GreatWriter] 莉莉伟人点数。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_5_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市产生的忠诚度压力翻倍，同时每建设一个新区域将产生文化炸弹的效果。</Text>
+			<Text>您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度，就职的城市无法被围攻。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_6_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市中生产的陆地近战单位在与远程单位相邻时基础战斗力+10，受到攻击时防御战斗力-10。</Text>
+			<Text>本城市中生产的陆地远程单位可以从每个相邻单位处获得基础战斗力+3，受到攻击时防御战斗力+3。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_AL_GOV_YUYU_UNIT_BATTLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从总督白井梦结获得的从每个相邻单位处获得基础战斗力+3，受到攻击时防御战斗力+3。</Text>
 		</Row>
 
 		<!-- Leaders -->

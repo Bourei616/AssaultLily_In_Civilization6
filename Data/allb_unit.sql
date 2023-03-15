@@ -12,8 +12,8 @@ INSERT INTO TypeTags (Type, Tag) VALUES
 ('UNIT_ROSE', 'CLASS_AL_ROSE');
 
 INSERT INTO Units
-(UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PurchaseYield, PromotionClass, Combat, TraitType, RangedCombat, Range, BuildCharges) VALUES 
-('UNIT_ROSE', 100, 1, 'ADVISOR_CONQUEST', 3, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_ROSE_NAME', 'LOC_UNIT_ROSE_DESCRIPTION', 'YIELD_GOLD', 'PROMOTION_CLASS_RECON', 25, 'TRAIT_CIVILIZATION_AL_UNIT_ROSE', 200, 2, 2);
+(UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PurchaseYield, PromotionClass, Combat, TraitType, RangedCombat, Range) VALUES 
+('UNIT_ROSE', 4, 30, 'ADVISOR_CONQUEST', 3, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_ROSE_NAME', 'LOC_UNIT_ROSE_DESCRIPTION', 'YIELD_GOLD', 'PROMOTION_CLASS_RECON', 25, 'TRAIT_CIVILIZATION_AL_UNIT_ROSE', 25, 2);
 
 INSERT INTO UnitAiInfos (UnitType, AiType) VALUES 
 ('UNIT_ROSE', 'UNITAI_EXPLORE'),
