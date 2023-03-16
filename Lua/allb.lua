@@ -83,6 +83,17 @@ function GardenRemoveTribe(PlotX, PlotY, eOwner)
     end
 end
 
+function KaedeGetBoost (playerID, unitID, greatPersonClassID, greatPersonIndividualID)
+    if ExposedMembers.AL.KaedeGovernorHasPomotion(playerID) == true
+    and greatPersonClassID == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_SCIENTIST"].Index then
+        local pPlayer = Players[playerID]
+        local pTech = pPlayer:GetTechs();
+        local atech = pTech:GetResearchingTech();
+        pTech :TriggerBoost(atech)
+    end
+end
+
 Events.Combat.Add(roseKillBarbarrain);
 Events.UnitGreatPersonCreated.Add(YurigaokaGetLilyGreats);
+Events.UnitGreatPersonCreated.Add(KaedeGetBoost);
 Events.ImprovementRemovedFromMap.Add(GardenRemoveTribe);

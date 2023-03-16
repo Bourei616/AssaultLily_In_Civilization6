@@ -11,3 +11,17 @@ function GetNextPlot(iPlayerID, iCityID)
 	return iPlot;
 end
 ExposedMembers.AL.GetNextPlot = GetNextPlot
+
+function KaedeGovernorHasPomotion(iPlayerID)
+	local pPlayer = Players[iPlayerID];
+	local pGovernors = pPlayer:GetGovernors();
+	local pGovernor = pGovernors:GetGovernor(GameInfo.Governors["GOVERNOR_AL_KAEDE"].Index);
+	if pGovernor:HasPromotion(GameInfo.GovernorPromotions["GOVERNOR_PROMOTION_AL_KAEDE_5"].Hash) then
+		print("success" )
+		return true;
+	else
+		print("false")
+		return false;
+	end
+end
+ExposedMembers.AL.KaedeGovernorHasPomotion = KaedeGovernorHasPomotion

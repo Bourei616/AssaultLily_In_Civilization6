@@ -190,11 +190,73 @@
 			<Text>您在9个单元格内的其他城市每回合获得对您文明的4点忠诚度，就职的城市无法被围攻。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_YUYU_6_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>本城市中生产的陆地远程单位可以从每个相邻单位处获得基础战斗力+3，受到攻击时防御战斗力+3。</Text>
+			<Text>本城市中生产的陆地远程单位可以从每个相邻单位处获得 [ICON_Strength] 基础战斗力+3，受到攻击时防御 [ICON_Strength] 战斗力+3。获得1个军事政策槽位。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_AL_GOV_YUYU_UNIT_BATTLE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>从总督白井梦结获得的从每个相邻单位处获得基础战斗力+3，受到攻击时防御战斗力+3。</Text>
+			<Text>从总督白井梦结获得的从每个相邻单位处获得 [ICON_Strength] 基础战斗力+3，受到攻击时防御 [ICON_Strength] 战斗力+3。</Text>
 		</Row>
+
+		<!-- Governors 枫 -->
+		<Row Tag="LOC_GOVERNOR_AL_KAEDE_NAME" Language="zh_Hans_CN">
+			<Text>枫・J・努韦尔</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_AL_KAEDE_TITLE" Language="zh_Hans_CN">
+			<Text>百合丘的至宝</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_AL_KAEDE_SHORT_TITLE" Language="zh_Hans_CN">
+			<Text>百合丘的至宝</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_AL_KAEDE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>枫・J・努韦尔专注于城市的经济实力，同时也会带来一定的科研加成。她是一柳队的司令塔，会尽全力来辅佐她最爱的人。</Text>
+		</Row>
+		<!-- Governors 枫 晋升 -->
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_1_NAME" Language="zh_Hans_CN">
+			<Text>礼物赠予心爱的你</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_2_NAME" Language="zh_Hans_CN">
+			<Text>大木偶千金</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_3_NAME" Language="zh_Hans_CN">
+			<Text>誓与你不再分离</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_4_NAME" Language="zh_Hans_CN">
+			<Text>安稳的归途</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_5_NAME" Language="zh_Hans_CN">
+			<Text>玫瑰色的人生</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_6_NAME" Language="zh_Hans_CN">
+			<Text>指挥号令</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text> [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞提供50%的的科技与市政。就职需要3回合。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中有工业区时，城市产出的科技值、生产力+15%。所有城市的工业区提供+2 [ICON_GreatWriter] 莉莉伟人点数。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_3_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>城市中每生产一个陆军单位，可获得相当于这个陆军单位消耗[ICON_Production] 生产力50%的 [ICON_Gold] 金币与 [ICON_Science] 科技值。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>该城中生产的侦察单位+2视野范围、+1 [ICON_Movement] 移动力，且得到编队单位全部获得陪护单位移动力的能力。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOD_GOVERNOR_PROMOTION_AL_KAEDE_4_NAME" Language="zh_Hans_CN">
+			<Text>安稳的归途</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOD_GOVERNOR_PROMOTION_AL_KAEDE_4_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2视野范围、+1 [ICON_Movement] 移动力，且编队单位全部获得陪护单位移动力。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_5_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>招募 [ICON_GreatWriter] 莉莉伟人、且玩家当前正在研究的科技尚未得到提升时，可获得当前科技的 [ICON_TechBoosted] 提升。</Text>
+		</Row>
+		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>本城市中生产的陆地远程单位可以从每个相邻单位处获得 [ICON_Strength] 基础战斗力+3，受到攻击时防御 [ICON_Strength] 战斗力+3。获得1个经济政策槽位。</Text>
+		</Row>
+		<Row Tag="LOC_ABILITY_MOD_GOVERNOR_PROMOTION_AL_KAEDE_6_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从总督枫获得的从每个相邻单位处获得 [ICON_Strength] 基础战斗力+3，受到攻击时防御 [ICON_Strength] 战斗力+3。</Text>
+		</Row>
+
+		
 
 		<!-- Leaders -->
 		<!-- Leaders 一柳梨璃 -->
