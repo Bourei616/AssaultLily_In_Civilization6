@@ -35,12 +35,12 @@ function YurigaokaGetLilyGreats(playerID, unitID, greatPersonClassID, greatPerso
     if (pPlayerConfig:GetCivilizationTypeName() == "CIVILIZATION_YURIGAOKA") then
         local iEra = GameInfo.Eras[GameInfo.GreatPersonIndividuals[greatPersonIndividualID].EraType].Hash
         local iGreatPersonBaseCost = GameInfo.Eras[iEra].GreatPersonBaseCost
-        if (greatPersonClassID == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_SCIENTIST"].Index)then
+        if (greatPersonClassID == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index)then
             local iCost = iGreatPersonBaseCost/3;
-            pPlayer:GetGreatPeoplePoints():ChangePointsTotal(GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_SCIENTIST"].Index,iCost);
+            pPlayer:GetGreatPeoplePoints():ChangePointsTotal(GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index,iCost);
         else
             local iCost = iGreatPersonBaseCost/6;
-            pPlayer:GetGreatPeoplePoints():ChangePointsTotal(GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_SCIENTIST"].Index,iCost);
+            pPlayer:GetGreatPeoplePoints():ChangePointsTotal(GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index,iCost);
         end
     end
 end
@@ -85,7 +85,7 @@ end
 
 function KaedeGetBoost (playerID, unitID, greatPersonClassID, greatPersonIndividualID)
     if ExposedMembers.AL.KaedeGovernorHasPomotion(playerID) == true
-    and greatPersonClassID == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_SCIENTIST"].Index then
+    and greatPersonClassID == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index then
         local pPlayer = Players[playerID]
         local pTech = pPlayer:GetTechs();
         local atech = pTech:GetResearchingTech();

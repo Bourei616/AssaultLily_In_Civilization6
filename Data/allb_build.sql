@@ -1,4 +1,4 @@
--- ÆõÔ¼ÀñÌÃ
+-- ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½
 INSERT INTO Types
 (Type, Kind) VALUES
 ('BUILDING_AL_PROMISE', 'KIND_BUILDING'),
@@ -35,7 +35,7 @@ INSERT INTO Building_YieldChanges
 
 INSERT INTO Building_GreatPersonPoints
 (BuildingType, GreatPersonClassType, PointsPerTurn) VALUES 
-('BUILDING_AL_PROMISE', 'GREAT_PERSON_CLASS_GENERAL', 1);
+('BUILDING_AL_PROMISE', 'GREAT_PERSON_CLASS_AL_LILY', 1);
 
 INSERT INTO BuildingModifiers
 (BuildingType, ModifierId) VALUES 
@@ -52,7 +52,7 @@ INSERT INTO ModifierArguments
 ('AL_PROMISE_COMBAT', 'AbilityType', 'ABILITY_AL_INCREASED_COMBAT'),
 ('AL_PROMISE_COMBAT_BUFF', 'Amount', 5);
 
--- È¾¾®¼ªÒ°Ö®Çð
+-- È¾ï¿½ï¿½ï¿½ï¿½Ò°Ö®ï¿½ï¿½
 INSERT INTO Types
 (Type, Kind) VALUES
 ('BUILDING_AL_SAKURA', 'KIND_BUILDING');
@@ -72,7 +72,7 @@ INSERT INTO Building_YieldChanges
 
 INSERT INTO Building_GreatPersonPoints
 (BuildingType, GreatPersonClassType, PointsPerTurn) VALUES 
-('BUILDING_AL_SAKURA', 'GREAT_PERSON_CLASS_PROPHET', 1);
+('BUILDING_AL_SAKURA', 'GREAT_PERSON_CLASS_AL_LILY', 1);
 
 INSERT INTO Building_GreatWorks
 (BuildingType, GreatWorkSlotType, NumSlots) VALUES 

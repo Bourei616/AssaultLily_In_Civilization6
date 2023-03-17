@@ -1,4 +1,4 @@
--- ÊØ»¤ÌìÊ¹µÄÊÄÑÔ
+-- ï¿½Ø»ï¿½ï¿½ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 INSERT INTO TraitModifiers
 (TraitType, ModifierId) VALUES
 ('TRAIT_CIVILIZATION_AL_ANGEL_PROMISE', 'UNLOCK_PROJECT_ANGEL');
@@ -25,4 +25,4 @@ INSERT INTO Project_YieldConversions
 
 INSERT INTO Project_GreatPersonPoints
 (ProjectType, GreatPersonClassType, Points, PointProgressionModel, PointProgressionParam1) VALUES
-('PROJECT_ANGEL', 'GREAT_PERSON_CLASS_ARTIST', 10, 'COST_PROGRESSION_GAME_PROGRESS', 800);
+('PROJECT_ANGEL', 'GREAT_PERSON_CLASS_AL_LILY', 10, 'COST_PROGRESSION_GAME_PROGRESS', 800);

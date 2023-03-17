@@ -203,5 +203,73 @@
 		<Row Name="GOVERNOR_AL_KAEDE_SLOT"      OtherName="ICON_GOVERNOR_AL_KAEDE_SLOT"/>
 	</IconAliases>
 
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="22" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="32" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="38" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="50" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="80" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" IconSize="256" Filename="ICON_UNIT_AL_GREAT_PERSON_FUMI_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_GREAT_PERSON_FUMI" Atlas="ATLAS_ICON_UNIT_AL_GREAT_PERSON_FUMI" Index="0"/>
+    </IconDefinitions>
 
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="22" Filename="ICON_UNIT_AL_LILY_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="32" Filename="ICON_UNIT_AL_LILY_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="38" Filename="ICON_UNIT_AL_LILY_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="50" Filename="ICON_UNIT_AL_LILY_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="80" Filename="ICON_UNIT_AL_LILY_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY" IconSize="256" Filename="ICON_UNIT_AL_LILY_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_LILY" Atlas="ATLAS_ICON_UNIT_AL_LILY" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_LILY_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_LILY_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_LILY_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_LILY_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_LILY_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_LILY_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_LILY_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_216" IconSize="216" Filename="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
+		<Row Name="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_216" IconSize="105" Filename="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GENERIC_GREAT_PERSON_INDIVIDUAL_AL_LILY" Atlas="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_216" Index="0"/>
+    </IconDefinitions>
+
+	    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_90" IconSize="90" Filename="ICON_GREAT_PERSON_CLASS_AL_LILY_90"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_CLASS_AL_LILY" Atlas="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_90" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="38" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="50" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="70" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="95" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="200" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" IconSize="256" Filename="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_LILY_PORTRAIT_FUMI" Atlas="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" Index="0"/>
+    </IconDefinitions>
 </GameData>

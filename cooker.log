@@ -7,7 +7,7 @@ Could not load digest key: ''.  Using mod key to sign BLP.
 Starting 'leader_riri'
 Load finished for: 'leader_riri' in 0.053 seconds
 Cook finished for: 'leader_riri' in 0.000 seconds
-Disk write finished for: 'leader_riri' in 0.117 seconds
+Disk write finished for: 'leader_riri' in 0.106 seconds
 Cleanup finished for: 'leader_riri' in 0.001 seconds
 XLP cook completed with success.
-Cook completed in 0.181 seconds
+Cook completed in 0.170 seconds

@@ -382,6 +382,7 @@
 			<consumerName text="Units"/>
 			<relativeArtDefPaths>
 				<Element text="Units.artdef"/>
+				<Element text="Units_Great_People.artdef"/>
 			</relativeArtDefPaths>
 			<libraryDependencies>
 				<Element text="Unit"/>

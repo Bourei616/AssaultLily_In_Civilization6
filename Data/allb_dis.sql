@@ -1,4 +1,4 @@
--- GARDENÇøÓò
+-- GARDENï¿½ï¿½ï¿½ï¿½
 INSERT INTO Types
 (Type, Kind) VALUES 
 ('DISTRICT_GARDEN', 'KIND_DISTRICT');
@@ -51,6 +51,7 @@ INSERT INTO ModifierArguments
 
 INSERT INTO District_GreatPersonPoints
 (DistrictType, GreatPersonClassType, PointsPerTurn) VALUES 
+('DISTRICT_GARDEN', 'GREAT_PERSON_CLASS_AL_LILY', 1),
 ('DISTRICT_GARDEN', 'GREAT_PERSON_CLASS_SCIENTIST', 1);
 
 INSERT INTO District_TradeRouteYields
@@ -61,7 +62,7 @@ INSERT INTO District_CitizenYieldChanges
 (DistrictType, YieldType, YieldChange) VALUES 
 ('DISTRICT_GARDEN', 'YIELD_SCIENCE', 2);
 
--- ÑÐ¾¿¹¤·»
+-- ï¿½Ð¾ï¿½ï¿½ï¿½ï¿½ï¿½
 INSERT INTO Types
 (Type, Kind) VALUES 
 ('DISTRICT_AL_MOYU', 'KIND_DISTRICT');
@@ -120,7 +121,8 @@ INSERT INTO ModifierArguments
 
 INSERT INTO District_GreatPersonPoints
 (DistrictType, GreatPersonClassType, PointsPerTurn) VALUES 
-('DISTRICT_AL_MOYU', 'GREAT_PERSON_CLASS_ENGINEER', 1);
+('DISTRICT_AL_MOYU', 'GREAT_PERSON_CLASS_ENGINEER', 1),
+('DISTRICT_AL_MOYU', 'GREAT_PERSON_CLASS_AL_LILY', 1);
 
 INSERT INTO District_TradeRouteYields
 (DistrictType, YieldType, YieldChangeAsOrigin, YieldChangeAsDomesticDestination, YieldChangeAsInternationalDestination) VALUES 
