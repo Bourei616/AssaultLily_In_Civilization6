@@ -1,0 +1,34 @@
+Event	ID	Name			Wwise Object Path	Notes
+	429094491	RiriPantheonFounded			\Default Work Unit\SFX\RiriPantheonFounded	
+	478756426	RiriCityRemovedFromMap			\Default Work Unit\SFX\RiriCityRemovedFromMap	
+	759009501	RiriGovernorAssignedKAEDE			\Default Work Unit\SFX\RiriGovernorAssignedKAEDE	
+	778174456	FumiGreatUnitAddedToMapRiri			\Default Work Unit\SFX\FumiGreatUnitAddedToMapRiri	
+	927010243	FumiUnitGreatPersonActivated			\Default Work Unit\SFX\FumiUnitGreatPersonActivated	
+	1019506997	RiriResearchCompleted			\Default Work Unit\SFX\RiriResearchCompleted	
+	1322535514	RiriCityCommandStarted			\Default Work Unit\SFX\RiriCityCommandStarted	
+	1447109522	RiriGovernorPromotedYuyu3			\Default Work Unit\SFX\RiriGovernorPromotedYuyu3	
+	1447109523	RiriGovernorPromotedYuyu2			\Default Work Unit\SFX\RiriGovernorPromotedYuyu2	
+	1447109524	RiriGovernorPromotedYuyu5			\Default Work Unit\SFX\RiriGovernorPromotedYuyu5	
+	1447109525	RiriGovernorPromotedYuyu4			\Default Work Unit\SFX\RiriGovernorPromotedYuyu4	
+	1447109527	RiriGovernorPromotedYuyu6			\Default Work Unit\SFX\RiriGovernorPromotedYuyu6	
+	1459803395	RiriWonderCompleted			\Default Work Unit\SFX\RiriWonderCompleted	
+	1557792461	RiriGovernorAppointedYuyu			\Default Work Unit\SFX\RiriGovernorAppointedYuyu	
+	1645947695	RiriGovernorAppointedKAEDE			\Default Work Unit\SFX\RiriGovernorAppointedKAEDE	
+	1971293147	RiriGovernorAssignedYuyu			\Default Work Unit\SFX\RiriGovernorAssignedYuyu	
+	1986505816	FumiGreatSelected			\Default Work Unit\SFX\FumiGreatSelected	
+	2716573267	RiriReligionFounded			\Default Work Unit\SFX\RiriReligionFounded	
+	2950611012	RiriCityBuilt			\Default Work Unit\SFX\RiriCityBuilt	
+	3038026456	RiriPlayerTurnActivated			\Default Work Unit\SFX\RiriPlayerTurnActivated	
+	3471680525	RiriDistrictPillaged			\Default Work Unit\SFX\RiriDistrictPillaged	
+	3683775321	RiriUnitKilledInCombat			\Default Work Unit\SFX\RiriUnitKilledInCombat	
+	3735014738	RiriImprovementAddedToMap			\Default Work Unit\SFX\RiriImprovementAddedToMap	
+	4176994105	RiriPlayerEraChanged1			\Default Work Unit\SFX\RiriPlayerEraChanged1	
+	4201981180	RiriCivicCompleted			\Default Work Unit\SFX\RiriCivicCompleted	
+	4228928113	RiriGovernorPromotedKAEDE6			\Default Work Unit\SFX\RiriGovernorPromotedKAEDE6	
+	4228928114	RiriGovernorPromotedKAEDE5			\Default Work Unit\SFX\RiriGovernorPromotedKAEDE5	
+	4228928115	RiriGovernorPromotedKAEDE4			\Default Work Unit\SFX\RiriGovernorPromotedKAEDE4	
+	4228928116	RiriGovernorPromotedKAEDE3			\Default Work Unit\SFX\RiriGovernorPromotedKAEDE3	
+	4228928117	RiriGovernorPromotedKAEDE2			\Default Work Unit\SFX\RiriGovernorPromotedKAEDE2	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	17412218	RiriResearchCompleted	E:\	29216318	RiriGovernorPromotedYuyu3	E:\	29598891	RiriGovernorPromotedYuyu2	E:\	30594414	RiriGovernorAssignedYuyu	E:\	65252988	RiriPlayerTurnActivated	E:\	119211607	FumiUnitGreatPersonActivated	E:\	123018416	RiriWonderCompleted	E:\	124248234	RiriPlayerEraChanged1	E:\	142852988	RiriGovernorAssignedKAEDE	E:\	296295043	RiriGovernorPromotedYuyu6	E:\	317762070	RiriGovernorAppointedKAEDE	E:\	330619475	RiriCivicCompleted	E:\	339517056	RiriDistrictPillaged	E:\	367932438	RiriGovernorAppointedYuyu	E:\	475532481	FumiGreatSelected	E:\	534054866	RiriImprovementAddedToMap	E:\	547916307	RiriGovernorPromotedKAEDE6	E:\	579699939	RiriPantheonFounded	E:\	627952903	RiriCityCommandStarted	E:\	630638931	RiriGovernorPromotedKAEDE3	E:\	645802625	RiriGovernorPromotedKAEDE2	E:\	667514697	RiriCityRemovedFromMap	E:\	744033262	RiriReligionFounded	E:\	747572601	RiriGovernorPromotedYuyu4	E:\	810413943	FumiGreatUnitAddedToMapRiri	E:\	813737290	RiriUnitKilledInCombat	E:\	1011762518	RiriGovernorPromotedYuyu5	E:\	1015780019	RiriGovernorPromotedKAEDE4	E:\	1018875003	RiriCityBuilt	E:\	1030188672	RiriGovernorPromotedKAEDE5	E:\

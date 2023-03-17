@@ -93,7 +93,32 @@ function KaedeGetBoost (playerID, unitID, greatPersonClassID, greatPersonIndivid
     end
 end
 
+function LilyGreatsReborn (playerID, unitID)
+    local pUnit = UnitManager.GetUnit(playerID, unitID);
+    local greatpersonind = pUnit:GetGreatPerson():GetIndividual();
+    local greatpersonclass = pUnit:GetGreatPerson():GetClass();
+
+    if(pUnit:IsGreatPerson() == true) 
+    and greatpersonclass == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index then
+	    local era = GameInfo.Eras["ERA_CLASSICAL"].Hash;
+	    local cost = 0;
+
+	    Game.GetGreatPeople():GrantPerson(greatpersonind, greatpersonclass , era, cost, playerID, false);
+        local pPlayer = Players[playerID];
+        local playerUnits = pPlayer:GetUnits();
+        for i, unit in playerUnits:Members() do
+            local gotgreatpersonclass = unit:GetGreatPerson():GetClass();
+            if(unit:IsGreatPerson() == true)
+            and gotgreatpersonclass == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index
+            and unit:GetGreatPerson():GetIndividual() == greatpersonind then
+                unit:ChangeMovesRemaining(-4);
+            end
+        end
+    end
+end
+
 Events.Combat.Add(roseKillBarbarrain);
 Events.UnitGreatPersonCreated.Add(YurigaokaGetLilyGreats);
 Events.UnitGreatPersonCreated.Add(KaedeGetBoost);
 Events.ImprovementRemovedFromMap.Add(GardenRemoveTribe);
+Events.UnitRemovedFromMap.Add(LilyGreatsReborn);

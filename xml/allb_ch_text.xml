@@ -8,11 +8,11 @@
 		</Row>
 		
 		<Row Tag="LOC_UNIT_ROSE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>远古时代的百合丘特色单位，替代侦察兵。侦察能力极强，有着不菲的战斗能力。击杀敌方单位时可获得 [ICON_Capital] 莉莉点数。</Text>
+			<Text>远古时代的百合丘特色单位，替代侦察兵。侦察能力极强，有着不菲的战斗能力。击杀敌方单位时可获得 [ICON_GreatLily] 莉莉点数。</Text>
 		</Row>
 		<!-- Units 萝丝薇瑟特务军团 击杀获得伟人点数提示信息 -->
 		<Row Tag="LOC_ROSE_GET_GREATPERSON" Language="zh_Hans_CN">
-			<Text>获得+10莉莉伟人点数！</Text>
+			<Text>获得+10 [ICON_GreatLily] 莉莉伟人点数！</Text>
 		</Row>
 
 		<!-- Districts -->
@@ -129,7 +129,7 @@
 		</Row>
 
 		<Row Tag="LOC_PROJECT_ANGEL_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>专注于以每回合的城市 [ICON_Production] 生产力来转换为 [ICON_Faith] 信仰值，并获得大量 [ICON_Capital] 莉莉点数。</Text>
+			<Text>专注于以每回合的城市 [ICON_Production] 生产力来转换为 [ICON_Faith] 信仰值，并获得大量 [ICON_GreatLily] 莉莉点数。</Text>
 		</Row>
 
 		<!-- Governors -->
@@ -232,7 +232,7 @@
 			<Text> [ICON_TechBoosted] 尤里卡和 [ICON_CivicBoosted] 鼓舞提供50%的的科技与市政。就职需要3回合。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>城市中有工业区时，城市产出的科技值、生产力+15%。所有城市的工业区提供+2 [ICON_GreatWriter] 莉莉伟人点数。</Text>
+			<Text>城市中有工业区时，城市产出的科技值、生产力+15%。所有城市的工业区提供+2 [ICON_GreatLily] 莉莉伟人点数。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_3_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>城市中每生产一个陆军单位，可获得相当于这个陆军单位消耗[ICON_Production] 生产力50%的 [ICON_Gold] 金币与 [ICON_Science] 科技值。</Text>
@@ -247,7 +247,7 @@
 			<Text>+2视野范围、+1 [ICON_Movement] 移动力，且编队单位全部获得陪护单位移动力。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_5_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>招募 [ICON_GreatWriter] 莉莉伟人、且玩家当前正在研究的科技尚未得到提升时，可获得当前科技的 [ICON_TechBoosted] 提升。</Text>
+			<Text>招募 [ICON_GreatLily] 莉莉伟人、且玩家当前正在研究的科技尚未得到提升时，可获得当前科技的 [ICON_TechBoosted] 提升。</Text>
 		</Row>
 		<Row Tag="LOC_GOVERNOR_PROMOTION_AL_KAEDE_6_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>本城市中生产的陆地远程单位可以从每个相邻单位处获得 [ICON_Strength] 基础战斗力+3，受到攻击时防御 [ICON_Strength] 战斗力+3。获得1个经济政策槽位。</Text>
@@ -321,7 +321,7 @@
 		</Row>
 
 		<Row Tag="LOC_TRAIT_LEADER_AL_CHARISMA_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>所有文明对您的初始好感+6。 [ICON_Capital] 莉莉点数、 [ICON_Envoy] 影响力点数、 [ICON_Favor] 外交支持每回合+2。从远古时代起， [ICON_TradeRoute] 贸易路线容量+1。</Text>
+			<Text>所有文明对您的初始好感+6。 [ICON_GreatLily] 莉莉点数、 [ICON_Envoy] 影响力点数、 [ICON_Favor] 外交支持每回合+2。从远古时代起， [ICON_TradeRoute] 贸易路线容量+1。</Text>
 		</Row>
 
 		<Row Tag="LOC_DIPLO_KUDO_LEADER_AL_CHARISMA_WELCOME_REASON_ANY" Language="zh_Hans_CN">
@@ -747,7 +747,7 @@
 			<Text>守护天使的契约</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_ANGEL_PROMISE_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>招募一位莉莉伟人后，将返还大量所消耗莉莉伟人点数。招募其他类型的伟人后，将获得少量莉莉伟人点数。所有城市都可进行“守护天使的誓言”项目，专注于以每回合的城市生产力来转换为信仰值，并获得大量 [ICON_Capital] 莉莉点数。</Text>
+			<Text>招募一位莉莉伟人后，将返还大量所消耗莉莉伟人点数。招募其他类型的伟人后，将获得少量莉莉伟人点数。所有城市都可进行“守护天使的誓言”项目，专注于以每回合的城市生产力来转换为信仰值，并获得大量 [ICON_GreatLily] 莉莉点数。</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_UNIT_ROSE_NAME" Language="zh_Hans_CN">
 			<Text>特殊单位：萝丝薇瑟特务队</Text>

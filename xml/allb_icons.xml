@@ -272,4 +272,11 @@
     <IconDefinitions>
         <Row Name="ICON_UNIT_AL_LILY_PORTRAIT_FUMI" Atlas="ATLAS_ICON_UNIT_AL_LILY_PORTRAIT_FUMI" Index="0"/>
     </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ICON_ATLAS_FONT_ICON_GreatLily"  Baseline="6"  IconSize="22" Filename="GreatLily"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="GreatLily" Atlas="ICON_ATLAS_FONT_ICON_GreatLily" Index="0"/>
+    </IconDefinitions>
 </GameData>

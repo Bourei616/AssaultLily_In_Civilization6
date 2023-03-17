@@ -34,12 +34,12 @@ INSERT INTO UnitAiInfos
 ('UNIT_AL_LILY', 'UNITTYPE_CIVILIAN');
 
 INSERT INTO Units
-(UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PromotionClass, Combat, RangedCombat, Range) VALUES 
-('UNIT_AL_LILY', 4, 1, 'ADVISOR_CONQUEST', 3, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_AL_LILY_NAME', 'LOC_UNIT_AL_LILY_DESCRIPTION', 'PROMOTION_CLASS_RECON', 30, 30, 1);
+(UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PromotionClass, Combat, RangedCombat, Range, CanCapture, CanTrain) VALUES 
+('UNIT_AL_LILY', 4, 1, 'ADVISOR_CONQUEST', 3, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_AL_LILY_NAME', 'LOC_UNIT_AL_LILY_DESCRIPTION', 'PROMOTION_CLASS_RECON', 30, 30, 1, 0, 0);
 
 INSERT INTO GreatPersonClasses
 (GreatPersonClassType, Name, UnitType, DistrictType, PseudoYieldType, IconString, ActionIcon, GenerateDuplicateIndividuals) VALUES
-('GREAT_PERSON_CLASS_AL_LILY', 'LOC_GREAT_PERSON_CLASS_AL_LILY_NAME', 'UNIT_AL_LILY', 'DISTRICT_CITY_CENTER', 'PSEUDOYIELD_GPP_AL_LILY', '[ICON_Capital]', 'ICON_UNIT_AL_GREAT_PERSON_FUMI', 0);
+('GREAT_PERSON_CLASS_AL_LILY', 'LOC_GREAT_PERSON_CLASS_AL_LILY_NAME', 'UNIT_AL_LILY', 'DISTRICT_CITY_CENTER', 'PSEUDOYIELD_GPP_AL_LILY', '[ICON_GreatLily]', 'ICON_UNIT_AL_GREAT_PERSON_FUMI', 0);
 
 INSERT INTO GreatPersonIndividuals
 (GreatPersonIndividualType, Name, GreatPersonClassType, EraType, Gender, ActionCharges, ActionRequiresLandMilitaryUnitWithinXTiles, ActionNameTextOverride, ActionEffectTextOverride, AreaHighlightRadius, ActionRequiresOwnedTile, ActionEffectTileHighlighting) VALUES

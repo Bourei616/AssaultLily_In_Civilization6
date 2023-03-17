@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\</ProjectRoot>
+		<SourceFilesRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\大佬的civ6\LandsolYuni_civ6mod\Wwise\Yuni\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="1022270983" Language="SFX">
+			<ShortName>Radgrid_UI</ShortName>
+			<Path>Radgrid_UI.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1986505816" Name="FumiGreatSelected"/>
+				<Event Id="778174456" Name="FumiGreatUnitAddedToMapRiri"/>
+				<Event Id="927010243" Name="FumiUnitGreatPersonActivated"/>
+				<Event Id="2950611012" Name="RiriCityBuilt"/>
+				<Event Id="1322535514" Name="RiriCityCommandStarted"/>
+				<Event Id="478756426" Name="RiriCityRemovedFromMap"/>
+				<Event Id="4201981180" Name="RiriCivicCompleted"/>
+				<Event Id="3471680525" Name="RiriDistrictPillaged"/>
+				<Event Id="1645947695" Name="RiriGovernorAppointedKAEDE"/>
+				<Event Id="1557792461" Name="RiriGovernorAppointedYuyu"/>
+				<Event Id="759009501" Name="RiriGovernorAssignedKAEDE"/>
+				<Event Id="1971293147" Name="RiriGovernorAssignedYuyu"/>
+				<Event Id="4228928117" Name="RiriGovernorPromotedKAEDE2"/>
+				<Event Id="4228928116" Name="RiriGovernorPromotedKAEDE3"/>
+				<Event Id="4228928115" Name="RiriGovernorPromotedKAEDE4"/>
+				<Event Id="4228928114" Name="RiriGovernorPromotedKAEDE5"/>
+				<Event Id="4228928113" Name="RiriGovernorPromotedKAEDE6"/>
+				<Event Id="1447109523" Name="RiriGovernorPromotedYuyu2"/>
+				<Event Id="1447109522" Name="RiriGovernorPromotedYuyu3"/>
+				<Event Id="1447109525" Name="RiriGovernorPromotedYuyu4"/>
+				<Event Id="1447109524" Name="RiriGovernorPromotedYuyu5"/>
+				<Event Id="1447109527" Name="RiriGovernorPromotedYuyu6"/>
+				<Event Id="3735014738" Name="RiriImprovementAddedToMap"/>
+				<Event Id="429094491" Name="RiriPantheonFounded"/>
+				<Event Id="4176994105" Name="RiriPlayerEraChanged1"/>
+				<Event Id="3038026456" Name="RiriPlayerTurnActivated"/>
+				<Event Id="2716573267" Name="RiriReligionFounded"/>
+				<Event Id="1019506997" Name="RiriResearchCompleted"/>
+				<Event Id="3683775321" Name="RiriUnitKilledInCombat"/>
+				<Event Id="1459803395" Name="RiriWonderCompleted"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="17412218" Language="SFX">
+					<ShortName>RiriResearchCompleted.wav</ShortName>
+					<Path>SFX\RiriResearchCompleted_B945FE8E.wem</Path>
+				</File>
+				<File Id="29216318" Language="SFX">
+					<ShortName>RiriGovernorPromotedYuyu3.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedYuyu3_B945FE8E.wem</Path>
+				</File>
+				<File Id="29598891" Language="SFX">
+					<ShortName>RiriGovernorPromotedYuyu2.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedYuyu2_B945FE8E.wem</Path>
+				</File>
+				<File Id="30594414" Language="SFX">
+					<ShortName>RiriGovernorAssignedYuyu.wav</ShortName>
+					<Path>SFX\RiriGovernorAssignedYuyu_B945FE8E.wem</Path>
+				</File>
+				<File Id="65252988" Language="SFX">
+					<ShortName>. cv_minigame_001_001#12 (cv_minigame_001_001-tap_01).wav</ShortName>
+					<Path>SFX\. cv_minigame_001_001#12 (cv_minigame_001_001-tap_01)_B945FE8E.wem</Path>
+				</File>
+				<File Id="119211607" Language="SFX">
+					<ShortName>FumiUnitGreatPersonActivated.wav</ShortName>
+					<Path>SFX\FumiUnitGreatPersonActivated_B945FE8E.wem</Path>
+				</File>
+				<File Id="123018416" Language="SFX">
+					<ShortName>RiriWonderCompleted.wav</ShortName>
+					<Path>SFX\RiriWonderCompleted_B945FE8E.wem</Path>
+				</File>
+				<File Id="124248234" Language="SFX">
+					<ShortName>RiriPlayerEraChanged1.wav</ShortName>
+					<Path>SFX\RiriPlayerEraChanged1_B945FE8E.wem</Path>
+				</File>
+				<File Id="142852988" Language="SFX">
+					<ShortName>RiriGovernorAssignedKAEDE.wav</ShortName>
+					<Path>SFX\RiriGovernorAssignedKAEDE_B945FE8E.wem</Path>
+				</File>
+				<File Id="296295043" Language="SFX">
+					<ShortName>RiriGovernorPromotedYuyu6.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedYuyu6_B945FE8E.wem</Path>
+				</File>
+				<File Id="317762070" Language="SFX">
+					<ShortName>RiriGovernorAppointedKAEDE.wav</ShortName>
+					<Path>SFX\RiriGovernorAppointedKAEDE_B945FE8E.wem</Path>
+				</File>
+				<File Id="330619475" Language="SFX">
+					<ShortName>RiriCivicCompleted.wav</ShortName>
+					<Path>SFX\RiriCivicCompleted_B945FE8E.wem</Path>
+				</File>
+				<File Id="339517056" Language="SFX">
+					<ShortName>RiriDistrictPillaged.wav</ShortName>
+					<Path>SFX\RiriDistrictPillaged_B945FE8E.wem</Path>
+				</File>
+				<File Id="367932438" Language="SFX">
+					<ShortName>RiriGovernorAppointedYuyu.wav</ShortName>
+					<Path>SFX\RiriGovernorAppointedYuyu_B945FE8E.wem</Path>
+				</File>
+				<File Id="475532481" Language="SFX">
+					<ShortName>FumiGreatSelected.wav</ShortName>
+					<Path>SFX\FumiGreatSelected_B945FE8E.wem</Path>
+				</File>
+				<File Id="534054866" Language="SFX">
+					<ShortName>RiriImprovementAddedToMap.wav</ShortName>
+					<Path>SFX\RiriImprovementAddedToMap_B945FE8E.wem</Path>
+				</File>
+				<File Id="547916307" Language="SFX">
+					<ShortName>RiriGovernorPromotedKAEDE6.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedKAEDE6_B945FE8E.wem</Path>
+				</File>
+				<File Id="579699939" Language="SFX">
+					<ShortName>RiriPantheonFounded.wav</ShortName>
+					<Path>SFX\RiriPantheonFounded_B945FE8E.wem</Path>
+				</File>
+				<File Id="627952903" Language="SFX">
+					<ShortName>RiriCityCommandStarted.wav</ShortName>
+					<Path>SFX\RiriCityCommandStarted_B945FE8E.wem</Path>
+				</File>
+				<File Id="630638931" Language="SFX">
+					<ShortName>RiriGovernorPromotedKAEDE3.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedKAEDE3_B945FE8E.wem</Path>
+				</File>
+				<File Id="645802625" Language="SFX">
+					<ShortName>RiriGovernorPromotedKAEDE2.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedKAEDE2_B945FE8E.wem</Path>
+				</File>
+				<File Id="667514697" Language="SFX">
+					<ShortName>RiriCityRemovedFromMap.wav</ShortName>
+					<Path>SFX\RiriCityRemovedFromMap_B945FE8E.wem</Path>
+				</File>
+				<File Id="744033262" Language="SFX">
+					<ShortName>RiriReligionFounded.wav</ShortName>
+					<Path>SFX\RiriReligionFounded_B945FE8E.wem</Path>
+				</File>
+				<File Id="747572601" Language="SFX">
+					<ShortName>RiriGovernorPromotedYuyu4.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedYuyu4_B945FE8E.wem</Path>
+				</File>
+				<File Id="810413943" Language="SFX">
+					<ShortName>FumiGreatUnitAddedToMapRiri.wav</ShortName>
+					<Path>SFX\FumiGreatUnitAddedToMapRiri_B945FE8E.wem</Path>
+				</File>
+				<File Id="813737290" Language="SFX">
+					<ShortName>RiriUnitKilledInCombat.wav</ShortName>
+					<Path>SFX\RiriUnitKilledInCombat_B945FE8E.wem</Path>
+				</File>
+				<File Id="1011762518" Language="SFX">
+					<ShortName>RiriGovernorPromotedYuyu5.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedYuyu5_B945FE8E.wem</Path>
+				</File>
+				<File Id="1015780019" Language="SFX">
+					<ShortName>RiriGovernorPromotedKAEDE4.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedKAEDE4_B945FE8E.wem</Path>
+				</File>
+				<File Id="1018875003" Language="SFX">
+					<ShortName>RiriCityBuilt.wav</ShortName>
+					<Path>SFX\RiriCityBuilt_B945FE8E.wem</Path>
+				</File>
+				<File Id="1030188672" Language="SFX">
+					<ShortName>RiriGovernorPromotedKAEDE5.wav</ShortName>
+					<Path>SFX\RiriGovernorPromotedKAEDE5_B945FE8E.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

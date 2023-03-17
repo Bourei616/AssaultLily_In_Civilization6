@@ -529,6 +529,10 @@
 			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
 			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
 		</Element>
+		<Element>
+			<m_EntryID text="GreatLily"/>
+			<m_ObjectName text="GreatLily"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
