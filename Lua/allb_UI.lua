@@ -266,12 +266,18 @@ end
 
 function FumiGreatSelected( playerID : number, unitID : number, hexI : number, hexJ : number, hexK : number, bSelected : boolean, bEditable : boolean )
 	local pUnit = UnitManager.GetUnit(playerID, unitID);
-	local iPlayerConfig = PlayerConfigurations[playerID];
-
 	if pUnit:GetGreatPerson():GetIndividual() ~= GameInfo.GreatPersonIndividuals['GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI'].Index 
 	or bSelected == false then return; end
 	UI.PlaySound("FumiGreatSelected")
 end
+
+function FumiUnitSelected( playerID : number, unitID : number, hexI : number, hexJ : number, hexK : number, bSelected : boolean, bEditable : boolean )
+	local pUnit = UnitManager.GetUnit(playerID, unitID);
+	if GameInfo.Units[pUnit:GetType()].UnitType ~= GameInfo.Units["UNIT_AL_FUMI_GREATNORMAL"].UnitType
+	or bSelected == false then return; end
+	UI.PlaySound("FumiGreatSelected")
+end
+
 Events.UnitKilledInCombat.Add(RiriUnitKilledInCombat);
 Events.UnitAddedToMap.Add(FumiGreatUnitAddedToMapRiri);
 Events.WonderCompleted.Add(RiriWonderCompleted);
@@ -305,4 +311,4 @@ Events.PantheonFounded.Add(RiriPantheonFounded);
 Events.ReligionFounded.Add(RiriReligionFounded);
 
 Events.UnitSelectionChanged.Add(FumiGreatSelected);
-
+Events.UnitSelectionChanged.Add(FumiUnitSelected);

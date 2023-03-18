@@ -14,6 +14,55 @@
 		<Row Tag="LOC_ROSE_GET_GREATPERSON" Language="zh_Hans_CN">
 			<Text>获得+10 [ICON_GreatLily] 莉莉伟人点数！</Text>
 		</Row>
+		<!-- Units 超级二水 -->
+		<Row Tag="LOC_UNIT_AL_FUMI_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>二川二水</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_FUMI_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由二川二水伟人转化成的特殊单位。二川二水有着独特的晋升树，死亡后会在首都的市中心重生，并且会继承先前的晋升。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>莉莉宅的数据库</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>三倍支援加成。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>露营爱好者</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在树林、丛林、丘陵或沼泽防御时+9 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>周刊莉莉新闻</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与骑兵战斗时，如有与不同类型战斗单位相邻+12 [ICON_Strength] 战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>来碗牛肉盖饭！</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1 [ICON_Movement] 移动力。如果移动力允许，每回合+1额外攻击。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>小不点1号</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+1视野。只有相邻的敌方单位才能发现该单位。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>战术理解精通</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>视野能穿过森林、丛林。可在攻击后移动。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>勇往直前！</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUMI_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+2移动力。所有情况下+20 [ICON_Strength] 战斗力。</Text>
+		</Row>
 
 		<!-- Districts -->
 		<!-- Districts GARDEN校区 -->
@@ -1066,31 +1115,31 @@
             <Text>首席军团：亚尔夫海姆</Text>
         </Row>
 		<!-- Civilizations 百合丘 地理信息 -->
-		<Row Tag="NAMED_RIVER_AL_ASAOGAWA" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_RIVER_AL_ASAOGAWA" Language="zh_Hans_CN">
             <Text>麻生川</Text>
         </Row>
-		<Row Tag="NAMED_RIVER_AL_HIGAWA" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_RIVER_AL_HIGAWA" Language="zh_Hans_CN">
             <Text>日川</Text>
         </Row>
-		<Row Tag="NAMED_SEA_AL_SAGAMI" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_SEA_AL_SAGAMI" Language="zh_Hans_CN">
             <Text>相模湾</Text>
         </Row>
-		<Row Tag="NAMED_SEA_AL_YUHIHAMA" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_SEA_AL_YUHIHAMA" Language="zh_Hans_CN">
             <Text>由比滨</Text>
         </Row>
-		<Row Tag="NAMED_LAKE_AL_SAGAMIKO" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_LAKE_AL_SAGAMIKO" Language="zh_Hans_CN">
             <Text>相模湖</Text>
         </Row>
-		<Row Tag="NAMED_LAKE_AL_KAMAKURAKO" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_LAKE_AL_KAMAKURAKO" Language="zh_Hans_CN">
             <Text>镰仓湖</Text>
         </Row>
-		<Row Tag="NAMED_MOUNTAIN_AL_BUTOUNOOKA" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_MOUNTAIN_AL_BUTOUNOOKA" Language="zh_Hans_CN">
             <Text>胜沼葡萄丘</Text>
         </Row>
-		<Row Tag="NAMED_MOUNTAIN_AL_TAKAOYAMA" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_MOUNTAIN_AL_TAKAOYAMA" Language="zh_Hans_CN">
             <Text>高尾山</Text>
         </Row>
-		<Row Tag="NAMED_VOLCANO_AL_FUJI" Language="zh_Hans_CN">
+		<Row Tag="LOC_NAMED_VOLCANO_AL_FUJI" Language="zh_Hans_CN">
             <Text>富士山</Text>
         </Row>
 		

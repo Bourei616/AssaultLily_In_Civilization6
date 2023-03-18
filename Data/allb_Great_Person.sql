@@ -39,15 +39,15 @@ INSERT INTO Units
 
 INSERT INTO GreatPersonClasses
 (GreatPersonClassType, Name, UnitType, DistrictType, PseudoYieldType, IconString, ActionIcon, GenerateDuplicateIndividuals) VALUES
-('GREAT_PERSON_CLASS_AL_LILY', 'LOC_GREAT_PERSON_CLASS_AL_LILY_NAME', 'UNIT_AL_LILY', 'DISTRICT_CITY_CENTER', 'PSEUDOYIELD_GPP_AL_LILY', '[ICON_GreatLily]', 'ICON_UNIT_AL_GREAT_PERSON_FUMI', 0);
+('GREAT_PERSON_CLASS_AL_LILY', 'LOC_GREAT_PERSON_CLASS_AL_LILY_NAME', 'UNIT_AL_LILY', 'DISTRICT_CITY_CENTER', 'PSEUDOYIELD_GPP_AL_LILY', '[ICON_GreatLily]', 'ICON_UNIT_AL_FUMI_GREATNORMAL', 0);
 
 INSERT INTO GreatPersonIndividuals
 (GreatPersonIndividualType, Name, GreatPersonClassType, EraType, Gender, ActionCharges, ActionRequiresLandMilitaryUnitWithinXTiles, ActionNameTextOverride, ActionEffectTextOverride, AreaHighlightRadius, ActionRequiresOwnedTile, ActionEffectTileHighlighting) VALUES
-('GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI', 'LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_NAME', 'GREAT_PERSON_CLASS_AL_LILY', 'ERA_CLASSICAL', 'M', 2, 2, 'LOC_LILY_ACTION_FUMI', NULL, 2, 0, 0);
+('GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI', 'LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_NAME', 'GREAT_PERSON_CLASS_AL_LILY', 'ERA_CLASSICAL', 'M', 1, 2, 'LOC_LILY_ACTION_FUMI', NULL, 2, 0, 0);
 
 INSERT INTO GreatPersonIndividualIconModifiers
 (GreatPersonIndividualType, OverrideUnitIcon) VALUES
-('GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI', 'ICON_UNIT_AL_GREAT_PERSON_FUMI');
+('GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI', 'ICON_UNIT_AL_FUMI_GREATNORMAL');
 
 INSERT INTO GreatPersonIndividualBirthModifiers
 (GreatPersonIndividualType, ModifierId) VALUES
