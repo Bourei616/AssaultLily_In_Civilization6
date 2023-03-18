@@ -10,408 +10,412 @@
 	<m_PackageName text="allb"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="GreatLily"/>
-			<m_ObjectName text="GreatLily"/>
+			<m_EntryID text="MOMENT_GOVERNOR_AL_YUYU"/>
+			<m_ObjectName text="MOMENT_GOVERNOR_AL_YUYU"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_128"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_128"/>
+			<m_EntryID text="MOMENT_GOVERNOR_AL_KAEDE"/>
+			<m_ObjectName text="MOMENT_GOVERNOR_AL_KAEDE"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_256"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_256"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_32"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_32"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_70"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_38"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_38"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_50"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_50"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_80"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_80"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_PROMISE_MOMENT"/>
-			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_MOMENT"/>
+			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_200"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_128"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_128"/>
+			<m_EntryID text="ICON_UNIT_ROSE_MOMENT"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_MOMENT"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_256"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_256"/>
+			<m_EntryID text="ICON_UNIT_ROSE_80"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_32"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_32"/>
+			<m_EntryID text="ICON_UNIT_ROSE_50"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_38"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_38"/>
+			<m_EntryID text="ICON_UNIT_ROSE_38"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_50"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_50"/>
+			<m_EntryID text="ICON_UNIT_ROSE_32"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_80"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_80"/>
+			<m_EntryID text="ICON_UNIT_ROSE_256"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_BUILDING_AL_SAKURA_MOMENT"/>
-			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_MOMENT"/>
+			<m_EntryID text="ICON_UNIT_ROSE_22"/>
+			<m_ObjectName text="ICON_UNIT_ROSE_22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_128"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_200"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_22"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_256"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_30"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_32"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_36"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_36"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_44"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_44"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_45"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_48"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_50"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_64"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_80"/>
-			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_128"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_22"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_256"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_32"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_38"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_50"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_80"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_AL_MOYU_MOMENT"/>
-			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_MOMENT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_128"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_128"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_22"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_256"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_32"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_38"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_50"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_80"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_DISTRICT_GARDEN_MOMENT"/>
-			<m_ObjectName text="ICON_DISTRICT_GARDEN_MOMENT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_64"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_FILL_22"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_FILL_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_FILL_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_FILL_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_NORMAL"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_NORMAL"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_PROMOTION_24"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_PROMOTION_24"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SELECTED"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SELECTED"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SLOT_22"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SLOT_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SLOT_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SLOT_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_64"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_FILL_22"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_FILL_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_FILL_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_FILL_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_NORMAL"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_NORMAL"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_PROMOTION_24"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_PROMOTION_24"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SELECTED"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SELECTED"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SLOT_32"/>
-			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SLOT_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_90"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_90"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_200"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_256"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_38"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_50"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_70"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_70"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_95"/>
-			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI_PORTRAIT_95"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_256"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_38"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_50"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_80"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_MOMENT"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_MOMENT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_256"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_32"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_45"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_48"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_48"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_50"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_55"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_55"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_64"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_80"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_DIPLOBACK"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_DIPLOBACK"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_DIPLOBACK_"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_DIPLOBACK_"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_DIPLOFORGE_"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_DIPLOFORGE_"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADBACK"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADBACK"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADBACK_"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADBACK_"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADFORGE"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADFORGE"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADFORGE_"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADFORGE_"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_LEADER_AL_RIRI_SELECTION"/>
-			<m_ObjectName text="ICON_LEADER_AL_RIRI_SELECTION"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_256"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_30"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_30"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_32"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_32"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_38"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_50"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_50"/>
+			<m_EntryID text="ICON_PROJECT_ANGEL_80"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_PROJECT_ANGEL_70"/>
 			<m_ObjectName text="ICON_PROJECT_ANGEL_70"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_PROJECT_ANGEL_80"/>
-			<m_ObjectName text="ICON_PROJECT_ANGEL_80"/>
+			<m_EntryID text="ICON_PROJECT_ANGEL_50"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_ANGEL_38"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_ANGEL_32"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_ANGEL_30"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_PROJECT_ANGEL_256"/>
+			<m_ObjectName text="ICON_PROJECT_ANGEL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_SELECTION"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_SELECTION"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADFORGE"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADFORGE"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADBACK"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADBACK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_DIPLOBACK"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_DIPLOBACK"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_80"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_64"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_55"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_50"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_48"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_45"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_32"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_256"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_MOMENT"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_MOMENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SLOT_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SLOT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_SELECTED"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_SELECTED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_PROMOTION_24"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_PROMOTION_24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_NORMAL"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_NORMAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_FILL_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_FILL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_FILL_22"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_FILL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_64"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_YUYU_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_YUYU_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SLOT_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SLOT_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SLOT_22"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SLOT_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_SELECTED"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_SELECTED"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_PROMOTION_24"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_PROMOTION_24"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_NORMAL"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_NORMAL"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_FILL_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_FILL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_FILL_22"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_FILL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_64"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GOVERNOR_AL_KAEDE_32"/>
+			<m_ObjectName text="ICON_GOVERNOR_AL_KAEDE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_MOMENT"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_MOMENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_80"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_50"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_38"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_32"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_256"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_22"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_GARDEN_128"/>
+			<m_ObjectName text="ICON_DISTRICT_GARDEN_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_MOMENT"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_MOMENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_80"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_50"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_38"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_32"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_256"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_22"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_DISTRICT_AL_MOYU_128"/>
+			<m_ObjectName text="ICON_DISTRICT_AL_MOYU_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_80"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_64"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_50"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_48"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_45"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_44"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_36"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_32"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_30"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_256"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_22"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_200"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_CIVILIZATION_YURIGAOKA_128"/>
+			<m_ObjectName text="ICON_CIVILIZATION_YURIGAOKA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_MOMENT"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_MOMENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_80"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_50"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_38"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_32"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_256"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_SAKURA_128"/>
+			<m_ObjectName text="ICON_BUILDING_AL_SAKURA_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_MOMENT"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_MOMENT"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_80"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_50"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_38"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_32"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_256"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_BUILDING_AL_PROMISE_128"/>
+			<m_ObjectName text="ICON_BUILDING_AL_PROMISE_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADBACK_"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADBACK_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_RIRI_LOADFORGE_"/>
+			<m_ObjectName text="ICON_LEADER_AL_RIRI_LOADFORGE_"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_UNIT_AL_LILY_22"/>
@@ -438,8 +442,16 @@
 			<m_ObjectName text="ICON_UNIT_AL_LILY_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_95"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_95"/>
+			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_CLASS_AL_LILY_90"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_CLASS_AL_LILY_90"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_200"/>
@@ -466,88 +478,36 @@
 			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_FUMI_95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_22"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_22"/>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUMI"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_256"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_256"/>
+			<m_EntryID text="GreatLily"/>
+			<m_ObjectName text="GreatLily"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_32"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_32"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_22"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_38"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_38"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_50"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_50"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_80"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_80"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_MOMENT"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_MOMENT"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_200"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_256"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_38"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_50"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_70"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_70"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_ROSE_PORTRAIT_95"/>
-			<m_ObjectName text="ICON_UNIT_ROSE_PORTRAIT_95"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MOMENT_GOVERNOR_AL_KAEDE"/>
-			<m_ObjectName text="MOMENT_GOVERNOR_AL_KAEDE"/>
-		</Element>
-		<Element>
-			<m_EntryID text="MOMENT_GOVERNOR_AL_YUYU"/>
-			<m_ObjectName text="MOMENT_GOVERNOR_AL_YUYU"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_200"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_200"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_256"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_38"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_50"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_70"/>
-			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_70"/>
+			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_UNIT_AL_FUMI_GREATNORMAL_22"/>
@@ -598,28 +558,28 @@
 			<m_ObjectName text="ICON_UNIT_AL_FUMI_GREATNORMAL_PORTRAIT_95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_22"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_22"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_200"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_256"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_256"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_256"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_32"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_32"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_38"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_38"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_38"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_50"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_50"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_50"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_70"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_UNIT_AL_GREAT_PERSON_FUMI_80"/>
-			<m_ObjectName text="ICON_UNIT_AL_GREAT_PERSON_FUMI_80"/>
+			<m_EntryID text="ICON_UNIT_AL_LILY_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_LILY_PORTRAIT_95"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
