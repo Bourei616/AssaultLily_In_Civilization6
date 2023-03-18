@@ -115,6 +115,9 @@
     <Content Include="Lua\allb.lua">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="Lua\allbRoundCD.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Lua\allb_UI.lua">
       <SubType>Content</SubType>
     </Content>

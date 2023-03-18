@@ -95,25 +95,34 @@ end
 
 function LilyGreatsReborn (playerID, unitID)
     local pUnit = UnitManager.GetUnit(playerID, unitID);
-    local greatpersonind = pUnit:GetGreatPerson():GetIndividual();
-    local greatpersonclass = pUnit:GetGreatPerson():GetClass();
 
     if(pUnit:IsGreatPerson() == true) 
-    and greatpersonclass == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index then
-	    local era = GameInfo.Eras["ERA_CLASSICAL"].Hash;
-	    local cost = 0;
+    and pUnit:GetGreatPerson():GetClass() == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index then
+	    local greatname = pUnit:GetName();
+        local name = string.match(greatname, "(%u+)_NAME")
+        local sUnitType = GameInfo.Units["UNIT_AL_"..name.."_GREATNORMAL"].UnitType
 
-	    Game.GetGreatPeople():GrantPerson(greatpersonind, greatpersonclass , era, cost, playerID, false);
         local pPlayer = Players[playerID];
         local playerUnits = pPlayer:GetUnits();
-        for i, unit in playerUnits:Members() do
-            local gotgreatpersonclass = unit:GetGreatPerson():GetClass();
-            if(unit:IsGreatPerson() == true)
-            and gotgreatpersonclass == GameInfo.GreatPersonClasses["GREAT_PERSON_CLASS_AL_LILY"].Index
-            and unit:GetGreatPerson():GetIndividual() == greatpersonind then
-                unit:ChangeMovesRemaining(-4);
-            end
-        end
+        local pCity = pPlayer:GetCities():GetCapitalCity();
+
+        UnitManager.InitUnitValidAdjacentHex(playerID, sUnitType, pCity:GetX(), pCity:GetY(), 1)
+    end
+end
+
+function LilyUnitsReborn (playerID, unitID)
+    local pUnit = UnitManager.GetUnit(playerID, unitID);
+
+    if string.match(GameInfo.Units[pUnit:GetType()].UnitType, "(GREATNORMAL)") == "GREATNORMAL" then
+	    local greatname = pUnit:GetName();
+        local name = string.match(greatname, "(%u+)_GREATNORMAL_NAME")
+        local sUnitType = GameInfo.Units["UNIT_AL_"..name.."_GREATNORMAL"].UnitType
+
+        local pPlayer = Players[playerID];
+        local playerUnits = pPlayer:GetUnits();
+        local pCity = pPlayer:GetCities():GetCapitalCity();
+
+        UnitManager.InitUnitValidAdjacentHex(playerID, sUnitType, pCity:GetX(), pCity:GetY(), 1)
     end
 end
 
@@ -122,3 +131,4 @@ Events.UnitGreatPersonCreated.Add(YurigaokaGetLilyGreats);
 Events.UnitGreatPersonCreated.Add(KaedeGetBoost);
 Events.ImprovementRemovedFromMap.Add(GardenRemoveTribe);
 Events.UnitRemovedFromMap.Add(LilyGreatsReborn);
+Events.UnitRemovedFromMap.Add(LilyUnitsReborn);

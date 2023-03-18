@@ -10,7 +10,7 @@
 	<m_PackageName text="leader_riri"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="ART_LEADER_AL_RIRI"/>
+			<m_EntryID text="LEAD_AL_Riri"/>
 			<m_ObjectName text="LEAD_AL_Riri"/>
 		</Element>
 	</m_Entries>
