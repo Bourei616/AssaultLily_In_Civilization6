@@ -1,7 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- allb_UI -->
-<!-- Author: 24303 -->
-<!-- DateCreated: 3/15/2023 9:23:45 AM -->
-<GameData>
+<Context>
+    <Grid	ID="AlPromiseGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlPromiseButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlPromiseImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_PROJECT_AL_ANGEL"/>
+        </Button>
+    </Grid>
 
-</GameData>
+    <Grid	ID="AlNeunweltStartGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlNeunweltStartButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlNeunweltStartImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_PROJECT_AL_NEUNWELT_HUGE"/>
+        </Button>
+    </Grid>
+
+    <Grid	ID="AlFinishShotGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlFinishShotButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlFinishShotImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_ACTION_AL_SHOT"/>
+        </Button>
+    </Grid>
+
+    <Grid	ID="AlPassGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlPassButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlPassImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_ACTION_AL_PASS"/>
+        </Button>
+    </Grid>
+
+    <Grid ID="AlCityInfomation" Anchor="R,B" Size="41,41" AutoSizePadding="6,0" Texture="UnitPanel_ActionGroupSlot" Offset="30,0" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="1" Hidden="1">
+		<Button ID="AlCityInfomationButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+			<Image ID="AlCityInfomationButtonIcon"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_AL_INFORMATION"/>
+		</Button>
+	</Grid>
+
+    
+    <Grid	ID="AlLilyInformationGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlLilyInformationButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlLilyInformationImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_AL_INFORMATION"/>
+        </Button>
+    </Grid>
+
+    <Grid	ID="AlRareSkillGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlRareSkillButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlRareSkillImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_RS_Default"/>
+        </Button>
+    </Grid>
+
+    <Grid	ID="AlEnhanceTeamGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlEnhanceTeamButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlEnhanceTeamImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_AL_INFORMATION"/>
+        </Button>
+    </Grid>
+</Context>

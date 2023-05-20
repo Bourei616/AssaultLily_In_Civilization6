@@ -13,6 +13,10 @@
 			<m_EntryID text="ICON_LEADER_AL_RIRI_DIPLOFORGE"/>
 			<m_ObjectName text="ICON_LEADER_AL_RIRI_DIPLOFORGE"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_LEADER_AL_KANAHO_DIPLOFORGE"/>
+			<m_ObjectName text="ICON_LEADER_AL_KANAHO_DIPLOFORGE"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

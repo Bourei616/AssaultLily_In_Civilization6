@@ -15,20 +15,20 @@
 				<Event Id="1986505816" Name="FumiGreatSelected"/>
 				<Event Id="778174456" Name="FumiGreatUnitAddedToMapRiri"/>
 				<Event Id="927010243" Name="FumiUnitGreatPersonActivated"/>
+				<Event Id="4000655673" Name="KAEDEGreatSelected"/>
+				<Event Id="3223373812" Name="KAEDEUnitGreatPersonActivated"/>
 				<Event Id="2950611012" Name="RiriCityBuilt"/>
 				<Event Id="1322535514" Name="RiriCityCommandStarted"/>
 				<Event Id="478756426" Name="RiriCityRemovedFromMap"/>
 				<Event Id="4201981180" Name="RiriCivicCompleted"/>
 				<Event Id="3471680525" Name="RiriDistrictPillaged"/>
-				<Event Id="1645947695" Name="RiriGovernorAppointedKAEDE"/>
-				<Event Id="1557792461" Name="RiriGovernorAppointedYuyu"/>
-				<Event Id="759009501" Name="RiriGovernorAssignedKAEDE"/>
-				<Event Id="1971293147" Name="RiriGovernorAssignedYuyu"/>
+				<Event Id="4228928118" Name="RiriGovernorPromotedKAEDE1"/>
 				<Event Id="4228928117" Name="RiriGovernorPromotedKAEDE2"/>
 				<Event Id="4228928116" Name="RiriGovernorPromotedKAEDE3"/>
 				<Event Id="4228928115" Name="RiriGovernorPromotedKAEDE4"/>
 				<Event Id="4228928114" Name="RiriGovernorPromotedKAEDE5"/>
 				<Event Id="4228928113" Name="RiriGovernorPromotedKAEDE6"/>
+				<Event Id="1447109520" Name="RiriGovernorPromotedYuyu1"/>
 				<Event Id="1447109523" Name="RiriGovernorPromotedYuyu2"/>
 				<Event Id="1447109522" Name="RiriGovernorPromotedYuyu3"/>
 				<Event Id="1447109525" Name="RiriGovernorPromotedYuyu4"/>
@@ -42,6 +42,8 @@
 				<Event Id="1019506997" Name="RiriResearchCompleted"/>
 				<Event Id="3683775321" Name="RiriUnitKilledInCombat"/>
 				<Event Id="1459803395" Name="RiriWonderCompleted"/>
+				<Event Id="3379588467" Name="YUYUGreatSelected"/>
+				<Event Id="1247147694" Name="YUYUUnitGreatPersonActivated"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="17412218" Language="SFX">
@@ -76,13 +78,13 @@
 					<ShortName>RiriPlayerEraChanged1.wav</ShortName>
 					<Path>SFX\RiriPlayerEraChanged1_B945FE8E.wem</Path>
 				</File>
-				<File Id="142852988" Language="SFX">
-					<ShortName>RiriGovernorAssignedKAEDE.wav</ShortName>
-					<Path>SFX\RiriGovernorAssignedKAEDE_B945FE8E.wem</Path>
-				</File>
 				<File Id="296295043" Language="SFX">
 					<ShortName>RiriGovernorPromotedYuyu6.wav</ShortName>
 					<Path>SFX\RiriGovernorPromotedYuyu6_B945FE8E.wem</Path>
+				</File>
+				<File Id="314405318" Language="SFX">
+					<ShortName>KAEDEGreatSelected.wav</ShortName>
+					<Path>SFX\KAEDEGreatSelected_B945FE8E.wem</Path>
 				</File>
 				<File Id="317762070" Language="SFX">
 					<ShortName>RiriGovernorAppointedKAEDE.wav</ShortName>

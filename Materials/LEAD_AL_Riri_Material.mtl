@@ -64,8 +64,8 @@
 			</Element>
 			<Element class="AssetObjects..RGBValue">
 				<m_r>150.000000</m_r>
-				<m_g>20.000000</m_g>
-				<m_b>7.000000</m_b>
+				<m_g>150.000000</m_g>
+				<m_b>150.000000</m_b>
 				<m_ParamName text="TranslucencyColor"/>
 			</Element>
 			<Element class="AssetObjects..BoolValue">

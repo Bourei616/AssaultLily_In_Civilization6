@@ -12,7 +12,7 @@
 		<Row Name="ATLAS_ICON_UNIT_ROSE" IconSize="256" Filename="ICON_UNIT_ROSE_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_UNIT_ROSE" Atlas="ATLAS_ICON_UNIT_ROSE" Index="0"/>
+		<Row Name="ICON_UNIT_AL_ROSE" Atlas="ATLAS_ICON_UNIT_ROSE" Index="0"/>
 	</IconDefinitions>
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="38" Filename="ICON_UNIT_ROSE_PORTRAIT_38"/>
@@ -23,7 +23,7 @@
 		<Row Name="ATLAS_ICON_UNIT_ROSE_PORTRAIT" IconSize="256" Filename="ICON_UNIT_ROSE_PORTRAIT_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_UNIT_ROSE_PORTRAIT" Atlas="ATLAS_ICON_UNIT_ROSE_PORTRAIT" Index="0"/>
+		<Row Name="ICON_UNIT_AL_ROSE_PORTRAIT" Atlas="ATLAS_ICON_UNIT_ROSE_PORTRAIT" Index="0"/>
 	</IconDefinitions>
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="22" Filename="ICON_DISTRICT_GARDEN_22"/>
@@ -35,7 +35,7 @@
 		<Row Name="ATLAS_ICON_DISTRICT_GARDEN" IconSize="256" Filename="ICON_DISTRICT_GARDEN_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_DISTRICT_GARDEN" Atlas="ATLAS_ICON_DISTRICT_GARDEN" Index="0"/>
+		<Row Name="ICON_DISTRICT_AL_GARDEN" Atlas="ATLAS_ICON_DISTRICT_GARDEN" Index="0"/>
 	</IconDefinitions>
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_BUILDING_AL_PROMISE" IconSize="32" Filename="ICON_BUILDING_AL_PROMISE_32"/>
@@ -90,7 +90,8 @@
 		<Row Name="ATLAS_ICON_PROJECT_ANGEL" IconSize="256" Filename="ICON_PROJECT_ANGEL_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_PROJECT_ANGEL" Atlas="ATLAS_ICON_PROJECT_ANGEL" Index="0"/>
+		<Row Name="ICON_PROJECT_AL_ANGEL" Atlas="ATLAS_ICON_PROJECT_ANGEL" Index="0"/>
+        <Row Name="ICON_PROJECT_AL_HITOTSUYANAGI" Atlas="ATLAS_ICON_PROJECT_ANGEL" Index="0"/>
 	</IconDefinitions>
 
 	<IconTextureAtlases>
@@ -100,6 +101,13 @@
 		<Row Name="ICON_LEADER_AL_RIRI_DIPLOBACK" Atlas="ATLAS_ICON_LEADER_AL_RIRI_DIPLOBACK" Index="0"/>
 	</IconDefinitions>
 
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO_DIPLOBACK" IconSize="1920" Filename="ICON_LEADER_AL_KANAHO_DIPLOBACK"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO_DIPLOBACK" Atlas="ATLAS_ICON_LEADER_AL_KANAHO_DIPLOBACK" Index="0"/>
+	</IconDefinitions>
+
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_LOADBACK" IconSize="1920" Filename="ICON_LEADER_AL_RIRI_LOADBACK"/>
 	</IconTextureAtlases>
@@ -107,11 +115,25 @@
 		<Row Name="ICON_LEADER_AL_RIRI_LOADBACK" Atlas="ATLAS_ICON_LEADER_AL_RIRI_LOADBACK" Index="0"/>
 	</IconDefinitions>
 
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO_LOADBACK" IconSize="1920" Filename="ICON_LEADER_AL_KANAHO_LOADBACK"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO_LOADBACK" Atlas="ATLAS_ICON_LEADER_AL_KANAHO_LOADBACK" Index="0"/>
+	</IconDefinitions>
+
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_LOADFORGE" IconSize="512" Filename="ICON_LEADER_AL_RIRI_LOADFORGE"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_AL_RIRI_LOADFORGE" Atlas="ATLAS_ICON_LEADER_AL_RIRI_LOADFORGE" Index="0"/>
+	</IconDefinitions>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO_LOADFORGE" IconSize="512" Filename="ICON_LEADER_AL_KANAHO_LOADFORGE"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO_LOADFORGE" Atlas="ATLAS_ICON_LEADER_AL_KANAHO_LOADFORGE" Index="0"/>
 	</IconDefinitions>
 
 	<IconTextureAtlases>
@@ -130,7 +152,39 @@
 		<Row Name="ATLAS_ICON_CIVILIZATION_YURIGAOKA" IconSize="256" Filename="ICON_CIVILIZATION_YURIGAOKA_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_CIVILIZATION_YURIGAOKA" Atlas="ATLAS_ICON_CIVILIZATION_YURIGAOKA" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_AL_YURIGAOKA" Atlas="ATLAS_ICON_CIVILIZATION_YURIGAOKA" Index="0"/>
+	</IconDefinitions>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="22" Filename="ICON_CIVILIZATION_KANBA_22"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="30" Filename="ICON_CIVILIZATION_KANBA_30"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="32" Filename="ICON_CIVILIZATION_KANBA_32"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="36" Filename="ICON_CIVILIZATION_KANBA_36"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="44" Filename="ICON_CIVILIZATION_KANBA_44"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="45" Filename="ICON_CIVILIZATION_KANBA_45"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="48" Filename="ICON_CIVILIZATION_KANBA_48"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="50" Filename="ICON_CIVILIZATION_KANBA_50"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="64" Filename="ICON_CIVILIZATION_KANBA_64"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="80" Filename="ICON_CIVILIZATION_KANBA_80"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="128" Filename="ICON_CIVILIZATION_KANBA_128"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="200" Filename="ICON_CIVILIZATION_KANBA_200"/>
+		<Row Name="ATLAS_ICON_CIVILIZATION_KANBA" IconSize="256" Filename="ICON_CIVILIZATION_KANBA_256"/>
+	</IconTextureAtlases>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_TEAGARDEN" IconSize="38" Filename="ICON_IMPROVEMENT_AL_TEAGARDEN_38"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_TEAGARDEN" IconSize="50" Filename="ICON_IMPROVEMENT_AL_TEAGARDEN_50"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_TEAGARDEN" IconSize="80" Filename="ICON_IMPROVEMENT_AL_TEAGARDEN_80"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_TEAGARDEN" IconSize="256" Filename="ICON_IMPROVEMENT_AL_TEAGARDEN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_IMPROVEMENT_AL_TEAGARDEN" Atlas="ATLAS_ICON_IMPROVEMENT_AL_TEAGARDEN" Index="0"/>
+    </IconDefinitions>
+
+	<IconDefinitions>
+		<Row Name="ICON_CIVILIZATION_AL_KANBA" Atlas="ATLAS_ICON_CIVILIZATION_KANBA" Index="0"/>
+        <Row Name="ICON_PROJECT_AL_COLLECTION" Atlas="ATLAS_ICON_CIVILIZATION_KANBA" Index="0"/>
+        <Row Name="ICON_UNIT_AL_KANBALILY" Atlas="ATLAS_ICON_CIVILIZATION_KANBA" Index="0"/>
+        <Row Name="ICON_UNIT_AL_KANBALILY_PORTRAIT" Atlas="ATLAS_ICON_CIVILIZATION_KANBA" Index="0"/>
 	</IconDefinitions>
 
 	<IconTextureAtlases>
@@ -147,11 +201,32 @@
 		<Row Name="ICON_LEADER_AL_RIRI" Atlas="ATLAS_ICON_LEADER_AL_RIRI" Index="0"/>
 	</IconDefinitions>
 
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="32" Filename="ICON_LEADER_AL_KANAHO_32"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="45" Filename="ICON_LEADER_AL_KANAHO_45"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="48" Filename="ICON_LEADER_AL_KANAHO_48"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="50" Filename="ICON_LEADER_AL_KANAHO_50"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="55" Filename="ICON_LEADER_AL_KANAHO_55"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="64" Filename="ICON_LEADER_AL_KANAHO_64"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="80" Filename="ICON_LEADER_AL_KANAHO_80"/>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO" IconSize="256" Filename="ICON_LEADER_AL_KANAHO_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO" Atlas="ATLAS_ICON_LEADER_AL_KANAHO" Index="0"/>
+	</IconDefinitions>
+
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_LEADER_AL_RIRI_SELECTION" IconSize="512" Filename="ICON_LEADER_AL_RIRI_SELECTION"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_AL_RIRI_SELECTION" Atlas="ATLAS_ICON_LEADER_AL_RIRI_SELECTION" Index="0"/>
+	</IconDefinitions>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO_SELECTION" IconSize="512" Filename="ICON_LEADER_AL_KANAHO_SELECTION"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO_SELECTION" Atlas="ATLAS_ICON_LEADER_AL_KANAHO_SELECTION" Index="0"/>
 	</IconDefinitions>
 
 	<IconTextureAtlases>
@@ -160,6 +235,26 @@
 	<IconDefinitions>
 		<Row Name="ICON_LEADER_AL_RIRI_DIPLOFORGE" Atlas="ATLAS_ICON_LEADER_AL_RIRI_DIPLOFORGE" Index="0"/>
 	</IconDefinitions>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_LEADER_AL_KANAHO_DIPLOFORGE" IconSize="512" Filename="ICON_LEADER_AL_KANAHO_DIPLOFORGE"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_LEADER_AL_KANAHO_DIPLOFORGE" Atlas="ATLAS_ICON_LEADER_AL_KANAHO_DIPLOFORGE" Index="0"/>
+	</IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="22" Filename="ICON_DISTRICT_AL_KANBA_22"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="32" Filename="ICON_DISTRICT_AL_KANBA_32"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="38" Filename="ICON_DISTRICT_AL_KANBA_38"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="50" Filename="ICON_DISTRICT_AL_KANBA_50"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="80" Filename="ICON_DISTRICT_AL_KANBA_80"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="128" Filename="ICON_DISTRICT_AL_KANBA_128"/>
+        <Row Name="ATLAS_ICON_DISTRICT_AL_STAGE" IconSize="256" Filename="ICON_DISTRICT_AL_KANBA_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_DISTRICT_AL_STAGE" Atlas="ATLAS_ICON_DISTRICT_AL_STAGE" Index="0"/>
+    </IconDefinitions>
 
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ICON_GOVERNOR_AL_YUYU_SLOT" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_YUYU_SLOT_22"/>
@@ -201,6 +296,48 @@
 	<IconAliases>
 		<Row Name="GOVERNOR_AL_KAEDE_FILL"      OtherName="ICON_GOVERNOR_AL_KAEDE_FILL"/>
 		<Row Name="GOVERNOR_AL_KAEDE_SLOT"      OtherName="ICON_GOVERNOR_AL_KAEDE_SLOT"/>
+	</IconAliases>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE_SLOT" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_TAKANE_SLOT_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE_SLOT" IconSize="32" Filename="ICON_GOVERNOR_AL_TAKANE_SLOT_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE" IconSize="32" Filename="ICON_GOVERNOR_AL_TAKANE_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE" IconSize="64" Filename="ICON_GOVERNOR_AL_TAKANE_64"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE_FILL" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_TAKANE_FILL_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE_FILL" IconSize="32" Filename="ICON_GOVERNOR_AL_TAKANE_FILL_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_TAKANE_PROMOTION" IconSize="24" Filename="ICON_GOVERNOR_AL_TAKANE_PROMOTION_24"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GOVERNOR_AL_TAKANE_SLOT"   Atlas="ATLAS_ICON_GOVERNOR_AL_TAKANE_SLOT" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_TAKANE"   Atlas="ATLAS_ICON_GOVERNOR_AL_TAKANE" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_TAKANE_FILL"   Atlas="ATLAS_ICON_GOVERNOR_AL_TAKANE_FILL" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_TAKANE_PROMOTION"   Atlas="ATLAS_ICON_GOVERNOR_AL_TAKANE_PROMOTION" Index="0"/>
+	</IconDefinitions>
+
+	<IconAliases>
+		<Row Name="GOVERNOR_AL_TAKANE_FILL"      OtherName="ICON_GOVERNOR_AL_TAKANE_FILL"/>
+		<Row Name="GOVERNOR_AL_TAKANE_SLOT"      OtherName="ICON_GOVERNOR_AL_TAKANE_SLOT"/>
+	</IconAliases>
+
+    <IconTextureAtlases>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA_SLOT" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_HIMEKA_SLOT_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA_SLOT" IconSize="32" Filename="ICON_GOVERNOR_AL_HIMEKA_SLOT_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA" IconSize="32" Filename="ICON_GOVERNOR_AL_HIMEKA_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA" IconSize="64" Filename="ICON_GOVERNOR_AL_HIMEKA_64"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA_FILL" Baseline="6" IconSize="22" Filename="ICON_GOVERNOR_AL_HIMEKA_FILL_22"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA_FILL" IconSize="32" Filename="ICON_GOVERNOR_AL_HIMEKA_FILL_32"/>
+		<Row Name="ATLAS_ICON_GOVERNOR_AL_HIMEKA_PROMOTION" IconSize="24" Filename="ICON_GOVERNOR_AL_HIMEKA_PROMOTION_24"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_GOVERNOR_AL_HIMEKA_SLOT"   Atlas="ATLAS_ICON_GOVERNOR_AL_HIMEKA_SLOT" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_HIMEKA"   Atlas="ATLAS_ICON_GOVERNOR_AL_HIMEKA" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_HIMEKA_FILL"   Atlas="ATLAS_ICON_GOVERNOR_AL_HIMEKA_FILL" Index="0"/>
+		<Row Name="ICON_GOVERNOR_AL_HIMEKA_PROMOTION"   Atlas="ATLAS_ICON_GOVERNOR_AL_HIMEKA_PROMOTION" Index="0"/>
+	</IconDefinitions>
+
+	<IconAliases>
+		<Row Name="GOVERNOR_AL_HIMEKA_FILL"      OtherName="ICON_GOVERNOR_AL_HIMEKA_FILL"/>
+		<Row Name="GOVERNOR_AL_HIMEKA_SLOT"      OtherName="ICON_GOVERNOR_AL_HIMEKA_SLOT"/>
 	</IconAliases>
 
     <IconTextureAtlases>
@@ -247,6 +384,20 @@
     </IconDefinitions>
 
 	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUYU" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUYU"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUYU" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUYU" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KAEDE" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KAEDE"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KAEDE" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KAEDE" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
         <Row Name="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_216" IconSize="216" Filename="ICON_GREAT_PERSON_CLASS_AL_LILY_216"/>
 		<Row Name="ATLAS_ICON_GREAT_PERSON_CLASS_AL_LILY_216" IconSize="105" Filename="ICON_GREAT_PERSON_CLASS_AL_LILY_105"/>
     </IconTextureAtlases>
@@ -274,10 +425,36 @@
     </IconDefinitions>
 
 	<IconTextureAtlases>
-        <Row Name="ICON_ATLAS_FONT_ICON_GreatLily"  Baseline="6"  IconSize="22" Filename="GreatLily"/>
+        <Row Name="ATLAS_Greatlily" Baseline="6" IconSize="22" Filename="Greatlily"/>
     </IconTextureAtlases>
     <IconDefinitions>
-        <Row Name="GreatLily" Atlas="ICON_ATLAS_FONT_ICON_GreatLily" Index="0"/>
+        <Row Name="GreatLily" Atlas="ATLAS_Greatlily" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_Charm_Combat" Baseline="4"  IconSize="22" Filename="ICON_Charm_Combat_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="Charm_Combat" Atlas="ATLAS_ICON_Charm_Combat" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_Charm_Hp" Baseline="4"  IconSize="22" Filename="ICON_Charm_Hp_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="Charm_Hp" Atlas="ATLAS_ICON_Charm_Hp" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_Charm_Repair" Baseline="4"  IconSize="22" Filename="ICON_Charm_Repair_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="Charm_Repair" Atlas="ATLAS_ICON_Charm_Repair" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_Neunwelt_Cd" Baseline="4"  IconSize="22" Filename="ICON_Neunwelt_Cd_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="Neunwelt_Cd" Atlas="ATLAS_ICON_Neunwelt_Cd" Index="0"/>
     </IconDefinitions>
 
 	    <IconTextureAtlases>
@@ -293,14 +470,1915 @@
     </IconDefinitions>
 
 	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_32"/>
         <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_38"/>
         <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_50"/>
-        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="70" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_70"/>
-        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="95" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_95"/>
-        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="200" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_80"/>
         <Row Name="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_FUMI_GREATNORMAL_256"/>
     </IconTextureAtlases>
     <IconDefinitions>
         <Row Name="ICON_UNIT_AL_FUMI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_FUMI_GREATNORMAL" Index="0"/>
     </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YUYU_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_YUYU_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_KAEDE_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KAEDE_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_KAEDE_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_RIRI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_RIRI_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_RIRI" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_RIRI"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_RIRI" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_RIRI" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_DOLL" IconSize="38" Filename="ICON_RESOURCE_AL_DOLL_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_DOLL" IconSize="50" Filename="ICON_RESOURCE_AL_DOLL_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_DOLL" IconSize="64" Filename="ICON_RESOURCE_AL_DOLL_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_DOLL" IconSize="256" Filename="ICON_RESOURCE_AL_DOLL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_DOLL" Atlas="ATLAS_ICON_RESOURCE_AL_DOLL" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_DOLL_2" IconSize="22" Filename="ICON_RESOURCE_AL_DOLL_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_DOLL" Atlas="ATLAS_ICON_RESOURCE_AL_DOLL_2" Index="0"/>
+    </IconDefinitions>
+
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEKO" IconSize="38" Filename="ICON_RESOURCE_AL_NEKO_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEKO" IconSize="50" Filename="ICON_RESOURCE_AL_NEKO_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEKO" IconSize="64" Filename="ICON_RESOURCE_AL_NEKO_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEKO" IconSize="256" Filename="ICON_RESOURCE_AL_NEKO_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_NEKO" Atlas="ATLAS_ICON_RESOURCE_AL_NEKO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEKO_2" IconSize="22" Filename="ICON_RESOURCE_AL_NEKO_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_NEKO" Atlas="ATLAS_ICON_RESOURCE_AL_NEKO_2" Index="0"/>
+    </IconDefinitions>
+
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_RAMUNE" IconSize="38" Filename="ICON_RESOURCE_AL_RAMUNE_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_RAMUNE" IconSize="50" Filename="ICON_RESOURCE_AL_RAMUNE_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_RAMUNE" IconSize="64" Filename="ICON_RESOURCE_AL_RAMUNE_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_RAMUNE" IconSize="256" Filename="ICON_RESOURCE_AL_RAMUNE_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_RAMUNE" Atlas="ATLAS_ICON_RESOURCE_AL_RAMUNE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_RAMUNE_2" IconSize="22" Filename="ICON_RESOURCE_AL_RAMUNE_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_RAMUNE" Atlas="ATLAS_ICON_RESOURCE_AL_RAMUNE_2" Index="0"/>
+    </IconDefinitions>
+
+	<IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT_256"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="22" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="32" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="80" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_YURI" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_LARGE_ANCIENT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_SMALL_ANCIENT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_SUPER" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_SUPER" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_SUPER_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_SUPER_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_SEA" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_SEA" Atlas="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_SEA" Atlas="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_SEA" Atlas="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_SEA" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_LARGE_ANCIENT_SEA_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_LARGE_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_SEA_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_MIDDLE_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_SMALL_ANCIENT_SEA_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_SMALL_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_SEA_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_GIGANT_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_SEA_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" Index="0"/>
+        <Row Name="ICON_UNIT_AL_HUGE_YURI_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HUGE_ULTRA_ANCIENT_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_NOTIFICATION_AL_NEST_CREATED" IconSize="40" Filename="NOTIFICATION_AL_NEST_CREATED_40"/>
+        <Row Name="ATLAS_NOTIFICATION_AL_NEST_CREATED" IconSize="100" Filename="NOTIFICATION_AL_NEST_CREATED_100"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_NOTIFICATION_AL_NEST_CREATED" Atlas="ATLAS_NOTIFICATION_AL_NEST_CREATED" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_NOTIFICATION_AL_NEST_UPDATE" IconSize="40" Filename="NOTIFICATION_AL_NEST_UPDATE_40"/>
+        <Row Name="ATLAS_NOTIFICATION_AL_NEST_UPDATE" IconSize="100" Filename="NOTIFICATION_AL_NEST_UPDATE_100"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_NOTIFICATION_AL_NEST_UPDATE" Atlas="ATLAS_NOTIFICATION_AL_NEST_UPDATE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_NOTIFICATION_AL_CAVE_CREATED" IconSize="40" Filename="NOTIFICATION_AL_CAVE_CREATED_40"/>
+        <Row Name="ATLAS_NOTIFICATION_AL_CAVE_CREATED" IconSize="100" Filename="NOTIFICATION_AL_CAVE_CREATED_100"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_NOTIFICATION_AL_CAVE_CREATED" Atlas="ATLAS_NOTIFICATION_AL_CAVE_CREATED" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC" IconSize="30" Filename="ICON_TECH_AL_ATOMIC_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC" IconSize="38" Filename="ICON_TECH_AL_ATOMIC_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC" IconSize="42" Filename="ICON_TECH_AL_ATOMIC_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC" IconSize="128" Filename="ICON_TECH_AL_ATOMIC_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC" IconSize="160" Filename="ICON_TECH_AL_ATOMIC_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_ATOMIC" Atlas="ATLAS_ICON_TECH_AL_ATOMIC" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_MODERN" Atlas="ATLAS_ICON_TECH_AL_ATOMIC" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL" IconSize="30" Filename="ICON_TECH_AL_CLASSICAL_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL" IconSize="38" Filename="ICON_TECH_AL_CLASSICAL_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL" IconSize="42" Filename="ICON_TECH_AL_CLASSICAL_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL" IconSize="128" Filename="ICON_TECH_AL_CLASSICAL_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL" IconSize="160" Filename="ICON_TECH_AL_CLASSICAL_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_CLASSICAL" Atlas="ATLAS_ICON_TECH_AL_CLASSICAL" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_CLASSICAL" Atlas="ATLAS_ICON_TECH_AL_CLASSICAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE" IconSize="30" Filename="ICON_TECH_AL_FUTURE_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE" IconSize="38" Filename="ICON_TECH_AL_FUTURE_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE" IconSize="42" Filename="ICON_TECH_AL_FUTURE_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE" IconSize="128" Filename="ICON_TECH_AL_FUTURE_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE" IconSize="160" Filename="ICON_TECH_AL_FUTURE_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_FUTURE" Atlas="ATLAS_ICON_TECH_AL_FUTURE" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_INFORMATION" Atlas="ATLAS_ICON_TECH_AL_FUTURE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL" IconSize="30" Filename="ICON_TECH_AL_INDUSTRIAL_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL" IconSize="38" Filename="ICON_TECH_AL_INDUSTRIAL_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL" IconSize="42" Filename="ICON_TECH_AL_INDUSTRIAL_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL" IconSize="128" Filename="ICON_TECH_AL_INDUSTRIAL_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL" IconSize="160" Filename="ICON_TECH_AL_INDUSTRIAL_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_INDUSTRIAL" Atlas="ATLAS_ICON_TECH_AL_INDUSTRIAL" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_RENAISSANCE" Atlas="ATLAS_ICON_TECH_AL_INDUSTRIAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION" IconSize="30" Filename="ICON_TECH_AL_INFORMATION_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION" IconSize="38" Filename="ICON_TECH_AL_INFORMATION_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION" IconSize="42" Filename="ICON_TECH_AL_INFORMATION_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION" IconSize="128" Filename="ICON_TECH_AL_INFORMATION_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION" IconSize="160" Filename="ICON_TECH_AL_INFORMATION_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_INFORMATION" Atlas="ATLAS_ICON_TECH_AL_INFORMATION" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_ATOMIC" Atlas="ATLAS_ICON_TECH_AL_INFORMATION" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL" IconSize="30" Filename="ICON_TECH_AL_MEDIEVAL_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL" IconSize="38" Filename="ICON_TECH_AL_MEDIEVAL_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL" IconSize="42" Filename="ICON_TECH_AL_MEDIEVAL_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL" IconSize="128" Filename="ICON_TECH_AL_MEDIEVAL_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL" IconSize="160" Filename="ICON_TECH_AL_MEDIEVAL_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_MEDIEVAL" Atlas="ATLAS_ICON_TECH_AL_MEDIEVAL" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_MEDIEVAL" Atlas="ATLAS_ICON_TECH_AL_MEDIEVAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN" IconSize="30" Filename="ICON_TECH_AL_MODERN_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN" IconSize="38" Filename="ICON_TECH_AL_MODERN_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN" IconSize="42" Filename="ICON_TECH_AL_MODERN_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN" IconSize="128" Filename="ICON_TECH_AL_MODERN_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN" IconSize="160" Filename="ICON_TECH_AL_MODERN_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_MODERN" Atlas="ATLAS_ICON_TECH_AL_MODERN" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_INDUSTRIAL" Atlas="ATLAS_ICON_TECH_AL_MODERN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE" IconSize="30" Filename="ICON_TECH_AL_RENAISSANCE_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE" IconSize="38" Filename="ICON_TECH_AL_RENAISSANCE_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE" IconSize="42" Filename="ICON_TECH_AL_RENAISSANCE_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE" IconSize="128" Filename="ICON_TECH_AL_RENAISSANCE_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE" IconSize="160" Filename="ICON_TECH_AL_RENAISSANCE_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_RENAISSANCE" Atlas="ATLAS_ICON_TECH_AL_RENAISSANCE" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_FUTURE" Atlas="ATLAS_ICON_TECH_AL_RENAISSANCE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE_FOW" IconSize="30" Filename="ICON_TECH_AL_FUTURE_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE_FOW" IconSize="38" Filename="ICON_TECH_AL_FUTURE_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE_FOW" IconSize="42" Filename="ICON_TECH_AL_FUTURE_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE_FOW" IconSize="128" Filename="ICON_TECH_AL_FUTURE_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_FUTURE_FOW" IconSize="160" Filename="ICON_TECH_AL_FUTURE_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_FUTURE_FOW" Atlas="ATLAS_ICON_TECH_AL_FUTURE_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_INFORMATION_FOW" Atlas="ATLAS_ICON_TECH_AL_FUTURE_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" IconSize="30" Filename="ICON_TECH_AL_INDUSTRIAL_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" IconSize="38" Filename="ICON_TECH_AL_INDUSTRIAL_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" IconSize="42" Filename="ICON_TECH_AL_INDUSTRIAL_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" IconSize="128" Filename="ICON_TECH_AL_INDUSTRIAL_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" IconSize="160" Filename="ICON_TECH_AL_INDUSTRIAL_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_INDUSTRIAL_FOW" Atlas="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_RENAISSANCE_FOW" Atlas="ATLAS_ICON_TECH_AL_INDUSTRIAL_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION_FOW" IconSize="30" Filename="ICON_TECH_AL_INFORMATION_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION_FOW" IconSize="38" Filename="ICON_TECH_AL_INFORMATION_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION_FOW" IconSize="42" Filename="ICON_TECH_AL_INFORMATION_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION_FOW" IconSize="128" Filename="ICON_TECH_AL_INFORMATION_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_INFORMATION_FOW" IconSize="160" Filename="ICON_TECH_AL_INFORMATION_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_INFORMATION_FOW" Atlas="ATLAS_ICON_TECH_AL_INFORMATION_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_ATOMIC_FOW" Atlas="ATLAS_ICON_TECH_AL_INFORMATION_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" IconSize="30" Filename="ICON_TECH_AL_MEDIEVAL_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" IconSize="38" Filename="ICON_TECH_AL_MEDIEVAL_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" IconSize="42" Filename="ICON_TECH_AL_MEDIEVAL_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" IconSize="128" Filename="ICON_TECH_AL_MEDIEVAL_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" IconSize="160" Filename="ICON_TECH_AL_MEDIEVAL_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_MEDIEVAL_FOW" Atlas="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_MEDIEVAL_FOW" Atlas="ATLAS_ICON_TECH_AL_MEDIEVAL_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN_FOW" IconSize="30" Filename="ICON_TECH_AL_MODERN_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN_FOW" IconSize="38" Filename="ICON_TECH_AL_MODERN_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN_FOW" IconSize="42" Filename="ICON_TECH_AL_MODERN_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN_FOW" IconSize="128" Filename="ICON_TECH_AL_MODERN_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_MODERN_FOW" IconSize="160" Filename="ICON_TECH_AL_MODERN_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_MODERN_FOW" Atlas="ATLAS_ICON_TECH_AL_MODERN_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_INDUSTRIAL_FOW" Atlas="ATLAS_ICON_TECH_AL_MODERN_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC_FOW" IconSize="30" Filename="ICON_TECH_AL_ATOMIC_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC_FOW" IconSize="38" Filename="ICON_TECH_AL_ATOMIC_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC_FOW" IconSize="42" Filename="ICON_TECH_AL_ATOMIC_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC_FOW" IconSize="128" Filename="ICON_TECH_AL_ATOMIC_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_ATOMIC_FOW" IconSize="160" Filename="ICON_TECH_AL_ATOMIC_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_ATOMIC_FOW" Atlas="ATLAS_ICON_TECH_AL_ATOMIC_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_MODERN_FOW" Atlas="ATLAS_ICON_TECH_AL_ATOMIC_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" IconSize="30" Filename="ICON_TECH_AL_CLASSICAL_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" IconSize="38" Filename="ICON_TECH_AL_CLASSICAL_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" IconSize="42" Filename="ICON_TECH_AL_CLASSICAL_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" IconSize="128" Filename="ICON_TECH_AL_CLASSICAL_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" IconSize="160" Filename="ICON_TECH_AL_CLASSICAL_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_CLASSICAL_FOW" Atlas="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_CLASSICAL_FOW" Atlas="ATLAS_ICON_TECH_AL_CLASSICAL_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" IconSize="30" Filename="ICON_TECH_AL_RENAISSANCE_FOW_30"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" IconSize="38" Filename="ICON_TECH_AL_RENAISSANCE_FOW_38"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" IconSize="42" Filename="ICON_TECH_AL_RENAISSANCE_FOW_42"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" IconSize="128" Filename="ICON_TECH_AL_RENAISSANCE_FOW_128"/>
+        <Row Name="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" IconSize="160" Filename="ICON_TECH_AL_RENAISSANCE_FOW_160"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_TECH_AL_RENAISSANCE_FOW" Atlas="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" Index="0"/>
+        <Row Name="ICON_CIVIC_AL_FUTURE_FOW" Atlas="ATLAS_ICON_TECH_AL_RENAISSANCE_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI" IconSize="38" Filename="ICON_RESOURCE_AL_MAGI_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI" IconSize="50" Filename="ICON_RESOURCE_AL_MAGI_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI" IconSize="64" Filename="ICON_RESOURCE_AL_MAGI_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI" IconSize="256" Filename="ICON_RESOURCE_AL_MAGI_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_MAGI" Atlas="ATLAS_ICON_RESOURCE_AL_MAGI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI_TEXT" Baseline="4" IconsPerRow="1" IconsPerColumn="1" IconSize="22" Filename="ICON_RESOURCE_AL_MAGI_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_MAGI" Atlas="ATLAS_ICON_RESOURCE_AL_MAGI_TEXT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI_FOW" IconSize="38" Filename="ICON_RESOURCE_AL_MAGI_FOW_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI_FOW" IconSize="50" Filename="ICON_RESOURCE_AL_MAGI_FOW_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI_FOW" IconSize="64" Filename="ICON_RESOURCE_AL_MAGI_FOW_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_MAGI_FOW" IconSize="256" Filename="ICON_RESOURCE_AL_MAGI_FOW_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_MAGI_FOW" Atlas="ATLAS_ICON_RESOURCE_AL_MAGI_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="38" Filename="ICON_IMPROVEMENT_AL_ONSEN_38"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="50" Filename="ICON_IMPROVEMENT_AL_ONSEN_50"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="80" Filename="ICON_IMPROVEMENT_AL_ONSEN_80"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="256" Filename="ICON_IMPROVEMENT_AL_ONSEN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_IMPROVEMENT_AL_ONSEN" Atlas="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN_SEA" IconSize="38" Filename="ICON_IMPROVEMENT_AL_ONSEN_SEA_38"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN_SEA" IconSize="50" Filename="ICON_IMPROVEMENT_AL_ONSEN_SEA_50"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN_SEA" IconSize="80" Filename="ICON_IMPROVEMENT_AL_ONSEN_SEA_80"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN_SEA" IconSize="256" Filename="ICON_IMPROVEMENT_AL_ONSEN_SEA_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_IMPROVEMENT_AL_ONSEN_SEA" Atlas="ATLAS_ICON_IMPROVEMENT_AL_ONSEN_SEA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEUNWELT" IconSize="38" Filename="ICON_RESOURCE_AL_NEUNWELT_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEUNWELT" IconSize="50" Filename="ICON_RESOURCE_AL_NEUNWELT_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEUNWELT" IconSize="64" Filename="ICON_RESOURCE_AL_NEUNWELT_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEUNWELT" IconSize="256" Filename="ICON_RESOURCE_AL_NEUNWELT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_NEUNWELT" Atlas="ATLAS_ICON_RESOURCE_AL_NEUNWELT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_NEUNWELT_FONT" IconSize="22" Filename="ICON_RESOURCE_AL_NEUNWELT_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_NEUNWELT" Atlas="ATLAS_ICON_RESOURCE_AL_NEUNWELT_FONT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="32" Filename="ICON_BUILDING_AL_ARSENAL_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="38" Filename="ICON_BUILDING_AL_ARSENAL_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="50" Filename="ICON_BUILDING_AL_ARSENAL_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="80" Filename="ICON_BUILDING_AL_ARSENAL_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="128" Filename="ICON_BUILDING_AL_ARSENAL_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_ARSENAL" IconSize="256" Filename="ICON_BUILDING_AL_ARSENAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_ARSENAL" Atlas="ATLAS_ICON_BUILDING_AL_ARSENAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="30" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="32" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="38" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="50" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="70" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="80" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" IconSize="256" Filename="ICON_PROJECT_AL_NEUNWELT_HUGE_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_NEUNWELT_HUGE" Atlas="ATLAS_ICON_PROJECT_AL_NEUNWELT_HUGE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_ACTION_AL_SHOT" IconSize="38" Filename="ICON_ACTION_AL_SHOT_38"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_SHOT" IconSize="50" Filename="ICON_ACTION_AL_SHOT_50"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_SHOT" IconSize="80" Filename="ICON_ACTION_AL_SHOT_80"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_SHOT" IconSize="256" Filename="ICON_ACTION_AL_SHOT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_ACTION_AL_SHOT" Atlas="ATLAS_ICON_ACTION_AL_SHOT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_ACTION_AL_PASS" IconSize="38" Filename="ICON_ACTION_AL_PASS_38"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_PASS" IconSize="50" Filename="ICON_ACTION_AL_PASS_50"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_PASS" IconSize="80" Filename="ICON_ACTION_AL_PASS_80"/>
+        <Row Name="ATLAS_ICON_ACTION_AL_PASS" IconSize="256" Filename="ICON_ACTION_AL_PASS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_ACTION_AL_PASS" Atlas="ATLAS_ICON_ACTION_AL_PASS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_TRAINING" IconSize="38" Filename="ICON_BUILDING_AL_TRAINING_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_TRAINING" IconSize="50" Filename="ICON_BUILDING_AL_TRAINING_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_TRAINING" IconSize="80" Filename="ICON_BUILDING_AL_TRAINING_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_TRAINING" IconSize="256" Filename="ICON_BUILDING_AL_TRAINING_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_TRAINING" Atlas="ATLAS_ICON_BUILDING_AL_TRAINING" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="30" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="32" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="38" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="50" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="70" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="80" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" IconSize="256" Filename="ICON_PROJECT_AL_TRANNING_EXP_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_TRANNING_EXP_1" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" Index="0"/>
+        <Row Name="ICON_PROJECT_AL_TRANNING_ABL_1" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="30" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="32" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="38" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="50" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="70" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="80" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" IconSize="256" Filename="ICON_PROJECT_AL_TRANNING_EXP_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_TRANNING_EXP_2" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" Index="0"/>
+        <Row Name="ICON_PROJECT_AL_TRANNING_ABL_2" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="30" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="32" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="38" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="50" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="70" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="80" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" IconSize="256" Filename="ICON_PROJECT_AL_TRANNING_EXP_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_TRANNING_EXP_3" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" Index="0"/>
+        <Row Name="ICON_PROJECT_AL_TRANNING_ABL_3" Atlas="ATLAS_ICON_PROJECT_AL_TRANNING_EXP_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_1" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_1" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_2" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_2" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_3" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_3" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_4" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_4" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_5_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_5_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_5_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_5_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_5_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_5_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_5" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_5_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_5" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_5" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="30" Filename="ICON_PROJECT_AL_ARSENAL_6_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="32" Filename="ICON_PROJECT_AL_ARSENAL_6_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="38" Filename="ICON_PROJECT_AL_ARSENAL_6_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="50" Filename="ICON_PROJECT_AL_ARSENAL_6_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="70" Filename="ICON_PROJECT_AL_ARSENAL_6_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="80" Filename="ICON_PROJECT_AL_ARSENAL_6_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_ARSENAL_6" IconSize="256" Filename="ICON_PROJECT_AL_ARSENAL_6_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_ARSENAL_6" Atlas="ATLAS_ICON_PROJECT_AL_ARSENAL_6" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="30" Filename="ICON_PROJECT_AL_PROMISE_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="32" Filename="ICON_PROJECT_AL_PROMISE_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="38" Filename="ICON_PROJECT_AL_PROMISE_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="50" Filename="ICON_PROJECT_AL_PROMISE_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="70" Filename="ICON_PROJECT_AL_PROMISE_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="80" Filename="ICON_PROJECT_AL_PROMISE_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_1" IconSize="256" Filename="ICON_PROJECT_AL_PROMISE_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_PROMISE_1" Atlas="ATLAS_ICON_PROJECT_AL_PROMISE_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="30" Filename="ICON_PROJECT_AL_PROMISE_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="32" Filename="ICON_PROJECT_AL_PROMISE_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="38" Filename="ICON_PROJECT_AL_PROMISE_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="50" Filename="ICON_PROJECT_AL_PROMISE_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="70" Filename="ICON_PROJECT_AL_PROMISE_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="80" Filename="ICON_PROJECT_AL_PROMISE_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_2" IconSize="256" Filename="ICON_PROJECT_AL_PROMISE_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_PROMISE_2" Atlas="ATLAS_ICON_PROJECT_AL_PROMISE_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="30" Filename="ICON_PROJECT_AL_PROMISE_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="32" Filename="ICON_PROJECT_AL_PROMISE_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="38" Filename="ICON_PROJECT_AL_PROMISE_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="50" Filename="ICON_PROJECT_AL_PROMISE_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="70" Filename="ICON_PROJECT_AL_PROMISE_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="80" Filename="ICON_PROJECT_AL_PROMISE_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_PROMISE_3" IconSize="256" Filename="ICON_PROJECT_AL_PROMISE_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_PROMISE_3" Atlas="ATLAS_ICON_PROJECT_AL_PROMISE_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="32" Filename="ICON_BUILDING_AL_OHAKA_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="38" Filename="ICON_BUILDING_AL_OHAKA_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="50" Filename="ICON_BUILDING_AL_OHAKA_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="80" Filename="ICON_BUILDING_AL_OHAKA_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="128" Filename="ICON_BUILDING_AL_OHAKA_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_OHAKA" IconSize="256" Filename="ICON_BUILDING_AL_OHAKA_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_OHAKA" Atlas="ATLAS_ICON_BUILDING_AL_OHAKA" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_1" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_1" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_1" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_3" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_3" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_3" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_2" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_2" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_2" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_4" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_4" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_4" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_5_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_5_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_5_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_5_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_5_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_5_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_5" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_5_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_5" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_5" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="30" Filename="ICON_PROJECT_AL_OHAKA_6_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="32" Filename="ICON_PROJECT_AL_OHAKA_6_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="38" Filename="ICON_PROJECT_AL_OHAKA_6_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="50" Filename="ICON_PROJECT_AL_OHAKA_6_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="70" Filename="ICON_PROJECT_AL_OHAKA_6_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="80" Filename="ICON_PROJECT_AL_OHAKA_6_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_OHAKA_6" IconSize="256" Filename="ICON_PROJECT_AL_OHAKA_6_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_OHAKA_6" Atlas="ATLAS_ICON_PROJECT_AL_OHAKA_6" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="32" Filename="ICON_BUILDING_AL_AREA_DEFENSE_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="38" Filename="ICON_BUILDING_AL_AREA_DEFENSE_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="50" Filename="ICON_BUILDING_AL_AREA_DEFENSE_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="80" Filename="ICON_BUILDING_AL_AREA_DEFENSE_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="128" Filename="ICON_BUILDING_AL_AREA_DEFENSE_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" IconSize="256" Filename="ICON_BUILDING_AL_AREA_DEFENSE_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_AREA_DEFENSE" Atlas="ATLAS_ICON_BUILDING_AL_AREA_DEFENSE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="30" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="32" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="38" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="50" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="70" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="80" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" IconSize="256" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_AREA_DEFFENSE_4" Atlas="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="30" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="32" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="38" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="50" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="70" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="80" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" IconSize="256" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_AREA_DEFFENSE_3" Atlas="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="30" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="32" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="38" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="50" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="70" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="80" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" IconSize="256" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_AREA_DEFFENSE_2" Atlas="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="30" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="32" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="38" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="50" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="70" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="80" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" IconSize="256" Filename="ICON_PROJECT_AL_AREA_DEFFENSE_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_AREA_DEFFENSE_1" Atlas="ATLAS_ICON_PROJECT_AL_AREA_DEFFENSE_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="32" Filename="ICON_BUILDING_AL_POWER_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="38" Filename="ICON_BUILDING_AL_POWER_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="50" Filename="ICON_BUILDING_AL_POWER_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="80" Filename="ICON_BUILDING_AL_POWER_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="128" Filename="ICON_BUILDING_AL_POWER_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_POWER" IconSize="256" Filename="ICON_BUILDING_AL_POWER_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_POWER" Atlas="ATLAS_ICON_BUILDING_AL_POWER" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="32" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="38" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="50" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="80" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="128" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" IconSize="256" Filename="ICON_BUILDING_AL_KOUNAI_ONSEN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_KOUNAI_ONSEN" Atlas="ATLAS_ICON_BUILDING_AL_KOUNAI_ONSEN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="30" Filename="ICON_PROJECT_AL_SEITOKAI_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="32" Filename="ICON_PROJECT_AL_SEITOKAI_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="38" Filename="ICON_PROJECT_AL_SEITOKAI_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="50" Filename="ICON_PROJECT_AL_SEITOKAI_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="70" Filename="ICON_PROJECT_AL_SEITOKAI_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="80" Filename="ICON_PROJECT_AL_SEITOKAI_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" IconSize="256" Filename="ICON_PROJECT_AL_SEITOKAI_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_SEITOKAI_1" Atlas="ATLAS_ICON_PROJECT_AL_SEITOKAI_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="30" Filename="ICON_PROJECT_AL_SEITOKAI_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="32" Filename="ICON_PROJECT_AL_SEITOKAI_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="38" Filename="ICON_PROJECT_AL_SEITOKAI_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="50" Filename="ICON_PROJECT_AL_SEITOKAI_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="70" Filename="ICON_PROJECT_AL_SEITOKAI_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="80" Filename="ICON_PROJECT_AL_SEITOKAI_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" IconSize="256" Filename="ICON_PROJECT_AL_SEITOKAI_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_SEITOKAI_2" Atlas="ATLAS_ICON_PROJECT_AL_SEITOKAI_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="30" Filename="ICON_PROJECT_AL_SEITOKAI_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="32" Filename="ICON_PROJECT_AL_SEITOKAI_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="38" Filename="ICON_PROJECT_AL_SEITOKAI_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="50" Filename="ICON_PROJECT_AL_SEITOKAI_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="70" Filename="ICON_PROJECT_AL_SEITOKAI_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="80" Filename="ICON_PROJECT_AL_SEITOKAI_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" IconSize="256" Filename="ICON_PROJECT_AL_SEITOKAI_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_SEITOKAI_3" Atlas="ATLAS_ICON_PROJECT_AL_SEITOKAI_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="30" Filename="ICON_PROJECT_AL_SEITOKAI_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="32" Filename="ICON_PROJECT_AL_SEITOKAI_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="38" Filename="ICON_PROJECT_AL_SEITOKAI_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="50" Filename="ICON_PROJECT_AL_SEITOKAI_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="70" Filename="ICON_PROJECT_AL_SEITOKAI_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="80" Filename="ICON_PROJECT_AL_SEITOKAI_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" IconSize="256" Filename="ICON_PROJECT_AL_SEITOKAI_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_SEITOKAI_4" Atlas="ATLAS_ICON_PROJECT_AL_SEITOKAI_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="30" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="32" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="38" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="50" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="70" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="80" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" IconSize="256" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_KOUNAI_ONSEN_1" Atlas="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="30" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="32" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="38" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="50" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="70" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="80" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" IconSize="256" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_KOUNAI_ONSEN_2" Atlas="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="30" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="32" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="38" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="50" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="70" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="80" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" IconSize="256" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_KOUNAI_ONSEN_3" Atlas="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="30" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="32" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="38" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="50" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="70" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="80" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" IconSize="256" Filename="ICON_PROJECT_AL_KOUNAI_ONSEN_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_KOUNAI_ONSEN_4" Atlas="ATLAS_ICON_PROJECT_AL_KOUNAI_ONSEN_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="32" Filename="ICON_BUILDING_AL_SEITOKAI_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="38" Filename="ICON_BUILDING_AL_SEITOKAI_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="50" Filename="ICON_BUILDING_AL_SEITOKAI_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="80" Filename="ICON_BUILDING_AL_SEITOKAI_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="128" Filename="ICON_BUILDING_AL_SEITOKAI_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_SEITOKAI" IconSize="256" Filename="ICON_BUILDING_AL_SEITOKAI_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_SEITOKAI" Atlas="ATLAS_ICON_BUILDING_AL_SEITOKAI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="32" Filename="ICON_BUILDING_AL_FUUKI_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="38" Filename="ICON_BUILDING_AL_FUUKI_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="50" Filename="ICON_BUILDING_AL_FUUKI_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="80" Filename="ICON_BUILDING_AL_FUUKI_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="128" Filename="ICON_BUILDING_AL_FUUKI_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_FUUKI" IconSize="256" Filename="ICON_BUILDING_AL_FUUKI_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_FUUKI" Atlas="ATLAS_ICON_BUILDING_AL_FUUKI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="30" Filename="ICON_PROJECT_AL_FUUKI_1_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="32" Filename="ICON_PROJECT_AL_FUUKI_1_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="38" Filename="ICON_PROJECT_AL_FUUKI_1_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="50" Filename="ICON_PROJECT_AL_FUUKI_1_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="70" Filename="ICON_PROJECT_AL_FUUKI_1_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="80" Filename="ICON_PROJECT_AL_FUUKI_1_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_1" IconSize="256" Filename="ICON_PROJECT_AL_FUUKI_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_FUUKI_1" Atlas="ATLAS_ICON_PROJECT_AL_FUUKI_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="30" Filename="ICON_PROJECT_AL_FUUKI_2_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="32" Filename="ICON_PROJECT_AL_FUUKI_2_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="38" Filename="ICON_PROJECT_AL_FUUKI_2_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="50" Filename="ICON_PROJECT_AL_FUUKI_2_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="70" Filename="ICON_PROJECT_AL_FUUKI_2_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="80" Filename="ICON_PROJECT_AL_FUUKI_2_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_2" IconSize="256" Filename="ICON_PROJECT_AL_FUUKI_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_FUUKI_2" Atlas="ATLAS_ICON_PROJECT_AL_FUUKI_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="30" Filename="ICON_PROJECT_AL_FUUKI_3_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="32" Filename="ICON_PROJECT_AL_FUUKI_3_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="38" Filename="ICON_PROJECT_AL_FUUKI_3_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="50" Filename="ICON_PROJECT_AL_FUUKI_3_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="70" Filename="ICON_PROJECT_AL_FUUKI_3_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="80" Filename="ICON_PROJECT_AL_FUUKI_3_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_3" IconSize="256" Filename="ICON_PROJECT_AL_FUUKI_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_FUUKI_3" Atlas="ATLAS_ICON_PROJECT_AL_FUUKI_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="30" Filename="ICON_PROJECT_AL_FUUKI_4_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="32" Filename="ICON_PROJECT_AL_FUUKI_4_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="38" Filename="ICON_PROJECT_AL_FUUKI_4_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="50" Filename="ICON_PROJECT_AL_FUUKI_4_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="70" Filename="ICON_PROJECT_AL_FUUKI_4_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="80" Filename="ICON_PROJECT_AL_FUUKI_4_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_FUUKI_4" IconSize="256" Filename="ICON_PROJECT_AL_FUUKI_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_FUUKI_4" Atlas="ATLAS_ICON_PROJECT_AL_FUUKI_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="32" Filename="ICON_BUILDING_AL_VISUAL_MOYU_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="38" Filename="ICON_BUILDING_AL_VISUAL_MOYU_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="50" Filename="ICON_BUILDING_AL_VISUAL_MOYU_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="80" Filename="ICON_BUILDING_AL_VISUAL_MOYU_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="128" Filename="ICON_BUILDING_AL_VISUAL_MOYU_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" IconSize="256" Filename="ICON_BUILDING_AL_VISUAL_MOYU_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_1" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_2" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_3" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_4" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_5" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_6" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_7" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_8" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_MOYU_9" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_MOYU" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="30" Filename="ICON_PROJECT_AL_MOYU_RANDOM_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="32" Filename="ICON_PROJECT_AL_MOYU_RANDOM_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="38" Filename="ICON_PROJECT_AL_MOYU_RANDOM_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="50" Filename="ICON_PROJECT_AL_MOYU_RANDOM_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="70" Filename="ICON_PROJECT_AL_MOYU_RANDOM_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="80" Filename="ICON_PROJECT_AL_MOYU_RANDOM_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" IconSize="256" Filename="ICON_PROJECT_AL_MOYU_RANDOM_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_MOYU_RANDOM" Atlas="ATLAS_ICON_PROJECT_AL_MOYU_RANDOM" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_TADUSA_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="22" Filename="ICON_UNIT_AL_NEKO_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="32" Filename="ICON_UNIT_AL_NEKO_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="38" Filename="ICON_UNIT_AL_NEKO_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="50" Filename="ICON_UNIT_AL_NEKO_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="80" Filename="ICON_UNIT_AL_NEKO_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO" IconSize="256" Filename="ICON_UNIT_AL_NEKO_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_NEKO" Atlas="ATLAS_ICON_UNIT_AL_NEKO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TADUSA" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TADUSA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TADUSA" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TADUSA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_TADUSA_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_NEKO_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_NEKO_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_NEKO_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="30" Filename="ICON_PROJECT_AL_TADUSA_NEKO_30"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="32" Filename="ICON_PROJECT_AL_TADUSA_NEKO_32"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="38" Filename="ICON_PROJECT_AL_TADUSA_NEKO_38"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="50" Filename="ICON_PROJECT_AL_TADUSA_NEKO_50"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="70" Filename="ICON_PROJECT_AL_TADUSA_NEKO_70"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="80" Filename="ICON_PROJECT_AL_TADUSA_NEKO_80"/>
+        <Row Name="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" IconSize="256" Filename="ICON_PROJECT_AL_TADUSA_NEKO_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_PROJECT_AL_TADUSA_NEKO" Atlas="ATLAS_ICON_PROJECT_AL_TADUSA_NEKO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="32" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="38" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="50" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="80" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="128" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" IconSize="256" Filename="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_1" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" Index="0"/>
+        <Row Name="ICON_BUILDING_AL_VISUAL_TADUSA_NEKO_2" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_TADUSA_NEKO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MAI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_MAI_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MAI" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MAI"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MAI" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MAI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_SHENLIN_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="45" Filename="ICON_GREATWORK_ALLB_1_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="64" Filename="ICON_GREATWORK_ALLB_1_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="256" Filename="ICON_GREATWORK_ALLB_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_1" Atlas="ATLAS_ICON_GREATWORK_ALLB_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="45" Filename="ICON_GREATWORK_ALLB_2_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="64" Filename="ICON_GREATWORK_ALLB_2_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="256" Filename="ICON_GREATWORK_ALLB_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_2" Atlas="ATLAS_ICON_GREATWORK_ALLB_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="45" Filename="ICON_GREATWORK_ALLB_4_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="64" Filename="ICON_GREATWORK_ALLB_4_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="256" Filename="ICON_GREATWORK_ALLB_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_4" Atlas="ATLAS_ICON_GREATWORK_ALLB_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="45" Filename="ICON_GREATWORK_ALLB_5_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="64" Filename="ICON_GREATWORK_ALLB_5_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="256" Filename="ICON_GREATWORK_ALLB_5_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_5" Atlas="ATLAS_ICON_GREATWORK_ALLB_5" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YUJIA_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="32" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_32"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="38" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_38"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="50" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_50"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="80" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_80"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="128" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_128"/>
+        <Row Name="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" IconSize="256" Filename="ICON_BUILDING_AL_VISUAL_SHENLIN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_BUILDING_AL_VISUAL_SHENLIN" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_3" IconSize="45" Filename="ICON_GREATWORK_ALLB_3_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_3" IconSize="64" Filename="ICON_GREATWORK_ALLB_3_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_3" IconSize="256" Filename="ICON_GREATWORK_ALLB_3_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_3" Atlas="ATLAS_ICON_GREATWORK_ALLB_3" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MOYU" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MOYU"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MOYU" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MOYU" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MOYU_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KANAHO" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KANAHO"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KANAHO" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KANAHO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_KANAHO_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KANAHO_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_KANAHO_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TAKANE" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TAKANE"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TAKANE" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_TAKANE" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_TAKANE_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_TAKANE_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_TAKANE_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MILIAM" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MILIAM"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MILIAM" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MILIAM" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_MILIAM_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_MILIAM_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_MILIAM_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+     <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YURI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_YURI_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_1" IconSize="540" Filename="YURI_EVENT_1"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_1" Atlas="ATLAS_YURI_EVENT_1" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_2" IconSize="540" Filename="YURI_EVENT_2"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_2" Atlas="ATLAS_YURI_EVENT_2" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_3" IconSize="540" Filename="YURI_EVENT_3"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_3" Atlas="ATLAS_YURI_EVENT_3" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_4" IconSize="540" Filename="YURI_EVENT_4"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_4" Atlas="ATLAS_YURI_EVENT_4" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_5" IconSize="540" Filename="YURI_EVENT_5"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_5" Atlas="ATLAS_YURI_EVENT_5" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_6" IconSize="540" Filename="YURI_EVENT_6"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_6" Atlas="ATLAS_YURI_EVENT_6" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_7" IconSize="540" Filename="YURI_EVENT_7"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_7" Atlas="ATLAS_YURI_EVENT_7" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_8" IconSize="540" Filename="YURI_EVENT_8"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_8" Atlas="ATLAS_YURI_EVENT_8" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_9" IconSize="540" Filename="YURI_EVENT_9"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_9" Atlas="ATLAS_YURI_EVENT_9" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_10" IconSize="540" Filename="YURI_EVENT_10"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_10" Atlas="ATLAS_YURI_EVENT_10" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_11" IconSize="540" Filename="YURI_EVENT_11"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_11" Atlas="ATLAS_YURI_EVENT_11" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_12" IconSize="540" Filename="YURI_EVENT_12"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_12" Atlas="ATLAS_YURI_EVENT_12" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_13" IconSize="540" Filename="YURI_EVENT_13"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_13" Atlas="ATLAS_YURI_EVENT_13" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_14" IconSize="540" Filename="YURI_EVENT_14"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_14" Atlas="ATLAS_YURI_EVENT_14" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_15" IconSize="540" Filename="YURI_EVENT_15"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_15" Atlas="ATLAS_YURI_EVENT_15" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_16" IconSize="540" Filename="YURI_EVENT_16"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_16" Atlas="ATLAS_YURI_EVENT_16" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_17" IconSize="540" Filename="YURI_EVENT_17"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_17" Atlas="ATLAS_YURI_EVENT_17" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_YURI_EVENT_18" IconSize="540" Filename="YURI_EVENT_18"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="YURI_EVENT_18" Atlas="ATLAS_YURI_EVENT_18" Index="0"/>
+    </IconDefinitions>
+
+     <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_AL_INFORMATION" IconSize="38" Filename="ICON_AL_INFORMATION_38"/>
+        <Row Name="ATLAS_ICON_AL_INFORMATION" IconSize="50" Filename="ICON_AL_INFORMATION_50"/>
+        <Row Name="ATLAS_ICON_AL_INFORMATION" IconSize="80" Filename="ICON_AL_INFORMATION_80"/>
+        <Row Name="ATLAS_ICON_AL_INFORMATION" IconSize="256" Filename="ICON_AL_INFORMATION_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_AL_INFORMATION" Atlas="ATLAS_ICON_AL_INFORMATION" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Testament" IconSize="38" Filename="ICON_RS_Testament_38"/>
+        <Row Name="ATLAS_ICON_RS_Testament" IconSize="50" Filename="ICON_RS_Testament_50"/>
+        <Row Name="ATLAS_ICON_RS_Testament" IconSize="80" Filename="ICON_RS_Testament_80"/>
+        <Row Name="ATLAS_ICON_RS_Testament" IconSize="256" Filename="ICON_RS_Testament_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Testament" Atlas="ATLAS_ICON_RS_Testament" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_HeavensScales" IconSize="38" Filename="ICON_RS_HeavensScales_38"/>
+        <Row Name="ATLAS_ICON_RS_HeavensScales" IconSize="50" Filename="ICON_RS_HeavensScales_50"/>
+        <Row Name="ATLAS_ICON_RS_HeavensScales" IconSize="80" Filename="ICON_RS_HeavensScales_80"/>
+        <Row Name="ATLAS_ICON_RS_HeavensScales" IconSize="256" Filename="ICON_RS_HeavensScales_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_HeavensScales" Atlas="ATLAS_ICON_RS_HeavensScales" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_HawkEye" IconSize="38" Filename="ICON_RS_HawkEye_38"/>
+        <Row Name="ATLAS_ICON_RS_HawkEye" IconSize="50" Filename="ICON_RS_HawkEye_50"/>
+        <Row Name="ATLAS_ICON_RS_HawkEye" IconSize="80" Filename="ICON_RS_HawkEye_80"/>
+        <Row Name="ATLAS_ICON_RS_HawkEye" IconSize="256" Filename="ICON_RS_HawkEye_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_HawkEye" Atlas="ATLAS_ICON_RS_HawkEye" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Laplace" IconSize="38" Filename="ICON_RS_Laplace_38"/>
+        <Row Name="ATLAS_ICON_RS_Laplace" IconSize="50" Filename="ICON_RS_Laplace_50"/>
+        <Row Name="ATLAS_ICON_RS_Laplace" IconSize="80" Filename="ICON_RS_Laplace_80"/>
+        <Row Name="ATLAS_ICON_RS_Laplace" IconSize="256" Filename="ICON_RS_Laplace_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Laplace" Atlas="ATLAS_ICON_RS_Laplace" Index="0"/>
+        <Row Name="ICON_RS_Default" Atlas="ATLAS_ICON_RS_Laplace" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_LunaticTranser" IconSize="38" Filename="ICON_RS_LunaticTranser_38"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranser" IconSize="50" Filename="ICON_RS_LunaticTranser_50"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranser" IconSize="80" Filename="ICON_RS_LunaticTranser_80"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranser" IconSize="256" Filename="ICON_RS_LunaticTranser_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_LunaticTranser" Atlas="ATLAS_ICON_RS_LunaticTranser" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Phantasm" IconSize="38" Filename="ICON_RS_Phantasm_38"/>
+        <Row Name="ATLAS_ICON_RS_Phantasm" IconSize="50" Filename="ICON_RS_Phantasm_50"/>
+        <Row Name="ATLAS_ICON_RS_Phantasm" IconSize="80" Filename="ICON_RS_Phantasm_80"/>
+        <Row Name="ATLAS_ICON_RS_Phantasm" IconSize="256" Filename="ICON_RS_Phantasm_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Phantasm" Atlas="ATLAS_ICON_RS_Phantasm" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendence" IconSize="38" Filename="ICON_RS_PhaseTranscendence_38"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendence" IconSize="50" Filename="ICON_RS_PhaseTranscendence_50"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendence" IconSize="80" Filename="ICON_RS_PhaseTranscendence_80"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendence" IconSize="256" Filename="ICON_RS_PhaseTranscendence_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_PhaseTranscendence" Atlas="ATLAS_ICON_RS_PhaseTranscendence" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Register" IconSize="38" Filename="ICON_RS_Register_38"/>
+        <Row Name="ATLAS_ICON_RS_Register" IconSize="50" Filename="ICON_RS_Register_50"/>
+        <Row Name="ATLAS_ICON_RS_Register" IconSize="80" Filename="ICON_RS_Register_80"/>
+        <Row Name="ATLAS_ICON_RS_Register" IconSize="256" Filename="ICON_RS_Register_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Register" Atlas="ATLAS_ICON_RS_Register" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_ShrunkenLand" IconSize="38" Filename="ICON_RS_ShrunkenLand_38"/>
+        <Row Name="ATLAS_ICON_RS_ShrunkenLand" IconSize="50" Filename="ICON_RS_ShrunkenLand_50"/>
+        <Row Name="ATLAS_ICON_RS_ShrunkenLand" IconSize="80" Filename="ICON_RS_ShrunkenLand_80"/>
+        <Row Name="ATLAS_ICON_RS_ShrunkenLand" IconSize="256" Filename="ICON_RS_ShrunkenLand_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_ShrunkenLand" Atlas="ATLAS_ICON_RS_ShrunkenLand" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Brave" IconSize="38" Filename="ICON_RS_Brave_38"/>
+        <Row Name="ATLAS_ICON_RS_Brave" IconSize="50" Filename="ICON_RS_Brave_50"/>
+        <Row Name="ATLAS_ICON_RS_Brave" IconSize="80" Filename="ICON_RS_Brave_80"/>
+        <Row Name="ATLAS_ICON_RS_Brave" IconSize="256" Filename="ICON_RS_Brave_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Brave" Atlas="ATLAS_ICON_RS_Brave" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_CirclitBreath" IconSize="38" Filename="ICON_RS_CirclitBreath_38"/>
+        <Row Name="ATLAS_ICON_RS_CirclitBreath" IconSize="50" Filename="ICON_RS_CirclitBreath_50"/>
+        <Row Name="ATLAS_ICON_RS_CirclitBreath" IconSize="80" Filename="ICON_RS_CirclitBreath_80"/>
+        <Row Name="ATLAS_ICON_RS_CirclitBreath" IconSize="256" Filename="ICON_RS_CirclitBreath_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_CirclitBreath" Atlas="ATLAS_ICON_RS_CirclitBreath" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_Heliosphere" IconSize="38" Filename="ICON_RS_Heliosphere_38"/>
+        <Row Name="ATLAS_ICON_RS_Heliosphere" IconSize="50" Filename="ICON_RS_Heliosphere_50"/>
+        <Row Name="ATLAS_ICON_RS_Heliosphere" IconSize="80" Filename="ICON_RS_Heliosphere_80"/>
+        <Row Name="ATLAS_ICON_RS_Heliosphere" IconSize="256" Filename="ICON_RS_Heliosphere_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_Heliosphere" Atlas="ATLAS_ICON_RS_Heliosphere" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_HeliosphereS" IconSize="38" Filename="ICON_RS_HeliosphereS_38"/>
+        <Row Name="ATLAS_ICON_RS_HeliosphereS" IconSize="50" Filename="ICON_RS_HeliosphereS_50"/>
+        <Row Name="ATLAS_ICON_RS_HeliosphereS" IconSize="80" Filename="ICON_RS_HeliosphereS_80"/>
+        <Row Name="ATLAS_ICON_RS_HeliosphereS" IconSize="256" Filename="ICON_RS_HeliosphereS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_HeliosphereS" Atlas="ATLAS_ICON_RS_HeliosphereS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_LunaticTranserS" IconSize="38" Filename="ICON_RS_LunaticTranserS_38"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranserS" IconSize="50" Filename="ICON_RS_LunaticTranserS_50"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranserS" IconSize="80" Filename="ICON_RS_LunaticTranserS_80"/>
+        <Row Name="ATLAS_ICON_RS_LunaticTranserS" IconSize="256" Filename="ICON_RS_LunaticTranserS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_LunaticTranserS" Atlas="ATLAS_ICON_RS_LunaticTranserS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_PhantasmS" IconSize="38" Filename="ICON_RS_PhantasmS_38"/>
+        <Row Name="ATLAS_ICON_RS_PhantasmS" IconSize="50" Filename="ICON_RS_PhantasmS_50"/>
+        <Row Name="ATLAS_ICON_RS_PhantasmS" IconSize="80" Filename="ICON_RS_PhantasmS_80"/>
+        <Row Name="ATLAS_ICON_RS_PhantasmS" IconSize="256" Filename="ICON_RS_PhantasmS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_PhantasmS" Atlas="ATLAS_ICON_RS_PhantasmS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendenceS" IconSize="38" Filename="ICON_RS_PhaseTranscendenceS_38"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendenceS" IconSize="50" Filename="ICON_RS_PhaseTranscendenceS_50"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendenceS" IconSize="80" Filename="ICON_RS_PhaseTranscendenceS_80"/>
+        <Row Name="ATLAS_ICON_RS_PhaseTranscendenceS" IconSize="256" Filename="ICON_RS_PhaseTranscendenceS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_PhaseTranscendenceS" Atlas="ATLAS_ICON_RS_PhaseTranscendenceS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_RegisterS" IconSize="38" Filename="ICON_RS_RegisterS_38"/>
+        <Row Name="ATLAS_ICON_RS_RegisterS" IconSize="50" Filename="ICON_RS_RegisterS_50"/>
+        <Row Name="ATLAS_ICON_RS_RegisterS" IconSize="80" Filename="ICON_RS_RegisterS_80"/>
+        <Row Name="ATLAS_ICON_RS_RegisterS" IconSize="256" Filename="ICON_RS_RegisterS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_RegisterS" Atlas="ATLAS_ICON_RS_RegisterS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_TestamentS" IconSize="38" Filename="ICON_RS_TestamentS_38"/>
+        <Row Name="ATLAS_ICON_RS_TestamentS" IconSize="50" Filename="ICON_RS_TestamentS_50"/>
+        <Row Name="ATLAS_ICON_RS_TestamentS" IconSize="80" Filename="ICON_RS_TestamentS_80"/>
+        <Row Name="ATLAS_ICON_RS_TestamentS" IconSize="256" Filename="ICON_RS_TestamentS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_TestamentS" Atlas="ATLAS_ICON_RS_TestamentS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorld" IconSize="38" Filename="ICON_RS_TruthOfTheWorld_38"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorld" IconSize="50" Filename="ICON_RS_TruthOfTheWorld_50"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorld" IconSize="80" Filename="ICON_RS_TruthOfTheWorld_80"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorld" IconSize="256" Filename="ICON_RS_TruthOfTheWorld_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_TruthOfTheWorld" Atlas="ATLAS_ICON_RS_TruthOfTheWorld" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorldS" IconSize="38" Filename="ICON_RS_TruthOfTheWorldS_38"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorldS" IconSize="50" Filename="ICON_RS_TruthOfTheWorldS_50"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorldS" IconSize="80" Filename="ICON_RS_TruthOfTheWorldS_80"/>
+        <Row Name="ATLAS_ICON_RS_TruthOfTheWorldS" IconSize="256" Filename="ICON_RS_TruthOfTheWorldS_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_TruthOfTheWorldS" Atlas="ATLAS_ICON_RS_TruthOfTheWorldS" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_ZenoneParadoxa" IconSize="38" Filename="ICON_RS_ZenoneParadoxa_38"/>
+        <Row Name="ATLAS_ICON_RS_ZenoneParadoxa" IconSize="50" Filename="ICON_RS_ZenoneParadoxa_50"/>
+        <Row Name="ATLAS_ICON_RS_ZenoneParadoxa" IconSize="80" Filename="ICON_RS_ZenoneParadoxa_80"/>
+        <Row Name="ATLAS_ICON_RS_ZenoneParadoxa" IconSize="256" Filename="ICON_RS_ZenoneParadoxa_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RS_ZenoneParadoxa" Atlas="ATLAS_ICON_RS_ZenoneParadoxa" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RS_FZ_ZenoneParadoxa" Baseline="4"  IconSize="22" Filename="ICON_RS_ZenoneParadoxa"/>
+        <Row Name="ATLAS_ICON_RS_FZ_TruthOfTheWorldS" Baseline="4"  IconSize="22" Filename="ICON_RS_TruthOfTheWorldS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_TruthOfTheWorld" Baseline="4"  IconSize="22" Filename="ICON_RS_TruthOfTheWorld"/>
+        <Row Name="ATLAS_ICON_RS_FZ_TestamentS" Baseline="4"  IconSize="22" Filename="ICON_RS_TestamentS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Testament" Baseline="4"  IconSize="22" Filename="ICON_RS_Testament"/>
+        <Row Name="ATLAS_ICON_RS_FZ_ShrunkenLand" Baseline="4"  IconSize="22" Filename="ICON_RS_ShrunkenLand"/>
+        <Row Name="ATLAS_ICON_RS_FZ_RegisterS" Baseline="4"  IconSize="22" Filename="ICON_RS_RegisterS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Register" Baseline="4"  IconSize="22" Filename="ICON_RS_Register"/>
+        <Row Name="ATLAS_ICON_RS_FZ_PhaseTranscendenceS" Baseline="4"  IconSize="22" Filename="ICON_RS_PhaseTranscendenceS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_PhaseTranscendence" Baseline="4"  IconSize="22" Filename="ICON_RS_PhaseTranscendence"/>
+        <Row Name="ATLAS_ICON_RS_FZ_PhantasmS" Baseline="4"  IconSize="22" Filename="ICON_RS_PhantasmS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Phantasm" Baseline="4"  IconSize="22" Filename="ICON_RS_Phantasm"/>
+        <Row Name="ATLAS_ICON_RS_FZ_LunaticTranserS" Baseline="4"  IconSize="22" Filename="ICON_RS_LunaticTranserS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Laplace" Baseline="4"  IconSize="22" Filename="ICON_RS_Laplace"/>
+        <Row Name="ATLAS_ICON_RS_FZ_HeliosphereS" Baseline="4"  IconSize="22" Filename="ICON_RS_HeliosphereS"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Heliosphere" Baseline="4"  IconSize="22" Filename="ICON_RS_Heliosphere"/>
+        <Row Name="ATLAS_ICON_RS_FZ_HeavensScales" Baseline="4"  IconSize="22" Filename="ICON_RS_HeavensScales"/>
+        <Row Name="ATLAS_ICON_RS_FZ_HawkEye" Baseline="4"  IconSize="22" Filename="ICON_RS_HawkEye"/>
+        <Row Name="ATLAS_ICON_RS_FZ_CirclitBreath" Baseline="4"  IconSize="22" Filename="ICON_RS_CirclitBreath"/>
+        <Row Name="ATLAS_ICON_RS_FZ_Brave" Baseline="4"  IconSize="22" Filename="ICON_RS_Brave"/>
+        <Row Name="ATLAS_ICON_TOUTOMI" Baseline="4"  IconSize="22" Filename="ICON_TOUTOMI"/>
+
+
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RS_ZenoneParadoxa" Atlas="ATLAS_ICON_RS_FZ_ZenoneParadoxa" Index="0"/>
+        <Row Name="TOUTOMI" Atlas="ATLAS_ICON_TOUTOMI" Index="0"/>
+        <Row Name="RS_TruthOfTheWorldS" Atlas="ATLAS_ICON_RS_FZ_TruthOfTheWorldS" Index="0"/>
+        <Row Name="RS_TruthOfTheWorld" Atlas="ATLAS_ICON_RS_FZ_TruthOfTheWorld" Index="0"/>
+        <Row Name="RS_TestamentS" Atlas="ATLAS_ICON_RS_FZ_TestamentS" Index="0"/>
+        <Row Name="RS_Testament" Atlas="ATLAS_ICON_RS_FZ_Testament" Index="0"/>
+        <Row Name="RS_ShrunkenLand" Atlas="ATLAS_ICON_RS_FZ_ShrunkenLand" Index="0"/>
+        <Row Name="RS_RegisterS" Atlas="ATLAS_ICON_RS_FZ_RegisterS" Index="0"/>
+        <Row Name="RS_Register" Atlas="ATLAS_ICON_RS_FZ_Register" Index="0"/>
+        <Row Name="RS_PhaseTranscendenceS" Atlas="ATLAS_ICON_RS_FZ_PhaseTranscendenceS" Index="0"/>
+        <Row Name="RS_PhaseTranscendence" Atlas="ATLAS_ICON_RS_FZ_PhaseTranscendence" Index="0"/>
+        <Row Name="RS_PhantasmS" Atlas="ATLAS_ICON_RS_FZ_PhantasmS" Index="0"/>
+        <Row Name="RS_Phantasm" Atlas="ATLAS_ICON_RS_FZ_Phantasm" Index="0"/>
+        <Row Name="RS_LunaticTranserS" Atlas="ATLAS_ICON_RS_FZ_LunaticTranserS" Index="0"/>
+        <Row Name="RS_LunaticTranser" Atlas="ATLAS_ICON_RS_FZ_LunaticTranserS" Index="0"/>
+        <Row Name="RS_Laplace" Atlas="ATLAS_ICON_RS_FZ_Laplace" Index="0"/>
+        <Row Name="RS_HeliosphereS" Atlas="ATLAS_ICON_RS_FZ_HeliosphereS" Index="0"/>
+        <Row Name="RS_Heliosphere" Atlas="ATLAS_ICON_RS_FZ_Heliosphere" Index="0"/>
+        <Row Name="RS_HeavensScales" Atlas="ATLAS_ICON_RS_FZ_HeavensScales" Index="0"/>
+        <Row Name="RS_HawkEye" Atlas="ATLAS_ICON_RS_FZ_HawkEye" Index="0"/>
+        <Row Name="RS_CirclitBreath" Atlas="ATLAS_ICON_RS_FZ_CirclitBreath" Index="0"/>
+        <Row Name="RS_Brave" Atlas="ATLAS_ICON_RS_FZ_ZenoneParadoxa" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GOVERNOR_AL_GEHENA_SELECTED" IconSize="326" Filename="ICON_GOVERNOR_AL_GEHENA_SELECTED"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GOVERNOR_AL_GEHENA_SELECTED" Atlas="ATLAS_ICON_GOVERNOR_AL_GEHENA_SELECTED" Index="0"/>
+    </IconDefinitions>
+
+        <IconTextureAtlases>
+        <Row Name="ATLAS_GehenaIcon59" IconSize="59" Filename="GehenaIcon59"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="GehenaIcon59" Atlas="ATLAS_GehenaIcon59" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_SECRETSOCIETY_AL_GEHENA" Baseline="4" IconSize="22" Filename="SECRETSOCIETY_AL_GEHENA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="SECRETSOCIETY_AL_GEHENA" Atlas="ATLAS_SECRETSOCIETY_AL_GEHENA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GOVERNOR_AL_ANTIGEHENA_SELECTED" IconSize="326" Filename="ICON_GOVERNOR_AL_ANTIGEHENA_SELECTED"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GOVERNOR_AL_ANTIGEHENA_SELECTED" Atlas="ATLAS_ICON_GOVERNOR_AL_ANTIGEHENA_SELECTED" Index="0"/>
+    </IconDefinitions>
+
+        <IconTextureAtlases>
+        <Row Name="ATLAS_AntiGehenaIcon59" IconSize="59" Filename="AntiGehenaIcon59"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="AntiGehenaIcon59" Atlas="ATLAS_AntiGehenaIcon59" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_SECRETSOCIETY_AL_ANTIGEHENA" Baseline="4" IconSize="22" Filename="SECRETSOCIETY_AL_ANTIGEHENA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="SECRETSOCIETY_AL_ANTIGEHENA" Atlas="ATLAS_SECRETSOCIETY_AL_ANTIGEHENA" Index="0"/>
+    </IconDefinitions>
+
 </GameData>
