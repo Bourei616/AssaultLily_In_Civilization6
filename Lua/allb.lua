@@ -144,8 +144,8 @@ function TakaneProtectKanaho(pCombatResult)
         if FlagNearTakane then
             local takane = GetLilyUnit(dPlayer:GetID(),'TAKANE')
             if takane and takane:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_2_1'].Index) then
-                local attacker = pCombatResult[CombatResultParameters.ATTACKER]
-                local damage = attacker[CombatResultParameters.DAMAGE_TO]
+                local defender = pCombatResult[CombatResultParameters.DEFENDER]
+                local damage = defender[CombatResultParameters.DAMAGE_TO]
                 local hp = 99 - takane:GetDamage()
                 if damage < hp and damage >0 then
                     takane:ChangeDamage(damage)
@@ -1606,7 +1606,7 @@ function KanahoDamageChanged(PlayerID,UnitID,newDamage,prevDamage)
     if IsLilyCivilization(PlayerID) then
         local pUnit = UnitManager.GetUnit(PlayerID, UnitID);
         if pUnit then
-            local pName = string.match(dUnit:GetName(),"(%u+)_GREATNORMAL")
+            local pName = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL")
             if pName and pName == 'KANAHO' then
                 if prevDamage > newDamage then
                     local pPlot = Map.GetPlot(pUnit:GetX(),pUnit:GetY())
@@ -4092,6 +4092,7 @@ Events.PlayerTurnActivated.Add(KanbaSetToutomi);
 Events.CityProductionCompleted.Add(KanbaSetToutomi);
 Events.UnitMoveComplete.Add(KanbaSetToutomi);
 Events.ImprovementAddedToMap.Add(KanbaSetToutomiTrigger);
+Events.UnitSelectionChanged.Add(KanbaSetToutomi);
 
 function NearTakane(pPlot)
     local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
@@ -4103,8 +4104,8 @@ function NearTakane(pPlot)
                 local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
                 if pName and pName == 'TAKANE' then
                     FlagNearTakane = true
-                    local NearKanaho,FlagNearKanaho = NearKanaho(plot)
-                    if FlagNearKanaho then
+                    local NearKanaho = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'KANAHO')
+                    if NearKanaho then
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_1_2'].Index) then
                             num = num + 2
                         end
@@ -4135,8 +4136,8 @@ function NearKanaho(pPlot)
                 local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
                 if pName and pName == 'KANAHO' then
                     FlagNearKanaho = true
-                    local NearTakane,FlagNearTakane = NearTakane(plot)
-                    if FlagNearTakane then
+                    local NearTakane = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'TAKANE')
+                    if NearTakane then
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_1_2'].Index) then
                             num = num + 2
                         end
@@ -4158,39 +4159,55 @@ function NearKanaho(pPlot)
     end
 end
 
-function SetPromotionLevel(PlayerID)
-    if IsLilyCivilization(PlayerID) then
+function NearLily(pPlot,name)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
+    for _,plot in ipairs(targetPlots) do
+        if plot:IsUnit() then
+            for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
+                local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+                if pName and pName == name then
+                    return true;
+                end
+            end
+        end
+    end
+end
+
+function SetPromotionLevel(playerID)
+    if IsLilyCivilization(playerID) then
         local units = GetAllLilyUnits(playerID)
         if units then
             for _,unitID in ipairs(units) do
+                local num = ExposedMembers.AL.GetPromotionNum(playerID,unitID)
                 local unit = UnitManager.GetUnit(playerID,unitID)
-                local promotionList = unit:GetExperience():GetPromotions();
-                local num = 0
-                for i, promotion in ipairs(promotionList) do
-                    if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions[promotion].Index) then
-                        num = num + 1
-                    end
-                end
                 unit:SetProperty('LILY_PROMOTIONS',num)
-
-                if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_4_1'].Index) then
-                    local kanaho = GetLilyUnit(PlayerID,'KANAHO')
-                    if kanaho then
-                        local promotionLevel = 0
-                        local level = kanaho:GetProperty('LILY_PROMOTIONS')
-                        if level then
-                            promotionLevel = level
-                        end
-                        unit:SetProperty('KANAHO_PROMOTIONS',promotionLevel)
-                    end
-                    unit:ChangeDamage(-2*promotionLevel)
-                end
-
             end
         end
     end
 end
 Events.PlayerTurnActivated.Add(SetPromotionLevel);
+Events.UnitSelectionChanged.Add(SetPromotionLevel);
+
+function TakaneGetHealFromKanaho(playerID)
+    if IsLilyCivilization(playerID) then
+        local takane = GetLilyUnit(playerID,'TAKANE')
+        if takane then
+            if takane:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_4_1'].Index) then
+                local kanaho = GetLilyUnit(playerID,'KANAHO')
+                if kanaho then
+                    local promotionLevel = 0
+                    local level = kanaho:GetProperty('LILY_PROMOTIONS')
+                    if level then
+                        promotionLevel = level
+                    end
+                    takane:SetProperty('KANAHO_PROMOTIONS',promotionLevel)
+                    takane:ChangeDamage(-2*promotionLevel)
+                end
+            end
+        end
+    end
+end
+Events.PlayerTurnActivated.Add(TakaneGetHealFromKanaho);
 
 function IsNearKanbaWonder(pPlot)
     local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)

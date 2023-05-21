@@ -1629,6 +1629,19 @@ function IsLilyCivilization(playerID)
     end
 end
 
+function GetPromotionNum(playerID,unitID)
+	local unit = UnitManager.GetUnit(playerID,unitID)
+	local promotionList = unit:GetExperience():GetPromotions();
+	local num = 0
+	for i, promotion in ipairs(promotionList) do
+		if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions[promotion].Index) then
+			num = num + 1
+		end
+	end
+	return num;
+end
+ExposedMembers.AL.GetPromotionNum = GetPromotionNum
+
 function GetLilyPointPerTurn(playerID)
 	local pPlayer = Players[playerID];
 	local classID = GameInfo.GreatPersonClasses['GREAT_PERSON_CLASS_AL_LILY'].Index;

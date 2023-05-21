@@ -3623,6 +3623,12 @@
 		<Row Tag="LOC_CHARM_NAME_YURI" Language="zh_Hans_CN">
 			<Text>冈格尼尔/</Text>
 		</Row>
+		<Row Tag="LOC_CHARM_NAME_KANAHO" Language="zh_Hans_CN">
+			<Text>克劳·索拉斯/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_TAKANE" Language="zh_Hans_CN">
+			<Text>利萨纳乌特/</Text>
+		</Row>
 
 		<Row Tag="LOC_MOD_AL_PROMISE_STRENGTH_BUFF" Language="zh_Hans_CN">
 			<Text>+{Property}，来自誓约等级</Text>
