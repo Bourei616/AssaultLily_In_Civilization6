@@ -112,61 +112,62 @@
     
 --TRIGGERS
     CREATE TRIGGER CreateAlUnits AFTER INSERT ON AL_GreatUnitNames WHEN New.Ban = 0 BEGIN
-        INSERT INTO Types
-            (Type, Kind) VALUES
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1', 'KIND_PROMOTION'),
-            ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'KIND_UNIT'),
-            ('PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'KIND_PROMOTION_CLASS'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2', 'KIND_PROMOTION'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'KIND_PROMOTION'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'KIND_PROMOTION'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'KIND_PROMOTION'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'KIND_PROMOTION'),
-            ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'KIND_PROMOTION');
-        INSERT INTO Tags
-            (Tag, Vocabulary) VALUES
-            ('CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'ABILITY_CLASS');
-        INSERT INTO TypeTags
-            (Type, Tag) VALUES
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.UnitType1),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_LILY_GREAT_UNIT'),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_LILY'),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Zone),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Legion),
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Garden);
-        INSERT INTO Units
-            (UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PurchaseYield, PromotionClass, Combat, TraitType, RangedCombat, Range, CanTrain, CanRetreatWhenCaptured, Maintenance,StrategicResource) VALUES
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.BaseMoves, 1, 'ADVISOR_CONQUEST', New.BaseSightRange, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_AL_'|| New.UnitName ||'_GREATNORMAL_NAME', 'LOC_UNIT_AL_'|| New.UnitName ||'_GREATNORMAL_DESCRIPTION', NULL, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', New.Combat, NULL, New.RangedCombat, New.Range, 0, 1, 3,'RESOURCE_AL_MAGI');
+        --
+            INSERT INTO Types
+                (Type, Kind) VALUES
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1', 'KIND_PROMOTION'),
+                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'KIND_UNIT'),
+                ('PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'KIND_PROMOTION_CLASS'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2', 'KIND_PROMOTION'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'KIND_PROMOTION'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'KIND_PROMOTION'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'KIND_PROMOTION'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'KIND_PROMOTION'),
+                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'KIND_PROMOTION');
+            INSERT INTO Tags
+                (Tag, Vocabulary) VALUES
+                ('CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'ABILITY_CLASS');
+            INSERT INTO TypeTags
+                (Type, Tag) VALUES
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.UnitType1),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_LILY_GREAT_UNIT'),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'CLASS_AL_LILY'),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Zone),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Legion),
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.Garden);
+            INSERT INTO Units
+                (UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PurchaseYield, PromotionClass, Combat, TraitType, RangedCombat, Range, CanTrain, CanRetreatWhenCaptured, Maintenance,StrategicResource) VALUES
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', New.BaseMoves, 1, 'ADVISOR_CONQUEST', New.BaseSightRange, 1, 'DOMAIN_LAND', 'FORMATION_CLASS_LAND_COMBAT', 'LOC_UNIT_AL_'|| New.UnitName ||'_GREATNORMAL_NAME', 'LOC_UNIT_AL_'|| New.UnitName ||'_GREATNORMAL_DESCRIPTION', NULL, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', New.Combat, NULL, New.RangedCombat, New.Range, 0, 1, 3,'RESOURCE_AL_MAGI');
 
-        INSERT INTO UnitAiInfos
-            (UnitType, AiType) VALUES
-                ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNITTYPE_LAND_COMBAT');
-        INSERT INTO UnitPromotionClasses
-            (PromotionClassType, Name) VALUES
-                ('PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'LOC_PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL_NAME');
-        INSERT INTO UnitPromotions
-            (UnitPromotionType, Name, Description, Level, Specialization, Column, PromotionClass) VALUES
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_1_1}{LOC_GREATNORMAL_PROMOTION_1_2}', 1, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_1_1}{LOC_GREATNORMAL_PROMOTION_1_2}', 1, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_2}', 2, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_2}', 2, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1_NAME', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1_DESCRIPTION', 3, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2_NAME', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2_DESCRIPTION', 3, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_4}', 4, NULL, 2, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL');
-        INSERT INTO UnitPromotionPrereqs
-            (UnitPromotion, PrereqUnitPromotion) VALUES
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1'),
-                ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2');
-        INSERT INTO UnitRetreats_XP1
-            (BuildingType, UnitType, UnitRetreatType) VALUES
-                ('BUILDING_PALACE', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_CAPITAL'),
-                ('BUILDING_AL_OHAKA', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_OHAKA'),
-                ('BUILDING_AL_SAKURA', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_SAKURA');
+            INSERT INTO UnitAiInfos
+                (UnitType, AiType) VALUES
+                    ('UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNITTYPE_LAND_COMBAT');
+            INSERT INTO UnitPromotionClasses
+                (PromotionClassType, Name) VALUES
+                    ('PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL', 'LOC_PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL_NAME');
+            INSERT INTO UnitPromotions
+                (UnitPromotionType, Name, Description, Level, Specialization, Column, PromotionClass) VALUES
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_1_1}{LOC_GREATNORMAL_PROMOTION_1_2}', 1, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_1_1}{LOC_GREATNORMAL_PROMOTION_1_2}', 1, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_2}', 2, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_2}', 2, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1_NAME', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1_DESCRIPTION', 3, NULL, 1, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2_NAME', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2_DESCRIPTION', 3, NULL, 3, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1_NAME', '{LOC_PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1_DESCRIPTION}{LOC_GREATNORMAL_PROMOTION_4}', 4, NULL, 2, 'PROMOTION_CLASS_AL_'|| New.UnitName ||'_GREATNORMAL');
+            INSERT INTO UnitPromotionPrereqs
+                (UnitPromotion, PrereqUnitPromotion) VALUES
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_1'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_1_2'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_1'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_2_2'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_1'),
+                    ('PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_4_1', 'PROMOTION_AL_'|| New.UnitName ||'_GREATNORMAL_3_2');
+            INSERT INTO UnitRetreats_XP1
+                (BuildingType, UnitType, UnitRetreatType) VALUES
+                    ('BUILDING_PALACE', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_CAPITAL'),
+                    ('BUILDING_AL_OHAKA', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_OHAKA'),
+                    ('BUILDING_AL_SAKURA', 'UNIT_AL_'|| New.UnitName ||'_GREATNORMAL', 'UNIT_RETREAT_'|| New.UnitName ||'_TO_SAKURA');
 
         INSERT INTO RequirementSets
             (RequirementSetId, RequirementSetType) VALUES
@@ -225,6 +226,7 @@
             INSERT INTO Requirements
                 (RequirementId, RequirementType, Inverse) VALUES
                 ('REQ_AL_'|| New.UnitName ||'_RS', 'REQUIREMENT_PLOT_PROPERTY_MATCHES',0),
+                ('REQ_AL_PLOT_HAS_'|| New.UnitName , 'REQUIREMENT_PLOT_UNIT_TYPE_MATCHES',0),
                 ('REQ_AL_'|| New.UnitName ||'_CHARM_GOOD', 'REQUIREMENT_COLLECTION_ALL_MET',0),
                 ('REQ_AL_'|| New.UnitName ||'_CHARM_BREAK_LEVEL3', 'REQUIREMENT_PLOT_PROPERTY_MATCHES',0),
                 ('REQ_AL_'|| New.UnitName ||'_CHARM_BREAK_LEVEL4', 'REQUIREMENT_PLOT_PROPERTY_MATCHES',0),
@@ -238,6 +240,9 @@
                 (RequirementId, Name, Value) VALUES
                 ('REQ_AL_'|| New.UnitName ||'_RS', 'PropertyName','RS_PLOT_'|| New.UnitName),
                 ('REQ_AL_'|| New.UnitName ||'_RS', 'PropertyMinimum',1),
+
+                ('REQ_AL_PLOT_HAS_'|| New.UnitName , 'UnitType','UNIT_AL_'|| New.UnitName ||'_GREATNORMAL'),
+                ('REQ_AL_PLOT_HAS_'|| New.UnitName , 'LayerIndex',1),
 
                 ('REQ_AL_'|| New.UnitName ||'_CHARM_BREAK_LEVEL3', 'PropertyName',New.UnitName ||'_charm_break_level_3'),
                 ('REQ_AL_'|| New.UnitName ||'_CHARM_BREAK_LEVEL4', 'PropertyName',New.UnitName ||'_charm_break_level_4'),
@@ -397,17 +402,18 @@
     INSERT INTO AL_GreatUnitNames
             (UnitName,  Ban,    Zone,           Legion,                 Garden,                 Nekosuki,   UnitType1,          HasUnitType2,   UnitType2,      BaseMoves,  BaseSightRange, Combat, RangedCombat,   Range,  NeunweltCombat, RareSkill,          RareSkillCD ) 
      VALUES ('FUMI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     1,              'CLASS_RECON',  3,          5,              20,     10,             2,      4,              'HawkEye',          5        ),
-            ('YURI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      1,              'CLASS_RECON',  3,          4,              15,     15,             2,      4,              NULL,               NULL        ),
+            ('YURI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      1,              'CLASS_RECON',  3,          4,              15,     16,             2,      4,              NULL,               NULL        ),
             ('YUJIA',   0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_RANGED',     0,              NULL,           2,          4,              20,     30,             3,      6,              'HeavensScales',    3        ),
             ('KANAHO',  0,      'CLASS_AL_TZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      0,              NULL,           2,          2,              25,     27,             2,      6,              'Register',    3        ),
             ('TAKANE',  0,      'CLASS_AL_TZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      0,              NULL,           3,          2,              27,     25,             2,      6,              'ZenoneParadoxa',    3        ),
-            ('RIRI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              20,     20,             2,      6,              'Laplace',          3        ),
+            ('RIRI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              21,     20,             2,      6,              'Laplace',          3        ),
             ('SHENLIN', 0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_MELEE',      0,              NULL,           2,          2,              25,     24,             2,      6,              'Testament',          3        ),
             ('YUYU',    0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             1,      7,              'LunaticTranser',   3           ),
             ('MAI',     0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           3,          2,              27,     22,             1,      7,              'ShrunkenLand',          3        ),
             ('TADUSA',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             1,      5,              'Phantasm',          3        ),
-            ('KAEDE',   0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              25,     25,             2,      6,              'Register',         3        ),
+            ('KAEDE',   0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              26,     25,             2,      6,              'Register',         3        ),
             ('MOYU',    0,      'CLASS_AL_TZ',  'CLASS_AL_NO_LEGION',   'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              20,     15,             2,      5,              'TruthOfTheWorld',          3        ),
+            ('HIMEKA',  0,      'CLASS_AL_AZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      0,              NULL,           2,          2,              20,     19,             2,      4,              'TruthOfTheWorld',          3        ),
             ('MILIAM',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              27,     20,             1,      4,              'PhaseTranscendence',          1        );
 
     UPDATE Units_XP2 SET CanEarnExperience = 0 WHERE UnitType = 'UNIT_AL_YURI_GREATNORMAL';
@@ -477,6 +483,23 @@
 --Promotions
     INSERT INTO UnitPromotionModifiers
             (UnitPromotionType,                   ModifierId) VALUES
+            --HIMEKA
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_1', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_1', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_2'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_1', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_3'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_2', 'MOD_AL_HIMEKA_GREATNORMAL_1_2_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_2', 'MOD_AL_HIMEKA_GREATNORMAL_1_2_2'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_2_1', 'MOD_AL_HIMEKA_GREATNORMAL_2_1_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_2_1', 'MOD_AL_HIMEKA_GREATNORMAL_2_1_2'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_2_1', 'MOD_AL_HIMEKA_GREATNORMAL_2_1_3'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_2_2', 'MOD_AL_HIMEKA_GREATNORMAL_2_2_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_2_2', 'MOD_AL_HIMEKA_GREATNORMAL_2_2_2'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_1', 'MOD_AL_HIMEKA_GREATNORMAL_3_1_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_1', 'MOD_AL_HIMEKA_GREATNORMAL_3_1_2'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_2', 'MOD_AL_HIMEKA_GREATNORMAL_3_2_1'),
+                ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_2', 'MOD_AL_HIMEKA_GREATNORMAL_3_2_2'),
+        --
+            --TAKANE
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_1_1', 'MOD_AL_TAKANE_GREATNORMAL_1_1_1'),
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_1_1', 'MOD_AL_TAKANE_GREATNORMAL_1_1_2'),
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_1_2', 'MOD_AL_TAKANE_GREATNORMAL_1_2_1'),
@@ -490,7 +513,6 @@
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_3_2', 'MOD_AL_TAKANE_GREATNORMAL_3_2_1'),
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_3_2', 'MOD_AL_TAKANE_GREATNORMAL_3_2_2'),
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_4_1', 'MOD_AL_TAKANE_GREATNORMAL_4_1_1'),
-        --
             --KANAHO
                 ('PROMOTION_AL_KANAHO_GREATNORMAL_1_1', 'MOD_AL_KANAHO_GREATNORMAL_1_1_1'),
                 ('PROMOTION_AL_KANAHO_GREATNORMAL_1_1', 'MOD_AL_KANAHO_GREATNORMAL_1_1_2'),
@@ -666,6 +688,34 @@
 
     INSERT INTO Modifiers
         (ModifierId, ModifierType, SubjectRequirementSetId, RunOnce, Permanent) VALUES
+            --himeka
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_IS_HIMEKA', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_IS_HIMEKA', 0, 0),
+                ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_1', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', NULL, 0, 0),
+                ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_3', 'MODIFIER_AL_PLAYER_DISTRICTS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_4', 'MODIFIER_AL_PLAYER_DISTRICT_ADJUST_YIELD_MODIFIER', NULL, 0, 0),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_3', 'MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER', NULL, 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_4', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_TAKANE', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_TAKANE', 0, 0),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_3', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_4', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_1', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', 'REQSET_AL_UNIT_ADJACENT_RIRI', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_RIRI', 0, 0),
+        --
+            --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
 
@@ -684,7 +734,6 @@
                 ('MOD_AL_TAKANE_GREATNORMAL_3_2_2', 'MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN', NULL, 0, 0),
 
                 ('MOD_AL_TAKANE_GREATNORMAL_4_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
-        --
             --kanaho
                 ('MOD_AL_KANAHO_GREATNORMAL_1_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
                 ('MOD_AL_KANAHO_GREATNORMAL_1_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_1_PLOT', 0, 0),
@@ -921,6 +970,35 @@
 
     INSERT INTO ModifierArguments
         (ModifierId, Name, Value) VALUES
+            --himeka
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_1', 'ModifierId', 'BUFF_AL_HIMEKA_GREATNORMAL_1_1_1'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_2', 'ModifierId', 'BUFF_AL_HIMEKA_GREATNORMAL_1_1_2'),
+                ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_1', 'Amount', 3),
+                ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_2', 'Amount', 10),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_3', 'ModifierId', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_4'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_4', 'Amount', 100),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_1_4', 'YieldType', 'YIELD_CULTURE'),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_1', 'Amount', 1),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'Key', 'AKARI_PROMOTIONS'),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_1', 'ModifierId', 'MOD_AL_HIMEKA_GREATNORMAL_2_1_3'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_2', 'ModifierId', 'MOD_AL_HIMEKA_GREATNORMAL_2_1_4'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_3', 'Amount', 100),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_1_4', 'Amount', 1),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_1', 'Amount', 1),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'Key', 'KUREHA_PROMOTIONS'),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_1', 'ModifierId', 'MOD_AL_HIMEKA_GREATNORMAL_3_1_3'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_2', 'ModifierId', 'MOD_AL_HIMEKA_GREATNORMAL_3_1_4'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_3', 'Amount', 10),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_4', 'Amount', 2),
+
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_1', 'Amount', 1),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'Key', 'RIRI_PROMOTIONS'),
+        --
+            --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_1', 'Amount', 1),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'Amount', 5),
 
@@ -943,7 +1021,6 @@
                 ('MOD_AL_TAKANE_GREATNORMAL_3_2_2', 'Type', 'ALL'),
 
                 ('MOD_AL_TAKANE_GREATNORMAL_4_1_1', 'Key', 'KANAHO_PROMOTIONS'),
-        --
             --kanaho
                 ('MOD_AL_KANAHO_GREATNORMAL_1_1_1', 'Amount', 5),
                 ('MOD_AL_KANAHO_GREATNORMAL_1_1_2', 'ModifierId', 'BUFF_AL_KANAHO_GREATNORMAL_1_1_2'),
@@ -1191,12 +1268,19 @@
 
     INSERT INTO ModifierStrings
         (ModifierId, Context, Text) VALUES
+            --himeka
+                ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_1_3', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_2_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_3_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+        --
+            --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_2_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_TAKANE_GREATNORMAL_3_1_3', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('BUFF_AL_TAKANE_GREATNORMAL_3_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_TAKANE_GREATNORMAL_4_1_1', 'Preview', '+{Property} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_4_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
-        --      
             --kanaho
                 ('MOD_AL_KANAHO_GREATNORMAL_1_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KANAHO_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('BUFF_AL_KANAHO_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KANAHO_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
@@ -1336,6 +1420,8 @@
                 ('ABL_AL_RS_TAKANE', 'MOD_AL_RS_TAKANE_1'),
                 ('ABL_AL_RS_TAKANE', 'MOD_AL_RS_TAKANE_2'),
 
+                ('ABL_AL_RS_HIMEKA', 'MOD_AL_RS_HIMEKA_1'),
+
                 ('ABL_AL_GEHENA_LILY', 'MOD_AL_GEHENA_LILY_1'),
             --
                 ('ABL_AL_YUJIA_GREATNORMAL_1_1_0', 'MOD_AL_YUJIA_GREATNORMAL_1_1_1'),
@@ -1383,6 +1469,8 @@
 
             ('MOD_AL_RS_PhaseTranscendence_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
             ('MOD_AL_RS_PhaseTranscendence_2', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
+
+            ('MOD_AL_RS_HIMEKA_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
 
             ('MOD_AL_RS_TruthOfTheWorld_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
             ('MOD_AL_RS_TruthOfTheWorld_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
@@ -1476,6 +1564,8 @@
 
             ('MOD_AL_RS_TAKANE_1', 'Amount', -10),
             ('MOD_AL_RS_TAKANE_2', 'Amount', 10),
+
+            ('MOD_AL_RS_HIMEKA_1', 'Amount', 2),
 
             ('MOD_AL_RS_KANAHO_1', 'ModifierId', 'BUFF_AL_RS_KANAHO_1'),
 
@@ -1591,12 +1681,15 @@
     INSERT INTO RequirementSets
         (RequirementSetId, RequirementSetType) VALUES
             ('REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_PLOT_HAS_STAGE', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQUIREMENTSET_TEST_ALL'),
-
+    --
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_1_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_1_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_3_PLOT', 'REQUIREMENTSET_TEST_ALL'),
 
@@ -1644,6 +1737,7 @@
 
             ('REQSET_AL_UNIT_IS_GRANEPLE', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_UNIT_ADJACENT_GRANEPLE', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_PLOT_STAGE_IS_HIMEKA', 'REQUIREMENTSET_TEST_ALL'),
 
             ('REQSET_AL_IN_COLD_AREA', 'REQUIREMENTSET_TEST_ANY');
 
@@ -1653,6 +1747,13 @@
             ('REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 'REQ_AL_UNIT_IS_ON_PHANTASM_PLOT'),
             ('REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 'REQ_UNIT_IS_LILY_GREAT'),
 
+            ('REQSET_AL_PLOT_HAS_STAGE', 'REQ_AL_PLOT_HAS_STAGE'),
+            ('REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 'REQ_AL_GRANT_TO_NEAR_UNITS'),
+            ('REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 'REQ_AL_DISTRICT_IS_STAGE'),
+
+            ('REQSET_AL_PLOT_STAGE_IS_HIMEKA', 'REQ_AL_PLOT_HAS_STAGE'),
+            ('REQSET_AL_PLOT_STAGE_IS_HIMEKA', 'REQ_AL_UNIT_IS_HIMEKA'),
+        --
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_AL_UNIT_IS_ON_RS_PLOT'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_UNIT_IS_LILY_GREAT'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS_2'),
@@ -1664,7 +1765,7 @@
 
             ('REQSET_AL_IN_COLD_AREA', 'REQ_AL_TERRAIN_IS_TUNDRA'),
             ('REQSET_AL_IN_COLD_AREA', 'REQ_AL_TERRAIN_IS_SNOW'),
-        --
+        
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_1_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS'),
 
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_1_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS'),
@@ -1675,6 +1776,9 @@
 
             ('REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS_2'),
             ('REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 'REQ_AL_UNIT_IS_GRANEPLE'),
+
+            ('REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS_2'),
+            ('REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 'REQ_AL_UNIT_IS_KANBALILY'),
 
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS_2'),
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_3_PLOT', 'REQ_AL_GRANT_TO_AWAY_UNITS'),
@@ -1745,6 +1849,8 @@
             ('REQ_AL_UNIT_IS_DEFFENDER', 'REQUIREMENT_PLAYER_IS_ATTACKING', 1),
             ('REQ_AL_UNIT_IS_ATTACKER', 'REQUIREMENT_PLAYER_IS_ATTACKING', 0),
 
+            ('REQ_AL_PLOT_HAS_STAGE', 'REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES', 0),
+
             ('REQ_AL_TERRAIN_IS_TUNDRA', 'REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES', 0),
             ('REQ_AL_TERRAIN_IS_SNOW', 'REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES', 0),
 
@@ -1767,7 +1873,7 @@
             ('REQ_AL_UNIT_IS_GRANEPLE', 'REQUIREMENT_UNIT_TAG_MATCHES', 0),
             
             
-
+            
             ('REQ_AL_GRANT_TO_NEAR_UNITS', 'REQUIREMENT_PLOT_ADJACENT_TO_OWNER', 0),
             ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'REQUIREMENT_PLOT_ADJACENT_TO_OWNER', 0),
             ('REQ_AL_GRANT_TO_AWAY_UNITS', 'REQUIREMENT_PLOT_ADJACENT_TO_OWNER', 0),
@@ -1783,6 +1889,8 @@
         (RequirementId, Name, Value) VALUES
             ('REQ_AL_UNIT_IS_AZ', 'Tag', 'CLASS_AL_AZ'),
             ('REQ_AL_UNIT_IS_BZ', 'Tag', 'CLASS_AL_BZ'),
+
+            ('REQ_AL_PLOT_HAS_STAGE', 'DistrictType', 'DISTRICT_AL_STAGE'),
 
             ('REQ_AL_TERRAIN_IS_TUNDRA', 'TerrainClass', 'TERRAIN_CLASS_TUNDRA'),
             ('REQ_AL_TERRAIN_IS_SNOW', 'TerrainClass', 'TERRAIN_CLASS_SNOW'),
@@ -1801,7 +1909,8 @@
             ('REQ_AL_UNIT_NOT_ADJACENT_AZ', 'Tag', 'CLASS_AL_AZ'),
             ('REQ_AL_UNIT_ADJACENT_BZ', 'Tag', 'CLASS_AL_BZ'),
 
-            ('REQ_AL_GRANT_TO_NEAR_UNITS', 'MinDistance', 1),
+            ('REQ_AL_GRANT_TO_NEAR_UNITS', 'MaxDistance', 1),
+            ('REQ_AL_GRANT_TO_NEAR_UNITS', 'MinDistance', 0),
 
             ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'MinDistance', 1),
             ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'MaxDistance', 2),

@@ -162,8 +162,6 @@
             ('PROJECT_AL_KOUNAI_ONSEN_3', 'KIND_PROJECT'),
             ('PROJECT_AL_KOUNAI_ONSEN_4', 'KIND_PROJECT'),
             
-            ('MODIFIER_AL_PLAYER_DISTRICTS_ATTACH_MODIFIER', 'KIND_MODIFIER'),
-            
             ('PROJECT_AL_SEITOKAI_1', 'KIND_PROJECT'),
             ('PROJECT_AL_SEITOKAI_2', 'KIND_PROJECT'),
             ('PROJECT_AL_SEITOKAI_3', 'KIND_PROJECT'),
@@ -173,9 +171,6 @@
             ('PROJECT_AL_FUUKI_2', 'KIND_PROJECT'),
             ('PROJECT_AL_FUUKI_3', 'KIND_PROJECT'),
             ('PROJECT_AL_FUUKI_4', 'KIND_PROJECT');
-    INSERT INTO DynamicModifiers
-        (ModifierType, CollectionType, EffectType) VALUES
-        ('MODIFIER_AL_PLAYER_DISTRICTS_ATTACH_MODIFIER', 'COLLECTION_PLAYER_DISTRICTS', 'EFFECT_ATTACH_MODIFIER');
 
 
 

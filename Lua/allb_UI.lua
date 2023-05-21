@@ -637,6 +637,7 @@ function ALPromiseButtonSetUp()
 		Controls.AlPassGrid:ChangeParent(ctrl1)
 		Controls.AlLilyInformationGrid:ChangeParent(ctrl1)
 		Controls.AlRareSkillGrid:ChangeParent(ctrl1)
+		Controls.AlTeleportGrid:ChangeParent(ctrl1)
 	end
 
 	if ctrl2 ~= nil then
@@ -1151,7 +1152,6 @@ function OnAlNeunweltClicked(playerID, hexI, hexJ, pUnit, unitID)
 end
 
 --————————————PASS————————————
-
 function ALPassSelected(playerID, unitID, hexI, hexJ, hexK, bSelected, bEditable)
 	if bSelected then
 		ALPassRefresh(playerID, unitID, hexI, hexJ)
@@ -1159,6 +1159,144 @@ function ALPassSelected(playerID, unitID, hexI, hexJ, hexK, bSelected, bEditable
 end
 
 Events.UnitSelectionChanged.Add(ALPassSelected);
+
+function ALTeleportSelected(playerID, unitID, hexI, hexJ, hexK, bSelected, bEditable)
+	if bSelected then
+		local pPlot = Map.GetPlot(hexI, hexJ)
+		local pUnit = UnitManager.GetUnit(playerID, unitID);
+		if ALTeleportHide(playerID, unitID, hexI, hexJ) == true then
+			Controls.AlTeleportGrid:SetHide(true)
+		else
+			Controls.AlTeleportGrid:SetHide(false)
+			
+			local message = Locale.Lookup('LOC_AL_TELEPORT_TOOLTIP')
+			Controls.AlTeleportButton:SetToolTipString(message)
+			Controls.AlTeleportButton:RegisterCallback(Mouse.eLClick, function() OnAlTeleportClicked(playerID, hexI, hexJ, pUnit, unitID); end)
+		end
+	end
+end
+
+Events.UnitSelectionChanged.Add(ALTeleportSelected);
+
+function ALTeleportHide(playerID, unitID, hexI, hexJ)
+	local pPlot = Map.GetPlot(hexI, hexJ);
+	local pUnit = UnitManager.GetUnit(playerID, unitID);
+	local pName = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL")
+	if pName then
+		if GameInfo.AL_GreatUnitNames[pName].Legion == 'CLASS_AL_GRANEPLE' then
+			if HasUnitPromotion(playerID,'PROMOTION_AL_HIMEKA_GREATNORMAL_4_1') then
+				local MaxMove = pUnit:GetMaxMoves()
+				local move = pUnit:GetMovesRemaining()
+				if move == MaxMove then
+					local plots = GetAllPlots()
+					for _, plotID in ipairs(plots) do
+						local pPlot = Map.GetPlotByIndex(plotID)
+						if pPlot:GetProperty('TELEPORTING_PLAYER') then
+							return true;
+						end
+					end
+					return false;
+				end
+			end
+		end
+	end
+	return true;
+end
+
+function OnAlTeleportClicked(playerID, iX, iY, pUnit, unitID)
+	local unitname = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL");
+	if m_IsInWBInterfaceMode then
+		AlQuitPassInterface(true)
+		ExecuteScript('ALSetUnitPropertyFlag',playerID, unitID, 'TELEPORTING',nil)
+	else
+		
+		UI.SetInterfaceMode(InterfaceModeTypes.SELECTION)
+		UI.SetInterfaceMode(InterfaceModeTypes.WB_SELECT_PLOT)
+		m_IsInWBInterfaceMode = true
+		CurrentAction = 'WB_SELECT_TELEPORT_PLOT'
+		Controls.AlTeleportButton:SetSelected(true)
+		local selectablePlots, invalidPlots = AlTeleportGetPlots(playerID)
+
+		if #selectablePlots > 0 then
+			UILens.SetLayerHexesArea(HEX_COLORING_MOVEMENT, playerID, selectablePlots)
+			UILens.SetLayerHexesArea(HEX_COLORING_ATTACK, playerID, invalidPlots)
+
+			UILens.ToggleLayerOn(HEX_COLORING_MOVEMENT)
+			UILens.ToggleLayerOn(HEX_COLORING_ATTACK)
+			ExecuteScript('ALSetUnitPropertyFlag',playerID, unitID, 'TELEPORTING',1)
+		else
+			local message = Locale.Lookup('LOC_AL_TELEPORT_NO_PLACE');
+			ExecuteScript('ALShowPromiseMessage',0, message, iX, iY)
+			Controls.AlPassButton:SetSelected(false)
+			AlQuitPassInterface(true)
+		end
+ 	end
+end
+
+function AlTeleportGetPlots(playerID)
+	local selectablePlots,invalidPlots = {},{}
+	local playerDistricts = Players[playerID]:GetDistricts();
+	for _, district in playerDistricts:Members() do
+		if GameInfo.Districts[district:GetType()].DistrictType == 'DISTRICT_AL_STAGE' then
+			local targetPlots = Map.GetNeighborPlots(district:GetX(), district:GetY(), 3)
+			for _, plot in ipairs(targetPlots) do
+				local iPlotIndex = plot:GetIndex()
+				local isInvalid = AlCheckTeleportPlot(plot)
+				if isInvalid then
+					table.insert(invalidPlots,iPlotIndex)
+				else
+					table.insert(selectablePlots,iPlotIndex)
+					ExecuteScript('SetPlotProperty',plot:GetIndex(), 'TELEPORTING_PLAYER', playerID)
+				end
+			end
+		end
+	end
+	return selectablePlots,invalidPlots;
+end
+
+function AlCheckTeleportPlot(plot)
+	if plot:IsMountain() or plot:IsWater() or plot:IsCity() or plot:IsUnit() then
+		return true
+	else
+		return false
+	end
+end
+
+function OnSelectTeleport(plotId, plotEdge, boolDown, rButton)
+	if CurrentAction ~= 'WB_SELECT_TELEPORT_PLOT' then 
+		return; 
+	end
+
+	local unit = nil
+	local pPlot = Map.GetPlotByIndex(plotId)
+	local playerID = pPlot:GetProperty('TELEPORTING_PLAYER')
+	if playerID then
+		local pPlayer = Players[playerID]
+		local PlayerUnits = pPlayer:GetUnits()
+		for i, punit in PlayerUnits:Members() do
+			if punit:GetProperty('TELEPORTING') then
+				unit = punit
+			end
+		end
+	end
+
+	if not boolDown then
+		if rButton then
+			AlQuitPassInterface(true)
+			ExecuteScript('ALSetUnitPropertyFlag',playerID, unit:GetID(), 'TELEPORTING',nil)
+			return;
+		else
+			AlQuitPassInterface(true)
+			print(playerID, unit:GetID(), pPlot:GetX(), pPlot:GetY())
+			ExecuteScript('AlPlaceUnit',playerID, unit:GetID(), pPlot:GetX(), pPlot:GetY())
+			ExecuteScript('ALSetUnitPropertyFlag',playerID, unit:GetID(), 'TELEPORTING',nil)
+			UI.DeselectUnit( unit );
+			UI.SelectUnit( unit );
+		end
+	end
+end
+
+LuaEvents.WorldInput_WBSelectPlot.Add(OnSelectTeleport)
 
 function MagiSphereGetMessageUI(playerID,i)
     local pPlayer = Players[playerID]
@@ -1264,7 +1402,13 @@ function AlQuitPassInterface(ifChangeInterfaceMode:boolean)
 	Controls.AlPassButton:SetSelected(false)
 	Controls.AlFinishShotButton:SetSelected(false)
 	Controls.AlCityInfomationButton:SetSelected(false)
+	Controls.AlTeleportButton:SetSelected(false)
 	CurrentAction = nil;
+
+	local plots = GetAllPlots()
+	for _, plotID in ipairs(plots) do
+		ExecuteScript('SetPlotProperty',plotID, 'TELEPORTING_PLAYER', nil)
+	end
 	print("AlQuitPassInterface")
 end
 
@@ -1651,3 +1795,40 @@ function GetLilyPointPerTurn(playerID)
 	end
 end
 ExposedMembers.AL.GetLilyPointPerTurn = GetLilyPointPerTurn
+
+function GetLilyUnit(playerID,pName)
+    local pPlayer = Players[playerID]
+    local PlayerUnits = pPlayer:GetUnits()
+    for i, unit in PlayerUnits:Members() do
+        if string.match(unit:GetName(),"(%u+)_GREATNORMAL") then
+            local name = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+            if name == pName then
+                return unit;
+            end
+        end
+    end
+    return nil;
+end
+
+function HasUnitPromotion(playerID,Promotion)
+    local pPlayer = Players[playerID]
+    local PlayerUnits = pPlayer:GetUnits();
+    for i, unit in PlayerUnits:Members() do
+        local ue = unit:GetExperience()
+        if ue:HasPromotion(GameInfo.UnitPromotions[Promotion].Index) then
+            return true;
+        end
+    end
+end
+
+function GetAllPlots()
+    local plots = {}
+    local tContinents = Map.GetContinentsInUse()
+    for i, eContinent in ipairs(tContinents) do
+        local tContinentPlots = Map.GetContinentPlots(eContinent)   -- 存放的是 PlotIndex
+        for _, plotID in ipairs(tContinentPlots) do
+            table.insert(plots, plotID)
+        end
+    end
+    return plots
+end

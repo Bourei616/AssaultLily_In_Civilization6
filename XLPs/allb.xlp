@@ -4101,6 +4101,58 @@
 			<m_EntryID text="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_95"/>
 			<m_ObjectName text="ICON_UNIT_AL_TAKANE_GREATNORMAL_PORTRAIT_95"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HIMEKA"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HIMEKA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_80"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

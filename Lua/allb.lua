@@ -1018,6 +1018,12 @@ function ALSetUnitPropertyFlag(playerID,unitID,property,propertycontext)
 end
 ExposedTable['ALSetUnitPropertyFlag'] = ALSetUnitPropertyFlag
 
+function SetPlotProperty(plotID,property,propertycontext)
+    local pPlot = Map.GetPlotByIndex(plotID)
+    pPlot:SetProperty(property,propertycontext);
+end
+ExposedTable['SetPlotProperty'] = SetPlotProperty
+
 function ALChangeResource(playerID,resourceindex,amount)
     local pPlayer = Players[playerID]
     local playerResources = pPlayer:GetResources();
@@ -4017,6 +4023,13 @@ end
 
 Events.Combat.Add(HeavensScalesCritical)
 
+function AlPlaceUnit(playerID, unitID, x, y)
+    local pUnit = UnitManager.GetUnit(playerID, unitID)
+    UnitManager.PlaceUnit(pUnit, x, y)
+    UnitManager.ChangeMovesRemaining(pUnit,-99)
+end
+ExposedTable['AlPlaceUnit'] = AlPlaceUnit
+
 function KanbaSetToutomi(playerID)
     local pPlayer = Players[playerID]
     if IsLilyCivilization(playerID) and IsLeader(playerID,'KANAHO') then
@@ -4183,26 +4196,73 @@ function SetPromotionLevel(playerID)
                 unit:SetProperty('LILY_PROMOTIONS',num)
             end
         end
+
+        local takane = GetLilyUnit(playerID,'TAKANE')
+        if takane then
+            CopyPromotionLevel(playerID,'TAKANE','KANAHO')
+        end
+
+        local himeka = GetLilyUnit(playerID,'HIMEKA')
+        if himeka then
+            local promotionLevel = 0
+            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_1_2'].Index) then
+                local kanaho = GetLilyUnit(playerID,'KANAHO')
+                if kanaho then
+                    local level = kanaho:GetProperty('LILY_PROMOTIONS')
+                    if level then
+                        promotionLevel = level
+                    end
+                    himeka:SetProperty('AKARI_PROMOTIONS',promotionLevel)
+                end
+            end
+
+            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_2_2'].Index) then
+                local TAKANE = GetLilyUnit(playerID,'TAKANE')
+                if TAKANE then
+                    local level = TAKANE:GetProperty('LILY_PROMOTIONS')
+                    if level then
+                        promotionLevel = level
+                    end
+                    himeka:SetProperty('KUREHA_PROMOTIONS',promotionLevel)
+                end
+            end
+
+            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_2_2'].Index) then
+                local RIRI = GetLilyUnit(playerID,'RIRI')
+                if RIRI then
+                    local level = RIRI:GetProperty('LILY_PROMOTIONS')
+                    if level then
+                        promotionLevel = level
+                    end
+                    himeka:SetProperty('KUREHA_PROMOTIONS',promotionLevel)
+                end
+            end
+        end
     end
 end
 Events.PlayerTurnActivated.Add(SetPromotionLevel);
 Events.UnitSelectionChanged.Add(SetPromotionLevel);
 
+function CopyPromotionLevel(playerID,name1,name2)
+    local promotionLevel = 0
+    local unit1 = GetLilyUnit(playerID,name1)
+    local unit2 = GetLilyUnit(playerID,name2)
+    if unit1 and unit2 then
+        local level = unit2:GetProperty('LILY_PROMOTIONS')
+        if level then
+            promotionLevel = level
+        end
+        unit1:SetProperty(name2..'_PROMOTIONS',promotionLevel)
+    end
+end
+
 function TakaneGetHealFromKanaho(playerID)
     if IsLilyCivilization(playerID) then
         local takane = GetLilyUnit(playerID,'TAKANE')
         if takane then
-            if takane:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_4_1'].Index) then
-                local kanaho = GetLilyUnit(playerID,'KANAHO')
-                if kanaho then
-                    local promotionLevel = 0
-                    local level = kanaho:GetProperty('LILY_PROMOTIONS')
-                    if level then
-                        promotionLevel = level
-                    end
-                    takane:SetProperty('KANAHO_PROMOTIONS',promotionLevel)
-                    takane:ChangeDamage(-2*promotionLevel)
-                end
+            local promotionLevel = takane:GetProperty('KANAHO_PROMOTIONS')
+            if promotionLevel then
+                takane:ChangeDamage(-2*promotionLevel)
             end
         end
     end

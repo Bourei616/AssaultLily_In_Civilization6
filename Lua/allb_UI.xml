@@ -24,6 +24,12 @@
         </Button>
     </Grid>
 
+    <Grid	ID="AlTeleportGrid" Anchor="R,B" Size="auto,41" AutoSizePadding="6,0" Texture="SelectionPanel_ActionGroupSlot" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="0.75">
+        <Button	ID="AlTeleportButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
+            <Image	ID="AlTeleportImage"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_ACTION_AL_PASS"/>
+        </Button>
+    </Grid>
+
     <Grid ID="AlCityInfomation" Anchor="R,B" Size="41,41" AutoSizePadding="6,0" Texture="UnitPanel_ActionGroupSlot" Offset="30,0" SliceCorner="5,19" SliceSize="1,1" SliceTextureSize="12,41" ConsumeMouse="1" Alpha="1" Hidden="1">
 		<Button ID="AlCityInfomationButton" Anchor="C,B" Size="44,53" Texture="UnitPanel_ActionButton">
 			<Image ID="AlCityInfomationButtonIcon"		Anchor="C,C" Offset="0,-2" Size="50,50"  Icon="ICON_AL_INFORMATION"/>
