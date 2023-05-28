@@ -4537,6 +4537,38 @@
 			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_95"/>
 			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_95"/>
 		</Element>
+		<Element>
+			<m_EntryID text="ALLB_6"/>
+			<m_ObjectName text="ALLB_6"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_7"/>
+			<m_ObjectName text="ALLB_7"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_6_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_6_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_6_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_6_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_6_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_6_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_7_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_7_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_7_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_7_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_7_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_7_64"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

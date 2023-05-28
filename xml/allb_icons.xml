@@ -1852,6 +1852,24 @@
     </IconDefinitions>
 
     <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_6" IconSize="45" Filename="ICON_GREATWORK_ALLB_6_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_6" IconSize="64" Filename="ICON_GREATWORK_ALLB_6_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_6" IconSize="256" Filename="ICON_GREATWORK_ALLB_6_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_6" Atlas="ATLAS_ICON_GREATWORK_ALLB_6" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_7" IconSize="45" Filename="ICON_GREATWORK_ALLB_7_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_7" IconSize="64" Filename="ICON_GREATWORK_ALLB_7_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_7" IconSize="256" Filename="ICON_GREATWORK_ALLB_7_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_7" Atlas="ATLAS_ICON_GREATWORK_ALLB_7" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
         <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_38"/>
         <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_50"/>
         <Row Name="ATLAS_ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_MOYU_GREATNORMAL_PORTRAIT_70"/>

@@ -14,6 +14,8 @@ INSERT INTO AL_GreatPerson
         ('SHENLIN', 'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
         ('KANAHO',  'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
         ('TAKANE',  'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
+        ('AKEHI',   'ERA_CLASSICAL',      'GreatWork',    NULL,                   1),
+        ('SUZUME',  'ERA_CLASSICAL',      'GreatWork',    NULL,                   1),
         ('FUMI',    'ERA_RENAISSANCE',  'Ability',      NULL,                   1),
         ('MAI',     'ERA_RENAISSANCE',  'Ability',      NULL,                   1),
         ('TADUSA',  'ERA_RENAISSANCE',  'Boom',         NULL,                   2),
@@ -23,8 +25,9 @@ INSERT INTO AL_GreatPerson
         ('MILIAM',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_MOYU',     2),
         ('KAEDE',   'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
         ('KUREHA',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
-        ('HARUNA',  'ERA_CLASSICAL',    'District',     'DISTRICT_AL_GARDEN',   2),
-        ('RIRI',    'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   1);
+        ('HARUNA',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
+        ('RIRI',    'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   1),
+        ('FUJINO',  'ERA_CLASSICAL',    'District',     'DISTRICT_AL_GARDEN',   1);
 
     UPDATE AL_GreatPerson SET Leader = 1 WHERE UnitName = 'RIRI';
     UPDATE AL_GreatPerson SET Leader = 1 WHERE UnitName = 'KANAHO';
@@ -152,6 +155,8 @@ INSERT INTO AL_GreatPerson
     INSERT INTO Modifiers
         (ModifierId, ModifierType, SubjectRequirementSetId, RunOnce, Permanent) VALUES
             --
+            --FUJINO
+                ('MOD_AL_GP_FUJINO_ACTION_BUFF_1', 'MODIFIER_PLAYER_UNITS_ADJUST_GRANT_EXPERIENCE', 'REQSET_UNIT_IS_LILY_GREAT',  1, 1),
             --HARUNA
                 ('MOD_AL_GP_HARUNA_ACTION_BUFF_1', 'MODIFIER_SINGLE_CITY_ADJUST_CITY_HOUSING_FROM_GREAT_PEOPLE', NULL,  1, 1),
                 ('MOD_AL_GP_HARUNA_ACTION_BUFF_2', 'MODIFIER_PLAYER_ADJUST_FREE_GREAT_PERSON_POINTS', NULL, 1, 1),
@@ -192,6 +197,8 @@ INSERT INTO AL_GreatPerson
                 ('BUFF_AL_YURI_DIED_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_RADGRID', 0, 1);
     INSERT INTO ModifierArguments
         (ModifierId, Name, Value) VALUES
+            --FUJINO
+                ('MOD_AL_GP_FUJINO_ACTION_BUFF_1', 'Amount', -1),
             --HARUNA
                 ('MOD_AL_GP_HARUNA_ACTION_BUFF_1', 'Amount', 4),
                 ('MOD_AL_GP_HARUNA_ACTION_BUFF_2', 'Amount', 100),

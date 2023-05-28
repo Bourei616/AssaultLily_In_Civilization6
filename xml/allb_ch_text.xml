@@ -2041,6 +2041,36 @@
 			<Text>该城市+4[ICON_Housing]住房。 使用100[ICON_GreatPerson]免费伟人点数招募目前和将来的伟人。 </Text>
 		</Row>
 
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO_NAME" Language="zh_Hans_CN">
+			<Text>石塚藤乃</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_FUJINO" Language="zh_Hans_CN">
+			<Text>学生会的工作就交给我来吧。</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_FUJINO_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>为所有莉莉单位提供一次免费升级。 </Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI_NAME" Language="zh_Hans_CN">
+			<Text>本间秋日</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_AKEHI" Language="zh_Hans_CN">
+			<Text>突贯！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_AKEHI_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>创作巨作：《笑容的黎明》，提供1个[ICON_Governor] 总督头衔。 </Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME_NAME" Language="zh_Hans_CN">
+			<Text>盐崎铃梦</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_SUZUME" Language="zh_Hans_CN">
+			<Text>我不能、再拖秋日大人的后腿了！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_SUZUME_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>创作巨作：《向着梦想中的自己，勇敢前进》，提供1个[ICON_Governor] 总督头衔。 </Text>
+		</Row>
+
 		<!-- Great Person 梦结 -->
 		<Row Tag="LOC_ABILITY_LILY_GREATS_YUYU_BUFF_NAME" Language="zh_Hans_CN">
 			<Text>白井梦结的协助</Text>
@@ -3841,6 +3871,22 @@
 		<Row Tag="LOC_QUOTE_GREATWORK_ALLB_5" Language="zh_Hans_CN">
 			<Text>——我也拜托你。
 			[NEWLINE]让我们两个人，永远在一起吧。</Text>
+		</Row>
+
+		<Row Tag="LOC_NAME_GREATWORK_ALLB_7" Language="zh_Hans_CN">
+			<Text>笑容的黎明</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_GREATWORK_ALLB_7" Language="zh_Hans_CN">
+			<Text>我说，铃梦？能再往这边靠一靠吗？
+			[NEWLINE]这种寒冷的日子，像这样把肩膀靠在一起就能更暖和些吧？</Text>
+		</Row>
+
+		<Row Tag="LOC_NAME_GREATWORK_ALLB_6" Language="zh_Hans_CN">
+			<Text>向着梦想中的自己，勇敢前进</Text>
+		</Row>
+		<Row Tag="LOC_QUOTE_GREATWORK_ALLB_6" Language="zh_Hans_CN">
+			<Text>虽然大家说圣诞节会发生奇迹，但对现在的我来说，
+			[NEWLINE]每一天都如同奇迹一般……开玩笑的啦。</Text>
 		</Row>
 
 
