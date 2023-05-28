@@ -1,6 +1,7 @@
 local mapSizeType = GameInfo.Maps[Map.GetMapSize()].MapSizeType
 local gameDifficultyType = GameInfo.Difficulties[PlayerConfigurations[0]:GetHandicapTypeID()].DifficultyType
 local MaxNeunWeltNumber = 10;
+local UnicornRandNum = 0.05
 
 if ExposedMembers.AL == nil then ExposedMembers.AL = {}; end
 
@@ -2779,10 +2780,10 @@ function RefreshCharmBreakLevel(playerID)
                         if munit then
                             local mName = string.match(munit:GetName(),"(%u+)_GREATNORMAL")
                             if mName then
-                                if mName == 'MILIAM' and GreatUnitsHasPromotion(playerID,'PROMOTION_AL_MILIAM_GREATNORMAL_2_1') then
+                                if mName == 'MILIAM' and HasUnitPromotion(playerID,'PROMOTION_AL_MILIAM_GREATNORMAL_2_1') then
                                     RepairCharmBreakLevel(playerID,pName,breakLevel,x,y,1)
                                 end
-                                if mName == 'MOYU' and GreatUnitsHasPromotion(playerID,'PROMOTION_AL_MOYU_GREATNORMAL_1_2') then
+                                if mName == 'MOYU' and HasUnitPromotion(playerID,'PROMOTION_AL_MOYU_GREATNORMAL_1_2') then
                                     RepairCharmBreakLevel(playerID,pName,breakLevel,x,y,1)
                                 end
                             end
@@ -3064,7 +3065,7 @@ function RefreshMoyuBuffBuilding(playerID)
 
         if ExposedMembers.AL.AlCheckGreatUnitInCity(playerID,CityID,'MILIAM') == true then
             pPlot:SetProperty('CITY_HAS_MILIAM',1)
-            if GreatUnitsHasPromotion(playerID,'PROMOTION_AL_MILIAM_GREATNORMAL_4_1') then
+            if HasUnitPromotion(playerID,'PROMOTION_AL_MILIAM_GREATNORMAL_4_1') then
                 pPlot:SetProperty('CITY_HAS_MILIAM_4',1)
             end
         end
@@ -3075,7 +3076,7 @@ function RefreshMoyuBuffBuilding(playerID)
     end
 end
 
-function GreatUnitsHasPromotion(playerID,Promotion)
+function HasUnitPromotion(playerID,Promotion)
     local pPlayer = Players[playerID]
     local PlayerUnits = pPlayer:GetUnits();
     for i, unit in PlayerUnits:Members() do
@@ -3083,6 +3084,117 @@ function GreatUnitsHasPromotion(playerID,Promotion)
         if ue:HasPromotion(GameInfo.UnitPromotions[Promotion].Index) then
             return true;
         end
+    end
+end
+
+function AkariFindUnicorn(playerID,unitID,iX,iY)
+    if IsLilyCivilization(playerID) then
+        if HasUnitPromotion(playerID, 'PROMOTION_AL_AKARI_GREATNORMAL_1_2') then
+            local pUnit = UnitManager.GetUnit(playerID, unitID)
+            local pName = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL")
+            if pName == 'AKARI' then
+                local rand = Game.GetRandNum(100,'NO WHY')/100
+                local percent = UnicornRandNum
+                if HasUnitPromotion(playerID, 'PROMOTION_AL_AKARI_GREATNORMAL_3_2') and NearLily(Map.GetPlot(iX,iY),'HIMEKA',3) then
+                    percent = percent * 2
+                end
+                local Fpercent = 1 - percent
+                print('AkariFindUnicorn:当前概率：'..rand..'，需要概率：'..Fpercent)
+                if rand > Fpercent then
+
+                    local validplots = {}
+                    local targetplots = Map.GetNeighborPlots(iX,iY, 2)
+                    for _,plot in ipairs(targetplots) do
+                        if IsValidUnicornPlot(plot) then
+                            local index = plot:GetIndex()
+                            table.insert(validplots,index)
+                        end
+                    end
+                    if #validplots >0 then
+                        local index = Game.GetRandNum(#validplots,'ALLB:Get Nest Position') + 1
+                        local plot = Map.GetPlotByIndex(validplots[index])
+                        print('AkariFindUnicorn:选中格子'..plot:GetX()..'，'..plot:GetY())
+                        local resource = GameInfo.Resources['RESOURCE_AL_UNICORN'].Index
+                        print('AkariFindUnicorn:选中资源'..resource)
+                        if resource then
+                            ResourceBuilder.SetResourceType(plot, resource, 1); 
+                            print('AkariFindUnicorn:插入资源')
+                        end
+                        Game.AddWorldViewText(1, Locale.Lookup('LOC_MOD_AL_FIND_UNICORN'), plot:GetX(), plot:GetY());
+                    end
+
+                end
+            end
+        end
+    end
+end
+Events.UnitMoveComplete.Add(AkariFindUnicorn);
+
+function AlWriteUnicorn(playerID, unitID, x, y, hexK, bSelected, bEditable)
+    local pUnit = UnitManager.GetUnit(playerID, unitID)
+    if pUnit then
+        local pName = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL")
+        if pName == 'AKARI' then
+            if bSelected then
+                local pPlot = Map.GetPlot(x,y)
+                if pPlot:GetResourceType() == GameInfo.Resources['RESOURCE_AL_UNICORN'].Index then
+                    pUnit:SetProperty('HARVESTING_UNICORN',1)
+                    print('AlWriteUnicorn:正在收获独角兽')
+                end
+            else
+                pUnit:SetProperty('HARVESTING_UNICORN',nil)
+            end
+        end
+    end
+end
+Events.UnitSelectionChanged.Add(AlWriteUnicorn);
+
+function AkariGetUnicorn(x,y,Rtype)
+
+    local pPlot = Map.GetPlot(x,y)
+    if pPlot:IsUnit() then
+        local playerID = nil
+        local num = nil
+        for loop, unit in ipairs(Units.GetUnitsInPlot(pPlot)) do
+            if unit:GetProperty('HARVESTING_UNICORN') == 1 then
+                playerID = unit:GetOwner()
+                if playerID then
+                    local akari = GetLilyUnit(playerID,'AKARI')
+                    if akari then
+                        local property = akari:GetProperty('UNICORN_NUM')
+                        if property == nil then
+                            property = 0
+                        end
+                        property = property + 0.5
+                        akari:SetProperty('UNICORN_NUM',property)
+                        num = property
+                        if HasUnitPromotion(playerID, 'PROMOTION_AL_AKARI_GREATNORMAL_4_1') then
+                            local rand = Game.GetRandNum(100,'NO WHY')/100
+                            if rand > 0.5 then
+                                Game.AddWorldViewText(1, Locale.Lookup('LOC_MOD_AL_URIKA_UNICORN'), x,y);
+                                local pPlayer = Players[playerID]
+                                local pTech = pPlayer:GetTechs();
+                                local atech = pTech:GetResearchingTech();
+                                pTech :TriggerBoost(atech)
+
+                                local pCulture = pPlayer:GetCulture();
+                                local acivic = pCulture:GetProgressingCivic();
+                                pCulture :TriggerBoost(acivic)
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+Events.ResourceRemovedFromMap.Add(AkariGetUnicorn);
+
+function IsValidUnicornPlot(pPlot)
+    if pPlot:IsCity() or pPlot:IsMountain() or pPlot:GetResourceType() ~= -1 then
+        return false
+    else
+        return true
     end
 end
 
@@ -4107,6 +4219,67 @@ Events.UnitMoveComplete.Add(KanbaSetToutomi);
 Events.ImprovementAddedToMap.Add(KanbaSetToutomiTrigger);
 Events.UnitSelectionChanged.Add(KanbaSetToutomi);
 
+function KurehaHP(playerID)
+    if IsLilyCivilization(playerID) then
+        local kureha = GetLilyUnit(playerID,'KUREHA')
+        if kureha then
+            local pPlot = Map.GetPlot(kureha:GetX(),kureha:GetY())
+            local toutomi = pPlot:GetProperty('TOUTOMI')
+            if toutomi then
+                if toutomi>=4 and HasUnitPromotion(playerID, 'PROMOTION_AL_KUREHA_GREATNORMAL_2_2') then
+                    kureha:ChangeDamage(-2*toutomi)
+                end
+                if toutomi>=8 and HasUnitPromotion(playerID, 'PROMOTION_AL_KUREHA_GREATNORMAL_3_2') then
+                    local hp = 100 - kureha:GetDamage()
+                    local damage = math.floor(hp/2)
+                    kureha:ChangeDamage(damage)
+                    local pPlayer = Players[playerID]
+                    local era = Game.GetEras():GetCurrentEra() + 1
+                    pPlayer:GetCulture():ChangeCurrentCulturalProgress(damage*era);
+                    pPlayer:GetReligion():ChangeFaithBalance(damage*era);
+                end
+            end
+            local kurehaa = kureha:GetAbility();
+            local count = kurehaa:GetAbilityCount('ABILITY_AL_KUREHA_ATTACK')
+            local turn = kureha:GetProperty('KUREHA_ABI_TURN')
+            if count and count == 1 then
+                if turn and turn <3 then
+                    kureha:SetProperty('KUREHA_ABI_TURN',turn+1)
+                elseif turn >=3 then
+                    kureha:SetProperty('KUREHA_ABI_TURN',nil)
+                    kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',-1)
+                end
+            end
+        end
+    end
+end
+Events.PlayerTurnActivated.Add(KurehaHP);
+
+function KurehaDead(playerID,unitID,iX,iY)
+    local kureha = UnitManager.GetUnit(playerID,unitID)
+    local pName = string.match(kureha:GetName(),"(%u+)_GREATNORMAL")
+    if pName and pName == 'KUREHA' then
+        local pPlot = Map.GetPlot(iX,iY)
+        local toutomi = pPlot:GetProperty('TOUTOMI')
+        if toutomi>=12 and HasUnitPromotion(playerID, 'PROMOTION_AL_KUREHA_GREATNORMAL_4_1') then
+            UnitManager.ChangeMovesRemaining(kureha,-99)
+            kureha:ChangeDamage(-100)
+            local kurehaa = kureha:GetAbility();
+            local count = kurehaa:GetAbilityCount('ABILITY_AL_KUREHA_ATTACK')
+            if count == nil then
+                kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
+                kureha:SetProperty('KUREHA_ABI_TURN',0)
+            elseif count and count == 0 then
+                kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
+                kureha:SetProperty('KUREHA_ABI_TURN',0)
+            elseif count and count == 1 then
+                kureha:SetProperty('KUREHA_ABI_TURN',0)
+            end
+        end
+    end
+end
+Events.UnitMoveComplete.Add(KurehaDead);
+
 function NearTakane(pPlot)
     local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
     local num = 0
@@ -4117,16 +4290,16 @@ function NearTakane(pPlot)
                 local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
                 if pName and pName == 'TAKANE' then
                     FlagNearTakane = true
-                    local NearKanaho = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'KANAHO')
+                    local NearKanaho = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'KANAHO',1)
                     if NearKanaho then
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_1_2'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_2_1'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_3_2'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                     end
                 end
@@ -4149,16 +4322,16 @@ function NearKanaho(pPlot)
                 local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
                 if pName and pName == 'KANAHO' then
                     FlagNearKanaho = true
-                    local NearTakane = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'TAKANE')
+                    local NearTakane = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'TAKANE',1)
                     if NearTakane then
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_1_2'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_2_1'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                         if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_3_2'].Index) then
-                            num = num + 2
+                            num = num + 1
                         end
                     end
                 end
@@ -4172,8 +4345,8 @@ function NearKanaho(pPlot)
     end
 end
 
-function NearLily(pPlot,name)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
+function NearLily(pPlot,name,range)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), range)
     for _,plot in ipairs(targetPlots) do
         if plot:IsUnit() then
             for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
@@ -4184,6 +4357,7 @@ function NearLily(pPlot,name)
             end
         end
     end
+    return false;
 end
 
 function SetPromotionLevel(playerID)
@@ -4204,38 +4378,14 @@ function SetPromotionLevel(playerID)
 
         local himeka = GetLilyUnit(playerID,'HIMEKA')
         if himeka then
-            local promotionLevel = 0
-            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_1_2'].Index) then
-                local kanaho = GetLilyUnit(playerID,'KANAHO')
-                if kanaho then
-                    local level = kanaho:GetProperty('LILY_PROMOTIONS')
-                    if level then
-                        promotionLevel = level
-                    end
-                    himeka:SetProperty('AKARI_PROMOTIONS',promotionLevel)
-                end
+            if HasUnitPromotion(playerID,'PROMOTION_AL_HIMEKA_GREATNORMAL_1_2') then
+                CopyPromotionLevel(playerID,'HIMEKA','AKARI')
             end
-
-            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_2_2'].Index) then
-                local TAKANE = GetLilyUnit(playerID,'TAKANE')
-                if TAKANE then
-                    local level = TAKANE:GetProperty('LILY_PROMOTIONS')
-                    if level then
-                        promotionLevel = level
-                    end
-                    himeka:SetProperty('KUREHA_PROMOTIONS',promotionLevel)
-                end
+            if HasUnitPromotion(playerID,'PROMOTION_AL_HIMEKA_GREATNORMAL_2_2') then
+                CopyPromotionLevel(playerID,'HIMEKA','KUREHA')
             end
-
-            if himeka:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_HIMEKA_GREATNORMAL_2_2'].Index) then
-                local RIRI = GetLilyUnit(playerID,'RIRI')
-                if RIRI then
-                    local level = RIRI:GetProperty('LILY_PROMOTIONS')
-                    if level then
-                        promotionLevel = level
-                    end
-                    himeka:SetProperty('KUREHA_PROMOTIONS',promotionLevel)
-                end
+            if HasUnitPromotion(playerID,'PROMOTION_AL_HIMEKA_GREATNORMAL_3_2') then
+                CopyPromotionLevel(playerID,'HIMEKA','HARUNA')
             end
         end
     end

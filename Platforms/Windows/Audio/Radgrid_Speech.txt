@@ -1,20 +1,52 @@
 Event	ID	Name			Wwise Object Path	Notes
 	4710219	Play_Al_RENAISSANCE_Quote			\Default Work Unit\Speech\Play_Al_RENAISSANCE_Quote	
+	97417214	FUJINOGreatGetBall			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOGreatGetBall	
 	379208228	AL_RIRI_FIRST_MEET_A			\Default Work Unit\Speech\AL_RIRI_FIRST_MEET_A	
+	397728938	FUJINOFast			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOFast	
+	401855844	HARUNAGreatSelected			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAGreatSelected	
+	544868924	FUJINOGreatSelected			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOGreatSelected	
+	611587034	SUZUMEFast			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEFast	
+	644470631	SUZUMEUnitGreatPersonActivated			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEUnitGreatPersonActivated	
+	901731183	HARUNAUnitGreatPersonActivated			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAUnitGreatPersonActivated	
 	951238848	Play_Al_FUTURE_Quote			\Default Work Unit\Speech\Play_Al_FUTURE_Quote	
+	998698599	HARUNAGreatPromoted			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAGreatPromoted	
 	1025465769	AL_RIRI_DEFEAT_A			\Default Work Unit\Speech\AL_RIRI_DEFEAT_A	
+	1054173721	AKEHIGreatGetBallLast			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIGreatGetBallLast	
 	1061418229	AL_RIRI_DECLARE_WAR_FROM_AI_A			\Default Work Unit\Speech\AL_RIRI_DECLARE_WAR_FROM_AI_A	
+	1110435176	AKEHIUnitGreatPersonActivated			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIUnitGreatPersonActivated	
+	1281569015	FUJINOUnitGreatPersonActivated			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOUnitGreatPersonActivated	
+	1371777766	HARUNAGreatGetBall			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAGreatGetBall	
+	1460184530	HARUNAFast			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAFast	
+	1482731133	HARUNAGreatDefeated			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAGreatDefeated	
 	1491476364	Play_Al_INDUSTRIAL_Quote			\Default Work Unit\Speech\Play_Al_INDUSTRIAL_Quote	
+	1548204585	AKEHIGreatGetBall			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIGreatGetBall	
+	1667149199	SUZUMEGreatPromoted			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEGreatPromoted	
+	1949406949	FUJINOFinishShot			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOFinishShot	
+	1956333474	HARUNAGreatGetBallLast			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAGreatGetBallLast	
+	2229403806	AKEHIFinishShot			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIFinishShot	
+	2245379469	AKEHIGreatSelected			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIGreatSelected	
+	2254058143	FUJINOGreatPromoted			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOGreatPromoted	
 	2315485650	Play_Al_Classical_Quote			\Default Work Unit\Speech\Play_Al_Classical_Quote	
+	2379150453	SUZUMEGreatDefeated			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEGreatDefeated	
+	2439273322	FUJINOGreatGetBallLast			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOGreatGetBallLast	
+	2640876277	SUZUMEFinishShot			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEFinishShot	
+	2686475130	SUZUMEGreatGetBallLast			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEGreatGetBallLast	
+	2902986126	SUZUMEGreatGetBall			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEGreatGetBall	
+	2930429573	FUJINOGreatDefeated			\Default Work Unit\SFX\GRANEPLE\FUJINO\FUJINOGreatDefeated	
 	3016383644	AL_RIRI_WARNING_A			\Default Work Unit\Speech\AL_RIRI_WARNING_A	
 	3105189000	Play_Al_MODERN_Quote			\Default Work Unit\Speech\Play_Al_MODERN_Quote	
+	3176414084	AKEHIGreatDefeated			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIGreatDefeated	
 	3197587687	AL_KANAHO_MISC_PEP_TALK_A			\Default Work Unit\Speech\AL_KANAHO_MISC_PEP_TALK_A	
+	3551704524	SUZUMEGreatSelected			\Default Work Unit\SFX\GRANEPLE\SUZUME\SUZUMEGreatSelected	
 	3603057573	AL_RIRI_DECLARE_WAR_A			\Default Work Unit\Speech\AL_RIRI_DECLARE_WAR_A	
 	3639469523	Play_Al_INFORMATION_Quote			\Default Work Unit\Speech\Play_Al_INFORMATION_Quote	
+	3659382957	HARUNAFinishShot			\Default Work Unit\SFX\GRANEPLE\HARUNA\HARUNAFinishShot	
+	3755562357	AKEHIFast			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIFast	
 	3788131250	AL_RIRI_KUDOS_A			\Default Work Unit\Speech\AL_RIRI_KUDOS_A	
 	3958695390	Play_Al_ATOMIC_Quote			\Default Work Unit\Speech\Play_Al_ATOMIC_Quote	
+	3975816086	AKEHIGreatPromoted			\Default Work Unit\SFX\GRANEPLE\AKEHI\AKEHIGreatPromoted	
 	4091806427	AL_RIRI_MISC_PEP_TALK_A			\Default Work Unit\Speech\AL_RIRI_MISC_PEP_TALK_A	
 	4115739344	Play_Al_MEDIEVAL_Quote			\Default Work Unit\Speech\Play_Al_MEDIEVAL_Quote	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	231681900	Play_Al_INFORMATION_Quote	E:\	257475604	Play_Al_FUTURE_Quote	E:\	285671140	Play_Al_ATOMIC_Quote	E:\	317869372	AL_RIRI_DECLARE_WAR_FROM_AI_A	E:\	344804647	Play_Al_MODERN_Quote	E:\	392972650	AL_RIRI_DECLARE_WAR_A	E:\	470327255	Play_Al_RENAISSANCE_Quote	E:\	477378506	AL_RIRI_DEFEATED_A	E:\	495784003	AL_RIRI_FIRST_MEET_A	E:\	550095366	AL_RIRI_WARINING_A	E:\	571644668	AL_RIRI_MISC_PEP_TALK_A	E:\	619128886	AL_KANAHO_MISC_PEP_TALK_A	E:\	708291699	Play_Al_INDUSTRIAL_Quote	E:\	716523524	Play_Al_MEDIEVAL_Quote	E:\	1012805683	Play_Al_Classical_Quote	E:\	1013484875	AL_RIRI_KUDOS_A	E:\
+	41579869	FumiUnitGreatPersonActivated	E:\	62621497	FumiGreatSelected3	E:\	75236848	FUMIGreatDefeated	E:\	75352594	FUMIGreatDefeated	E:\	76993834	FumiGreatSelected5	E:\	99319168	FUMIGreatPromoted	E:\	104476963	FUMIGreatPromoted	E:\	115828216	FUMIGreatPromoted2	E:\	177774226	FUMIGreatPromoted	E:\	200818061	FumiGreatSelected2	E:\	212163958	YUJIAGreatGetBallLast	E:\	224541157	FUMIGreatDefeated	E:\	231681900	Play_Al_INFORMATION_Quote	E:\	234365887	FUMIGreatDefeated2	E:\	257475604	Play_Al_FUTURE_Quote	E:\	259257120	FumiGreatSelected3	E:\	285671140	Play_Al_ATOMIC_Quote	E:\	291408797	FumiUnitGreatPersonActivated	E:\	302022172	FUMIFinishShot	E:\	314058889	FumiGreatSelected5	E:\	317869372	AL_RIRI_DECLARE_WAR_FROM_AI_A	E:\	323989914	YUJIAGreatGetBall	E:\	331891455	FumiGreatSelected4	E:\	344804647	Play_Al_MODERN_Quote	E:\	346181931	FumiUnitGreatPersonActivated	E:\	358054949	FumiGreatSelected5	E:\	392972650	AL_RIRI_DECLARE_WAR_A	E:\	398784615	YUJIAGreatGetBallLast	E:\	458110168	FUMIGreatPromoted3	E:\	470327255	Play_Al_RENAISSANCE_Quote	E:\	477378506	AL_RIRI_DEFEATED_A	E:\	477915302	YUJIAGreatGetBall	E:\	495784003	AL_RIRI_FIRST_MEET_A	E:\	500220136	FUMIGreatDefeated3	E:\	510733555	FUMIGreatPromoted	E:\	513288564	FumiGreatSelected3	E:\	525685731	FumiGreatSelected2	E:\	544109480	FUMIGreatPromoted3	E:\	550095366	AL_RIRI_WARINING_A	E:\	569033823	FUMIGreatDefeated3	E:\	570996289	fast	E:\	571644668	AL_RIRI_MISC_PEP_TALK_A	E:\	597222964	fast	E:\	598094796	FumiGreatSelected5	E:\	605158167	FumiGreatSelected	E:\	614249530	FUMIFinishShot	E:\	619128886	AL_KANAHO_MISC_PEP_TALK_A	E:\	643928567	YUJIAGreatGetBall	E:\	658376781	FUMIGreatDefeated3	E:\	669783279	fast	E:\	674309278	FumiUnitGreatPersonActivated	E:\	676987262	YUJIAGreatGetBallLast	E:\	685068490	FUMIGreatPromoted2	E:\	708164690	FumiGreatSelected	E:\	708291699	Play_Al_INDUSTRIAL_Quote	E:\	716523524	Play_Al_MEDIEVAL_Quote	E:\	719553363	FUMIGreatDefeated2	E:\	734688411	FumiGreatSelected2	E:\	763546880	FUMIFinishShot	E:\	768452148	FumiGreatSelected4	E:\	790872023	YUJIAGreatGetBall	E:\	810510095	FUMIGreatPromoted2	E:\	811541111	FUMIFinishShot	E:\	818043518	FUMIGreatDefeated	E:\	824900042	FUMIGreatPromoted3	E:\	835883376	FUMIGreatDefeated3	E:\	845287323	fast	E:\	858346598	FUMIGreatPromoted2	E:\	889185515	FumiGreatSelected	E:\	929992663	FumiGreatSelected	E:\	956272682	FUMIGreatDefeated2	E:\	958144687	FumiGreatSelected3	E:\	995736549	FUMIGreatPromoted3	E:\	1012805683	Play_Al_Classical_Quote	E:\	1013484875	AL_RIRI_KUDOS_A	E:\	1016882560	FumiGreatSelected4	E:\	1022812927	FumiGreatSelected4	E:\	1024582502	FumiGreatSelected2	E:\	1030937439	FUMIGreatDefeated2	E:\	1057667929	YUJIAGreatGetBallLast	E:\

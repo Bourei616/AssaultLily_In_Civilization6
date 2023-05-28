@@ -223,8 +223,18 @@ function ALLilyInformationSelected(playerID, unitID, x, y, hexK, bSelected, bEdi
 end
 Events.UnitSelectionChanged.Add(ALLilyInformationSelected);
 
-
-
+function AkariRefresh(playerID,unitID,iX,iY)
+	local pUnit = UnitManager.GetUnit(playerID, unitID);
+	local pName = string.match(pUnit:GetName(),"(%u+)_GREATNORMAL")
+	if pName == 'AKARI' then
+		local pPlot = Map.GetPlot(iX,iY)
+		if pPlot:GetResourceType() == GameInfo.Resources['RESOURCE_AL_UNICORN'].Index then
+			UI.DeselectUnit( pUnit );
+			UI.SelectUnit( pUnit );
+		end
+	end
+end
+Events.UnitMoveComplete.Add(AkariRefresh);
 
 
 
@@ -1241,7 +1251,7 @@ function AlTeleportGetPlots(playerID)
 			local targetPlots = Map.GetNeighborPlots(district:GetX(), district:GetY(), 3)
 			for _, plot in ipairs(targetPlots) do
 				local iPlotIndex = plot:GetIndex()
-				local isInvalid = AlCheckTeleportPlot(plot)
+				local isInvalid = AlCheckTeleportPlot(plot,playerID)
 				if isInvalid then
 					table.insert(invalidPlots,iPlotIndex)
 				else
@@ -1254,9 +1264,11 @@ function AlTeleportGetPlots(playerID)
 	return selectablePlots,invalidPlots;
 end
 
-function AlCheckTeleportPlot(plot)
+function AlCheckTeleportPlot(plot,playerID)
 	if plot:IsMountain() or plot:IsWater() or plot:IsCity() or plot:IsUnit() then
-		return true
+		if plot:GetOwner() ~= -1 and plot:GetOwner() ~= playerID then
+			return true
+		end
 	else
 		return false
 	end

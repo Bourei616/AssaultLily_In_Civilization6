@@ -5,7 +5,7 @@ CREATE TABLE property_civ_number(n);
         cnt(x) AS (
             SELECT 1
             UNION ALL
-            SELECT x+1 FROM cnt WHERE x <= 20
+            SELECT x+1 FROM cnt WHERE x <= 99
         )
         INSERT INTO property_civ_number(n)
         SELECT x FROM cnt;

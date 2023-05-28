@@ -230,22 +230,6 @@
 			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUYU"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_256"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_38"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_50"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_80"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_80"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_IMPROVEMENT_AL_QUAN_256"/>
 			<m_ObjectName text="ICON_IMPROVEMENT_AL_QUAN_256"/>
 		</Element>
@@ -1240,22 +1224,6 @@
 		<Element>
 			<m_EntryID text="ICON_RESOURCE_AL_MAGI_22"/>
 			<m_ObjectName text="ICON_RESOURCE_AL_MAGI_22"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_256"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_38"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_38"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_50"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_50"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_80"/>
-			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_80"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_BUILDING_AL_AREA_DEFENSE_128"/>
@@ -2910,32 +2878,8 @@
 			<m_ObjectName text="ICON_UNIT_AL_SHENLIN_GREATNORMAL_PORTRAIT_95"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_1_256"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_1_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_1_45"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_1_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_1_64"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_1_64"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA"/>
 			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_YUJIA"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_2_256"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_2_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_2_45"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_2_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_2_64"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_2_64"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_RESOURCE_AL_NEKO_22"/>
@@ -3028,18 +2972,6 @@
 		<Element>
 			<m_EntryID text="ICON_BUILDING_AL_VISUAL_SHENLIN_80"/>
 			<m_ObjectName text="ICON_BUILDING_AL_VISUAL_SHENLIN_80"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_3_256"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_3_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_3_45"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_3_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_3_64"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_3_64"/>
 		</Element>
 		<Element>
 			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_MILIAM"/>
@@ -3974,30 +3906,6 @@
 			<m_ObjectName text="ICON_GOVERNOR_AL_HIMEKA_SLOT_32"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_4_256"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_4_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_4_45"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_4_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_4_64"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_4_64"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_5_256"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_5_256"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_5_45"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_5_45"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ICON_GREATWORK_ALLB_5_64"/>
-			<m_ObjectName text="ICON_GREATWORK_ALLB_5_64"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ICON_UNIT_AL_KANAHO_GREATNORMAL_22"/>
 			<m_ObjectName text="ICON_UNIT_AL_KANAHO_GREATNORMAL_22"/>
 		</Element>
@@ -4152,6 +4060,482 @@
 		<Element>
 			<m_EntryID text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_80"/>
 			<m_ObjectName text="ICON_UNIT_AL_HIMEKA_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_22"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_256"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_38"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_50"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_64"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_FOW_256"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_FOW_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_FOW_38"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_FOW_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_FOW_50"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_FOW_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_RESOURCE_AL_UNICORN_FOW_64"/>
+			<m_ObjectName text="ICON_RESOURCE_AL_UNICORN_FOW_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_ONSEN_SEA_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_ONSEN_SEA_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_UNICORN_256"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_UNICORN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_UNICORN_38"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_UNICORN_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_UNICORN_50"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_UNICORN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_IMPROVEMENT_AL_UNICORN_80"/>
+			<m_ObjectName text="ICON_IMPROVEMENT_AL_UNICORN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_1"/>
+			<m_ObjectName text="ALLB_1"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_2"/>
+			<m_ObjectName text="ALLB_2"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_3"/>
+			<m_ObjectName text="ALLB_3"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_4"/>
+			<m_ObjectName text="ALLB_4"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ALLB_5"/>
+			<m_ObjectName text="ALLB_5"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_1_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_1_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_1_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_1_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_1_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_1_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_2_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_2_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_2_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_2_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_2_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_2_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_3_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_3_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_3_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_3_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_3_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_3_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_4_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_4_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_4_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_4_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_4_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_4_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_5_256"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_5_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_5_45"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_5_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREATWORK_ALLB_5_64"/>
+			<m_ObjectName text="ICON_GREATWORK_ALLB_5_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME"/>
+			<m_ObjectName text="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_95"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_22"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_32"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_80"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_200"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_256"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_38"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_50"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_70"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_70"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_95"/>
+			<m_ObjectName text="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_95"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

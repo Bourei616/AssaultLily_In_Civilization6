@@ -631,13 +631,13 @@
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>与宫川高岭相邻时，自身-5每回合回复生命值、+5[ICON_Strength]防御战斗力。
-            宫川高岭每回合额外回复10生命值。相邻单元格+2[ICON_TOUTOMI]尊。</Text>
+            宫川高岭每回合额外回复10生命值。相邻单元格+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
 			<Text>爱人的献身</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与宫川高岭相邻时+10[ICON_Strength]防御战斗力，相邻单元格获得+2[ICON_TOUTOMI]尊。</Text>
+			<Text>与宫川高岭相邻时+10[ICON_Strength]防御战斗力，相邻单元格获得+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
 			<Text>重新开始的决心</Text>
@@ -656,7 +656,7 @@
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>与宫川高岭相邻时，自身-5每回合回复生命值、+5[ICON_Strength]进攻战斗力，
-            宫川高岭每回合额外回复10生命值。相邻单元格获得+2[ICON_TOUTOMI]尊。</Text>
+            宫川高岭每回合额外回复10生命值。相邻单元格获得+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_KANAHO_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
 			<Text>Dears&Tears</Text>
@@ -684,13 +684,13 @@
 			<Text>夏日祭的伤痕</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>-10每回合恢复生命值。与今叶星相邻时+10进攻战斗力，+1[ICON_Movement]行动力，相邻单元格获得+2[ICON_TOUTOMI]尊。</Text>
+			<Text>-10每回合恢复生命值。与今叶星相邻时+10进攻战斗力，+1[ICON_Movement]行动力，相邻单元格获得+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
 			<Text>为爱人献身</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>-15每回合恢复生命值。无视受伤惩罚。与今叶星相邻时，今叶星受到伤害后会立刻恢复，高岭则会替今叶星承受伤害，相邻单元格获得+2[ICON_TOUTOMI]尊。</Text>
+			<Text>-15每回合恢复生命值。无视受伤惩罚。与今叶星相邻时，今叶星受到伤害后会立刻恢复，高岭则会替今叶星承受伤害，相邻单元格获得+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
 			<Text>重新开始的信心 </Text>
@@ -708,7 +708,7 @@
 			<Text>夜空绽放的约定之花</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>-10每回合恢复生命值。与今叶星相邻时+1攻击次数，相邻单元格获得+2[ICON_TOUTOMI]尊。</Text>
+			<Text>-10每回合恢复生命值。与今叶星相邻时+1攻击次数，相邻单元格获得+1[ICON_TOUTOMI]尊。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_TAKANE_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
 			<Text>Dearest Dream</Text>
@@ -834,11 +834,176 @@
 			<Text>格朗・艾普蕾单位可以花费所有[ICON_Movement]移动力传送到偶像莉莉舞台附近3格内的任意单元格。</Text>
 		</Row>
 
+		<Row Tag="LOC_PROMOTION_CLASS_AL_AKARI_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>丹羽灯莉</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_AKARI_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>丹羽灯莉</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_AKARI_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由丹羽灯莉伟人转化成的特殊单位。丹羽灯莉有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>都会上空飞舞的天使</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>无视地形消耗与控制区，+2[ICON_Movement]行动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>寻找独角兽！</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每次移动有一定概率在相邻单元格生成[ICON_RESOURCE_AL_UNICORN]独角兽资源，收获独角兽资源时可获得[ICON_Science]科技值与[ICON_Production]生产力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>威胁姬歌的两颗新星</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与土岐红巴相邻时，自身+7[ICON_Strength]进攻战斗力，红巴+1[ICON_Movement]行动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>前进☆独角兽！ </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每处由灯莉收获的[ICON_RESOURCE_AL_UNICORN]独角兽资源为灯莉提供+1[ICON_Strength]战斗力。可以在独角兽资源上修建独角兽乐园。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>你与我的创作世界</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与石塚藤乃相邻时，自身+7[ICON_Strength]防御战斗力，藤乃+1[ICON_Ranged]射程。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>若是找到Happy☆</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>定盛姬歌在灯莉的三格范围内时，每次移动生成[ICON_RESOURCE_AL_UNICORN]独角兽资源的概率翻倍。在[ICON_RESOURCE_AL_UNICORN]独角兽资源上时，+2[ICON_Ranged]射程，+15[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>最喜欢☆奇妙不可思议啦</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKARI_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>收获[ICON_RESOURCE_AL_UNICORN]独角兽资源时有概率获得当前研究项目的[ICON_TechBoosted] 尤里卡和[ICON_CivicBoosted]市政。</Text>
+		</Row>
+
+		<Row Tag="LOC_MOD_AL_FIND_UNICORN" Language="zh_Hans_CN">
+			<Text>找到[ICON_RESOURCE_AL_UNICORN]独角兽啦！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_URIKA_UNICORN" Language="zh_Hans_CN">
+			<Text>收获[ICON_RESOURCE_AL_UNICORN]独角兽时灵感迸发！</Text>
+		</Row>
+
+		
+
 		<Row Tag="LOC_AL_TELEPORT_TOOLTIP" Language="zh_Hans_CN">
 			<Text>巡回演唱会！[NEWLINE]允许该格朗・艾普蕾成员空降至任一偶像莉莉舞台区域三格内的单元格！</Text>
 		</Row>
 		<Row Tag="LOC_AL_TELEPORT_NO_PLACE" Language="zh_Hans_CN">
 			<Text>[COLOR_RED]没有可供传送的偶像莉莉舞台区域！请确保至少建造了一个偶像莉莉舞台区域。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_AL_KUREHA_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>土岐红巴</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_KUREHA_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>土岐红巴</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_KUREHA_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由土岐红巴伟人转化成的特殊单位。土岐红巴有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>尊之追寻者</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>同时与高岭、叶星相邻时获得隐身效果，+7[ICON_Strength]战斗力，+4视野。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>尊之下仆</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>从单元格的“尊”中获得相等的战斗力。单元格的[ICON_TOUTOMI]“尊”小于等于2时，+3[ICON_Movement]行动力，-10[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>尊之见证者</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>同时与姬歌、灯莉相邻时攻击后可移动，+7[ICON_Strength]战斗力，+2[ICON_Ranged]射程。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>尊之书写者 </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单元格的[ICON_TOUTOMI]“尊”大于4时，每点“尊”为红巴提供+2恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>尊之守护者</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与铃梦相邻时攻击后可恢复，且双方+7[ICON_Strength]防御战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>尊之大出血</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>单元格的[ICON_TOUTOMI]“尊”大于8时，回合开始时生命值变为当前的一半，并获得相当于（扣除生命值*时代参数）的[ICON_Culture]文化值与[ICON_Faith]信仰值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>Oh Precious！</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>抵达[ICON_TOUTOMI]“尊”大于12的单元格时，立即失去所有[ICON_Movement]行动力、恢复所有生命值，且在接下来的三个回合内获得+15[ICON_Strength]战斗力。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_AL_HARUNA_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>横田悠夏</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_HARUNA_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>横田悠夏</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_HARUNA_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由横田悠夏伟人转化成的特殊单位。横田悠夏有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>最爱的表姐</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与高岭相邻时，-2[ICON_Movement]移动力，+10进攻[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>永远的目标</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与叶星相邻时，-5防御[ICON_Strength]战斗力，+2[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>波士顿的承诺</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+5对HUGE[ICON_Strength]战斗力。攻击驻扎状态的HUGE时额外+10[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>御台场的邂逅 </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在非首都所在大陆作战时+10[ICON_Strength]战斗力。与秋日相邻时经验获取翻倍。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>学生会的新成员</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的学生会成员为悠夏提供+1[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>不听话的身体</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与姬歌相邻时，+1攻击次数，攻击后可移动。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>悠夏Strike！</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每点未使用的[ICON_Movement]移动力提供+3[ICON_Strength]战斗力。</Text>
 		</Row>
 		
 		<!-- Units HUGE-->
@@ -969,6 +1134,13 @@
 
 		<Row Tag="LOC_DISTRICT_AL_GARDEN_QUAN1" Language="zh_Hans_CN">
 			<Text>+2 [ICON_Science] 科技值来自相邻天上之庭。</Text>
+		</Row>
+
+		<Row Tag="LOC_YC_YC_AL_UNICRON_GARDEN" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻GARDEN。</Text>
+		</Row>
+		<Row Tag="LOC_YC_AL_UNICORN_STAGE" Language="zh_Hans_CN">
+			<Text>+2 [ICON_Science] 科技值来自相邻偶像莉莉舞台。</Text>
 		</Row>
 
 		<Row Tag="LOC_DISTRICT_AL_GARDEN_TEAGARDEN" Language="zh_Hans_CN">
@@ -1204,6 +1376,14 @@
 
 		<Row Tag="LOC_IMPROVEMENT_AL_ONSEN_SEA_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>解锁建造者建造海水浴场的能力。只能建在拥有 [ICON_RESOURCE_AL_MAGI] MAGI的近海单元格上。[NEWLINE] +1 [ICON_Science] 科研值、+1 [ICON_Production] 生产力、该城市所有单元格+1魅力，并提供等于单元格魅力25%的 [ICON_Production] 生产力。[NEWLINE] 研究“飞行”科技后可提供 [Icon_Tourism] 旅游业绩。</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_AL_UNICORN_NAME" Language="zh_Hans_CN">
+			<Text>独角兽乐园</Text>
+		</Row>
+
+		<Row Tag="LOC_IMPROVEMENT_AL_UNICORN_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>可以由丹羽灯莉建造在有[ICON_RESOURCE_UNICORN]独角兽的单元格上。+2 [ICON_Science] 科研值、+1 [ICON_Production] 生产力，从单元格的每点[ICON_TOUTOMI]“尊”中获得+1[ICON_Science]科技值。</Text>
 		</Row>
 
 		
@@ -1847,11 +2027,18 @@
 		<Row Tag="LOC_MOD_ABILITY_LILY_GREATS_FUMI_ACTION_BUFF_ATK_DISTRICT" Language="zh_Hans_CN">
 			<Text>攻击区域时+5 [ICON_Strength] 战斗力（二川二水）</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_FUMI_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>二川二水为附近的单位提供+5 [ICON_Strength] 战斗力，+1视野。</Text>
-		</Row>
+		
 		<Row Tag="LOC_MOD_AL_GP_FUMI_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位（不可重复获得）。二川二水为2单元格内的陆地单位提供针对区域的+5 [ICON_Strength] 战斗力与+2视野加成，并将自身转化为一个带有独特晋升树的普通单位。</Text>
+		</Row>
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA_NAME" Language="zh_Hans_CN">
+			<Text>横田悠夏</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_HARUNA" Language="zh_Hans_CN">
+			<Text>高岭姐姐！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_HARUNA_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>该城市+4[ICON_Housing]住房。 使用100[ICON_GreatPerson]免费伟人点数招募目前和将来的伟人。 </Text>
 		</Row>
 
 		<!-- Great Person 梦结 -->
@@ -1867,10 +2054,8 @@
 		<Row Tag="LOC_LILY_ACTION_YUYU" Language="zh_Hans_CN">
 			<Text>[ICON_RS_LunaticTranserS]稀有技能：月迷狂者</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_YUYU_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>白井梦结为附近的陆地单位提供进攻时+10 [ICON_Strength] 战斗力，防御近战攻击时-5 [ICON_Strength] 战斗力。</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_YUYU_ACTION_DAMAGE_ENEMY_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_YUYU_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位（不可重复获得）。2单元格内的敌方单位失去75点生命值，我方单位失去30点生命值。</Text>
 		</Row>
 
@@ -1887,10 +2072,8 @@
 		<Row Tag="LOC_LILY_ACTION_KAEDE" Language="zh_Hans_CN">
 			<Text>无限购入人偶</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_KAEDE_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>枫・J・努韦尔为附近的陆地单位提供夹击加成翻倍，视野+1.</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_KAEDE_ACTION_DOLL_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_KAEDE_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位（不可重复获得）。赠送2份 [ICON_RESOURCE_AL_DOLL] 人偶，这是一种特殊的人造奢侈品资源，能+6 [ICON_Amenities] 宜居度。目的地城市每拥有1点奢侈资源，您国际 [ICON_Traderoute] 贸易路线所产出的 [ICON_Culture] 文化值便+2。</Text>
 		</Row>
 
@@ -1907,10 +2090,8 @@
 		<Row Tag="LOC_DIPLO_MODIFIER_DESCRIPTION_AL_GP_CHARISMA_RIRI_WELCOME" Language="zh_Hans_CN">
 			<Text>来自伟人“一柳梨璃”的魅力感召效果。</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_RIRI_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>一柳梨璃为附近的陆地单位提供每回合恢复+15生命值。</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_RIRI_ACTION_RAMUNE_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_RIRI_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位（不可重复获得）。赠送2份 [ICON_RESOURCE_AL_RAMUNE] 波子汽水，这是一种特殊的人造奢侈品资源，能+6 [ICON_Amenities] 宜居度。其他文明对您的好感度+10。</Text>
 		</Row>
 
@@ -1933,7 +2114,7 @@
 		<Row Tag="LOC_MOD_AL_GP_TADUSA_BIRTH_1_SUMMARY" Language="zh_Hans_CN">
 			<Text>与安藤鹤纱相邻的单位-5[ICON_Strength]战斗力。与安藤鹤纱保持距离（2-3格）的单位+10[ICON_Strength]战斗力。</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_TADUSA_ACTION_DAMAGE_ENEMY_SUMMARY" Language="zh_Hans_CN">
+		<Row Tag="LOC_MOD_AL_GP_TADUSA_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>2单元格内的敌方单位失去40点生命值，我方单位恢复50点生命值。</Text>
 		</Row>
 
@@ -1959,9 +2140,7 @@
 		<Row Tag="LOC_ABILITY_LILY_GREATS_MAI_ACTION_BUFF_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>可以进行一次距离为3格的跳跃。</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_MAI_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>为2单元格内的陆地单位提供距离为3格的跳跃能力。</Text>
-		</Row>
+		
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN_NAME" Language="zh_Hans_CN">
 			<Text>郭神琳</Text>
@@ -1969,9 +2148,7 @@
 		<Row Tag="LOC_LILY_ACTION_SHENLIN" Language="zh_Hans_CN">
 			<Text>请拿出自信来吧。</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_SHENLIN_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位每点未使用的移动力提供+2[ICON_Strength]战斗力。</Text>
-		</Row>
+		
 		<Row Tag="LOC_MOD_AL_GP_SHENLIN_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。创作巨作：《朋友》，提供1个[ICON_Governor] 总督头衔。</Text>
 		</Row>
@@ -1988,9 +2165,7 @@
 		<Row Tag="LOC_LILY_ACTION_YUJIA" Language="zh_Hans_CN">
 			<Text>我就这样抓住你了，绝不放手！</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_YUJIA_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位每点未使用的移动力提供+2[ICON_Strength]战斗力。</Text>
-		</Row>
+		
 		<Row Tag="LOC_MOD_AL_GP_YUJIA_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。创作巨作：《邂逅的约定》，提供1个[ICON_Governor] 总督头衔。</Text>
 		</Row>
@@ -2007,10 +2182,8 @@
 		<Row Tag="LOC_LILY_ACTION_MILIAM" Language="zh_Hans_CN">
 			<Text>脑内的故事！</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_MILIAM_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位+3防御[ICON_Strength]战斗力。</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_MILIAM_ACTION_BUFF_1_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_MILIAM_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。工厂科开发区+4[ICON_Production]生产力。为随机两个当前时代科技提供[ICON_TechBoosted]尤里卡。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_LILY_GREATS_MILIAM_BUFF_NAME" Language="zh_Hans_CN">
@@ -2023,14 +2196,34 @@
 		<Row Tag="LOC_LILY_ACTION_HIMEKA" Language="zh_Hans_CN">
 			<Text>偶像莉莉登场！</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_HIMEKA_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位+5进攻[ICON_Strength]战斗力。</Text>
-		</Row>
+		
 		<Row Tag="LOC_MOD_AL_GP_HIMEKA_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。偶像莉莉舞台提供+4[ICON_Culture]文化值，且+10[ICON_Tourism]旅游业绩。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_LILY_GREATS_HIMEKA_BUFF_NAME" Language="zh_Hans_CN">
 			<Text>+5进攻[ICON_Strength]战斗力(米莉亚姆的辅助)</Text>
+		</Row>
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA_NAME" Language="zh_Hans_CN">
+			<Text>土岐红巴</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_KUREHA" Language="zh_Hans_CN">
+			<Text>尊之守护者！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_KUREHA_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>获得专属单位。立即在该区域建造誓约礼堂。誓约礼堂获得4个巨作槽位，能在里面放置任何东西。</Text>
+		</Row>
+
+
+
+		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI_NAME" Language="zh_Hans_CN">
+			<Text>丹羽灯莉</Text>
+		</Row>
+		<Row Tag="LOC_LILY_ACTION_AKARI" Language="zh_Hans_CN">
+			<Text>寻找独角兽！</Text>
+		</Row>
+		<Row Tag="LOC_MOD_AL_GP_AKARI_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
+			<Text>获得专属单位。该偶像莉莉舞台区域的[ICON_Culture]文化值相邻加成也提供[ICON_Science]科技值。在任意城市中建成一个偶像莉莉舞台后将对相邻单元格施放文化炸弹。</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_MOYU_NAME" Language="zh_Hans_CN">
@@ -2040,7 +2233,7 @@
 			<Text>百由我又来教你打游戏啦！</Text>
 		</Row>
 		<Row Tag="LOC_MOD_AL_GP_MOYU_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>获得专属单位。创建巨作《突击莉莉Last Bullet MOD说明》</Text>
+			<Text>获得专属单位。创建巨作《突击莉莉Last Bullet MOD说明》，提供1个[ICON_Governor] 总督头衔。</Text>
 		</Row>
 
 		<Row Tag="LOC_GREAT_PERSON_INDIVIDUAL_AL_LILY_KANAHO_NAME" Language="zh_Hans_CN">
@@ -2049,10 +2242,8 @@
 		<Row Tag="LOC_LILY_ACTION_KANAHO" Language="zh_Hans_CN">
 			<Text>夜空绽放的追忆之花</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_KANAHO_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位+2[ICON_Movement]行动力。</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_KANAHO_ACTION_BUFF_1_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_KANAHO_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。创作巨作：《夜空绽放的追忆之花》，提供1个[ICON_Governor] 总督头衔。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_LILY_GREATS_KANAHO_BUFF_NAME" Language="zh_Hans_CN">
@@ -2065,10 +2256,8 @@
 		<Row Tag="LOC_LILY_ACTION_TAKANE" Language="zh_Hans_CN">
 			<Text>夜空绽放的约定之花</Text>
 		</Row>
-		<Row Tag="LOC_MOD_AL_GP_TAKANE_BIRTH_BUFF_SUMMARY" Language="zh_Hans_CN">
-			<Text>附近的陆地单位+7[ICON_Movement]防御战斗力。</Text>
-		</Row>
-		<Row Tag="LOC_MOD_AL_GP_TAKANE_ACTION_BUFF_1_SUMMARY" Language="zh_Hans_CN">
+		
+		<Row Tag="LOC_MOD_AL_GP_TAKANE_ACTION_BUFF_SUMMARY" Language="zh_Hans_CN">
 			<Text>获得专属单位。创作巨作：《夜空绽放的约定之花》，提供1个[ICON_Governor] 总督头衔。</Text>
 		</Row>
 		<Row Tag="LOC_ABILITY_LILY_GREATS_TAKANE_BUFF_NAME" Language="zh_Hans_CN">
@@ -3152,6 +3341,9 @@
 		<Row Tag="LOC_RESOURCE_AL_NEUNWELT_NAME" Language="zh_Hans_CN">
             <Text>九世联合战术专用弹</Text>
         </Row>
+		<Row Tag="LOC_RESOURCE_AL_UNICORN_NAME" Language="zh_Hans_CN">
+            <Text>独角兽（？）</Text>
+        </Row>
 
 		<!-- 誓约Modifier描述 -->
 		<Row Tag="LOC_MOD_AL_PROMISE_FUMI_KAEDE_SUCCESS" Language="zh_Hans_CN">
@@ -3705,6 +3897,24 @@
 		</Row>
 		<Row Tag="LOC_CHARM_NAME_HIMEKA" Language="zh_Hans_CN">
 			<Text>杜兰达尔/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_AKARI" Language="zh_Hans_CN">
+			<Text>马尔提/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_KUREHA" Language="zh_Hans_CN">
+			<Text>苏迦尔/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_HARUNA" Language="zh_Hans_CN">
+			<Text>提尔锋/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_AKEHI" Language="zh_Hans_CN">
+			<Text>加耶博格/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_SUZUME" Language="zh_Hans_CN">
+			<Text>布里欧纳克/</Text>
+		</Row>
+		<Row Tag="LOC_CHARM_NAME_FUJINO" Language="zh_Hans_CN">
+			<Text>克律萨俄耳/</Text>
 		</Row>
 
 		<Row Tag="LOC_MOD_AL_PROMISE_STRENGTH_BUFF" Language="zh_Hans_CN">
@@ -4483,6 +4693,13 @@ GEHENA的要求被拒绝，百合丘又一次有了小结梨的容身之处—�
 			<Text>[NEWLINE]专属效果：持续时间内相邻两格内所有单位-5[ICON_Strength]防御战斗力。</Text>
 		</Row>
 
+		<Row Tag="LOC_RS_EFFECT_AKARI" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：+1攻击次数。</Text>
+		</Row>
+		<Row Tag="LOC_RS_EFFECT_KUREHA" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：所在单元格[ICON_TOUTOMI]尊大于4时，每回合恢复20生命值。</Text>
+		</Row>
+
 		<Row Tag="LOC_RS_NAME_Register" Language="zh_Hans_CN">
 			<Text>{1_String}稀有技能：指挥号令</Text>
 		</Row>
@@ -4620,6 +4837,10 @@ GEHENA的要求被拒绝，百合丘又一次有了小结梨的容身之处—�
 		</Row>
 		<Row Tag="LOC_RS_EFFECT_HIMEKA" Language="zh_Hans_CN">
 			<Text>[NEWLINE]专属效果：自身额外+2移动力。</Text>
+		</Row>
+
+		<Row Tag="LOC_RS_EFFECT_HARUNA" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：与高岭或姬歌相邻时，+10[ICON_Strength]进攻战斗力。</Text>
 		</Row>
 
 		<Row Tag="LOC_SECRETSOCIETY_AL_GEHENA_NAME" Language="zh_Hans_CN">

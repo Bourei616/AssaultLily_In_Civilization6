@@ -7,11 +7,13 @@ Event	ID	Name			Wwise Object Path	Notes
 	120452241	TAKANEGreatGetBall			\Default Work Unit\SFX\TAKANE\TAKANEGreatGetBall	
 	135015609	YURIGreatDefeated			\Default Work Unit\SFX\YURI\YURIGreatDefeated	
 	147174575	KANAHOPantheonFounded			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHOPantheonFounded	
+	151399787	AKARIGreatGetBallLast			\Default Work Unit\SFX\AKARI\AKARIGreatGetBallLast	
 	154528574	TAKANEGreatPromoted			\Default Work Unit\SFX\TAKANE\TAKANEGreatPromoted	
 	180400776	SHENLINFast			\Default Work Unit\SFX\FAST\SHENLINFast	
 	229441924	MOYUUnitGreatPersonActivated			\Default Work Unit\SFX\MOYU\MOYUUnitGreatPersonActivated	
 	277076225	RegisterS			\Default Work Unit\SFX\Effects\RegisterS	
 	278749751	MILIAMUnitGreatPersonActivated			\Default Work Unit\SFX\MILIAM\MILIAMUnitGreatPersonActivated	
+	315508197	KUREHAFast			\Default Work Unit\SFX\KUREHA\KUREHAFast	
 	328575719	KANAHOReligionFounded			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHOReligionFounded	
 	336711534	YURI_MIDDLE2			\Default Work Unit\SFX\YURI\YURI_MIDDLE2	
 	336711535	YURI_MIDDLE3			\Default Work Unit\SFX\YURI\YURI_MIDDLE3	
@@ -31,6 +33,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	822239722	MILIAMFast			\Default Work Unit\SFX\FAST\MILIAMFast	
 	827423698	PhaseTranscendenceS			\Default Work Unit\SFX\Effects\PhaseTranscendenceS	
 	828449926	MAIFast			\Default Work Unit\SFX\FAST\MAIFast	
+	831845951	AKARIGreatGetBall			\Default Work Unit\SFX\AKARI\AKARIGreatGetBall	
+	873252004	AKARIGreatPromoted			\Default Work Unit\SFX\AKARI\AKARIGreatPromoted	
 	903270114	MOYUGreatPromoted			\Default Work Unit\SFX\MOYU\MOYUGreatPromoted	
 	930739465	Laplace			\Default Work Unit\SFX\Effects\Laplace	
 	931343231	TruthOfTheWorldS			\Default Work Unit\SFX\Effects\TruthOfTheWorldS	
@@ -45,6 +49,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	966691148	YuriPromoted8			\Default Work Unit\SFX\YURI\YuriPromoted8	
 	966691149	YuriPromoted9			\Default Work Unit\SFX\YURI\YuriPromoted9	
 	985112869	Phantasm			\Default Work Unit\SFX\Effects\Phantasm	
+	1059869539	AKARIFast			\Default Work Unit\SFX\AKARI\AKARIFast	
+	1140065646	KUREHAFinishShot			\Default Work Unit\SFX\KUREHA\KUREHAFinishShot	
 	1156690911	KANAHOPlayerTurnDeactivated			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHOPlayerTurnDeactivated	
 	1206551901	HawkEye			\Default Work Unit\SFX\Effects\HawkEye	
 	1240267956	YURI_MIDDLE			\Default Work Unit\SFX\YURI\YURI_MIDDLE	
@@ -64,26 +70,34 @@ Event	ID	Name			Wwise Object Path	Notes
 	1823949459	KANAHOGreatGetBallLast			\Default Work Unit\SFX\KANAHO\KANAHOGreatGetBallLast	
 	1828886999	TADUSAFast			\Default Work Unit\SFX\FAST\TADUSAFast	
 	1828939583	Heliosphere			\Default Work Unit\SFX\Effects\Heliosphere	
+	1918850985	KUREHAGreatGetBallLast			\Default Work Unit\SFX\KUREHA\KUREHAGreatGetBallLast	
 	1925887096	KANAHOCityBuilt			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHOCityBuilt	
 	1973135371	YUJIAFast			\Default Work Unit\SFX\FAST\YUJIAFast	
 	2016327589	MOYUGreatGetBall			\Default Work Unit\SFX\MOYU\MOYUGreatGetBall	
 	2116983698	HIMEKAGreatSelected			\Default Work Unit\SFX\HIMEKA\HIMEKAGreatSelected	
+	2247592441	KUREHAGreatGetBall			\Default Work Unit\SFX\KUREHA\KUREHAGreatGetBall	
 	2312778148	ZenoneParadoxa			\Default Work Unit\SFX\Effects\ZenoneParadoxa	
+	2341761414	KUREHAGreatPromoted			\Default Work Unit\SFX\KUREHA\KUREHAGreatPromoted	
 	2393335196	TAKANEGreatDefeated			\Default Work Unit\SFX\TAKANE\TAKANEGreatDefeated	
 	2395272891	KANAHOFast			\Default Work Unit\SFX\KANAHO\KANAHOFast	
 	2484251980	PhantasmS			\Default Work Unit\SFX\Effects\PhantasmS	
 	2496658176	HIMEKAGreatGetBall			\Default Work Unit\SFX\HIMEKA\HIMEKAGreatGetBall	
+	2519676637	KUREHAGreatSelected			\Default Work Unit\SFX\KUREHA\KUREHAGreatSelected	
 	2551748771	LunaticTranserS			\Default Work Unit\SFX\Effects\LunaticTranserS	
 	2651250541	TestamentS			\Default Work Unit\SFX\Effects\TestamentS	
 	2656384245	TAKANEGreatSelected			\Default Work Unit\SFX\TAKANE\TAKANEGreatSelected	
 	2877587241	MOYUGreatSelected			\Default Work Unit\SFX\MOYU\MOYUGreatSelected	
 	2914324266	Testament			\Default Work Unit\SFX\Effects\Testament	
+	2925483956	KUREHAGreatDefeated			\Default Work Unit\SFX\KUREHA\KUREHAGreatDefeated	
+	2930070647	AKARIGreatSelected			\Default Work Unit\SFX\AKARI\AKARIGreatSelected	
 	2983721744	HIMEKAGreatGetBallLast			\Default Work Unit\SFX\HIMEKA\HIMEKAGreatGetBallLast	
+	3023965656	KUREHAUnitGreatPersonActivated			\Default Work Unit\SFX\KUREHA\KUREHAUnitGreatPersonActivated	
 	3043927012	YURI_END2			\Default Work Unit\SFX\YURI\YURI_END2	
 	3043927015	YURI_END1			\Default Work Unit\SFX\YURI\YURI_END1	
 	3073030097	YURIFinishShot			\Default Work Unit\SFX\YURI\YURIFinishShot	
 	3089239897	KANAHODistrictPillaged			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHODistrictPillaged	
 	3214907229	KANAHOUnitKilledInCombat			\Default Work Unit\SFX\KANAHO\KANAHOLeader\KANAHOUnitKilledInCombat	
+	3302486930	AKARIUnitGreatPersonActivated			\Default Work Unit\SFX\AKARI\AKARIUnitGreatPersonActivated	
 	3420286730	YURIGreatGetBall			\Default Work Unit\SFX\YURI\YURIGreatGetBall	
 	3441646737	MOYUFast			\Default Work Unit\SFX\FAST\MOYUFast	
 	3460023792	LunaticTranser			\Default Work Unit\SFX\Effects\LunaticTranser	
@@ -93,6 +107,8 @@ Event	ID	Name			Wwise Object Path	Notes
 	3680208990	HeliosphereS			\Default Work Unit\SFX\Effects\HeliosphereS	
 	3752814887	HIMEKAGreatDefeated			\Default Work Unit\SFX\HIMEKA\HIMEKAGreatDefeated	
 	3828230982	YURIFast			\Default Work Unit\SFX\FAST\YURIFast	
+	3902333314	AKARIGreatDefeated			\Default Work Unit\SFX\AKARI\AKARIGreatDefeated	
+	3999896984	AKARIFinishShot			\Default Work Unit\SFX\AKARI\AKARIFinishShot	
 	4029758401	KAEDEFast			\Default Work Unit\SFX\FAST\KAEDEFast	
 	4059716293	MOYUGreatGetBallLast			\Default Work Unit\SFX\MOYU\MOYUGreatGetBallLast	
 	4110032554	KANAHOGreatDefeated			\Default Work Unit\SFX\KANAHO\KANAHOGreatDefeated	
@@ -102,4 +118,4 @@ Event	ID	Name			Wwise Object Path	Notes
 	4253194949	MILIAMGreatDefeated			\Default Work Unit\SFX\MILIAM\MILIAMGreatDefeated	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	6293030	RiriPlayerEraChanged1	E:\	16992361	yuripromotion3	E:\	19259343	YUJIAGreatGetBall	E:\	20606783	Brave_08	E:\	20988140	FUMIGreatDefeated	E:\	21806658	FUMIGreatPromoted3	E:\	26931746	Brave_12	E:\	33339273	Brave_13	E:\	44402868	fast	E:\	59580624	FUMIGreatDefeated	E:\	62634532	YUJIAGreatGetBall	E:\	70951489	YUJIAGreatGetBallLast	E:\	73268154	Brave_11	E:\	90293108	FUMIGreatPromoted2	E:\	97388201	FumiGreatSelected3	E:\	112860793	FUMIGreatDefeated	E:\	113457829	FumiUnitGreatPersonActivated	E:\	127346068	FUMIGreatPromoted3	E:\	132699952	yuripromotion2	E:\	137736922	FumiUnitGreatPersonActivated	E:\	139845542	FUMIGreatDefeated3	E:\	143788160	FumiGreatSelected2	E:\	150779835	FumiGreatSelected4	E:\	163141571	fast	E:\	165228856	FumiGreatSelected5	E:\	173102098	FUMIFinishShot	E:\	196470294	FumiGreatSelected5	E:\	196780950	FumiGreatSelected2	E:\	198335091	FumiGreatSelected4	E:\	198440766	FumiGreatSelected5	E:\	199477440	fast1_02	E:\	210028442	FumiUnitGreatPersonActivated	E:\	212093094	yuripromotion4	E:\	212819285	Brave_16	E:\	222544008	FUMIGreatPromoted	E:\	225329391	FumiGreatSelected4	E:\	227029512	FUMIGreatDefeated2	E:\	228339120	FumiGreatSelected	E:\	235764392	FumiGreatSelected	E:\	239164993	fast1_09	E:\	243565774	Brave_10	E:\	247478196	FUMIGreatPromoted2	E:\	253978905	yurimiddle3	E:\	258358454	FumiGreatSelected4	E:\	264927725	FUMIGreatPromoted	E:\	270922051	FUMIGreatDefeated2	E:\	271019385	RiriCityCommandStarted	E:\	280138100	FUMIGreatDefeated3	E:\	287068448	Brave_20	E:\	299819659	yuripromotion8	E:\	312017730	FUMIGreatPromoted2	E:\	314605337	Brave_17	E:\	329228907	Brave_15	E:\	331154152	FUMIFinishShot	E:\	338681004	FUMIGreatPromoted2	E:\	338835296	FumiUnitGreatPersonActivated	E:\	342217861	RiriCityBuilt	E:\	365174312	fast1_03	E:\	370284858	fast1_06	E:\	374504318	FumiGreatSelected3	E:\	385437252	FumiGreatSelected4	E:\	403196172	fast1_01	E:\	405017395	QUOTE_GREATWORK_ALLB_5	E:\	406038002	FUMIGreatPromoted3	E:\	421267140	Brave_14	E:\	430725708	Brave_03	E:\	452393371	yuripromotion6	E:\	461652094	FumiGreatSelected3	E:\	478742484	RiriResearchCompleted	E:\	492639190	FUMIGreatDefeated2	E:\	494363270	Brave	E:\	529330030	Brave_09	E:\	534170433	YUJIAGreatGetBallLast	E:\	536182328	yuripromotion9	E:\	540018577	FumiGreatSelected	E:\	553476629	YUJIAGreatGetBallLast	E:\	559075171	FUMIGreatDefeated	E:\	559667170	FumiUnitGreatPersonActivated	E:\	573015967	FUMIGreatDefeated2	E:\	610900723	FUMIGreatPromoted	E:\	617735133	yurimiddle	E:\	620280255	FumiGreatSelected	E:\	624319601	fast1_07	E:\	628135514	FumiGreatSelected3	E:\	644966933	fast1_04	E:\	657104950	YURI_DEAD	E:\	657865165	yuripromotion5	E:\	659059749	FumiGreatSelected	E:\	662150757	FUMIFinishShot	E:\	672085111	Brave_02	E:\	685357861	FumiGreatSelected5	E:\	690458044	yurimiddle2	E:\	699964504	RiriPantheonFounded	E:\	702088757	Brave_07	E:\	702682445	RiriDistrictPillaged	E:\	703587034	FUMIGreatDefeated3	E:\	705090237	YUJIAGreatGetBall	E:\	721375227	FumiGreatSelected4	E:\	733463225	FUMIFinishShot	E:\	734028542	FUMIGreatPromoted2	E:\	735517643	fast1_08	E:\	743963330	QUOTE_GREATWORK_ALLB_4	E:\	745181219	FumiGreatSelected2	E:\	747355841	yuriend2	E:\	758887501	FumiGreatSelected2	E:\	759168033	Brave_04	E:\	759933140	FUMIGreatPromoted	E:\	768769027	FumiGreatSelected5	E:\	777141863	RiriReligionFounded	E:\	780326568	yuriend1	E:\	782843949	FUMIGreatPromoted3	E:\	783396082	FUMIGreatPromoted3	E:\	789984203	RiriCivicCompleted	E:\	791851332	FUMIGreatPromoted	E:\	802269115	FUMIGreatDefeated	E:\	804755400	Brave_18	E:\	805299766	FumiGreatSelected5	E:\	814359011	FumiGreatSelected3	E:\	827455114	FumiGreatSelected	E:\	839058152	YUJIAGreatGetBall	E:\	846909798	fast1_11	E:\	853595322	yuripromotion1	E:\	856477569	FUMIGreatDefeated3	E:\	857901904	fast	E:\	877574278	YUJIAGreatGetBallLast	E:\	889983875	YUJIAGreatGetBallLast	E:\	895533699	FUMIGreatDefeated	E:\	898021965	Brave_19	E:\	898582347	RiriCityRemovedFromMap	E:\	915181427	yuripromotion7	E:\	917979363	fast1_10	E:\	931839549	FUMIFinishShot	E:\	942497734	QUOTE_GW_3	E:\	945829526	FumiGreatSelected2	E:\	951387984	FumiGreatSelected2	E:\	960594731	FUMIGreatDefeated3	E:\	961020328	RiriPlayerTurnActivated	E:\	962289745	FUMIGreatDefeated2	E:\	974834062	Brave_01	E:\	989349150	Brave_05	E:\	1006622723	FUMIFinishShot	E:\	1013633203	YUJIAGreatGetBall	E:\	1014575717	FUMIGreatDefeated2	E:\	1017510051	fast1_05	E:\	1054204139	FumiUnitGreatPersonActivated	E:\	1055814986	FumiGreatSelected3	E:\	1056733508	YUJIAGreatGetBall	E:\	1066256886	FUMIGreatDefeated3	E:\	1073709991	YUJIAGreatGetBallLast	E:\
+	6293030	RiriPlayerEraChanged1	E:\	16992361	yuripromotion3	E:\	19259343	YUJIAGreatGetBall	E:\	20606783	Brave_08	E:\	20988140	FUMIGreatDefeated	E:\	21806658	FUMIGreatPromoted3	E:\	26931746	Brave_12	E:\	33339273	Brave_13	E:\	44402868	fast	E:\	59580624	FUMIGreatDefeated	E:\	62634532	YUJIAGreatGetBall	E:\	70951489	YUJIAGreatGetBallLast	E:\	73268154	Brave_11	E:\	90293108	FUMIGreatPromoted2	E:\	96808725	FUMIGreatPromoted	E:\	97388201	FumiGreatSelected3	E:\	112860793	FUMIGreatDefeated	E:\	113457829	FumiUnitGreatPersonActivated	E:\	127346068	FUMIGreatPromoted3	E:\	130805648	FUMIGreatDefeated	E:\	132699952	yuripromotion2	E:\	133208790	YUJIAGreatGetBall	E:\	137736922	FumiUnitGreatPersonActivated	E:\	139181718	FumiUnitGreatPersonActivated	E:\	139845542	FUMIGreatDefeated3	E:\	143788160	FumiGreatSelected2	E:\	150779835	FumiGreatSelected4	E:\	163141571	fast	E:\	165228856	FumiGreatSelected5	E:\	173102098	FUMIFinishShot	E:\	196470294	FumiGreatSelected5	E:\	196780950	FumiGreatSelected2	E:\	198335091	FumiGreatSelected4	E:\	198440766	FumiGreatSelected5	E:\	199477440	fast1_02	E:\	204207407	FumiGreatSelected3	E:\	210028442	FumiUnitGreatPersonActivated	E:\	212093094	yuripromotion4	E:\	212819285	Brave_16	E:\	222544008	FUMIGreatPromoted	E:\	223647283	YUJIAGreatGetBallLast	E:\	225329391	FumiGreatSelected4	E:\	227029512	FUMIGreatDefeated2	E:\	228339120	FumiGreatSelected	E:\	235764392	FumiGreatSelected	E:\	239164993	fast1_09	E:\	243565774	Brave_10	E:\	247478196	FUMIGreatPromoted2	E:\	253978905	yurimiddle3	E:\	258358454	FumiGreatSelected4	E:\	264927725	FUMIGreatPromoted	E:\	270922051	FUMIGreatDefeated2	E:\	271019385	RiriCityCommandStarted	E:\	280138100	FUMIGreatDefeated3	E:\	287068448	Brave_20	E:\	293655268	YUJIAGreatGetBall	E:\	299819659	yuripromotion8	E:\	312017730	FUMIGreatPromoted2	E:\	314605337	Brave_17	E:\	329228907	Brave_15	E:\	331154152	FUMIFinishShot	E:\	338681004	FUMIGreatPromoted2	E:\	338835296	FumiUnitGreatPersonActivated	E:\	342217861	RiriCityBuilt	E:\	362732109	FumiGreatSelected	E:\	365174312	fast1_03	E:\	370284858	fast1_06	E:\	374504318	FumiGreatSelected3	E:\	385437252	FumiGreatSelected4	E:\	389149296	FUMIGreatPromoted2	E:\	394389181	FUMIGreatDefeated2	E:\	401961159	FumiGreatSelected2	E:\	403196172	fast1_01	E:\	405017395	QUOTE_GREATWORK_ALLB_5	E:\	406038002	FUMIGreatPromoted3	E:\	421267140	Brave_14	E:\	430725708	Brave_03	E:\	448011055	FUMIGreatPromoted	E:\	452393371	yuripromotion6	E:\	461652094	FumiGreatSelected3	E:\	478742484	RiriResearchCompleted	E:\	492639190	FUMIGreatDefeated2	E:\	494363270	Brave	E:\	495338485	FumiGreatSelected	E:\	499584946	FUMIGreatDefeated	E:\	529330030	Brave_09	E:\	534170433	YUJIAGreatGetBallLast	E:\	536182328	yuripromotion9	E:\	540018577	FumiGreatSelected	E:\	553476629	YUJIAGreatGetBallLast	E:\	558821557	FumiUnitGreatPersonActivated	E:\	559075171	FUMIGreatDefeated	E:\	559667170	FumiUnitGreatPersonActivated	E:\	573015967	FUMIGreatDefeated2	E:\	610900723	FUMIGreatPromoted	E:\	617735133	yurimiddle	E:\	620280255	FumiGreatSelected	E:\	620935896	FumiGreatSelected4	E:\	624319601	fast1_07	E:\	628135514	FumiGreatSelected3	E:\	636906417	FUMIFinishShot	E:\	644966933	fast1_04	E:\	648229130	FUMIGreatPromoted2	E:\	657104950	YURI_DEAD	E:\	657865165	yuripromotion5	E:\	659059749	FumiGreatSelected	E:\	662150757	FUMIFinishShot	E:\	672085111	Brave_02	E:\	685357861	FumiGreatSelected5	E:\	690458044	yurimiddle2	E:\	699964504	RiriPantheonFounded	E:\	702088757	Brave_07	E:\	702682445	RiriDistrictPillaged	E:\	703587034	FUMIGreatDefeated3	E:\	705090237	YUJIAGreatGetBall	E:\	717670070	FumiGreatSelected5	E:\	721375227	FumiGreatSelected4	E:\	733463225	FUMIFinishShot	E:\	734028542	FUMIGreatPromoted2	E:\	735517643	fast1_08	E:\	743963330	QUOTE_GREATWORK_ALLB_4	E:\	745181219	FumiGreatSelected2	E:\	747355841	yuriend2	E:\	749398956	YUJIAGreatGetBallLast	E:\	758887501	FumiGreatSelected2	E:\	759168033	Brave_04	E:\	759933140	FUMIGreatPromoted	E:\	768769027	FumiGreatSelected5	E:\	777141863	RiriReligionFounded	E:\	780326568	yuriend1	E:\	782843949	FUMIGreatPromoted3	E:\	783396082	FUMIGreatPromoted3	E:\	789984203	RiriCivicCompleted	E:\	791851332	FUMIGreatPromoted	E:\	802269115	FUMIGreatDefeated	E:\	804755400	Brave_18	E:\	805299766	FumiGreatSelected5	E:\	814359011	FumiGreatSelected3	E:\	827455114	FumiGreatSelected	E:\	833341853	FumiGreatSelected4	E:\	839058152	YUJIAGreatGetBall	E:\	846909798	fast1_11	E:\	853595322	yuripromotion1	E:\	856477569	FUMIGreatDefeated3	E:\	857901904	fast	E:\	867382183	FUMIGreatPromoted3	E:\	874450200	FUMIGreatDefeated2	E:\	877574278	YUJIAGreatGetBallLast	E:\	884501569	FumiGreatSelected2	E:\	889983875	YUJIAGreatGetBallLast	E:\	895533699	FUMIGreatDefeated	E:\	898021965	Brave_19	E:\	898582347	RiriCityRemovedFromMap	E:\	915181427	yuripromotion7	E:\	917979363	fast1_10	E:\	931839549	FUMIFinishShot	E:\	942497734	QUOTE_GW_3	E:\	943936246	fast	E:\	945829526	FumiGreatSelected2	E:\	951387984	FumiGreatSelected2	E:\	960594731	FUMIGreatDefeated3	E:\	961020328	RiriPlayerTurnActivated	E:\	962289745	FUMIGreatDefeated2	E:\	974834062	Brave_01	E:\	976823443	FUMIGreatDefeated3	E:\	989349150	Brave_05	E:\	995337655	FumiGreatSelected5	E:\	1001149533	FUMIFinishShot	E:\	1006622723	FUMIFinishShot	E:\	1013633203	YUJIAGreatGetBall	E:\	1014575717	FUMIGreatDefeated2	E:\	1017510051	fast1_05	E:\	1019606742	FumiGreatSelected3	E:\	1054204139	FumiUnitGreatPersonActivated	E:\	1055814986	FumiGreatSelected3	E:\	1056733508	YUJIAGreatGetBall	E:\	1066256886	FUMIGreatDefeated3	E:\	1066283865	FUMIGreatDefeated3	E:\	1072158916	FUMIGreatPromoted3	E:\	1073560253	fast	E:\	1073709991	YUJIAGreatGetBallLast	E:\

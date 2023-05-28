@@ -948,6 +948,33 @@
     </IconDefinitions>
 
     <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN" IconSize="38" Filename="ICON_RESOURCE_AL_UNICORN_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN" IconSize="50" Filename="ICON_RESOURCE_AL_UNICORN_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN" IconSize="64" Filename="ICON_RESOURCE_AL_UNICORN_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN" IconSize="256" Filename="ICON_RESOURCE_AL_UNICORN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_UNICORN" Atlas="ATLAS_ICON_RESOURCE_AL_UNICORN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN_TEXT" Baseline="4" IconsPerRow="1" IconsPerColumn="1" IconSize="22" Filename="ICON_RESOURCE_AL_UNICORN_22"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="RESOURCE_AL_UNICORN" Atlas="ATLAS_ICON_RESOURCE_AL_UNICORN_TEXT" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN_FOW" IconSize="38" Filename="ICON_RESOURCE_AL_UNICORN_FOW_38"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN_FOW" IconSize="50" Filename="ICON_RESOURCE_AL_UNICORN_FOW_50"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN_FOW" IconSize="64" Filename="ICON_RESOURCE_AL_UNICORN_FOW_64"/>
+        <Row Name="ATLAS_ICON_RESOURCE_AL_UNICORN_FOW" IconSize="256" Filename="ICON_RESOURCE_AL_UNICORN_FOW_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_RESOURCE_AL_UNICORN_FOW" Atlas="ATLAS_ICON_RESOURCE_AL_UNICORN_FOW" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
         <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="38" Filename="ICON_IMPROVEMENT_AL_ONSEN_38"/>
         <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="50" Filename="ICON_IMPROVEMENT_AL_ONSEN_50"/>
         <Row Name="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" IconSize="80" Filename="ICON_IMPROVEMENT_AL_ONSEN_80"/>
@@ -955,6 +982,16 @@
     </IconTextureAtlases>
     <IconDefinitions>
         <Row Name="ICON_IMPROVEMENT_AL_ONSEN" Atlas="ATLAS_ICON_IMPROVEMENT_AL_ONSEN" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_UNICORN" IconSize="38" Filename="ICON_IMPROVEMENT_AL_UNICORN_38"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_UNICORN" IconSize="50" Filename="ICON_IMPROVEMENT_AL_UNICORN_50"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_UNICORN" IconSize="80" Filename="ICON_IMPROVEMENT_AL_UNICORN_80"/>
+        <Row Name="ATLAS_ICON_IMPROVEMENT_AL_UNICORN" IconSize="256" Filename="ICON_IMPROVEMENT_AL_UNICORN_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_IMPROVEMENT_AL_UNICORN" Atlas="ATLAS_ICON_IMPROVEMENT_AL_UNICORN" Index="0"/>
     </IconDefinitions>
 
     <IconTextureAtlases>
@@ -1727,41 +1764,7 @@
         <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SHENLIN" Index="0"/>
     </IconDefinitions>
 
-    <IconTextureAtlases>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="45" Filename="ICON_GREATWORK_ALLB_1_45"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="64" Filename="ICON_GREATWORK_ALLB_1_64"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="256" Filename="ICON_GREATWORK_ALLB_1_256"/>
-    </IconTextureAtlases>
-    <IconDefinitions>
-        <Row Name="ICON_GREATWORK_ALLB_1" Atlas="ATLAS_ICON_GREATWORK_ALLB_1" Index="0"/>
-    </IconDefinitions>
-
-    <IconTextureAtlases>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="45" Filename="ICON_GREATWORK_ALLB_2_45"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="64" Filename="ICON_GREATWORK_ALLB_2_64"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="256" Filename="ICON_GREATWORK_ALLB_2_256"/>
-    </IconTextureAtlases>
-    <IconDefinitions>
-        <Row Name="ICON_GREATWORK_ALLB_2" Atlas="ATLAS_ICON_GREATWORK_ALLB_2" Index="0"/>
-    </IconDefinitions>
-
-    <IconTextureAtlases>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="45" Filename="ICON_GREATWORK_ALLB_4_45"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="64" Filename="ICON_GREATWORK_ALLB_4_64"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="256" Filename="ICON_GREATWORK_ALLB_4_256"/>
-    </IconTextureAtlases>
-    <IconDefinitions>
-        <Row Name="ICON_GREATWORK_ALLB_4" Atlas="ATLAS_ICON_GREATWORK_ALLB_4" Index="0"/>
-    </IconDefinitions>
-
-    <IconTextureAtlases>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="45" Filename="ICON_GREATWORK_ALLB_5_45"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="64" Filename="ICON_GREATWORK_ALLB_5_64"/>
-        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="256" Filename="ICON_GREATWORK_ALLB_5_256"/>
-    </IconTextureAtlases>
-    <IconDefinitions>
-        <Row Name="ICON_GREATWORK_ALLB_5" Atlas="ATLAS_ICON_GREATWORK_ALLB_5" Index="0"/>
-    </IconDefinitions>
+    
 
     <IconTextureAtlases>
         <Row Name="ATLAS_ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_YUJIA_GREATNORMAL_PORTRAIT_38"/>
@@ -1804,7 +1807,41 @@
     <IconDefinitions>
         <Row Name="ICON_BUILDING_AL_VISUAL_SHENLIN" Atlas="ATLAS_ICON_BUILDING_AL_VISUAL_SHENLIN" Index="0"/>
     </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="45" Filename="ICON_GREATWORK_ALLB_1_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="64" Filename="ICON_GREATWORK_ALLB_1_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_1" IconSize="256" Filename="ICON_GREATWORK_ALLB_1_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_1" Atlas="ATLAS_ICON_GREATWORK_ALLB_1" Index="0"/>
+    </IconDefinitions>
 
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="45" Filename="ICON_GREATWORK_ALLB_2_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="64" Filename="ICON_GREATWORK_ALLB_2_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_2" IconSize="256" Filename="ICON_GREATWORK_ALLB_2_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_2" Atlas="ATLAS_ICON_GREATWORK_ALLB_2" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="45" Filename="ICON_GREATWORK_ALLB_4_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="64" Filename="ICON_GREATWORK_ALLB_4_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_4" IconSize="256" Filename="ICON_GREATWORK_ALLB_4_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_4" Atlas="ATLAS_ICON_GREATWORK_ALLB_4" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="45" Filename="ICON_GREATWORK_ALLB_5_45"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="64" Filename="ICON_GREATWORK_ALLB_5_64"/>
+        <Row Name="ATLAS_ICON_GREATWORK_ALLB_5" IconSize="256" Filename="ICON_GREATWORK_ALLB_5_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREATWORK_ALLB_5" Atlas="ATLAS_ICON_GREATWORK_ALLB_5" Index="0"/>
+    </IconDefinitions>
     <IconTextureAtlases>
         <Row Name="ATLAS_ICON_GREATWORK_ALLB_3" IconSize="45" Filename="ICON_GREATWORK_ALLB_3_45"/>
         <Row Name="ATLAS_ICON_GREATWORK_ALLB_3" IconSize="64" Filename="ICON_GREATWORK_ALLB_3_64"/>
@@ -1932,6 +1969,186 @@
     </IconTextureAtlases>
     <IconDefinitions>
         <Row Name="ICON_UNIT_AL_HIMEKA_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_HIMEKA_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKARI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_AKARI_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_AKARI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_AKARI_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_KUREHA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_KUREHA_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_KUREHA_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_KUREHA_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_HARUNA" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_HARUNA_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_HARUNA_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_HARUNA_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_AKEHI" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_AKEHI_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_AKEHI_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_AKEHI_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_SUZUME" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_SUZUME_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_SUZUME_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_SUZUME_GREATNORMAL" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="38" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="50" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="70" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_70"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="95" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_95"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="200" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_200"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" IconSize="256" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" Atlas="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL_PORTRAIT" Index="0"/>
+    </IconDefinitions>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO" IconSize="160" Filename="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO" Atlas="ATLAS_ICON_GREAT_PERSON_INDIVIDUAL_AL_LILY_FUJINO" Index="0"/>
+    </IconDefinitions>
+
+    <IconTextureAtlases>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="22" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_22"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="32" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_32"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="38" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_38"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="50" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_50"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="80" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_80"/>
+        <Row Name="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" IconSize="256" Filename="ICON_UNIT_AL_FUJINO_GREATNORMAL_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_UNIT_AL_FUJINO_GREATNORMAL" Atlas="ATLAS_ICON_UNIT_AL_FUJINO_GREATNORMAL" Index="0"/>
     </IconDefinitions>
 
     <IconTextureAtlases>

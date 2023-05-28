@@ -35,6 +35,7 @@
                 ('CLASS_AL_LILY_GREAT_UNIT', 'ABILITY_CLASS'),
                 ('CLASS_AL_GRANEPLE', 'ABILITY_CLASS'),
                 ('CLASS_AL_KANBA', 'ABILITY_CLASS'),
+                ('CLASS_AL_SEITOKAI', 'ABILITY_CLASS'),
 
                 ('CLASS_AL_LILY', 'ABILITY_CLASS'),
                 ('CLASS_AL_AZ', 'ABILITY_CLASS'),
@@ -408,15 +409,25 @@
             ('TAKANE',  0,      'CLASS_AL_TZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      0,              NULL,           3,          2,              27,     25,             2,      6,              'ZenoneParadoxa',    3        ),
             ('RIRI',    0,      'CLASS_AL_BZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              21,     20,             2,      6,              'Laplace',          3        ),
             ('SHENLIN', 0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_MELEE',      0,              NULL,           2,          2,              25,     24,             2,      6,              'Testament',          3        ),
-            ('YUYU',    0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             1,      7,              'LunaticTranser',   3           ),
-            ('MAI',     0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           3,          2,              27,     22,             1,      7,              'ShrunkenLand',          3        ),
-            ('TADUSA',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             1,      5,              'Phantasm',          3        ),
-            ('KAEDE',   0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              26,     25,             2,      6,              'Register',         3        ),
+            ('YUYU',    0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             2,      7,              'LunaticTranser',   3           ),
+            ('MAI',     0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           3,          2,              27,     22,             2,      7,              'ShrunkenLand',          3        ),
+            ('TADUSA',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   1,          'CLASS_MELEE',      0,              NULL,           2,          2,              30,     20,             2,      5,              'Phantasm',          3        ),
+            ('KAEDE',   0,      'CLASS_AL_TZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              26,     25,             3,      6,              'Register',         3        ),
             ('MOYU',    0,      'CLASS_AL_TZ',  'CLASS_AL_NO_LEGION',   'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              20,     15,             2,      5,              'TruthOfTheWorld',          3        ),
             ('HIMEKA',  0,      'CLASS_AL_AZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      0,              NULL,           2,          2,              20,     19,             2,      4,              'TruthOfTheWorld',          3        ),
-            ('MILIAM',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              27,     20,             1,      4,              'PhaseTranscendence',          1        );
+            ('AKARI',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
+            ('HARUNA',  0,      'CLASS_AL_AZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      1,          'CLASS_AL_SEITOKAI',3,          3,              25,     18,             2,      5,              'PhaseTranscendence',          1        ),
+            
+            ('FUJINO',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
+            ('AKEHI',    0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
+            ('SUZUME',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
+            
+            ('KUREHA',  0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              18,     20,             2,      4,              'Testament',          3        ),
+            ('MILIAM',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              27,     20,             1,      5,              'PhaseTranscendence',          1        );
 
     UPDATE Units_XP2 SET CanEarnExperience = 0 WHERE UnitType = 'UNIT_AL_YURI_GREATNORMAL';
+    UPDATE Units SET BuildCharges = 99 WHERE UnitType = 'UNIT_AL_AKARI_GREATNORMAL';
+    UPDATE Units SET FormationClass = 'FORMATION_CLASS_CIVILIAN' WHERE UnitType = 'UNIT_AL_AKARI_GREATNORMAL';
 
     
 
@@ -429,6 +440,8 @@
             ('UNIT_AL_KANBALILY', 'CLASS_BUILDER'),
             ('UNIT_AL_NEKO', 'CLASS_LANDCIVILIAN'),
             ('UNIT_AL_NEKO', 'CLASS_AL_NEKO');
+        
+    
 
     INSERT INTO Units
         (UnitType, BaseMoves, Cost, AdvisorType, BaseSightRange, ZoneOfControl, Domain, FormationClass, Name, Description, PurchaseYield, PromotionClass, Combat, TraitType, RangedCombat, Range, CanTrain, CanRetreatWhenCaptured, Maintenance,StrategicResource) VALUES
@@ -457,6 +470,8 @@
     INSERT OR REPLACE INTO  Improvement_ValidBuildUnits (ImprovementType, UnitType)
         SELECT ImprovementType, 'UNIT_AL_KANBALILY' FROM Improvement_ValidBuildUnits WHERE UnitType IN ('UNIT_BUILDER', 'UNIT_MILITARY_ENGINEER');
 
+
+
     INSERT OR REPLACE INTO Route_ValidBuildUnits (RouteType, UnitType)
         SELECT RouteType, 'UNIT_AL_KANBALILY'	FROM Route_ValidBuildUnits WHERE UnitType = 'UNIT_MILITARY_ENGINEER';
 
@@ -483,6 +498,34 @@
 --Promotions
     INSERT INTO UnitPromotionModifiers
             (UnitPromotionType,                   ModifierId) VALUES
+            --
+            --HARUNA
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_1_1', 'MOD_AL_HARUNA_GREATNORMAL_1_1_1'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_1_1', 'MOD_AL_HARUNA_GREATNORMAL_1_1_2'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_1_2', 'MOD_AL_HARUNA_GREATNORMAL_1_2_1'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_1_2', 'MOD_AL_HARUNA_GREATNORMAL_1_2_2'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_2_1', 'MOD_AL_HARUNA_GREATNORMAL_2_1_1'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_2_1', 'MOD_AL_HARUNA_GREATNORMAL_2_1_2'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_2_2', 'MOD_AL_HARUNA_GREATNORMAL_2_2_1'),
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_2_2', 'MOD_AL_HARUNA_GREATNORMAL_2_2_2'),
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_3_1', 'MOD_AL_HARUNA_GREATNORMAL_3_1_1'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_3_2', 'MOD_AL_HARUNA_GREATNORMAL_3_2_1'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_3_2', 'MOD_AL_HARUNA_GREATNORMAL_3_2_2'), 
+                ('PROMOTION_AL_HARUNA_GREATNORMAL_4_1', 'MOD_AL_HARUNA_GREATNORMAL_4_1_1'), 
+        -----------------------------------------------------------------------
+            --KUREHA
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_1', 'MOD_AL_KUREHA_GREATNORMAL_1_1_1'), 
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_1', 'MOD_AL_KUREHA_GREATNORMAL_1_1_2'),  
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_1', 'MOD_AL_KUREHA_GREATNORMAL_1_1_3'),
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_2', 'MOD_AL_KUREHA_GREATNORMAL_1_2_1'),
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_2', 'MOD_AL_KUREHA_GREATNORMAL_1_2_2'),
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_1_2', 'MOD_AL_KUREHA_GREATNORMAL_1_2_3'),
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_2_1', 'MOD_AL_KUREHA_GREATNORMAL_2_1_1'), 
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_2_1', 'MOD_AL_KUREHA_GREATNORMAL_2_1_2'),  
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_2_1', 'MOD_AL_KUREHA_GREATNORMAL_2_1_3'),
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_3_1', 'MOD_AL_KUREHA_GREATNORMAL_3_1_1'), 
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_3_1', 'MOD_AL_KUREHA_GREATNORMAL_3_1_2'),  
+                ('PROMOTION_AL_KUREHA_GREATNORMAL_3_1', 'MOD_AL_KUREHA_GREATNORMAL_3_1_3'),
             --HIMEKA
                 ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_1', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_1'),
                 ('PROMOTION_AL_HIMEKA_GREATNORMAL_1_1', 'MOD_AL_HIMEKA_GREATNORMAL_1_1_2'),
@@ -498,7 +541,20 @@
                 ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_1', 'MOD_AL_HIMEKA_GREATNORMAL_3_1_2'),
                 ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_2', 'MOD_AL_HIMEKA_GREATNORMAL_3_2_1'),
                 ('PROMOTION_AL_HIMEKA_GREATNORMAL_3_2', 'MOD_AL_HIMEKA_GREATNORMAL_3_2_2'),
-        --
+            --AKARI
+                ('PROMOTION_AL_AKARI_GREATNORMAL_1_1', 'MOD_IGNORE_TERRAIN_COST'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_1_1', 'MOD_AL_AKARI_GREATNORMAL_1_1_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_1_1', 'MOD_AL_AKARI_GREATNORMAL_1_1_2'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_1_2', 'MOD_AL_AKARI_GREATNORMAL_1_2_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_2_1', 'MOD_AL_AKARI_GREATNORMAL_2_1_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_2_1', 'MOD_AL_AKARI_GREATNORMAL_2_1_2'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_2_2', 'MOD_AL_AKARI_GREATNORMAL_2_2_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_2_2', 'MOD_AL_AKARI_GREATNORMAL_2_2_2'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_3_1', 'MOD_AL_AKARI_GREATNORMAL_3_1_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_3_1', 'MOD_AL_AKARI_GREATNORMAL_3_1_2'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_3_2', 'MOD_AL_AKARI_GREATNORMAL_3_2_1'),
+                ('PROMOTION_AL_AKARI_GREATNORMAL_3_2', 'MOD_AL_AKARI_GREATNORMAL_3_2_2'),
+        
             --TAKANE
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_1_1', 'MOD_AL_TAKANE_GREATNORMAL_1_1_1'),
                 ('PROMOTION_AL_TAKANE_GREATNORMAL_1_1', 'MOD_AL_TAKANE_GREATNORMAL_1_1_2'),
@@ -688,6 +744,77 @@
 
     INSERT INTO Modifiers
         (ModifierId, ModifierType, SubjectRequirementSetId, RunOnce, Permanent) VALUES
+            --
+            --HARUNA
+                ('MOD_AL_HARUNA_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_TAKANE', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_TAKANE_AND_ATTACKING', 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_1_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_1_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KANAHO_AND_DEFFENDING', 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_OPPONENT_IS_HUGE', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_OPPONENT_IS_GARRISON_HUGE', 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_2_2_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REDCOAT_PLOT_IS_FOREIGN_CONTINENT', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_2_2', 'MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER', 'REQSET_AL_UNIT_ADJACENT_AKEHI', 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GRANT_ADJACENT_SEITOKAI_UNIT', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GRANT_ADJACENT_HARUNA_UNIT', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_3', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_3_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE', 'REQSET_AL_UNIT_ADJACENT_HIMEKA', 0, 0),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_2_2', 'MODIFIER_UNIT_ADJUST_NUM_ATTACKS', 'REQSET_AL_UNIT_ADJACENT_HIMEKA', 0, 0),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_4_1_1', 'MODIFIER_SINGLE_UNIT_ADJUST_COMBAT_FOR_UNUSED_MOVEMENT', NULL, 0, 0),
+        -----------------------------------------------------------------------
+            --KUREHA
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_HIDDEN_VISIBILITY', 'REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_3', 'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT', 'REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 0, 0),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_3', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 0, 0),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_ATTACK_AND_MOVE', 'REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_3', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', 'REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 0, 0),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_1', 'MODIFIER_PLAYER_UNIT_GRANT_HEAL_AFTER_ACTION', 'REQSET_AL_UNIT_ADJACENT_SUZUME', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_SUZUME', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_3', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GRANT_ADJACENT_SUZUME_UNIT', 0, 0),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_4', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+            
+        
+            --
+            --AKARI
+                ('MOD_AL_AKARI_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_1_1_2', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_1_2_1', 'MODIFIER_PLAYER_GRANT_FREE_RESOURCE_VISIBILITY', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KUREHA_AND_ATTACKING', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GRANT_ADJACENT_KUREHA_UNIT', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_3', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_2_2_1', 'MODIFIER_AL_PLAYER_CITIES_ADJUST_ALLOWED_IMPROVEMENT', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_2_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_FUJINO_AND_DEFFENDING', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GRANT_ADJACENT_FUJINO_UNIT', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_3', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_HAS_UNICORN_AKARI', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_HAS_UNICORN_AKARI', 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_3', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_4', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
+
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_1', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_2', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_3', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_4', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_5', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_6', 'MODIFIER_PLAYER_CITIES_ADJUST_GREATWORK_YIELD', NULL, 0, 0),
             --himeka
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_IS_HIMEKA', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_IS_HIMEKA', 0, 0),
@@ -696,25 +823,25 @@
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_3', 'MODIFIER_AL_PLAYER_DISTRICTS_ATTACH_MODIFIER', 'REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_4', 'MODIFIER_AL_PLAYER_DISTRICT_ADJUST_YIELD_MODIFIER', NULL, 0, 0),
 
-                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
-                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT', 'REQSET_AL_UNIT_ADJACENT_AKARI', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_AKARI', 0, 0),
 
                 ('MOD_AL_HIMEKA_GREATNORMAL_2_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_2_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_2_1_3', 'MODIFIER_PLAYER_UNIT_ADJUST_UNIT_EXPERIENCE_MODIFIER', NULL, 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_2_1_4', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
 
-                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_TAKANE', 0, 0),
-                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_TAKANE', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_KUREHA', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_KUREHA', 0, 0),
 
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_1_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_1_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_KANBALILY_UNIT_2_PLOT', 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_1_3', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_1_4', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
 
-                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_1', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', 'REQSET_AL_UNIT_ADJACENT_RIRI', 0, 0),
-                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_RIRI', 0, 0),
-        --
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_1', 'MODIFIER_UNIT_ADJUST_ATTACK_RANGE', 'REQSET_AL_UNIT_ADJACENT_HARUNA', 0, 0),
+                ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_ADJACENT_HARUNA', 0, 0),
+        
             --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_AL_UNIT_ADJACENT_KANAHO', 0, 0),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
@@ -884,7 +1011,7 @@
                 ('MOD_AL_FUMI_GREATNORMAL_4_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
             --yuyu
                 ('MOD_AL_YUYU_GREATNORMAL_1_1_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_ATTACKER', 0, 0),
-                ('MOD_AL_YUYU_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_MOD_ABILITY_LILY_GREATS_YUYU_BUFF_DEF', 0, 0),
+                ('MOD_AL_YUYU_GREATNORMAL_1_1_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_DEFFENDER', 0, 0),
                 ('MOD_AL_YUYU_GREATNORMAL_1_2_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0, 0),
                 ('MOD_AL_YUYU_GREATNORMAL_1_2_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_ALL_UNIT_1_PLOT', 0, 0),
                 ('MOD_AL_YUYU_GREATNORMAL_2_1_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
@@ -970,6 +1097,88 @@
 
     INSERT INTO ModifierArguments
         (ModifierId, Name, Value) VALUES
+            --
+            --HARUNA
+                ('MOD_AL_HARUNA_GREATNORMAL_1_1_1', 'Amount', -2),
+                ('MOD_AL_HARUNA_GREATNORMAL_1_1_2', 'Amount', 10),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_1_2_1', 'Amount', 2),
+                ('MOD_AL_HARUNA_GREATNORMAL_1_2_2', 'Amount', -5),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_1', 'Amount', 5),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_2', 'Amount', 10),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_2_2_1', 'Amount', 10),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_2_2', 'Amount', 100),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_1', 'ModifierId', 'MOD_AL_HARUNA_GREATNORMAL_3_1_2'),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_2', 'ModifierId', 'MOD_AL_HARUNA_GREATNORMAL_3_1_3'),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_1_3', 'Amount', 1),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_3_2_1', 'CanMove', 1),
+                ('MOD_AL_HARUNA_GREATNORMAL_3_2_2', 'Amount', 1),
+
+                ('MOD_AL_HARUNA_GREATNORMAL_4_1_1', 'Amount', 3),
+        -----------------------------------------------------------------------
+            --kureha
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_1', 'Hidden', 1),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_2', 'Amount', 7),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_3', 'Amount', 4),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_1', 'Key', 'UNIT_TOUTOMI'),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_2', 'Amount', -10),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_3', 'Amount', 3),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_1', 'CanMove', 1),
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_2', 'Amount', 7),
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_3', 'Amount', 2),
+
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_2', 'Amount', 7),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_3', 'ModifierId', 'MOD_AL_KUREHA_GREATNORMAL_3_1_4'),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_4', 'Amount', 7),
+            
+        
+            --
+            --akari
+                ('MOD_AL_AKARI_GREATNORMAL_1_1_1', 'Ignore', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_1_1_2', 'Amount', 2),
+
+                ('MOD_AL_AKARI_GREATNORMAL_1_2_1', 'ResourceType', 'RESOURCE_AL_UNICORN'),
+
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_1', 'Amount', 7),
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_2', 'ModifierId', 'MOD_AL_AKARI_GREATNORMAL_2_1_3'),
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_3', 'Amount', 1),
+
+                ('MOD_AL_AKARI_GREATNORMAL_2_2_1', 'ImprovementType', 'IMPROVEMENT_AL_UNICORN'),
+                ('MOD_AL_AKARI_GREATNORMAL_2_2_2', 'Key', 'UNICORN_NUM'),
+
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_1', 'Amount', 7),
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_2', 'ModifierId', 'MOD_AL_AKARI_GREATNORMAL_3_1_3'),
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_3', 'Amount', 1),
+                
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_1', 'ModifierId', 'MOD_AL_AKARI_GREATNORMAL_3_2_3'),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_3', 'Amount', 2),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_2', 'ModifierId', 'MOD_AL_AKARI_GREATNORMAL_3_2_4'),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_4', 'Amount', 15),
+
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_1', 'GreatWorkObjectType', 'GREATWORKOBJECT_PORTRAIT'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_1', 'YieldType', 'YIELD_SCIENCE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_1', 'YieldChange', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_2', 'GreatWorkObjectType', 'GREATWORKOBJECT_PORTRAIT'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_2', 'YieldType', 'YIELD_SCIENCE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_2', 'YieldChange', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_3', 'GreatWorkObjectType', 'GREATWORKOBJECT_LANDSCAPE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_3', 'YieldType', 'YIELD_SCIENCE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_3', 'YieldChange', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_4', 'GreatWorkObjectType', 'GREATWORKOBJECT_LANDSCAPE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_4', 'YieldType', 'YIELD_CULTURE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_4', 'YieldChange', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_5', 'GreatWorkObjectType', 'GREATWORKOBJECT_RELIGIOUS'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_5', 'YieldType', 'YIELD_SCIENCE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_5', 'YieldChange', 1),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_6', 'GreatWorkObjectType', 'GREATWORKOBJECT_RELIGIOUS'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_6', 'YieldType', 'YIELD_CULTURE'),
+                ('MOD_AL_AKARI_GREATNORMAL_4_1_6', 'YieldChange', 1),
             --himeka
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_1', 'ModifierId', 'BUFF_AL_HIMEKA_GREATNORMAL_1_1_1'),
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_1_2', 'ModifierId', 'BUFF_AL_HIMEKA_GREATNORMAL_1_1_2'),
@@ -997,7 +1206,7 @@
 
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_2_1', 'Amount', 1),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'Key', 'RIRI_PROMOTIONS'),
-        --
+
             --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_1', 'Amount', 1),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'Amount', 5),
@@ -1268,13 +1477,32 @@
 
     INSERT INTO ModifierStrings
         (ModifierId, Context, Text) VALUES
+            --
+            --HARUNA
+                ('MOD_AL_HARUNA_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HARUNA_GREATNORMAL_1_2_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_HARUNA_GREATNORMAL_2_2_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+            --KUREHA
+                ('MOD_AL_KUREHA_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_1', 'Preview', '+{Property} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_KUREHA_GREATNORMAL_1_2_2', 'Preview', '{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_KUREHA_GREATNORMAL_2_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_KUREHA_GREATNORMAL_3_1_4', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+        -----------------------------------------------------------------------
+            --himeka
+                ('MOD_AL_AKARI_GREATNORMAL_2_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_AKARI_GREATNORMAL_3_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_AKARI_GREATNORMAL_3_2_3', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_AKARI_GREATNORMAL_3_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
+                ('MOD_AL_AKARI_GREATNORMAL_2_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_AKARI_GREATNORMAL_2_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
             --himeka
                 ('BUFF_AL_HIMEKA_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_1_3', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_HIMEKA_GREATNORMAL_1_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_HIMEKA_GREATNORMAL_2_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_2_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_HIMEKA_GREATNORMAL_3_2_2', 'Preview', '+{Property} {LOC_PROMOTION_AL_HIMEKA_GREATNORMAL_3_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
-        --
             --takane
                 ('MOD_AL_TAKANE_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_TAKANE_GREATNORMAL_1_2_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_TAKANE_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
@@ -1345,7 +1573,7 @@
                 ('MOD_AL_FUMI_GREATNORMAL_4_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_FUMI_GREATNORMAL_4_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
             --yuyu
                 ('MOD_AL_YUYU_GREATNORMAL_1_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_YUYU_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
-                ('MOD_AL_YUYU_GREATNORMAL_1_1_2', 'Preview', 'LOC_ABILITY_WEAK_WHEN_DEFENDING_DESCRIPTION'),
+                ('MOD_AL_YUYU_GREATNORMAL_1_1_2', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_YUYU_GREATNORMAL_1_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_YUYU_GREATNORMAL_1_2_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_YUYU_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_YUYU_GREATNORMAL_1_2_2', 'Preview', '{1_Amount} {LOC_PROMOTION_AL_YUYU_GREATNORMAL_1_2_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
                 ('MOD_AL_YUYU_GREATNORMAL_3_1_1', 'Preview', '+{1_Amount} {LOC_PROMOTION_AL_YUYU_GREATNORMAL_3_1_NAME} {LOC_PROMOTION_DESCRIPTOR_PREVIEW_TEXT}'),
@@ -1385,11 +1613,13 @@
                 ('ABILITY_AL_LILY_BZ','KIND_ABILITY'),
                 ('ABL_AL_PHANTASM_EFFECT','KIND_ABILITY'),
                 ('ABL_AL_GEHENA_LILY','KIND_ABILITY'),
+                ('ABILITY_AL_KUREHA_ATTACK','KIND_ABILITY'),
                 ('ABILITY_AL_LILY_NEKO','KIND_ABILITY');
 
         INSERT INTO TypeTags
             (Type, Tag) VALUES
                 ('ABL_AL_YUJIA_GREATNORMAL_1_1_0','CLASS_AL_YUJIA_GREATNORMAL'),
+                ('ABILITY_AL_KUREHA_ATTACK','CLASS_AL_KUREHA_GREATNORMAL'),
                 ('ABILITY_AL_LILY_AREA_DEFFENSE','CLASS_AL_LILY'),
                 ('ABL_AL_PHANTASM_EFFECT','CLASS_AL_LILY'),
                 ('ABL_AL_GEHENA_LILY','CLASS_AL_LILY'),
@@ -1404,6 +1634,7 @@
             ('ABL_AL_YUJIA_GREATNORMAL_1_1_0', 'LOC_PROMOTION_AL_YUJIA_GREATNORMAL_1_1_NAME', 'LOC_PROMOTION_AL_YUJIA_GREATNORMAL_1_1_DESCRIPTION', 1),
             ('ABILITY_AL_LILY_AREA_DEFFENSE', 'LOC_ABILITY_AL_LILY_AREA_DEFFENSE_NAME', 'LOC_ABILITY_AL_LILY_AREA_DEFFENSE_NAME', 0),
             ('ABILITY_AL_HUGE_AREA_DEFFENSE', 'LOC_ABILITY_AL_LILY_AREA_DEFFENSE_NAME', 'LOC_ABILITY_AL_LILY_AREA_DEFFENSE_NAME', 0),
+            ('ABILITY_AL_KUREHA_ATTACK', 'LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_NAME', 'LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_NAME', 1),
             ('ABILITY_AL_LILY_AZ', 'LOC_ABILITY_AL_LILY_AZ_NAME', 'LOC_ABILITY_AL_LILY_AZ_NAME', 0),
             ('ABILITY_AL_LILY_BZ', 'LOC_ABILITY_AL_LILY_BZ_NAME', 'LOC_ABILITY_AL_LILY_BZ_NAME', 0),
             ('ABILITY_AL_LILY_TZ', 'LOC_ABILITY_AL_LILY_TZ_NAME', 'LOC_ABILITY_AL_LILY_TZ_NAME', 0),
@@ -1416,14 +1647,15 @@
                 ('ABL_AL_RS_YUYU', 'MOD_AL_RS_YUYU_1'),
                 ('ABL_AL_RS_TADUSA', 'MOD_AL_RS_TADUSA_1'),
                 ('ABL_AL_RS_KANAHO', 'MOD_AL_RS_KANAHO_1'),
-
                 ('ABL_AL_RS_TAKANE', 'MOD_AL_RS_TAKANE_1'),
                 ('ABL_AL_RS_TAKANE', 'MOD_AL_RS_TAKANE_2'),
-
                 ('ABL_AL_RS_HIMEKA', 'MOD_AL_RS_HIMEKA_1'),
-
+                ('ABL_AL_RS_HARUNA', 'MOD_AL_RS_HARUNA_1'),
+                ('ABL_AL_RS_AKARI', 'MOD_AL_RS_AKARI_1'),
+                ('ABL_AL_RS_KUREHA', 'MOD_AL_RS_KUREHA_1'),
                 ('ABL_AL_GEHENA_LILY', 'MOD_AL_GEHENA_LILY_1'),
-            --
+                ('ABILITY_AL_KUREHA_ATTACK', 'MOD_AL_KUREHA_ATTACK'),
+            -----------------------------------------------------------------------
                 ('ABL_AL_YUJIA_GREATNORMAL_1_1_0', 'MOD_AL_YUJIA_GREATNORMAL_1_1_1'),
                 ('ABL_AL_YUJIA_GREATNORMAL_1_1_0', 'MOD_AL_YUJIA_GREATNORMAL_1_1_2'),
 
@@ -1459,27 +1691,24 @@
             ('MOD_AL_RS_KANAHO_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_GRANEPLE_UNIT_2_PLOT', 0),
             ('BUFF_AL_RS_KANAHO_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_DEFFENDER', 0),
             ('MOD_AL_PHANTASM_PLAYER', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 'REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 0),
-
+            ('MOD_AL_RS_KUREHA_1', 'MODIFIER_PLAYER_UNIT_ADJUST_HEAL_PER_TURN', 'REQSET_AL_PLOT_HAS_TOUTOMI_2', 0),
             ('MOD_AL_RS_TAKANE_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_DEFFENDER', 0),
             ('MOD_AL_RS_TAKANE_2', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_ATTACKER', 0),
-
+            ('MOD_AL_RS_AKARI_1', 'MODIFIER_UNIT_ADJUST_NUM_ATTACKS', NULL, 0),
+            ('MOD_AL_KUREHA_ATTACK', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
             ('MOD_AL_RS_LunaticTranser_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_ATTACKER', 0),
-
             ('MOD_AL_GEHENA_LILY_1', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER', NULL, 0),
-
             ('MOD_AL_RS_PhaseTranscendence_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
             ('MOD_AL_RS_PhaseTranscendence_2', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
-
             ('MOD_AL_RS_HIMEKA_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
-
+            ('MOD_AL_RS_HARUNA_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_HARUNA_RS', 0),
             ('MOD_AL_RS_TruthOfTheWorld_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
             ('MOD_AL_RS_TruthOfTheWorld_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
             ('MOD_AL_RS_TruthOfTheWorld_3', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
-
             ('BUFF_AL_RS_TruthOfTheWorld_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_UNIT_IS_LILY_GREAT', 0),
             ('BUFF_AL_RS_TruthOfTheWorld_2', 'MODIFIER_UNIT_ADJUST_NUM_ATTACKS', 'REQSET_UNIT_IS_LILY_GREAT', 0),
             ('BUFF_AL_RS_TruthOfTheWorld_3', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC', 'REQSET_UNIT_IS_LILY_GREAT', 0),
-        --
+        -----------------------------------------------------------------------
             ('MOD_AL_RS_DEBUFF_PhaseTranscendence_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
 
             ('MOD_AL_RS_ZenoneParadoxa_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
@@ -1555,7 +1784,12 @@
             ('MOD_AL_RS_YUYU_1', 'ModifierId', 'BUFF_AL_RS_YUYU_1'),
             ('BUFF_AL_RS_YUYU_1', 'Amount', -5),
             ('MOD_AL_RS_LunaticTranser_1', 'Amount', 20),
-
+            ('MOD_AL_RS_KUREHA_1', 'Amount', 20),
+            ('MOD_AL_RS_KUREHA_1', 'Type', 'ALL'),
+            ('MOD_AL_RS_AKARI_1', 'Amount', 1),
+            ('MOD_AL_KUREHA_ATTACK', 'Amount', 10),
+            ('MOD_AL_RS_HARUNA_1', 'Amount', 10),
+        -----------------------------------------------------------------------
             ('MOD_AL_GEHENA_LILY_1', 'Amount', 5),
             ('MOD_AL_GEHENA_LILY_1', 'YieldType', 'YIELD_SCIENCE'),
 
@@ -1619,8 +1853,6 @@
             ('MOD_AL_RS_Phantasm_2', 'Key', 'PROMISE_LEVEL'),
 
             ('MOD_AL_RS_TADUSA_1', 'Amount',2),
-            
-        --
             ('BUFF_AL_LILY_EMBARKED', 'CanFight', 1),
 
             ('BUFF_AL_LILY_AREA_DEFFENSE_LEVEL1', 'Amount', 5),
@@ -1655,6 +1887,8 @@
             ('MOD_AL_RS_PhaseTranscendence_1', 'Preview', '+{1_Amount} {LOC_RS_NAME_PhaseTranscendence}'),
             ('MOD_AL_RS_LunaticTranser_1', 'Preview', '+{1_Amount} {LOC_RS_NAME_LunaticTranser}'),
             ('BUFF_AL_RS_YUYU_1', 'Preview', '{1_Amount} {LOC_RS_NAME_LunaticTranser}'),
+            ('MOD_AL_KUREHA_ATTACK', 'Preview', '{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_NAME}'),
+            ('MOD_AL_RS_HARUNA_1', 'Preview', '{1_Amount} {LOC_RS_NAME_PhaseTranscendence}'),
 
             ('MOD_AL_RS_TAKANE_1', 'Preview', '{1_Amount} {LOC_RS_NAME_ZenoneParadoxa}'),
             ('MOD_AL_RS_TAKANE_2', 'Preview', '{1_Amount} {LOC_RS_NAME_ZenoneParadoxa}'),
@@ -1684,7 +1918,17 @@
             ('REQSET_AL_PLOT_HAS_STAGE', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQUIREMENTSET_TEST_ALL'),
-    --
+            ('REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_PLOT_HAS_UNICORN_AKARI', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 'REQUIREMENTSET_TEST_ALL'),
+
+            ('REQSET_AL_HARUNA_RS', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_UNIT_IS_SEITOKAI', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_HARUNA_2_2', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_GRANT_ADJACENT_SEITOKAI_UNIT', 'REQUIREMENTSET_TEST_ALL'),
+            ('REQSET_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE', 'REQUIREMENTSET_TEST_ANY'),
+    -----------------------------------------------------------------------
             ('REQSET_AL_GARNT_ADJACENT_ALL_UNIT_1_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_1_PLOT', 'REQUIREMENTSET_TEST_ALL'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 'REQUIREMENTSET_TEST_ALL'),
@@ -1743,9 +1987,20 @@
 
     INSERT INTO RequirementSetRequirements
         (RequirementSetId, RequirementId) VALUES
+            ('REQSET_AL_HARUNA_RS', 'REQ_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE'),
+            ('REQSET_AL_HARUNA_RS', 'REQ_AL_UNIT_IS_ATTACKER'),
+            ('REQSET_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE', 'REQ_AL_UNIT_ADJACENT_HIMEKA'),
+            ('REQSET_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE', 'REQ_AL_UNIT_ADJACENT_TAKANE'),
+            ('REQSET_AL_HARUNA_2_2', 'REQ_AL_UNIT_ADJACENT_AKEHI'),
+            ('REQSET_AL_HARUNA_2_2', 'NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENT'),
+            ('REQSET_AL_UNIT_IS_SEITOKAI', 'REQ_AL_UNIT_IS_SEITOKAI'),
 
+            ('REQSET_AL_GRANT_ADJACENT_SEITOKAI_UNIT', 'REQ_AL_UNIT_IS_SEITOKAI'),
+            ('REQSET_AL_GRANT_ADJACENT_SEITOKAI_UNIT', 'REQ_AL_GRANT_TO_NEAR_UNITS'),
+        -----------------------------------------------------------------------
             ('REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 'REQ_AL_UNIT_IS_ON_PHANTASM_PLOT'),
             ('REQSET_AL_LILY_IS_ON_PHANTASM_PLOT', 'REQ_UNIT_IS_LILY_GREAT'),
+            ('REQSET_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 'REQ_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2'),
 
             ('REQSET_AL_PLOT_HAS_STAGE', 'REQ_AL_PLOT_HAS_STAGE'),
             ('REQSET_AL_PLOT_STAGE_HAS_HIMEKA', 'REQ_AL_GRANT_TO_NEAR_UNITS'),
@@ -1753,7 +2008,15 @@
 
             ('REQSET_AL_PLOT_STAGE_IS_HIMEKA', 'REQ_AL_PLOT_HAS_STAGE'),
             ('REQSET_AL_PLOT_STAGE_IS_HIMEKA', 'REQ_AL_UNIT_IS_HIMEKA'),
-        --
+
+            ('REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 'REQ_AL_UNIT_ADJACENT_AKARI'),
+            ('REQSET_AL_UNIT_ADJACENT_AKARI_AND_HIMEKA', 'REQ_AL_UNIT_ADJACENT_HIMEKA'),
+
+            ('REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 'REQ_AL_UNIT_ADJACENT_KANAHO'),
+            ('REQSET_AL_UNIT_ADJACENT_KANAHO_AND_TAKANE', 'REQ_AL_UNIT_ADJACENT_TAKANE'),
+
+            ('REQSET_AL_PLOT_HAS_UNICORN_AKARI', 'REQ_AL_PLOT_HAS_UNICORN'),
+            ('REQSET_AL_PLOT_HAS_UNICORN_AKARI', 'REQ_AL_UNIT_IS_AKARI'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_AL_UNIT_IS_ON_RS_PLOT'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_UNIT_IS_LILY_GREAT'),
             ('REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT_ON_RS_PLOT', 'REQ_AL_GRANT_TO_NEAR_UNITS_2'),
@@ -1848,7 +2111,11 @@
         (RequirementId, RequirementType, Inverse) VALUES
             ('REQ_AL_UNIT_IS_DEFFENDER', 'REQUIREMENT_PLAYER_IS_ATTACKING', 1),
             ('REQ_AL_UNIT_IS_ATTACKER', 'REQUIREMENT_PLAYER_IS_ATTACKING', 0),
+            ('REQ_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 'REQUIREMENT_PLOT_PROPERTY_MATCHES', 1),
+            ('REQSET_AL_UNIT_IS_SEITOKAI', 'REQUIREMENT_UNIT_TAG_MATCHES', 0),
 
+            ('REQ_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE', 'REQUIREMENT_REQUIREMENTSET_IS_MET', 1),
+        -----------------------------------------------------------------------
             ('REQ_AL_PLOT_HAS_STAGE', 'REQUIREMENT_PLOT_DISTRICT_TYPE_MATCHES', 0),
 
             ('REQ_AL_TERRAIN_IS_TUNDRA', 'REQUIREMENT_PLOT_TERRAIN_CLASS_MATCHES', 0),
@@ -1872,6 +2139,7 @@
             ('REQ_AL_UNIT_ADJACENT_GRANEPLE', 'REQUIREMENT_PLOT_ADJACENT_FRIENDLY_UNIT_TAG_MATCHES', 0),
             ('REQ_AL_UNIT_IS_GRANEPLE', 'REQUIREMENT_UNIT_TAG_MATCHES', 0),
             
+            ('REQ_AL_PLOT_HAS_UNICORN', 'REQUIREMENT_PLOT_RESOURCE_TYPE_MATCHES', 0),
             
             
             ('REQ_AL_GRANT_TO_NEAR_UNITS', 'REQUIREMENT_PLOT_ADJACENT_TO_OWNER', 0),
@@ -1889,6 +2157,11 @@
         (RequirementId, Name, Value) VALUES
             ('REQ_AL_UNIT_IS_AZ', 'Tag', 'CLASS_AL_AZ'),
             ('REQ_AL_UNIT_IS_BZ', 'Tag', 'CLASS_AL_BZ'),
+            ('REQ_AL_PLOT_HAS_UNICORN', 'ResourceType', 'RESOURCE_AL_UNICORN'),
+            ('REQ_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 'PropertyMinimum', 2),
+            ('REQ_AL_PLOT_HAS_TOUTOMI_LESS_THAN_2', 'PropertyName', 'TOUTOMI'),
+
+            ('REQ_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE', 'RequirementSetId', 'REQSET_AL_UNIT_ADJACENT_HIMEKA_OR_TAKANE'),
 
             ('REQ_AL_PLOT_HAS_STAGE', 'DistrictType', 'DISTRICT_AL_STAGE'),
 
@@ -1896,6 +2169,7 @@
             ('REQ_AL_TERRAIN_IS_SNOW', 'TerrainClass', 'TERRAIN_CLASS_SNOW'),
 
             ('REQ_AL_UNIT_IS_RADGRID', 'Tag', 'CLASS_AL_RADGRID'),
+            ('REQSET_AL_UNIT_IS_SEITOKAI', 'Tag', 'CLASS_AL_SEITOKAI'),
             ('REQ_AL_UNIT_IS_NEKOSUKI', 'Tag', 'CLASS_AL_NEKOSUKI'),
 
             ('REQ_AL_UNIT_ADJACENT_RADGRID', 'Tag', 'CLASS_AL_RADGRID'),
@@ -1912,7 +2186,7 @@
             ('REQ_AL_GRANT_TO_NEAR_UNITS', 'MaxDistance', 1),
             ('REQ_AL_GRANT_TO_NEAR_UNITS', 'MinDistance', 0),
 
-            ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'MinDistance', 1),
+            ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'MinDistance', 0),
             ('REQ_AL_GRANT_TO_NEAR_UNITS_2', 'MaxDistance', 2),
 
             ('REQ_AL_GRANT_TO_AWAY_UNITS', 'MinDistance', 2),
