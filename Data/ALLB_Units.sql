@@ -82,6 +82,8 @@
             ('MOD_AL_RS_TruthOfTheWorld_1','TruthOfTheWorld'),
             ('MOD_AL_RS_TruthOfTheWorld_2','TruthOfTheWorld'),
             ('MOD_AL_RS_TruthOfTheWorld_3','TruthOfTheWorld'),
+            ('MOD_AL_RS_CirclitBreath_1','CirclitBreath'),
+            ('MOD_AL_RS_HelioSphere_1','HelioSphere'),
             ('MOD_AL_RS_Laplace_2','Laplace');
 
     CREATE TABLE AL_GreatUnitNames(
@@ -418,9 +420,9 @@
             ('AKARI',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
             ('HARUNA',  0,      'CLASS_AL_AZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_MELEE',      1,          'CLASS_AL_SEITOKAI',3,          3,              25,     18,             2,      5,              'PhaseTranscendence',          1        ),
             
-            ('FUJINO',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
-            ('AKEHI',    0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
-            ('SUZUME',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HeavensScales',          3        ),
+            ('FUJINO',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'CirclitBreath',          3        ),
+            ('AKEHI',    0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'HelioSphere',          3        ),
+            ('SUZUME',   0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              16,     25,             3,      4,              'LunaticTranser',          3        ),
             
             ('KUREHA',  0,      'CLASS_AL_BZ',  'CLASS_AL_GRANEPLE',    'CLASS_AL_KANBA',       0,          'CLASS_RANGED',     0,              NULL,           3,          3,              18,     20,             2,      4,              'Testament',          3        ),
             ('MILIAM',  0,      'CLASS_AL_AZ',  'CLASS_AL_RADGRID',     'CLASS_AL_YURIGAOKA',   0,          'CLASS_RANGED',     0,              NULL,           2,          2,              27,     20,             1,      5,              'PhaseTranscendence',          1        );
@@ -1653,6 +1655,7 @@
                 ('ABL_AL_RS_HARUNA', 'MOD_AL_RS_HARUNA_1'),
                 ('ABL_AL_RS_AKARI', 'MOD_AL_RS_AKARI_1'),
                 ('ABL_AL_RS_KUREHA', 'MOD_AL_RS_KUREHA_1'),
+                ('ABL_AL_RS_SUZUME', 'MOD_AL_RS_SUZUME_1'),
                 ('ABL_AL_GEHENA_LILY', 'MOD_AL_GEHENA_LILY_1'),
                 ('ABILITY_AL_KUREHA_ATTACK', 'MOD_AL_KUREHA_ATTACK'),
             -----------------------------------------------------------------------
@@ -1699,12 +1702,16 @@
             ('MOD_AL_RS_LunaticTranser_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_ATTACKER', 0),
             ('MOD_AL_GEHENA_LILY_1', 'MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_MODIFIER', NULL, 0),
             ('MOD_AL_RS_PhaseTranscendence_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
+            ('MOD_AL_RS_SUZUME_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', NULL, 0),
             ('MOD_AL_RS_PhaseTranscendence_2', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
             ('MOD_AL_RS_HIMEKA_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0),
             ('MOD_AL_RS_HARUNA_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_HARUNA_RS_2', 0),
             ('MOD_AL_RS_TruthOfTheWorld_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
             ('MOD_AL_RS_TruthOfTheWorld_2', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
             ('MOD_AL_RS_TruthOfTheWorld_3', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
+            ('MOD_AL_RS_CirclitBreath_1', 'MODIFIER_UNIT_ADJUST_NUM_ATTACKS', NULL, 0),
+            ('MOD_AL_RS_HelioSphere_1', 'MODIFIER_PLAYER_UNITS_ATTACH_MODIFIER', 'REQSET_AL_GARNT_ADJACENT_LILY_UNIT_2_PLOT', 0),
+            ('BUFF_AL_RS_HelioSphere_1', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'REQSET_AL_UNIT_IS_DEFFENDER', 0),
             ('BUFF_AL_RS_TruthOfTheWorld_1', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', 'REQSET_UNIT_IS_LILY_GREAT', 0),
             ('BUFF_AL_RS_TruthOfTheWorld_2', 'MODIFIER_UNIT_ADJUST_NUM_ATTACKS', 'REQSET_UNIT_IS_LILY_GREAT', 0),
             ('BUFF_AL_RS_TruthOfTheWorld_3', 'MODIFIER_PLAYER_UNIT_ADJUST_IGNORE_ZOC', 'REQSET_UNIT_IS_LILY_GREAT', 0),
@@ -1789,6 +1796,7 @@
             ('MOD_AL_RS_AKARI_1', 'Amount', 1),
             ('MOD_AL_KUREHA_ATTACK', 'Amount', 10),
             ('MOD_AL_RS_HARUNA_1', 'Amount', 10),
+            ('MOD_AL_RS_SUZUME_1', 'Amount', 10),
         -----------------------------------------------------------------------
             ('MOD_AL_GEHENA_LILY_1', 'Amount', 5),
             ('MOD_AL_GEHENA_LILY_1', 'YieldType', 'YIELD_SCIENCE'),
@@ -1802,6 +1810,10 @@
             ('MOD_AL_RS_HIMEKA_1', 'Amount', 2),
 
             ('MOD_AL_RS_KANAHO_1', 'ModifierId', 'BUFF_AL_RS_KANAHO_1'),
+
+            ('MOD_AL_RS_HelioSphere_1', 'ModifierId', 'BUFF_AL_RS_HelioSphere_1'),
+            ('BUFF_AL_RS_HelioSphere_1', 'Amount', 10),
+            ('MOD_AL_RS_CirclitBreath_1', 'Amount', 1),
 
             ('MOD_AL_RS_TruthOfTheWorld_1', 'ModifierId', 'BUFF_AL_RS_TruthOfTheWorld_1'),
             ('MOD_AL_RS_TruthOfTheWorld_2', 'ModifierId', 'BUFF_AL_RS_TruthOfTheWorld_2'),
@@ -1890,8 +1902,11 @@
             ('MOD_AL_KUREHA_ATTACK', 'Preview', '{1_Amount} {LOC_PROMOTION_AL_KUREHA_GREATNORMAL_4_1_NAME}'),
             ('MOD_AL_RS_HARUNA_1', 'Preview', '{1_Amount} {LOC_RS_NAME_PhaseTranscendence}'),
 
+            ('MOD_AL_RS_SUZUME_1', 'Preview', '{1_Amount} {LOC_RS_NAME_LunaticTranser}'),
+
             ('MOD_AL_RS_TAKANE_1', 'Preview', '{1_Amount} {LOC_RS_NAME_ZenoneParadoxa}'),
             ('MOD_AL_RS_TAKANE_2', 'Preview', '{1_Amount} {LOC_RS_NAME_ZenoneParadoxa}'),
+            ('BUFF_AL_RS_HelioSphere_1', 'Preview', '{1_Amount} {LOC_RS_NAME_HelioSphere}'),
 
             ('MOD_AL_RS_ShrunkenLand_2', 'Preview', '+{Property}  {LOC_RS_NAME_ShrunkenLand}'),
             ('MOD_AL_RS_Testament_1', 'Preview', '{Property}  {LOC_RS_NAME_Testament}'),

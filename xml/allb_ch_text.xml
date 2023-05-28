@@ -4795,12 +4795,37 @@ GEHENA的要求被拒绝，百合丘又一次有了小结梨的容身之处—�
 		<Row Tag="LOC_RS_NAME_Phantasm" Language="zh_Hans_CN">
 			<Text>{1_String}稀有技能：幻想可视化</Text>
 		</Row>
+
+		<Row Tag="LOC_RS_NAME_HelioSphere" Language="zh_Hans_CN">
+			<Text>{1_String}稀有技能：太阳圈</Text>
+		</Row>
+		<Row Tag="LOC_RS_EFFECT_HelioSphere" Language="zh_Hans_CN">
+			<Text>幻想可视化：持续3回合。持续时间内相邻两格内的莉莉单位+10[ICON_Strength]防御战斗力，且受到攻击后恢复相当于伤害值50%的生命值。</Text>
+		</Row>
+
+		<Row Tag="LOC_RS_NAME_CirclitBreath" Language="zh_Hans_CN">
+			<Text>{1_String}稀有技能：圆环御手</Text>
+		</Row>
+		<Row Tag="LOC_RS_EFFECT_CirclitBreath" Language="zh_Hans_CN">
+			<Text>圆环御手：持续3回合。+1攻击次数。持续时间内每次攻击将对被攻击的单位额外造成一次伤害，且对相邻一格的其他敌方单位造成一次伤害。</Text>
+		</Row>
+
 		<Row Tag="LOC_RS_EFFECT_Phantasm" Language="zh_Hans_CN">
 			<Text>幻想可视化：持续3回合。持续时间内-10[ICON_Strength]防御战斗力，每级誓约关系为其提供+1[ICON_Strength]防御战斗力，随机选择相邻两格范围内的数个点位（移动后重置），站在点位上的莉莉单位+4[ICON_Charm_Combat]CHARM输出，+7[ICON_Strength]战斗力，+1[ICON_Ranged]射程。（点位可在莉莉详细情报内查看）</Text>
 		</Row>
 
 		<Row Tag="LOC_RS_EFFECT_TADUSA" Language="zh_Hans_CN">
 			<Text>[NEWLINE]专属效果：+2[ICON_Movement]移动力。</Text>
+		</Row>
+
+		<Row Tag="LOC_RS_EFFECT_AKEHI" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：与铃梦相邻时，铃梦受伤后恢复全部生命值。</Text>
+		</Row>
+		<Row Tag="LOC_RS_EFFECT_FUJINO" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：如果被攻击单位为HUGE，则额外造成两次伤害。</Text>
+		</Row>
+		<Row Tag="LOC_RS_EFFECT_SUZUME" Language="zh_Hans_CN">
+			<Text>[NEWLINE]专属效果：与秋日相邻时+10战斗力，且不会减少生命值。</Text>
 		</Row>
 
 		<Row Tag="LOC_ABL_AL_PHANTASM_EFFECT_NAME" Language="zh_Hans_CN">

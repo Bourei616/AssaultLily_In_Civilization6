@@ -3991,18 +3991,14 @@ function AlLunaticDamage(playerID)
                 local unit = GetLilyUnit(playerID,row.UnitName)
                 print('AlLunaticDamage:找到梦结单位')
                 if unit:GetDamage() <= 80 then
-                    local targetPlots = Map.GetNeighborPlots(unit:GetX(), unit:GetY(), 1)
-                    for _,plot in ipairs(targetPlots) do
-                        for _,aunit in ipairs(Units.GetUnitsInPlot(plot)) do
-                            if aunit then
-                                if string.match(aunit:GetName(),"(%u+)_GREATNORMAL") then
-                                    local pName = string.match(aunit:GetName(),"(%u+)_GREATNORMAL")
-                                    if GameInfo.AL_GreatUnitNames[pName].RareSkill == 'Laplace' then
-                                        print('AlLunaticDamage:找到魅力感召单位')
-                                        damage = false
-                                    end
-                                end
-                            end
+                    local near,nearunit = NearRSUnit(playerID,unit:GetX(),unit:GetY(),1,'Laplace')
+                    if near then
+                        damage = false
+                    end
+                    local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+                    if pName and pName == 'SUZUME' then
+                        if NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'AKEHI',2) then
+                            damage = false
                         end
                     end
                     if damage == true then
@@ -4099,6 +4095,67 @@ function ShenlinJustGuard(pCombatResult)
 end
 Events.Combat.Add(ShenlinJustGuard)
 
+function EnkanDoubleKill(pCombatResult)
+    local aUnit,dUnit,aPlayer,dPlayer,location = GetInfoFromCombat(pCombatResult)
+    if IsLilyCivilization(dPlayer:GetID()) == false then return;end
+    if aUnit == nil or dUnit == nil then return;end
+    local name = string.match(aUnit:GetName(),"(%u+)_GREATNORMAL")
+    local rs = GameInfo.AL_GreatUnitNames[name].RareSkill
+    local IsUsing = aUnit:GetProperty(rs)
+    if name and rs == 'CirclitBreath' and IsUsing == 1 then
+        local defender = pCombatResult[CombatResultParameters.DEFENDER]
+        local damage = defender[CombatResultParameters.DAMAGE_TO]
+        dUnit:ChangeDamage(damage)
+        local targetPlots = Map.GetNeighborPlots(aUnit:GetX(), aUnit:GetY(), 1)
+        for _,plot in ipairs(targetPlots) do
+            if plot:IsUnit() then
+                for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
+                    if AlCheckAtWar(aPlayer:GetID(),unit:GetOwner()) then
+                        local damage2 = BattleSimulation(aPlayer:GetID(),aUnit:GetID(),unit:GetOwner(),unit:GetID())
+                        unit:ChangeDamage(damage2)
+                    end
+                end
+            end
+        end
+        if name == 'FUJINO' and string.match(dUnit:GetName(),"HUGE") then
+            dUnit:ChangeDamage(damage)
+        end
+    end
+end
+Events.Combat.Add(EnkanDoubleKill)
+
+function HeliosphereHeal(pCombatResult)
+    local aUnit,dUnit,aPlayer,dPlayer,location = GetInfoFromCombat(pCombatResult)
+    if IsLilyCivilization(dPlayer:GetID()) == false then return;end
+    if aUnit == nil or dUnit == nil then return;end
+    local name = string.match(dUnit:GetName(),"(%u+)_GREATNORMAL")
+    local near,nearunit = NearRSUnit(dPlayer.GetID(),dUnit:GetX(),dUnit:GetY(),2,'HelioSphere','HelioSphereS')
+    if name and near and nearunit:GetProperty('HelioSphere') == 1 then
+        local defender = pCombatResult[CombatResultParameters.DEFENDER]
+        local damage = defender[CombatResultParameters.DAMAGE_TO]*-0.5
+        dUnit:ChangeDamage(damage)
+        if name == 'SUZUME' and NearLily(Map.GetPlot(dUnit:GetX(),dUnit:GetY()),'AKEHI',2) then
+            local akehi = GetLilyUnit(dPlayer.GetID(),'AKEHI')
+            if akehi:GetProperty('HelioSphere') == 1 then
+                dUnit:ChangeDamage(damage)
+            end
+        end
+    end
+end
+Events.Combat.Add(HeliosphereHeal)
+
+function NearRSUnit(playerID,x,y,range,rs1,rs2)
+    for row in GameInfo.AL_GreatUnitNames() do
+        if row.RareSkill == rs1 or row.RareSkill == rs2 then
+            local Near = NearLily(Map.GetPlot(x,y),row.UnitName,range)
+            if Near then
+                local unit = GetLilyUnit(playerID,row.UnitName)
+                return true,unit
+            end
+        end
+    end
+    return false
+end
 function HeavensScalesCritical(pCombatResult)
     local attacker = pCombatResult[CombatResultParameters.ATTACKER];
     local attInfo = attacker[CombatResultParameters.ID]
