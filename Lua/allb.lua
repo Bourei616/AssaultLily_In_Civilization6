@@ -93,20 +93,8 @@ function AlGetGreatUnits(unitOwner,unitID,greatPersonClassID,greatPersonIndividu
             end
         end
     end
-
-    local capital = pPlayer:GetCities():GetCapitalCity()
-    if capital == nil then return;end
-    local unittype = 'UNIT_AL_'..name..'_GREATNORMAL'
-    if pPlayer:GetProperty(name..'_greatnormal_flag') == nil then
-        UnitManager.InitUnitValidAdjacentHex(unitOwner, unittype, capital:GetX(), capital:GetY(), 1)
-        pPlayer:SetProperty(name..'_greatnormal_flag',1)
-        RefreshCharmBreakLevel(unitOwner)
-        print('AlGetGreatUnits:Get Unit '..name)
-    else
-        print('AlGetGreatUnits:Repeat Get Unit '..name)
-        return;
-    end
-
+    GrantLilyUnit(unitOwner,name)
+    RefreshCharmBreakLevel(unitOwner)
     local capital = pPlayer:GetCities():GetCapitalCity()
     if name == 'SHENLIN' or name == 'YUJIA' then
         if capital:GetBuildings():HasBuilding(GameInfo.Buildings['BUILDING_AL_VISUAL_SHENLIN'].Index) == false then
@@ -218,7 +206,7 @@ function CountCharmBreakLevel(name,PlayerID,unitID,x,y)
     local rand = Game.GetRandNum(100,'NO WHY')/100
     local percent = rand + damageParamater
     print('CountCharmBreakLevel:'..rand,damageParamater)
-    if percent >= 0.95 then
+    if percent >= 0.95 and breaklevel-1 > 0 then
         print('CountCharmBreakLevel:BREAK!')
         SetCharmBreakLevel(PlayerID,name,breaklevel-1)
         Game.AddWorldViewText(0, Locale.Lookup("LOC_AL_CHARM_BROKEN")..Locale.Lookup("LOC_AL_CHARM_BROKEN_"..breaklevel-1), x, y)
@@ -305,7 +293,6 @@ end
 Events.PlayerTurnActivated.Add(RiriGetGardenYield);
 
 function RiriSetCapitalProperty(playerID,misc1)
-    
     local pPlayer = Players[playerID];
     local pPlayerConfig = PlayerConfigurations[playerID];
     if pPlayerConfig:GetLeaderTypeName() ~= 'LEADER_AL_RIRI' then return;end
@@ -318,9 +305,24 @@ function RiriSetCapitalProperty(playerID,misc1)
             pPlot:SetProperty('RIRI_CAPITAL',nil)
         end
     end
-    
 end
 Events.PlayerTurnActivated.Add(RiriSetCapitalProperty);
+
+function KanahoSetCapitalProperty(playerID)
+    local pPlayer = Players[playerID];
+    local pPlayerConfig = PlayerConfigurations[playerID];
+    if pPlayerConfig:GetLeaderTypeName() ~= 'LEADER_AL_KANAHO' then return;end
+    local capital = pPlayer:GetCities():GetCapitalCity()
+    if capital then
+        local pPlot = Map.GetPlot(capital:GetX(),capital:GetY())
+        if CheckGranEpleAllMember(playerID) ~= true then
+            pPlot:SetProperty('KANAHO_CAPITAL',1)
+        elseif CheckGranEpleAllMember(playerID) then
+            pPlot:SetProperty('KANAHO_CAPITAL',nil)
+        end
+    end
+end
+Events.PlayerTurnActivated.Add(KanahoSetCapitalProperty);
 
 function GardenRemoveTribe(PlotX, PlotY, eOwner)
     local pPlayer = Players[eOwner]
@@ -1044,15 +1046,9 @@ Events.UnitGreatPersonCreated.Add(KaedeGetBoost);
 function ALGetUniqueGreat (playerID, governorID, ePromotion)
     if IsLilyCivilization(playerID) then
         local pPlayer = Players[playerID]
-        if string.match(GameInfo.Governors[governorID].Name, "AL_(%u+)") == nil then return; end
         local govername = string.match(GameInfo.Governors[governorID].Name, "AL_(%u+)")
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        if pPlayer:GetProperty(govername..'_greatnormal_flag') == nil then
-            if GameInfo.Units['UNIT_AL_'..govername..'_GREATNORMAL'] then
-                UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_'..govername..'_GREATNORMAL', capital:GetX(), capital:GetY(), 1)
-                pPlayer:SetProperty(govername..'_greatnormal_flag',1)
-                print('AlGetGreatUnits:Get Unit '..govername)
-            end
+        if govername then
+            GrantLilyUnit(playerID,govername)
         end
     end
 end
@@ -2308,23 +2304,56 @@ function AlProjectEffects(playerID:number, cityID:number, projectIndex, building
     end
 
     if projectIndex == GameInfo.Projects['PROJECT_AL_HITOTSUYANAGI'].Index then
-        local targetunit = {}
-        for row in GameInfo.AL_GreatUnitNames() do
-            if row.Legion == 'CLASS_AL_RADGRID' then
-                if HasLilyUnit(playerID,row.UnitName) == false and pPlayer:GetProperty(row.UnitName..'_greatnormal_flag') ~= 1 then
+        GrantRandomLilyUnit(playerID,'RADGRID')
+    end
+
+    if projectIndex == GameInfo.Projects['PROJECT_AL_GRANEPLE'].Index then
+        GrantRandomLilyUnit(playerID,'GRANEPLE')
+    end
+end
+
+function GrantRandomLilyUnit(playerID,Legion)
+    local targetunit = {}
+    local pPlayer = Players[playerID]
+    for row in GameInfo.AL_GreatUnitNames() do
+        if row.Legion == 'CLASS_AL_'..Legion then
+            if HasLilyUnit(playerID,row.UnitName) == false and pPlayer:GetProperty(row.UnitName..'_greatnormal_flag') ~= 1 then
+                if Legion == 'RADGRID' then
                     if row.UnitName ~= 'RIRI' and row.UnitName ~= 'YUYU' and row.UnitName ~= 'KAEDE' and row.UnitName ~= 'YURI' then
+                        table.insert(targetunit,row.UnitName)
+                    end
+                elseif Legion == 'GRANEPLE' then
+                    if row.UnitName ~= 'KANAHO' and row.UnitName ~= 'TAKANE' and row.UnitName ~= 'HIMEKA' then
                         table.insert(targetunit,row.UnitName)
                     end
                 end
             end
         end
-        local randUnit = Game.GetRandNum(#targetunit,'ALLB:Get Nest Position') + 1
-        local name = targetunit[randUnit]
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        if name then
-            UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_'..name..'_GREATNORMAL', capital:GetX(), capital:GetY(), 1)
-            pPlayer:SetProperty(name..'_greatnormal_flag',1)
-        end
+    end
+    local randUnit = Game.GetRandNum(#targetunit,'ALLB:Get Nest Position') + 1
+    local name = targetunit[randUnit]
+    if name then
+        GrantLilyUnit(playerID,name)
+    end
+end
+
+function GrantLilyUnit(playerID,pName,nekoowner)
+    local pPlayer = Players[playerID]
+    local capital = pPlayer:GetCities():GetCapitalCity()
+    local unittype = GameInfo.Units['UNIT_AL_'..pName..'_GREATNORMAL'].UnitType
+    local flagname = pName..'_greatnormal_flag'
+    local flag = pPlayer:GetProperty(flagname)
+    if pName == 'NEKO' then
+        unittype = 'UNIT_AL_NEKO'
+        flagname = nekoowner..'_NEKO_FLAG'
+        flag = pPlayer:GetProperty(flagname)
+    end
+    if unittype and flag ~= 1 then
+        UnitManager.InitUnitValidAdjacentHex(playerID, unittype, capital:GetX(), capital:GetY(), 1)
+        pPlayer:SetProperty(flagname,1)
+        print('GrantLilyUnit:获得单位：'..pName)
+    elseif flag == 1 then
+        print('GrantLilyUnit:已获得过该单位！')
     end
 end
 
@@ -2582,6 +2611,25 @@ function CheckRIRIAllMember(playerID)
     end
 end
 
+function CheckGranEpleAllMember(playerID)
+    local pPlayer = Players[playerID]
+    local PlayerUnits = pPlayer:GetUnits()
+    local member = 0
+    for i, unit in PlayerUnits:Members() do
+        if string.match(unit:GetName(),"(%u+)_GREATNORMAL") then
+            local name = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+            if name == 'KANAHO' or name =='TAKANE' or name =='HIMEKA' or name =='AKARI' or name =='KUREHA' or name =='FUJINO' or name =='HARUNA' or name =='SUZUME' or name =='AKEHI' then
+                member = member + 1
+            end
+        end
+    end
+    if member == 9 then
+        return true
+    else
+        return false
+    end
+end
+
 function GetLilyUnit(playerID,pName)
     local pPlayer = Players[playerID]
     local PlayerUnits = pPlayer:GetUnits()
@@ -2658,12 +2706,9 @@ function AlGetYuri(playerID)
         pPlayer:SetProperty('YURI_BEFORE_GET_FLAG',GetFlag + 1)
     end
     if pPlayer:GetProperty('YURI_BEFORE_GET_FLAG')>=YuriCycle and pPlayer:GetProperty('YURI_GET_FLAG') == nil then
-        local unittype = 'UNIT_AL_YURI_GREATNORMAL'
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        UnitManager.InitUnitValidAdjacentHex(playerID, unittype, capital:GetX(), capital:GetY(), 1)
+        GrantLilyUnit(playerID,'YURI')
         AlYuriPopup(playerID,2)
         pPlayer:SetProperty('YURI_GET_FLAG',1)
-        pPlayer:SetProperty('YURI_greatnormal_flag',1)
     end
 
     if pPlayer:GetProperty('YURI_GET_FLAG') == 1 then
@@ -3324,13 +3369,9 @@ function AlLeaderGetGreat(playerID,TechID)
     local pPlayer = Players[playerID]
     if pPlayer:IsMajor() == false then return;end
     if string.match(pPlayerConfig:GetLeaderTypeName(),"LEADER_AL_(%u+)") == nil or TechID ~= GameInfo.Technologies['TECH_AL_MEDIEVAL'].Index then return;end
-
-    local capital = pPlayer:GetCities():GetCapitalCity()
     local LeaderName = string.match(pPlayerConfig:GetLeaderTypeName(),"LEADER_AL_(%u+)")
-    if pPlayer:GetProperty(LeaderName..'_greatnormal_flag') == nil and GameInfo.Units['UNIT_AL_'..LeaderName..'_GREATNORMAL'] then
-        UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_'..LeaderName..'_GREATNORMAL', capital:GetX(), capital:GetY(), 1)
-        pPlayer:SetProperty(LeaderName..'_greatnormal_flag',1)
-        print('AlGetGreatUnits:Get Unit '..LeaderName)      
+    if LeaderName then
+        GrantLilyUnit(playerID,LeaderName)
     end
 end
 Events.ResearchCompleted.Add(AlLeaderGetGreat);
@@ -3374,25 +3415,19 @@ function AlUnitPromotion(playerID : number, unitID : number)
 
     if pUnit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TADUSA_GREATNORMAL_1_2'].Index) 
     and pPlayer:GetProperty('TAZUSA_NEKO_FLAG') == nil then
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_NEKO', capital:GetX(), capital:GetY(), 1)
-        pPlayer:SetProperty('TAZUSA_NEKO_FLAG',1)
+        GrantLilyUnit(playerID,'NEKO','TADUSA')
         AlCitySetNekoBuilding(playerID)
     end
 
     if pUnit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_MAI_GREATNORMAL_1_2'].Index) 
     and pPlayer:GetProperty('MAI_NEKO_FLAG') == nil then
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_NEKO', capital:GetX(), capital:GetY(), 1)
-        pPlayer:SetProperty('MAI_NEKO_FLAG',1)
+        GrantLilyUnit(playerID,'NEKO','MAI')
         AlCitySetNekoBuilding(playerID)
     end
 
     if pUnit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_YUJIA_GREATNORMAL_2_1'].Index) 
     and pPlayer:GetProperty('YUJIA_NEKO_FLAG') == nil then
-        local capital = pPlayer:GetCities():GetCapitalCity()
-        UnitManager.InitUnitValidAdjacentHex(playerID, 'UNIT_AL_NEKO', capital:GetX(), capital:GetY(), 1)
-        pPlayer:SetProperty('YUJIA_NEKO_FLAG',1)
+        GrantLilyUnit(playerID,'NEKO','YUJIA')
         AlCitySetNekoBuilding(playerID)
     end
     if pUnit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_MOYU_GREATNORMAL_2_1'].Index)
@@ -4017,7 +4052,7 @@ function CheckHasAbility(playerID,unitID,Ability)
     local unitAbilities = unit:GetAbility();
     local AbilityName = GameInfo.UnitAbilities[Ability].UnitAbilityType
     local count = unitAbilities:GetAbilityCount(AbilityName);
-    if count and count ~= 0 then
+    if count and count >= 0 then
         return true;
     else
         return false
@@ -4097,28 +4132,30 @@ Events.Combat.Add(ShenlinJustGuard)
 
 function EnkanDoubleKill(pCombatResult)
     local aUnit,dUnit,aPlayer,dPlayer,location = GetInfoFromCombat(pCombatResult)
-    if IsLilyCivilization(dPlayer:GetID()) == false then return;end
+    if IsLilyCivilization(aPlayer:GetID()) == false then return;end
     if aUnit == nil or dUnit == nil then return;end
     local name = string.match(aUnit:GetName(),"(%u+)_GREATNORMAL")
-    local rs = GameInfo.AL_GreatUnitNames[name].RareSkill
-    local IsUsing = aUnit:GetProperty(rs)
-    if name and rs == 'CirclitBreath' and IsUsing == 1 then
-        local defender = pCombatResult[CombatResultParameters.DEFENDER]
-        local damage = defender[CombatResultParameters.DAMAGE_TO]
-        dUnit:ChangeDamage(damage)
-        local targetPlots = Map.GetNeighborPlots(aUnit:GetX(), aUnit:GetY(), 1)
-        for _,plot in ipairs(targetPlots) do
-            if plot:IsUnit() then
-                for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
-                    if AlCheckAtWar(aPlayer:GetID(),unit:GetOwner()) then
-                        local damage2 = BattleSimulation(aPlayer:GetID(),aUnit:GetID(),unit:GetOwner(),unit:GetID())
-                        unit:ChangeDamage(damage2)
+    if name then
+        local rs = GameInfo.AL_GreatUnitNames[name].RareSkill
+        local IsUsing = aUnit:GetProperty(rs)
+        if name and rs == 'CirclitBreath' and IsUsing == 1 then
+            local defender = pCombatResult[CombatResultParameters.DEFENDER]
+            local damage = defender[CombatResultParameters.DAMAGE_TO]
+            dUnit:ChangeDamage(damage)
+            local targetPlots = Map.GetNeighborPlots(aUnit:GetX(), aUnit:GetY(), 1)
+            for _,plot in ipairs(targetPlots) do
+                if plot:IsUnit() then
+                    for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
+                        if AlCheckAtWar(aPlayer:GetID(),unit:GetOwner()) then
+                            local damage2 = BattleSimulation(aPlayer:GetID(),aUnit:GetID(),unit:GetOwner(),unit:GetID())
+                            unit:ChangeDamage(damage2)
+                        end
                     end
                 end
             end
-        end
-        if name == 'FUJINO' and string.match(dUnit:GetName(),"HUGE") then
-            dUnit:ChangeDamage(damage)
+            if name == 'FUJINO' and string.match(dUnit:GetName(),"HUGE") then
+                dUnit:ChangeDamage(damage)
+            end
         end
     end
 end
@@ -4129,7 +4166,7 @@ function HeliosphereHeal(pCombatResult)
     if IsLilyCivilization(dPlayer:GetID()) == false then return;end
     if aUnit == nil or dUnit == nil then return;end
     local name = string.match(dUnit:GetName(),"(%u+)_GREATNORMAL")
-    local near,nearunit = NearRSUnit(dPlayer.GetID(),dUnit:GetX(),dUnit:GetY(),2,'HelioSphere','HelioSphereS')
+    local near,nearunit = NearRSUnit(dPlayer:GetID(),dUnit:GetX(),dUnit:GetY(),2,'HelioSphere','HelioSphereS')
     if name and near and nearunit:GetProperty('HelioSphere') == 1 then
         local defender = pCombatResult[CombatResultParameters.DEFENDER]
         local damage = defender[CombatResultParameters.DAMAGE_TO]*-0.5
@@ -4143,6 +4180,110 @@ function HeliosphereHeal(pCombatResult)
     end
 end
 Events.Combat.Add(HeliosphereHeal)
+
+function FujinoAttack(pCombatResult)
+    local aUnit,dUnit,aPlayer,dPlayer,location = GetInfoFromCombat(pCombatResult)
+    if IsLilyCivilization(aPlayer:GetID()) == false then return;end
+    if aUnit == nil or dUnit == nil then return;end
+    local name = string.match(aUnit:GetName(),"(%u+)_GREATNORMAL")
+    if name == 'FUJINO' and HasUnitPromotion(aPlayer:GetID(),'PROMOTION_AL_FUJINO_GREATNORMAL_4_1') then
+        local randNum = Game.GetRandNum(100,'NO WHY')/100
+        if randNum <= 0.5 then
+            FujinoKill(aPlayer:GetID(),aUnit:GetX(),aUnit:GetY())
+        elseif randNum > 0.5 then
+            FujinoHeal(aPlayer:GetID(),aUnit:GetX(),aUnit:GetY())
+        end
+    end
+end
+Events.Combat.Add(FujinoAttack)
+
+function FujinoKill(playerID,x,y)
+    local targetPlots = Map.GetNeighborPlots(x, y, 1)
+    for _,plot in ipairs(targetPlots) do
+        if plot:IsUnit() then
+            for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
+                if AlCheckAtWar(playerID,unit:GetOwner()) then
+                    local damage = unit:GetDamage()
+                    unit:ChangeDamage(damage*0.1)
+                end
+            end
+        end
+    end
+end
+
+function FujinoHeal(playerID,x,y)
+    local targetPlots = Map.GetNeighborPlots(x, y, 1)
+    for _,plot in ipairs(targetPlots) do
+        if plot:IsUnit() then
+            for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
+                local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+                if pName then
+                    unit:ChangeDamage(-10)
+                end
+            end
+        end
+    end
+end
+
+function SuzumeRedEye(pCombatResult)
+    local aUnit,dUnit,aPlayer,dPlayer,location = GetInfoFromCombat(pCombatResult)
+    if IsLilyCivilization(dPlayer:GetID()) == false then return;end
+    if aUnit == nil or dUnit == nil then return;end
+    local name = string.match(dUnit:GetName(),"(%u+)_GREATNORMAL")
+    print('SuzumeRedEye:'..name)
+    if name == 'SUZUME' and HasUnitPromotion(dPlayer:GetID(),'PROMOTION_AL_SUZUME_GREATNORMAL_2_1') then
+        local unitAbilities = dUnit:GetAbility();
+        local count = unitAbilities:GetAbilityCount('ABL_AL_SUZUME_REDEYE_BUFF');
+        if count == nil or count == 0 then
+            local randNum = Game.GetRandNum(100,'NO WHY')/100
+            if randNum <= 0.33 then
+                print('SuzumeRedEye:触发红眼'..randNum)
+                dPlayer:SetProperty('SUZUME_REDEYE',1)
+                unitAbilities:ChangeAbilityCount('ABL_AL_SUZUME_REDEYE_BUFF',1);
+                unitAbilities:ChangeAbilityCount('ABL_AL_SUZUME_REDEYE_DEBUFF',1);
+                local pPlot = Map.GetPlot(dUnit:GetX(),dUnit:GetY())
+                if NearLily(pPlot,'AKEHI',1) and NearLily(pPlot,'FUJINO',1) and HasUnitPromotion(dPlayer:GetID(),'PROMOTION_AL_AKEHI_GREATNORMAL_3_2') then
+                    unitAbilities:ChangeAbilityCount('ABL_AL_SUZUME_REDEYE_DEBUFF',-1);
+                end
+            else
+                print('SuzumeRedEye:未触发红眼'..randNum)
+            end
+        end
+    end
+end
+Events.Combat.Add(SuzumeRedEye)
+
+function SuzumeRedEyeCounter(playerID)
+    if IsLilyCivilization(playerID) == false then return;end
+    local pPlayer = Players[playerID]
+    local property = pPlayer:GetProperty('SUZUME_REDEYE')
+    if property and property >= 1 then
+        local unit = GetLilyUnit(playerID,'SUZUME')
+        local unitAbilities = unit:GetAbility();
+        local count1 = unitAbilities:GetAbilityCount('ABL_AL_SUZUME_REDEYE_BUFF');
+        local count2 = unitAbilities:GetAbilityCount('ABL_AL_SUZUME_REDEYE_DEBUFF');
+        property = property +1
+        pPlayer:SetProperty('SUZUME_REDEYE',property)
+        if count2 and count2 == 1 then
+            local damage = unit:GetDamage()
+            if damage < 70 then
+                unit:ChangeDamage(20)
+            elseif damage >= 70 then
+                UnitManager.ChangeMovesRemaining(unit,-999)
+            end
+        end
+        if property >3 then
+            pPlayer:SetProperty('SUZUME_REDEYE',nil)
+            if count1 and count1 == 1 then
+                unitAbilities:ChangeAbilityCount('ABL_AL_SUZUME_REDEYE_BUFF',-1);
+            end
+            if count2 and count2 == 1 then
+                unitAbilities:ChangeAbilityCount('ABL_AL_SUZUME_REDEYE_DEBUFF',-1);
+            end
+        end
+    end
+end
+Events.PlayerTurnActivated.Add(SuzumeRedEyeCounter);
 
 function NearRSUnit(playerID,x,y,range,rs1,rs2)
     for row in GameInfo.AL_GreatUnitNames() do
@@ -4211,8 +4352,10 @@ function KanbaSetToutomi(playerID)
 
             local NearKanbaTeagarden,FlagNearKanbaTeagarden= nil,nil
             local NearKanbaWonder,FlagNearKanbaWonder = nil,nil
-            local NearTakane,FlagNearTakane = NearTakane(pPlot)
-            local NearKanaho,FlagNearKanaho = NearKanaho(pPlot)
+            local NearTakane,FlagNearTakane = NearLilyToutomi(pPlot,'TAKANE','KANAHO')
+            local NearKanaho,FlagNearKanaho = NearLilyToutomi(pPlot,'KANAHO','TAKANE')
+            local NearAkehi,FlagNearAkehi = NearLilyToutomi(pPlot,'AKEHI','SUZUME')
+            local NearSuzume,FlagNearSuzume = NearLilyToutomi(pPlot,'SUZUME','AKEHI')
             if ExposedMembers.AL.HasGovernorPomotion(playerID,'GOVERNOR_AL_TAKANE',2) then
                 NearKanbaTeagarden,FlagNearKanbaTeagarden = IsNearKanbaTeagarden(pPlot,2)
                 NearKanbaWonder,FlagNearKanbaWonder = IsNearKanbaWonder(pPlot)
@@ -4243,6 +4386,12 @@ function KanbaSetToutomi(playerID)
             end
             if FlagNearKanaho then
                 toutomi = toutomi + NearKanaho
+            end
+            if FlagNearAkehi then
+                toutomi = toutomi + NearAkehi
+            end
+            if FlagNearSuzume then
+                toutomi = toutomi + NearSuzume
             end
 
             if IsNearKanbaStage then
@@ -4314,92 +4463,90 @@ Events.PlayerTurnActivated.Add(KurehaHP);
 
 function KurehaDead(playerID,unitID,iX,iY)
     local kureha = UnitManager.GetUnit(playerID,unitID)
-    local pName = string.match(kureha:GetName(),"(%u+)_GREATNORMAL")
-    if pName and pName == 'KUREHA' then
-        local pPlot = Map.GetPlot(iX,iY)
-        local toutomi = pPlot:GetProperty('TOUTOMI')
-        if toutomi>=12 and HasUnitPromotion(playerID, 'PROMOTION_AL_KUREHA_GREATNORMAL_4_1') then
-            UnitManager.ChangeMovesRemaining(kureha,-99)
-            kureha:ChangeDamage(-100)
-            local kurehaa = kureha:GetAbility();
-            local count = kurehaa:GetAbilityCount('ABILITY_AL_KUREHA_ATTACK')
-            if count == nil then
-                kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
-                kureha:SetProperty('KUREHA_ABI_TURN',0)
-            elseif count and count == 0 then
-                kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
-                kureha:SetProperty('KUREHA_ABI_TURN',0)
-            elseif count and count == 1 then
-                kureha:SetProperty('KUREHA_ABI_TURN',0)
+    if kureha then
+        local pName = string.match(kureha:GetName(),"(%u+)_GREATNORMAL")
+        if pName and pName == 'KUREHA' then
+            local pPlot = Map.GetPlot(iX,iY)
+            local toutomi = pPlot:GetProperty('TOUTOMI')
+            if toutomi>=12 and HasUnitPromotion(playerID, 'PROMOTION_AL_KUREHA_GREATNORMAL_4_1') then
+                UnitManager.ChangeMovesRemaining(kureha,-99)
+                kureha:ChangeDamage(-100)
+                local kurehaa = kureha:GetAbility();
+                local count = kurehaa:GetAbilityCount('ABILITY_AL_KUREHA_ATTACK')
+                if count == nil then
+                    kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
+                    kureha:SetProperty('KUREHA_ABI_TURN',0)
+                elseif count and count == 0 then
+                    kurehaa:ChangeAbilityCount('ABILITY_AL_KUREHA_ATTACK',1)
+                    kureha:SetProperty('KUREHA_ABI_TURN',0)
+                elseif count and count == 1 then
+                    kureha:SetProperty('KUREHA_ABI_TURN',0)
+                end
             end
         end
     end
 end
 Events.UnitMoveComplete.Add(KurehaDead);
 
-function NearTakane(pPlot)
+function NearLilyToutomi(pPlot,name1,name2)
     local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
     local num = 0
-    local FlagNearTakane = false
+    local near = false
     for _,plot in ipairs(targetPlots) do
         if plot:IsUnit() then
             for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
                 local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
-                if pName and pName == 'TAKANE' then
-                    FlagNearTakane = true
-                    local NearKanaho = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'KANAHO',1)
-                    if NearKanaho then
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_1_2'].Index) then
-                            num = num + 1
-                        end
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_2_1'].Index) then
-                            num = num + 1
-                        end
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_TAKANE_GREATNORMAL_3_2'].Index) then
-                            num = num + 1
+                if pName and pName == name1 then
+                    near = true
+                    local nearname2 = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),name2,1)
+                    if nearname2 then
+                        if name1 == 'TAKANE' then
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_TAKANE_GREATNORMAL_1_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_TAKANE_GREATNORMAL_2_1') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_TAKANE_GREATNORMAL_3_2') then
+                                num = num + 1
+                            end
+                        elseif name1 == 'KANAHO' then
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_KANAHO_GREATNORMAL_1_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_KANAHO_GREATNORMAL_2_1') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_KANAHO_GREATNORMAL_3_2') then
+                                num = num + 1
+                            end
+                        elseif name1 == 'AKEHI' then
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_1_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_2_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_3_2') then
+                                num = num + 1
+                            end
+                        elseif name1 == 'SUZUME' then
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_1_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_2_2') then
+                                num = num + 1
+                            end
+                            if HasUnitPromotion(unit:GetOwner(),'PROMOTION_AL_AKEHI_GREATNORMAL_4_1') then
+                                num = num + 1
+                            end
                         end
                     end
                 end
             end
         end
     end
-    if FlagNearTakane == true then
-        return num,FlagNearTakane
-    else
-        return num,FlagNearTakane
-    end
-end
-function NearKanaho(pPlot)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 1)
-    local num = 0
-    local FlagNearKanaho = false
-    for _,plot in ipairs(targetPlots) do
-        if plot:IsUnit() then
-            for _,unit in ipairs(Units.GetUnitsInPlot(plot)) do
-                local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
-                if pName and pName == 'KANAHO' then
-                    FlagNearKanaho = true
-                    local NearTakane = NearLily(Map.GetPlot(unit:GetX(),unit:GetY()),'TAKANE',1)
-                    if NearTakane then
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_1_2'].Index) then
-                            num = num + 1
-                        end
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_2_1'].Index) then
-                            num = num + 1
-                        end
-                        if unit:GetExperience():HasPromotion(GameInfo.UnitPromotions['PROMOTION_AL_KANAHO_GREATNORMAL_3_2'].Index) then
-                            num = num + 1
-                        end
-                    end
-                end
-            end
-        end
-    end
-    if FlagNearKanaho == true then
-        return num,FlagNearKanaho
-    else
-        return num,FlagNearKanaho
-    end
+    return num,near
 end
 
 function NearLily(pPlot,name,range)

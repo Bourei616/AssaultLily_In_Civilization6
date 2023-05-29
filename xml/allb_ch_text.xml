@@ -991,7 +991,7 @@
 			<Text>学生会的新成员</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>每个相邻的学生会成员为悠夏提供+1[ICON_Movement]移动力。</Text>
+			<Text>每个相邻的学生会成员（包括秋日、藤乃、铃梦、悠夏）为悠夏提供+1[ICON_Movement]移动力。</Text>
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
 			<Text>不听话的身体</Text>
@@ -1004,6 +1004,162 @@
 		</Row>
 		<Row Tag="LOC_PROMOTION_AL_HARUNA_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
 			<Text>每点未使用的[ICON_Movement]移动力提供+3[ICON_Strength]战斗力。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_AL_AKEHI_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>本间秋日</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_AKEHI_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>本间秋日</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_AKEHI_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由本间秋日伟人转化成的特殊单位。本间秋日有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>厄伦苏格的过去</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+7[ICON_Strength]战斗力，+1[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>日出町的相遇</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与铃梦相邻时，周围单元格+1[ICON_TOUTOMI]尊，自身获得+10[ICON_Strength]进攻战斗力，铃梦获得+7[ICON_Strength]防御战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>御台场的指导</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与悠夏相邻时，悠夏+7[ICON_Strength]进攻战斗力，自身获得+10[ICON_Strength]防御战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>跨越Garden的守护 </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+7[ICON_Strength]战斗力。不与铃梦相邻时，+2移动力。与铃梦相邻时，周围单元格+1[ICON_TOUTOMI]尊，+2射程。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>铁壁的学生会长</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>位于建有“学生会会室”的城市附近时，该城市[ICON_Science]科技值产出+30%、每与一个学生会单位（包括秋日、藤乃、铃梦、悠夏）相邻，额外+15%[ICON_Science]。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>笑容的黎明</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与铃梦相邻时，周围单元格+1[ICON_TOUTOMI]尊。同时与铃梦、藤乃相邻时，铃梦陷入“红眼”状态的副作用会被抵消。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>光之壁</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_AKEHI_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使12个单元格内的商人免遭劫掠。每训练一个神庭莉莉，额外获得一个神庭莉莉。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_AL_SUZUME_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>盐崎铃梦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_SUZUME_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>盐崎铃梦</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_SUZUME_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由盐崎铃梦伟人转化成的特殊单位。盐崎铃梦有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>“实验品”</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10[ICON_Strength]进攻战斗力，-10[ICON_Strength]防御战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>日出町的出逃</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与秋日相邻时，周围单元格+1[ICON_TOUTOMI]尊，+10每回合恢复生命值，+1[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>神秘的友人</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>受到攻击后有33%的概率陷入3回合的“红眼”状态，期间+15[ICON_Strength]进攻战斗力、可以击退敌方单位。同时-15[ICON_Strength]防御战斗力、血量大于30时每回合减少20生命值、血量低于30时扣除所有[ICON_Movement]移动力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>在神庭的新生 </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>在友方领土内+10[ICON_Strength]防御战斗力，与秋日相邻时周围单元格+1[ICON_TOUTOMI]尊，自身+1[ICON_Ranged]射程。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>学生会的日子</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的学生会单位（包括秋日、藤乃、铃梦、悠夏）为其提供+3[ICON_Strength]进攻战斗力，为相邻的学生会单位提供+10每回合恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>格朗·艾普蕾的新生活</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的前格朗・艾普蕾单位（包括叶星、高岭、灯莉、姬歌、红巴）为其提供+3[ICON_Strength]防御战斗力，为每个相邻的前格朗・艾普蕾单位提供+10每回合恢复生命值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>走向梦想、不再恐惧</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_SUZUME_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>击杀单位时，有概率将敌方单位俘获为神庭莉莉。与秋日相邻时，周围单元格+1[ICON_TOUTOMI]尊。</Text>
+		</Row>
+
+		<Row Tag="LOC_PROMOTION_CLASS_AL_FUJINO_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>石塚藤乃</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_FUJINO_GREATNORMAL_NAME" Language="zh_Hans_CN">
+			<Text>石塚藤乃</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_AL_FUJINO_GREATNORMAL_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由石塚藤乃伟人转化成的特殊单位。石塚藤乃有着独特的晋升树。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_1_1_NAME" Language="zh_Hans_CN">
+			<Text>幕张的单挑传说</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_1_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>不与莉莉单位相邻时，+15[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_1_2_NAME" Language="zh_Hans_CN">
+			<Text>防卫队的中流砥柱</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_1_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每个相邻的学生会单位为其提供+1攻击次数。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_2_1_NAME" Language="zh_Hans_CN">
+			<Text>学生会的风纪破坏者</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_2_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>使每个相邻的学生会单位-5每回合恢复生命值。每个相邻的学生会单位为其提供+3[ICON_Strength]战斗力。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_2_2_NAME" Language="zh_Hans_CN">
+			<Text>学生会的幕后守护者 </Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_2_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>为每个不相邻的学生会单位提供+5[ICON_Strength]防御战斗力。每个不相邻的学生会单位为其提供+1[ICON_Ranged]射程。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_3_1_NAME" Language="zh_Hans_CN">
+			<Text>新牵绊的灵感</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_3_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与灯莉相邻时，击杀敌人可获得大量[ICON_Science]科技值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_3_2_NAME" Language="zh_Hans_CN">
+			<Text>“HUGE”的艺术</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_3_2_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>+10对HUGE战斗力。击杀HUGE单位时可获得大量[ICON_Culture]文化值。</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_4_1_NAME" Language="zh_Hans_CN">
+			<Text>天使的左手，堕天使的右手</Text>
+		</Row>
+		<Row Tag="LOC_PROMOTION_AL_FUJINO_GREATNORMAL_4_1_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每次攻击有一半概率削减相邻敌人10%的生命值，有一半概率为相邻友方单位恢复10点生命值。</Text>
 		</Row>
 		
 		<!-- Units HUGE-->
@@ -4969,6 +5125,13 @@ GEHENA的要求被拒绝，百合丘又一次有了小结梨的容身之处—�
 			<Text>每回合提供[ICON_Culture]文化值，完成后获得[ICON_GreatLily]莉莉点数，可随机获得1个一柳队队员（获得全部一柳队队员后此项目将无法进行）。</Text>
 		</Row>
 
+		<Row Tag="LOC_PROJECT_AL_GRANEPLE_NAME" Language="zh_Hans_CN">
+			<Text>格朗・艾普蕾招募</Text>
+		</Row>
+		<Row Tag="LOC_PROJECT_AL_GRANEPLE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>每回合提供[ICON_Science]科技值，完成后获得[ICON_GreatLily]莉莉点数，可随机获得1个格朗・艾普蕾队员（获得全部格朗・艾普蕾队员后此项目将无法进行）。</Text>
+		</Row>
+
 		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_KANBA_COLLECTION_NAME" Language="zh_Hans_CN">
 			<Text>神庭展示会</Text>
 		</Row>
@@ -5284,6 +5447,17 @@ GEHENA的要求被拒绝，百合丘又一次有了小结梨的容身之处—�
 		</Row>
 		<Row Tag="LOC_AL_HIMEKA_GOVSKILL_6_AFTER" Language="zh_Hans_CN">
 			<Text>神庭莉莉恢复2次传教次数！</Text>
+		</Row>
+
+		<Row Tag="LOC_ABL_AL_SUZUME_REDEYE_BUFF_NAME" Language="zh_Hans_CN">
+			<Text>红眼：+15[ICON_Strength]进攻战斗力、可以击退敌方单位。</Text>
+		</Row>
+		<Row Tag="LOC_ABL_AL_SUZUME_REDEYE_DEBUFF_NAME" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]红眼副作用：-15[ICON_Strength]防御战斗力、血量大于30时每回合减少20生命值、血量低于30时扣除所有[ICON_Movement]行动力。[ENDCOLOR]</Text>
+		</Row>
+
+		<Row Tag="LOC_ABL_AL_SUZUME_REDEYE_BUFF_NAME_SHORT" Language="zh_Hans_CN">
+			<Text>[COLOR_RED]红眼[ENDCOLOR]</Text>
 		</Row>
 	</LocalizedText>
 </GameData>
