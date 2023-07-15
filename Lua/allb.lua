@@ -389,21 +389,23 @@ function ALUnitKilledInCombat(pCombatResult)
 
     if aUnit == nil or dUnit == nil then return; end
 
-    if string.match(aUnit:GetName(),"(%u+)_GREATNORMAL") == nil
-    and string.match(dUnit:GetName(),"(%u+)_GREATNORMAL") ~= nil then
-        if defInfo.player ~= Game.GetLocalPlayer()
-        or dUnit:GetDamage()  ~= 99 then  return; end
+    if string.match(dUnit:GetName(),"(%u+)_GREATNORMAL") ~= nil then
+        if dUnit:GetDamage()  ~= 99 then return; end
         local dunitname = string.match(dUnit:GetName(), "(%u+)_GREATNORMAL")
-        ExposedMembers.AL.UIPlayersound(dunitname..'GreatDefeated')
+
+        if defInfo.player == Game.GetLocalPlayer() then
+            ExposedMembers.AL.UIPlayersound(dunitname..'GreatDefeated')
+        end
         ExposedMembers.AL.ALOhakaRetreat(defInfo.player, defInfo.id)
     end
 
-    if string.match(aUnit:GetName(),"(%u+)_GREATNORMAL") ~= nil
-    and string.match(dUnit:GetName(),"(%u+)_GREATNORMAL") == nil then 
-        if attInfo.player ~= Game.GetLocalPlayer()
-        or aUnit:GetDamage()  ~= 99 then  return; end
+    if string.match(aUnit:GetName(),"(%u+)_GREATNORMAL") ~= nil then
+        if aUnit:GetDamage()  ~= 99 then return; end
         local aunitname = string.match(aUnit:GetName(), "(%u+)_GREATNORMAL")
-        ExposedMembers.AL.UIPlayersound(aunitname..'GreatDefeated')
+
+        if attInfo.player == Game.GetLocalPlayer() then
+            ExposedMembers.AL.UIPlayersound(aunitname..'GreatDefeated')
+        end
         ExposedMembers.AL.ALOhakaRetreat(attInfo.player, attInfo.id)
     end
 end
@@ -4340,47 +4342,16 @@ function AlPlaceUnit(playerID, unitID, x, y)
 end
 ExposedTable['AlPlaceUnit'] = AlPlaceUnit
 
-function KanbaSetToutomi(playerID)
+function KanbaSetToutomiUnit(playerID,unitID,iX,iY)
     local pPlayer = Players[playerID]
     if IsLilyCivilization(playerID) and IsLeader(playerID,'KANAHO') then
-        local plots = GetAllPlots()
-        for _, plotID in ipairs(plots) do
-            local pPlot = Map.GetPlotByIndex(plotID)
+        local plots = Map.GetNeighborPlots(iX,iY,1)
+        for _,pPlot in ipairs(plots) do
             local toutomi = 0
-
-            local NearKanbaGarden,IsNearKanbaGarden = IsNearKanbaGarden(pPlot)
-
-            local NearKanbaTeagarden,FlagNearKanbaTeagarden= nil,nil
-            local NearKanbaWonder,FlagNearKanbaWonder = nil,nil
             local NearTakane,FlagNearTakane = NearLilyToutomi(pPlot,'TAKANE','KANAHO')
             local NearKanaho,FlagNearKanaho = NearLilyToutomi(pPlot,'KANAHO','TAKANE')
             local NearAkehi,FlagNearAkehi = NearLilyToutomi(pPlot,'AKEHI','SUZUME')
             local NearSuzume,FlagNearSuzume = NearLilyToutomi(pPlot,'SUZUME','AKEHI')
-            if ExposedMembers.AL.HasGovernorPomotion(playerID,'GOVERNOR_AL_TAKANE',2) then
-                NearKanbaTeagarden,FlagNearKanbaTeagarden = IsNearKanbaTeagarden(pPlot,2)
-                NearKanbaWonder,FlagNearKanbaWonder = IsNearKanbaWonder(pPlot)
-            elseif ExposedMembers.AL.HasGovernorPomotion(playerID,'GOVERNOR_AL_TAKANE',2) == false then
-                NearKanbaTeagarden,FlagNearKanbaTeagarden = IsNearKanbaTeagarden(pPlot,1)
-            end
-
-            local NearKanbaStage,IsNearKanbaStage = IsNearKanbaStage(pPlot)
-            
-            if pPlot:GetOwner() == playerID then
-                toutomi = toutomi + 2
-            end
-
-            if IsNearKanbaGarden then
-                toutomi = toutomi + NearKanbaGarden
-            end
-
-            if FlagNearKanbaTeagarden then
-                toutomi = toutomi + NearKanbaTeagarden
-            end
-
-            if FlagNearKanbaWonder then
-                toutomi = toutomi + NearKanbaWonder
-            end
-
             if FlagNearTakane then
                 toutomi = toutomi + NearTakane
             end
@@ -4393,37 +4364,172 @@ function KanbaSetToutomi(playerID)
             if FlagNearSuzume then
                 toutomi = toutomi + NearSuzume
             end
-
-            if IsNearKanbaStage then
-                if pPlot:GetDistrictType() == -1 then
-                    toutomi = toutomi + NearKanbaStage
-                elseif pPlot:GetDistrictType() ~= -1 and GameInfo.Districts[pPlot:GetDistrictType()].DistrictType ~= "DISTRICT_AL_STAGE" then
-                    toutomi = toutomi + NearKanbaStage
-                end
-            end
-
-            pPlot:SetProperty('TOUTOMI',toutomi)
-            if pPlot:IsUnit() then
-                for _,unit in ipairs(Units.GetUnitsInPlot(pPlot)) do
-                    local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
-                    if pName then
-                        unit:SetProperty('UNIT_TOUTOMI',toutomi)
-                    end
-                end
-            end
+            pPlot:SetProperty('C_TOUTOMI',toutomi)
+            KanbaToutomiSetter(pPlot)
         end
     end
 end
+Events.UnitMoveComplete.Add(KanbaSetToutomiUnit);
+Events.UnitSelectionChanged.Add(KanbaSetToutomiUnit);
+
+
+function KanbaToutomiReset(playerID)
+    if IsLilyCivilization(playerID) and IsLeader(playerID,'KANAHO') then
+		local plots = GetAllPlots()
+		for _, plotID in ipairs(plots) do
+            SetPlotProperty(plotID, 'TOUTOMI', 0)
+		end
+    end
+end
+Events.PlayerTurnActivated.Add(KanbaToutomiReset);
+
+function KanbaSetToutomi(playerID)
+	if IsLilyCivilization(playerID) and IsLeader(playerID,'KANAHO') then
+		local cities = Players[playerID]:GetCities()
+
+		for _, city in cities:Members() do
+			local plots = Map.GetNeighborPlots(city:GetX(),city:GetY(),4)
+			for _, pPlot in pairs(plots) do
+				local toutomi = 0
+
+				local NearKanbaGarden,IsNearKanbaGarden = IsNearKanbaGarden(pPlot)
+				local NearKanbaStage,IsNearKanbaStage = IsNearKanbaStage(pPlot)
+				local NearKanbaTeagarden,FlagNearKanbaTeagarden= nil,nil
+				local NearKanbaWonder,FlagNearKanbaWonder = nil,nil
+
+				if ExposedMembers.AL.HasGovernorPomotion(playerID,'GOVERNOR_AL_TAKANE',2) then
+					NearKanbaTeagarden,FlagNearKanbaTeagarden = IsNearKanbaTeagarden(pPlot,2)
+					NearKanbaWonder,FlagNearKanbaWonder = IsNearKanbaWonder(pPlot)
+				elseif ExposedMembers.AL.HasGovernorPomotion(playerID,'GOVERNOR_AL_TAKANE',2) == false then
+					NearKanbaTeagarden,FlagNearKanbaTeagarden = IsNearKanbaTeagarden(pPlot,1)
+				end
+
+				if pPlot:GetOwner() == playerID then
+					toutomi = toutomi + 2
+				end
+
+				if IsNearKanbaGarden then
+					toutomi = toutomi + NearKanbaGarden
+				end
+
+				if FlagNearKanbaTeagarden then
+					toutomi = toutomi + NearKanbaTeagarden
+				end
+
+				if FlagNearKanbaWonder then
+					toutomi = toutomi + NearKanbaWonder
+				end
+
+				if IsNearKanbaStage then
+					if pPlot:GetDistrictType() == -1 then
+						toutomi = toutomi + NearKanbaStage
+					elseif pPlot:GetDistrictType() ~= -1 and GameInfo.Districts[pPlot:GetDistrictType()].DistrictType ~= "DISTRICT_AL_STAGE" then
+						toutomi = toutomi + NearKanbaStage
+					end
+				end
+                SetPlotProperty(pPlot:GetIndex(), 'D_TOUTOMI', toutomi)
+                KanbaToutomiSetter(pPlot)
+			end
+		end
+	end
+end
+
 function KanbaSetToutomiTrigger(iX, iY, eImprovement, playerID)
-    if playerID then
+    if playerID ~= -1 and IsLilyCivilization(playerID) and IsLeader(playerID,'KANAHO') then
         KanbaSetToutomi(playerID)
     end
 end
 Events.PlayerTurnActivated.Add(KanbaSetToutomi);
 Events.CityProductionCompleted.Add(KanbaSetToutomi);
-Events.UnitMoveComplete.Add(KanbaSetToutomi);
 Events.ImprovementAddedToMap.Add(KanbaSetToutomiTrigger);
-Events.UnitSelectionChanged.Add(KanbaSetToutomi);
+
+function KanbaToutomiSetter(pPlot)
+    local cToutomi = pPlot:GetProperty('C_TOUTOMI')
+    local dToutomi = pPlot:GetProperty('D_TOUTOMI')
+    if not cToutomi then cToutomi = 0 end
+    if not dToutomi then dToutomi = 0 end
+    local toutomi = cToutomi + dToutomi
+    SetPlotProperty(pPlot:GetIndex(), 'TOUTOMI', toutomi)
+    if pPlot:IsUnit() then
+        for _,unit in ipairs(Units.GetUnitsInPlot(pPlot)) do
+            local pName = string.match(unit:GetName(),"(%u+)_GREATNORMAL")
+            if pName then
+                ALSetUnitPropertyFlag(unit:GetOwner(),unit:GetID(),'UNIT_TOUTOMI',toutomi)
+            end
+        end
+    end
+end
+
+function IsNearKanbaGarden(pPlot)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
+    local num = 0
+    for _,plot in ipairs(targetPlots) do
+        local etype = plot:GetDistrictType()
+        if etype ~=-1 then
+            if GameInfo.Districts[etype].DistrictType == "DISTRICT_AL_GARDEN" then
+                num = num + 1
+            end
+        end
+    end
+    if num >0 then
+        return num,true
+    else
+        return num,false
+    end
+end
+
+function IsNearKanbaWonder(pPlot)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
+    local num = 0
+    for _,plot in ipairs(targetPlots) do
+        local eWonderType = plot:GetWonderType()
+        if eWonderType and eWonderType ~= -1 then
+            num = num + 1
+        end
+    end
+    if num >0 then
+        return num,true
+    else
+        return num,false
+    end
+end
+
+function IsNearKanbaStage(pPlot)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
+    local num = 0
+    for _,plot in ipairs(targetPlots) do
+        local etype = plot:GetDistrictType()
+        if etype ~=-1 then
+            if GameInfo.Districts[etype].DistrictType == "DISTRICT_AL_STAGE" then
+                local toutomi = plot:GetProperty('TOUTOMI')
+                num = num + toutomi
+            end
+        end
+    end
+    if num >0 then
+        return num,true
+    else
+        return num,false
+    end
+end
+
+function IsNearKanbaTeagarden(pPlot,range)
+    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), range)
+    local num = 0
+    for _,plot in ipairs(targetPlots) do
+        local etype = plot:GetImprovementType()
+        if etype ~=-1 then
+            if GameInfo.Improvements[etype].ImprovementType == "IMPROVEMENT_AL_TEAGARDEN" then
+                num = num + 1
+            end
+        end
+    end
+    if num >0 then
+        return num,true
+    else
+        return num,false
+    end
+end
 
 function KurehaHP(playerID)
     if IsLilyCivilization(playerID) then
@@ -4623,76 +4729,7 @@ function TakaneGetHealFromKanaho(playerID)
 end
 Events.PlayerTurnActivated.Add(TakaneGetHealFromKanaho);
 
-function IsNearKanbaWonder(pPlot)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
-    local num = 0
-    for _,plot in ipairs(targetPlots) do
-        local eWonderType = plot:GetWonderType()
-        if eWonderType and eWonderType ~= -1 then
-            num = num + 1
-        end
-    end
-    if num >0 then
-        return num,true
-    else
-        return num,false
-    end
-end
 
-function IsNearKanbaGarden(pPlot)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
-    local num = 0
-    for _,plot in ipairs(targetPlots) do
-        local etype = plot:GetDistrictType()
-        if etype ~=-1 then
-            if GameInfo.Districts[etype].DistrictType == "DISTRICT_AL_GARDEN" then
-                num = num + 1
-            end
-        end
-    end
-    if num >0 then
-        return num,true
-    else
-        return num,false
-    end
-end
-
-function IsNearKanbaStage(pPlot)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), 2)
-    local num = 0
-    for _,plot in ipairs(targetPlots) do
-        local etype = plot:GetDistrictType()
-        if etype ~=-1 then
-            if GameInfo.Districts[etype].DistrictType == "DISTRICT_AL_STAGE" then
-                local toutomi = plot:GetProperty('TOUTOMI')
-                num = num + toutomi
-            end
-        end
-    end
-    if num >0 then
-        return num,true
-    else
-        return num,false
-    end
-end
-
-function IsNearKanbaTeagarden(pPlot,range)
-    local targetPlots = Map.GetNeighborPlots(pPlot:GetX(), pPlot:GetY(), range)
-    local num = 0
-    for _,plot in ipairs(targetPlots) do
-        local etype = plot:GetImprovementType()
-        if etype ~=-1 then
-            if GameInfo.Improvements[etype].ImprovementType == "IMPROVEMENT_AL_TEAGARDEN" then
-                num = num + 1
-            end
-        end
-    end
-    if num >0 then
-        return num,true
-    else
-        return num,false
-    end
-end
 
 function IsLeader(playerID,leadername)
     local pPlayerConfig = PlayerConfigurations[playerID];

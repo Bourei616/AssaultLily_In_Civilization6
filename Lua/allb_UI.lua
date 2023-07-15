@@ -387,7 +387,6 @@ function ALUnitGreatPersonActivated(unitOwner, unitID, greatPersonClassID, great
 end
 
 function ALGreatSelected( playerID, unitID, hexI, hexJ, hexK, bSelected, bEditable)
-	if playerID ~= Game.GetLocalPlayer() then return; end
 	local pUnit = UnitManager.GetUnit(playerID, unitID);
 	if bSelected then
 		if pUnit:GetGreatPerson():IsGreatPerson() and pUnit:GetGreatPerson():GetClass() == GameInfo.GreatPersonClasses['GREAT_PERSON_CLASS_AL_LILY'].Index then
@@ -1844,3 +1843,14 @@ function GetAllPlots()
     end
     return plots
 end
+
+function IsLeader(playerID,leadername)
+    local pPlayerConfig = PlayerConfigurations[playerID];
+    local name = string.match(pPlayerConfig:GetLeaderTypeName(),"LEADER_AL_(%u+)")
+    if name and name == leadername then
+        return true;
+    end
+    return false;
+end
+
+

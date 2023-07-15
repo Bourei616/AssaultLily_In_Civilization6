@@ -9,25 +9,25 @@ CREATE TABLE AL_GreatPerson(
     );
 INSERT INTO AL_GreatPerson
         (UnitName,  Era,                ActionType,     DistrictType,           ModNum) VALUES
-        ('MOYU',    'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
-        ('YUJIA',   'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
-        ('SHENLIN', 'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
-        ('KANAHO',  'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
-        ('TAKANE',  'ERA_RENAISSANCE',    'GreatWork',    NULL,                   1),
-        ('AKEHI',   'ERA_CLASSICAL',      'GreatWork',    NULL,                   1),
-        ('SUZUME',  'ERA_CLASSICAL',      'GreatWork',    NULL,                   1),
-        ('FUMI',    'ERA_RENAISSANCE',  'Ability',      NULL,                   1),
-        ('MAI',     'ERA_RENAISSANCE',  'Ability',      NULL,                   1),
-        ('TADUSA',  'ERA_RENAISSANCE',  'Boom',         NULL,                   2),
-        ('YUYU',    'ERA_RENAISSANCE',  'Boom',         NULL,                   2),
-        ('AKARI',   'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_STAGE',    2),
-        ('HIMEKA',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_STAGE',    2),
-        ('MILIAM',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_MOYU',     2),
-        ('KAEDE',   'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
-        ('KUREHA',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
-        ('HARUNA',  'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   2),
-        ('RIRI',    'ERA_RENAISSANCE',  'District',     'DISTRICT_AL_GARDEN',   1),
-        ('FUJINO',  'ERA_CLASSICAL',    'District',     'DISTRICT_AL_GARDEN',   1);
+        ('MOYU',    'ERA_MEDIEVAL',    'GreatWork',    NULL,                   1),
+        ('YUJIA',   'ERA_MEDIEVAL',    'GreatWork',    NULL,                   1),
+        ('SHENLIN', 'ERA_MEDIEVAL',    'GreatWork',    NULL,                   1),
+        ('KANAHO',  'ERA_MEDIEVAL',    'GreatWork',    NULL,                   1),
+        ('TAKANE',  'ERA_MEDIEVAL',    'GreatWork',    NULL,                   1),
+        ('AKEHI',   'ERA_MEDIEVAL',      'GreatWork',    NULL,                   1),
+        ('SUZUME',  'ERA_MEDIEVAL',      'GreatWork',    NULL,                   1),
+        ('FUMI',    'ERA_MEDIEVAL',  'Ability',      NULL,                   1),
+        ('MAI',     'ERA_MEDIEVAL',  'Ability',      NULL,                   1),
+        ('TADUSA',  'ERA_MEDIEVAL',  'Boom',         NULL,                   2),
+        ('YUYU',    'ERA_MEDIEVAL',  'Boom',         NULL,                   2),
+        ('AKARI',   'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_STAGE',    2),
+        ('HIMEKA',  'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_STAGE',    2),
+        ('MILIAM',  'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_MOYU',     2),
+        ('KAEDE',   'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_GARDEN',   2),
+        ('KUREHA',  'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_GARDEN',   2),
+        ('HARUNA',  'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_GARDEN',   2),
+        ('RIRI',    'ERA_MEDIEVAL',  'District',     'DISTRICT_AL_GARDEN',   1),
+        ('FUJINO',  'ERA_MEDIEVAL',    'District',     'DISTRICT_AL_GARDEN',   1);
 
     UPDATE AL_GreatPerson SET Leader = 1 WHERE UnitName = 'RIRI';
     UPDATE AL_GreatPerson SET Leader = 1 WHERE UnitName = 'KANAHO';
@@ -174,14 +174,14 @@ INSERT INTO AL_GreatPerson
                 ('MOD_AL_GP_AKARI_ACTION_BUFF_1', 'MODIFIER_PLAYER_DISTRICT_ADJUST_YIELD_BASED_ON_ADJACENCY_BONUS', NULL, 1, 1),
                 ('MOD_AL_GP_AKARI_ACTION_BUFF_2', 'MODIFIER_PLAYER_ADD_CULTURE_BOMB_TRIGGER', NULL, 1, 1),
             --mai
-                ('MOD_AL_GP_MAI_ACTION_BUFF_1', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 'AOE_LAND_REQUIREMENTS', 0, 0),
+                ('MOD_AL_GP_MAI_ACTION_BUFF_1', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 'REQSET_AL_AOE_LAND_REQUIREMENTS', 0, 0),
                 ('MOD_LILY_GREATS_MAI_ACTION_BUFF', 'MODIFIER_PLAYER_UNIT_ADJUST_MOVEMENT', NULL, 0, 0),
             --fumi
                 ('MOD_ABILITY_LILY_GREATS_FUMI_ACTION_BUFF_SIGHT', 'MODIFIER_PLAYER_UNIT_ADJUST_SIGHT', NULL, 0, 0),
-                ('MOD_ABILITY_LILY_GREATS_FUMI_ACTION_BUFF_ATK_DISTRICT', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'OPPONENT_IS_DISTRICT_REQUIREMENTS', 0, 0),
-                ('MOD_AL_GP_FUMI_ACTION_BUFF_1', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 'AOE_LAND_REQUIREMENTS', 1, 1),
+                ('MOD_ABILITY_LILY_GREATS_FUMI_ACTION_BUFF_ATK_DISTRICT', 'MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH', 'UNIT_ATTACKING_DISTRICT_REQUIREMENTS', 0, 0),
+                ('MOD_AL_GP_FUMI_ACTION_BUFF_1', 'MODIFIER_PLAYER_UNITS_GRANT_ABILITY', 'REQSET_AL_AOE_LAND_REQUIREMENTS', 1, 1),
             --yuyu
-                ('MOD_AL_GP_YUYU_ACTION_BUFF_1', 'MODIFIER_WORLD_UNITS_ADJUST_DAMAGE', 'AOE_ENEMY_REQUIREMENTS', 1, 1),
+                ('MOD_AL_GP_YUYU_ACTION_BUFF_1', 'MODIFIER_WORLD_UNITS_ADJUST_DAMAGE', 'REQSET_AL_AOE_ENEMY_REQUIREMENTS', 1, 1),
                 ('MOD_AL_GP_YUYU_ACTION_BUFF_2', 'MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE', 'REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_PLOT', 1, 1),
             --kaede
                 ('MOD_AL_GP_KAEDE_ACTION_BUFF_1', 'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY', NULL, 1, 1),
@@ -189,7 +189,7 @@ INSERT INTO AL_GreatPerson
             --riri
                 ('MOD_AL_GP_RIRI_ACTION_BUFF_1', 'MODIFIER_SINGLE_CITY_GRANT_RESOURCE_IN_CITY', NULL, 1, 1),
             --tadusa
-                ('MOD_AL_GP_TADUSA_ACTION_BUFF_1', 'MODIFIER_WORLD_UNITS_ADJUST_DAMAGE', 'AOE_ENEMY_REQUIREMENTS', 1, 1),
+                ('MOD_AL_GP_TADUSA_ACTION_BUFF_1', 'MODIFIER_WORLD_UNITS_ADJUST_DAMAGE', 'REQSET_AL_AOE_ENEMY_REQUIREMENTS', 1, 1),
                 ('MOD_AL_GP_TADUSA_ACTION_BUFF_2', 'MODIFIER_PLAYER_UNITS_ADJUST_DAMAGE', 'REQSET_AL_GARNT_ADJACENT_ALL_UNIT_2_PLOT', 1, 1),
             --OTHER
                 ('MOD_AL_YURI_DIED_1', 'MODIFIER_PLAYER_CITIES_ADJUST_BUILDING_YIELD_CHANGE', NULL, 0, 1),

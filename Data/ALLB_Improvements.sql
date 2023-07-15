@@ -166,7 +166,7 @@ INSERT INTO Adjacency_YieldChanges
 
 INSERT INTO RequirementSetRequirements
 (RequirementSetId, RequirementId) VALUES
-('MOD_AL_QUAN_APPEAL_BUFF_REQUIREMENTS', 'REQUIRES_PLOT_BREATHTAKING_APPEAL_ROOSEVELT');
+('MOD_AL_QUAN_APPEAL_BUFF_REQUIREMENTS', 'REQ_AL_PLOT_APPEAL_4');
 
 INSERT INTO RequirementSets
 (RequirementSetId, RequirementSetType) VALUES

@@ -2885,6 +2885,20 @@
 			<Text>（您向您的近邻宣战）</Text>
 		</Row>
 
+		<Row Tag="LOC_DIPLO_KUDO_LEADER_KANAHO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您的城市中已建有多个区域。）</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_WARNING_LEADER_KANAHO_REASON_ANY" Language="zh_Hans_CN">
+			<Text>（您未在城市中建立必备区域。）</Text>
+		</Row>
+
+		<Row Tag="LOC_DIPLO_MODIFIER_KANAHO_LEADING" Language="zh_Hans_CN">
+			<Text>您的城市中已有多个区域，今叶星很高兴。</Text>
+		</Row>
+		<Row Tag="LOC_DIPLO_MODIFIER_KANAHO_LAGGING" Language="zh_Hans_CN">
+			<Text>您建造区域进度落后，今叶星很不悦。</Text>
+		</Row>
+
 		<!-- Civilizations -->
 
 		<Row Tag="LOC_TRAIT_CIVILIZATION_AL_GARDEN_NAME" Language="zh_Hans_CN">
